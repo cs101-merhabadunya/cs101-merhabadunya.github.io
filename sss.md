@@ -33,6 +33,13 @@ Programın öğretim dili Türkçedir.
 ## Programın katılım koşulları nelerdir?
 Program tamamen ücretsiz olup stabil bir internet bağlantısına ve program boyunca düzenli erişim sağlayabileceğiniz bir bilgisayara erişiminiz olması yeterlidir.
 
-<!-- todo: 
-## Grup buluşması nedir?
- -->
+
+## Programın ofis saatleri var mı?
+Hayır, ancak sorularınızı her zaman *Grup Buluşmaları*nda, Ed üzerinden ya da zaman kaldığı sürece derste sorabilirsiniz.
+
+ ## Grup buluşması nedir?
+Grup Buluşmaları, her hafta bir Grup Lideri'nin öncülüğünde 10-13 kişilik bir öğrenci grubuyla toplanıp pratik yaptığınız zamanlardır. Doğası gereği Grup Buluşmaları interaktif geçer; problem çözme ve kodlama becerilerinize çok büyük faydası bulunur.
+
+## CS 101 ekibine nasıl dahil olabilirim, koşullar nelerdir?
+CS 101 ekibi programlama deneyimi olan (CS 101'de şu an Python kullanılıyor), eğitmeye, akranlar arası iletişime emek vermeye hazır kişilerden oluşur. Ekibe başvurmak için bize email adresimizden ulaşabilirsiniz.
+<!-- todo: add email address --> 
