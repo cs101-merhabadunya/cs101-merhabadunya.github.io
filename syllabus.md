@@ -10,7 +10,7 @@
 </h1>
 </center>
 
-Bu belge Ekim-Aralık 2020 tarihleri arasında gerçekleştirilen _CS 101: Merhaba, dünya!_ programını tanıtıcı ve öğrencilere yol gösterici olması amacıyla hazırlanmıştır.
+Bu belge Ekim-Aralık 2020 tarihleri arasında gerçekleştirilecek _CS 101: Merhaba, Dünya!_ programını tanıtıcı ve öğrencilere yol gösterici olması amacıyla hazırlanmıştır.
 
 ## İçindekiler
 
@@ -137,7 +137,7 @@ Workshop: pandas & Matplotlib
 | Ders Hazırlık ve Ders Tekrarı |                                                  Ders materyalinin düzenli tekrarı                                                  | 30 dk                            |
 | Ödev                          | Program boyunca zorlukları değişken seviyede 2 ödev verilecek olup belirtilen süre ödev başına harcanacak zamanı temsil etmektedir. | 1.5-4 saat                       |
 | Pratik soruları               |           Websitemize yer alan bonus pratik problemlerini çözmek opsiyonel olup materyali özümsemenize destek olacaktır.           | 30-60 dk                         |
-| Bitirme Projesi               |   [Detaylı bilgi için burayı okuyun](#Final Projesi)                                                                                                                                  | (Toplamda) 6-8 saat<!-- todo --> |
+| Bitirme Projesi               |   [Detaylı bilgi için burayı okuyun](#Final-Projesi)                                                                                                                                  | (Toplamda) 6-8 saat<!-- todo --> |
 
 ## Akademik Dürüstlük
 
