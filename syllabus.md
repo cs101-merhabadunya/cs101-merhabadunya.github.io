@@ -33,7 +33,7 @@ Bu belge Ekim-Aralık 2020 tarihleri arasında gerçekleştirilen *CS 101: Merha
 
 CS 101 materyaleri programa katılan öğrencilerin çok az ya da hiç programlama bilmediği, Python ile aşina olmadığı varsayımı ile hazırlanmıştır. 
 
-Şu an için önceden belirlenmiş liselerle işbirliği içinde yürütülen programmın gün geçtikçe daha çok öğrenci ve eğitmene ulaşması en büyük hayalimizdir.
+Şu an için önceden belirlenmiş liselerle işbirliği içinde yürütülen programın gün geçtikçe daha çok öğrenci ve eğitmene ulaşması en büyük hayalimizdir.
 
 ## Dersin Amacı
 - Herkes için güvenli, eğlenceli ve verimli bir öğrenme ve öğretme ortamı oluşturmak.
