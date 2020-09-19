@@ -33,7 +33,7 @@ Bu belge Ekim-Aralık 2020 tarihleri arasında gerçekleştirilen _CS 101: Merha
 
 _CS 101: Merhaba, dünya!_ Türkiye'deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.
 
-CS 101 materyalleri programa katılan öğrencilerin çok az ya da hiç programlama bilmediği, Python ile aşina olmadığı varsayımı ile hazırlanmıştır.
+CS 101 materyalleri programa katılan öğrencilerin çok az ya da hiç programlama bilmediği, Python'a aşina olmadığı varsayımı ile hazırlanmıştır.
 
 Şu an için önceden belirlenmiş liselerle işbirliği içinde yürütülen programın gün geçtikçe daha çok öğrenci ve eğitmene ulaşması en büyük hayalimizdir.
 
@@ -61,17 +61,17 @@ Fırat Tamur&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; Necla Mutlu
 
 ## Kaynaklar
 
-Program boyunca materyalleri websitemizde yayınlarken karşılıklı iletişimimizi Ed üzerinden sürdüreceğiz.
+Program boyunca materyalleri websitemizde yayınlarken karşılıklı iletişimimizi [Ed platformu](#Ed) üzerinden sürdüreceğiz.
 
 ### Websitesi
 
 <!-- add link later -->
 
-Websitesi derste kullanılan bütün materyal ve kaynakları barındırır. Websitesinden slaytlara, <!--ders kayıtlarına, ?--> projelerin açıklama ve başlangıç kodlarına, ödevlere ulaşılabilir. Websitesini sık kullanınlara eklemenizde fayda var.
+Websitesi derste kullanılan bütün materyal ve kaynakları barındırır. Websitesinden slaytlara, <!--ders kayıtlarına, ?--> projelerin açıklama ve başlangıç kodlarına, ödevlere ulaşılabilir. Websitesini sık kullanılanlara eklemenizde fayda var.
 
 ### Ed
 
-Her öğrencinin program başlangıcında emailinie gelen Ed davetine tıklayarak platforma üye olması gerekir. Program boyunca eğitmenler duyurularını ve ödevlerin toplamasını Ed üzerinden yapacaklar. Öğrenciler akıllarına takılan herhangi bir soruyu buradan eğitmenlerine sorabilir, herkese açık olarak sorulmuş diğer gönderileri görüntüleyip yorum yazabilirler. [Ödev teslimi]() ve [Ed kullanımı]() hakkında Kaynaklar sayfamızda daha detaylı bilgi bulabilirsiniz.
+Her öğrencinin program başlangıcında email'ine gelen Ed davetine tıklayarak platforma üye olması gerekir. Program boyunca eğitmenler duyurularını ve ödevlerin toplamasını Ed üzerinden yapacaklar. Öğrenciler akıllarına takılan herhangi bir soruyu buradan eğitmenlerine sorabilir, herkese açık olarak sorulmuş diğer gönderileri görüntüleyip yorum yazabilirler. [Ödev teslimi]() ve [Ed kullanımı]() hakkında Kaynaklar sayfamızda daha detaylı bilgi bulabilirsiniz.
 
 <!-- todo: add Ed help sheet as hyperlink -->
 
@@ -91,7 +91,7 @@ Grup Buluşmaları, her hafta bir Grup Lideri'nin öncülüğünde 10-13 kişili
 
 ## Final Projesi
 
-Final Projesi programın son iki haftasında ilan edilir. Öğrenciler tek başlarına ya da aksi belirtilmediği sürece ikili gruplar halinde çalışabilirler. Grup Liderlerinden onay aldıkları sürece kendilerine önerilen konulardan birinde ya da ilgilerini çeken başka bir alanda Final Projesi gerçekleştirebilirler. Ödevlerden farklı olarak Final Projesinin baştan sona dizaynı ve işleyişi öğrencilerin sorumluluğundadır. Grup Liderleri proje ile ilgili sorunlarında öğrencilere destek olurlar.
+Final Projesi programın son iki haftasında ilan edilir. Öğrenciler tek başlarına ya da aksi belirtilmediği sürece ikili gruplar halinde çalışabilirler. Grup Liderlerinden onay aldıkları sürece kendilerine önerilen konulardan birinde ya da ilgilerini çeken başka bir alanda Final Projesi gerçekleştirebilirler. Ödevlerden farklı olarak Final Projesinin dizaynı ve işleyişi baştan sona öğrencilerin sorumluluğundadır. Öğrencilere proje ile ilgili sorunlarında Grup Liderleri destek olurlar.
 
 ## Öngörülen Müfredat
 
@@ -130,13 +130,13 @@ Workshop: pandas & Matplotlib
 
 | Tür                           |                                                              Açıklama                                                               | Süre (Haftalık)                  |
 | ----------------------------- | :---------------------------------------------------------------------------------------------------------------------------------: | -------------------------------- |
-|                               |                                                     Eğitmenlerle harcanan süre                                                      |
+|                               |                                                     Eğitmenlerle geçirilen süre                                                      |
 | Ders                          |                     Her hafta canlı olarak programa katılan tüm öğrencilerin aynı anda katılımıyla gerçekleşir.                     | 75 dk                            |
 | Grup buluşması                | Grup liderlerinin öncülüğünde öğrenciler 12-13 kişilik küçük gruplarda o haftanın konusuyla ilgili hazırlanan problemleri çözerler. | 75 dk                            |
-|                               |                                                Öğrencinin bireysel harcayacağı süre                                                 |
+|                               |                                                Öğrencinin bireysel ayıracağı süre                                                 |
 | Ders Hazırlık ve Ders Tekrarı |                                                  Ders materyalinin düzenli tekrarı                                                  | 30 dk                            |
 | Ödev                          | Program boyunca zorlukları değişken seviyede 2 ödev verilecek olup belirtilen süre ödev başına harcanacak zamanı temsil etmektedir. | 1.5-4 saat                       |
-| Pratik soruları               |           Websitemize yer alan bonus pratik problemlerini çözmek opsiyonel olup materyali özümsemenize faydalı olacaktır.           | 30-60 dk                         |
+| Pratik soruları               |           Websitemize yer alan bonus pratik problemlerini çözmek opsiyonel olup materyali özümsemenize destek olacaktır.           | 30-60 dk                         |
 | Bitirme Projesi               |                                                                                                                                     | (Toplamda) 6-8 saat<!-- todo --> |
 
 ## Akademik Dürüstlük
