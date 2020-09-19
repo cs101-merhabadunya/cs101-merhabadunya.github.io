@@ -33,7 +33,7 @@ Bu belge Ekim-Aralık 2020 tarihleri arasında gerçekleştirilen _CS 101: Merha
 
 _CS 101: Merhaba, dünya!_ Türkiye'deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.
 
-CS 101 materyaleri programa katılan öğrencilerin çok az ya da hiç programlama bilmediği, Python ile aşina olmadığı varsayımı ile hazırlanmıştır.
+CS 101 materyalleri programa katılan öğrencilerin çok az ya da hiç programlama bilmediği, Python ile aşina olmadığı varsayımı ile hazırlanmıştır.
 
 Şu an için önceden belirlenmiş liselerle işbirliği içinde yürütülen programın gün geçtikçe daha çok öğrenci ve eğitmene ulaşması en büyük hayalimizdir.
 
