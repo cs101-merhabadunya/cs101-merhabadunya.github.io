@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-21T18:26:42+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">CS 101: Merhaba, Dünya!</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>GitHub User</name></author><entry><title type="html">Müfredat</title><link href="http://localhost:4000/planlama/2020/09/20/sllybaus.html" rel="alternate" type="text/html" title="Müfredat" /><published>2020-09-20T00:00:00+03:00</published><updated>2020-09-20T00:00:00+03:00</updated><id>http://localhost:4000/planlama/2020/09/20/sllybaus</id><content type="html" xml:base="http://localhost:4000/planlama/2020/09/20/sllybaus.html">&lt;!--
+    syllabus
+    sample syllabi:
+        - Turkish wording example: http://dosya.marmara.edu.tr/eng/cse/documents/syllabus_tr/fall/CSE1141_S_v2018.pdf
+        - Last Kolt python syllabus, Spring '20: https://docs.google.com/document/d/10-ILVxuiD2Z7EAe4U5yC0csZoMzXN1moNFj6m6pW_yY
+--&gt;
+
+&lt;center&gt;
+&lt;h1&gt; CS 101: Merhaba, Dünya!
+&lt;/h1&gt;
+&lt;/center&gt;
+
+&lt;p&gt;Bu belge Ekim-Aralık 2020 tarihleri arasında gerçekleştirilecek &lt;em&gt;CS 101: Merhaba, Dünya!&lt;/em&gt; programını tanıtıcı ve öğrencilere yol gösterici olması amacıyla hazırlanmıştır.&lt;/p&gt;
+
+&lt;h2 id=&quot;genel-bilgiler&quot;&gt;Genel Bilgiler&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;CS 101: Merhaba, dünya!&lt;/em&gt; Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.&lt;/p&gt;
+
+&lt;p&gt;CS 101 materyalleri programa katılan öğrencilerin çok az ya da hiç programlama bilmediği, Python’a aşina olmadığı varsayımı ile hazırlanmıştır.&lt;/p&gt;
+
+&lt;p&gt;Şu an için önceden belirlenmiş liselerle işbirliği içinde yürütülen programın gün geçtikçe daha çok öğrenci ve eğitmene ulaşması en büyük hayalimizdir.&lt;/p&gt;
+
+&lt;h2 id=&quot;programın-amacı&quot;&gt;Programın Amacı&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Herkes için güvenli, eğlenceli ve verimli bir öğrenme ve öğretme ortamı oluşturmak.&lt;/li&gt;
+  &lt;li&gt;Öğrencilere ilgi alanlarında kullanabilecekleri ve program boyunca kazandıkları becerileri kendi başlarına ilerletebilecekleri pratik becerileri kazandırmak.&lt;/li&gt;
+  &lt;li&gt;Öğrencilerin fen, teknoloji, mühendislik ve matematik (STEM) alanlarındaki ilgilerini desteklemek.&lt;/li&gt;
+  &lt;li&gt;Fen, teknoloji, mühendislik ve matematik alanında cinsiyet eşitliğine katkıda bulunmak.&lt;/li&gt;
+  &lt;li&gt;Kaliteli ve açık kaynaklı Türkçe programlamaya giriş içeriklerine katkıda bulunmak.&lt;/li&gt;
+  &lt;li&gt;Hepsi üniversite öğrencisi olan eğitmenlere akranlarıyla işbirliği içinde ders vermek, materyal hazırlamak gibi deneyimleri kazanarak öğretim becerilerini geliştirebilecekleri bir ortam sunmak.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;eğitmenler&quot;&gt;Eğitmenler&lt;/h2&gt;
+
+&lt;!-- may refactor this bit to a more About like page --&gt;
+
+&lt;p&gt;CS 101 ekibi, bilgisayar bilimleri eğitimine gönül vermiş, akranlar arası öğretme ve öğrenmenin değerine inanan 11 üniversite öğrencisinden oluşur. Haftalık toplu dersleri canlı olarak dönüşümlü şekilde anlatan ekip üyeleri, materyallerin hazırlanmasında yer alır. Her eğitmen program başında kendisine atanan 12 &lt;!-- todo: add exact number --&gt; kişilik küçük gruplarla her hafta düzenli olarak 75 dakika toplanır. CS 101 eğitmenlerinin listesini aşağıda görebilirsiniz:&lt;/p&gt;
+
+&lt;!-- table didn't go well here --&gt;
+
+&lt;p&gt;Ahmet Uyar      Gül Sena Altıntaş       Oya Suran&lt;br /&gt;
+Ahmet Uysal       Hasan Can Aslan       Yekta Kocaoğullar&lt;br /&gt;
+Demet Tümkaya     İdil Defne Çekin        Ö. Ozan Nacitarhan&lt;br /&gt;
+Fırat Tamur       Necla Mutlu&lt;/p&gt;
+
+&lt;h2 id=&quot;kaynaklar&quot;&gt;Kaynaklar&lt;/h2&gt;
+
+&lt;p&gt;Program boyunca materyalleri websitemizde yayınlarken karşılıklı iletişimimizi &lt;a href=&quot;#Ed&quot;&gt;Ed platformu&lt;/a&gt; üzerinden sürdüreceğiz.&lt;/p&gt;
+
+&lt;h3 id=&quot;websitesi&quot;&gt;Websitesi&lt;/h3&gt;
+
+&lt;!-- add link later --&gt;
+
+&lt;p&gt;Websitesi derste kullanılan bütün materyal ve kaynakları barındırır. Websitesinden slaytlara, &lt;!--ders kayıtlarına, ?--&gt; projelerin açıklama ve başlangıç kodlarına, ödevlere ulaşılabilir. Websitesini sık kullanılanlara eklemenizde fayda var.&lt;/p&gt;
+
+&lt;h3 id=&quot;ed&quot;&gt;Ed&lt;/h3&gt;
+
+&lt;p&gt;Her öğrencinin program başlangıcında email’ine gelen Ed davetine tıklayarak platforma üye olması gerekir. Program boyunca eğitmenler duyurularını ve ödevlerin toplamasını Ed üzerinden yapacaklar. Öğrenciler akıllarına takılan herhangi bir soruyu buradan eğitmenlerine sorabilir, herkese açık olarak sorulmuş diğer gönderileri görüntüleyip yorum yazabilirler. &lt;a href=&quot;&quot;&gt;Ödev teslimi&lt;/a&gt; ve &lt;a href=&quot;&quot;&gt;Ed kullanımı&lt;/a&gt; hakkında Kaynaklar sayfamızda daha detaylı bilgi bulabilirsiniz.&lt;/p&gt;
+
+&lt;!-- todo: add Ed help sheet as hyperlink --&gt;
+
+&lt;h2 id=&quot;programın-i̇şleyişi&quot;&gt;Programın İşleyişi&lt;/h2&gt;
+
+&lt;h3 id=&quot;dersler&quot;&gt;Dersler&lt;/h3&gt;
+
+&lt;p&gt;CS 101 eğitmenleri 8 hafta boyunca haftada bir tane online toplu ders gerçekleştirir ve temel programlama konularından anlatırlar.&lt;/p&gt;
+
+&lt;h3 id=&quot;grup-buluşmaları&quot;&gt;Grup Buluşmaları&lt;/h3&gt;
+
+&lt;p&gt;Grup Buluşmaları, her hafta bir Grup Lideri’nin öncülüğünde 10-13 kişilik bir öğrenci grubuyla toplanıp pratik yaptığınız zamanlardır. Doğası gereği Grup Buluşmaları interaktif geçer; problem çözme ve kodlama becerilerinize çok büyük faydası bulunur.&lt;/p&gt;
+
+&lt;h3 id=&quot;ödevler&quot;&gt;Ödevler&lt;/h3&gt;
+
+&lt;p&gt;Ödevler öğrencilerin derste işlenen materyalleri bireysel olarak pekiştirmek için kullanabileceği önemli fırsatlardır. Program boyunca 2 ödeviniz olacak. CS 101 Ödevleri notlandırılmaz ancak Grup Liderleri kendi öğrencilerine kısa geri bildirimlerde bulunarak öğrencilerin gidişatını takip eder.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-projesi&quot;&gt;Final Projesi&lt;/h2&gt;
+
+&lt;p&gt;Final Projesi programın son iki haftasında ilan edilir. Öğrenciler tek başlarına ya da aksi belirtilmediği sürece ikili gruplar halinde çalışabilirler. Grup Liderlerinden onay aldıkları sürece kendilerine önerilen konulardan birinde ya da ilgilerini çeken başka bir alanda Final Projesi gerçekleştirebilirler. Ödevlerden farklı olarak Final Projesinin dizaynı ve işleyişi baştan sona öğrencilerin sorumluluğundadır. Öğrencilere proje ile ilgili sorunlarında Grup Liderleri destek olurlar.&lt;/p&gt;
+
+&lt;h2 id=&quot;öngörülen-müfredat&quot;&gt;Öngörülen Müfredat&lt;/h2&gt;
+
+&lt;p&gt;CS 101 müfredatı programlamaya giriş derslerinin birçoğu ile benzer bir akış takip etmektedir. Son 2 haftada o dönemin eğitmenlerinin uzmanlık alanlarına ya da öğrencilerden gelen taleplere göre daha özelleşmiş bir konuda atölye-dersler düzenlenecektir.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Hafta&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Konu&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;10.10.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Program hakkında genel bilgiler, Python ile temel programlamaya giriş, değişkenler&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;17.10.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Basit Operatörler, Kontrol yapıları &amp;amp; basit fonksiyonlar, For döngülerine giriş&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;24.10.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;For Dögüleri, Stringler, Grafik programlarına giriş&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;31.10.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;While döngüleri, Animasyonlar&lt;/td&gt;
+      &lt;td&gt;&lt;!--- 31 i belki tatil olur--&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;07.11.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Listeler, Fonksiyonlar&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;14.11.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Data modeli, çoklu veri tipleri &lt;!-- doğrau kelimeyi bul --&gt; (listeler (*list*s), kümeler (*set*s) ve sözlükler (_dictionary_))&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;21.11.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;İleride güncellenecek&lt;/td&gt;
+      &lt;td&gt;&lt;!-- workshops tbd later --&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;28.11.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;İleride güncellenecek&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;!--
+Introduction	programı tanıtmaca, hızlı python ve pycharm soruları,  intro to variables&amp;types, io (print, input)
+
+Basic Operators, Branching &amp; Simple Functions, For loops introduction
+
+For Loops, Strings, Graphics introduction
+
+While loops, Animation
+gui interactorslar, mouse, key eventlere çok girilmeyecek, ödevde gerekirse açıklarız
+Lists &amp; Functions
+
+Containers, Aliasing &amp; Mutability	Section: File Input and Output
+
+Python Modules and Third-Party Packages	Son iki hafta ucu açık workshoplar
+
+Workshop: pandas &amp; Matplotlib
+			--&gt;
+
+&lt;h2 id=&quot;program-için-harcanan-tahmini-zaman&quot;&gt;Program için harcanan tahmini zaman&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Tür&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Açıklama&lt;/th&gt;
+      &lt;th&gt;Süre (Haftalık)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Eğitmenlerle geçirilen süre&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ders&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Her hafta canlı olarak programa katılan tüm öğrencilerin aynı anda katılımıyla gerçekleşir.&lt;/td&gt;
+      &lt;td&gt;75 dk&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grup buluşması&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Grup liderlerinin öncülüğünde öğrenciler 12-13 kişilik küçük gruplarda o haftanın konusuyla ilgili hazırlanan problemleri çözerler.&lt;/td&gt;
+      &lt;td&gt;75 dk&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Öğrencinin bireysel ayıracağı süre&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ders Hazırlık ve Ders Tekrarı&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ders materyalinin düzenli tekrarı&lt;/td&gt;
+      &lt;td&gt;30 dk&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ödev&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Program boyunca zorlukları değişken seviyede 2 ödev verilecek olup belirtilen süre ödev başına harcanacak zamanı temsil etmektedir.&lt;/td&gt;
+      &lt;td&gt;1.5-4 saat&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pratik soruları&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Websitemize yer alan bonus pratik problemlerini çözmek opsiyonel olup materyali özümsemenize destek olacaktır.&lt;/td&gt;
+      &lt;td&gt;30-60 dk&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bitirme Projesi&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;[Detaylı bilgi için burayı okuyun](#Final-Projesi)&lt;/td&gt;
+      &lt;td&gt;(Toplamda) 6-8 saat&lt;!-- todo --&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;akademik-dürüstlük&quot;&gt;Akademik Dürüstlük&lt;/h2&gt;
+
+&lt;!-- couldn't find anything under this name on MEB pages, todo: discuss --&gt;
+
+&lt;p&gt;CS 101 öğrencileri, Koç Üniversitesi tarafından hazırlanan &lt;a href=&quot;https://apdd.ku.edu.tr/akademik-kurallar-ve-prosedurler/ogrenci-davranis-kurallari/&quot;&gt;Öğrenci Davranış Kuralları&lt;/a&gt;‘na uymakla yükümlüdür. Ödevleri ve Python hakkındaki sorularınızı beraber tartışmanızı desteklemekle birlikte teslim ettiğiniz ödev ve projelerin sizin tarafınızdan yapılmasını bekliyoruz. Eğer başka öğrencilerden, eğitmenlerinizden ya da dış kaynaklardan yardım alırsanız lütfen bunu teslim ettiğiniz ödevlerde belirtin.&lt;/p&gt;</content><author><name>GitHub User</name></author><category term="planlama" /><category term="planlama" /><summary type="html"></summary></entry></feed>
