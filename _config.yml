@@ -30,6 +30,8 @@ header_pages:
 collections:
   projects:
     output: true
+  lectures:
+    output: true
 # If you want more debug log, you can set true
 # debug: false
 
