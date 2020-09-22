@@ -7,7 +7,7 @@ tags: [grup çalışması]
 ---
 ## Egzersiz 1
 
-Bazen ebeveyinler çocuklarının saat kaça kadar televizyon izleyebileceklerini kontrol etmek isterler. Bu egzersizde yazacağınız programda kullanıcının yaşını girdi olarak almalısınız. Eğer kullanıcının yaşı 12'yse veya 12'den küçükse, saatin kaç olduğunu kontrol etmelisiniz. Saat 19.00'dan erkense 12 yaşından büyük olmayan kullanıcılara televiyon izlemelerine izinleri olduğunu, değilse izinleri olmadığını ekrana yazdırmalısınız. 12 yaşından büyükler için bir sınırlama bulunmamaktadır.
+Bazı ebeveynler çocuklarının saat kaça kadar televizyon izleyebileceklerini kontrol etmek ister. Bu egzersizde yazacağınız programda kullanıcının yaşını girdi olarak almalısınız. Eğer kullanıcının yaşı 12'yse veya 12'den küçükse, saatin kaç olduğunu kontrol etmelisiniz. Saat 19.00'dan erkense 12 yaşından büyük olmayan kullanıcılara televiyon izlemelerine izinleri olduğunu, değilse izinleri olmadığını ekrana yazdırmalısınız. 12 yaşından büyükler için bir sınırlama bulunmamaktadır.
 Size verilen başlangıç kodunda **televizyon_izleyebilir_mi()** fonksiyonu bulunmaktadır. Bu fonksiyon kullanıcı 12 yaşından küçükse televizyon izlemeye izni olup olmadığını öğrenmek için kullanılmalıdır. Fonsksiyonun içerisinde şu an bulunduğumuz zamanı Saat:Dakika:Saniye formatında "**zaman**" adlı değişkene sizin için atadık. "**zaman**" değişkeni **string** tipinde bir değişkendir. Bu bilgiler ışığında **televizyon_izleyebilir_mi()** fonksiyonunu ve programınızın akışını sağlayacak ana fonksiyonu tamamlayınız.
 
 ![](https://burst.shopifycdn.com/photos/man-holding-clock-forward.jpg?width=700&format=pjpg&exif=0&iptc=0)
