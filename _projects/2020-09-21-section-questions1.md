@@ -22,7 +22,7 @@ Bir yapay zeka şirketi yeni çıkaracakları robotun insanları selamlamasını
 
 ## Egzersiz 2
 
-Yer kabuğu levha adı verilen parçalardan oluşur. Levhalar magmadaki akımların etkisiyle hareket ederler. Her yıl levha hareketleri dolayısıyla Hawaii, Alaska'ya 7.5 santimetre yaklaşmaktadır.
+Yer kabuğu levha adı verilen parçalardan oluşur. Levhalar magmadaki akımların etkisiyle hareket ederler. Her yıl levha hareketleri dolayısıyla Hawaii, Alaska'ya 7,5 santimetre yaklaşmaktadır.
 
 ![](https://legacy.lib.utexas.edu/maps/united_states/n.america.jpg)
 
@@ -39,7 +39,7 @@ Hawaii ve Alaska'nın kullanıcı tarafından girdi olarak verilen sene kadar so
 
 ## Egzersiz 3
 
-Manav Ahmet Amca müşterilerin aldıkları ürünler karşılığında ödemesi gereken tutarı hesaplarken hatalar yapıyor. Bu yüzden de artık bir program yardımıyla toplam tutarı hesaplamaya karar veriyor. Her seferinde müşterilerin sadece bir çeşit ürün aldığını varsayarak, Manav Ahmet Amca'dan ürünün adını, birim fiyatını ve müşterinin kaç birim ürün aldığını girdi olarak alan ve toplam tutarı yazdıran bir program hazırlayınız.
+Manav Ahmet Bey müşterilerin aldıkları ürünler karşılığında ödemesi gereken tutarı hesaplarken hatalar yapıyor. Bu yüzden de artık bir program yardımıyla toplam tutarı hesaplamaya karar veriyor. Her seferinde müşterilerin sadece bir çeşit ürün aldığını varsayarak, Manav Ahmet Amca'dan ürünün adını, birim fiyatını ve müşterinin kaç birim ürün aldığını girdi olarak alan ve toplam tutarı yazdıran bir program hazırlayınız.
 
 ![](https://burst.shopifycdn.com/photos/small-urban-grocery.jpg?width=700&format=pjpg&exif=0&iptc=0)
 
