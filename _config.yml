@@ -6,9 +6,16 @@
 
 title: "CS 101: Merhaba, Dünya!"
 email: your-email@domain.com
-author: GitHub User
+author: "CS 101: Merhaba, Dünya!"
 copyright: Copyright © 1970-2010
-description: "CS 101: Merhaba, dünya! Türkiye'deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler."
+description: >
+  CS 101: Merhaba, dünya! Türkiye'deki lise öğrencileri arasında programlama 
+  eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri 
+  teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. 
+  CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın 
+  olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme 
+  becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini 
+  artırmayı hedefler.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cs101-merhabadunya.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -36,7 +43,7 @@ collections:
 # header_transparent: true
 
 # Google analytics
-# google_analytics: [Tracking ID]
+google_analytics: UA-179081985-1 #[Tracking ID]
 
 # If you want to generate website sitemap, you can set true
 # sitemap: false
