@@ -1,54 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-26T20:34:16+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">CS 101: Merhaba, Dünya!</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>GitHub User</name></author><entry><title type="html">Sıkça Sorulan Sorular</title><link href="http://localhost:4000/planlama/2020/09/26/sss.html" rel="alternate" type="text/html" title="Sıkça Sorulan Sorular" /><published>2020-09-26T00:00:00+03:00</published><updated>2020-09-26T00:00:00+03:00</updated><id>http://localhost:4000/planlama/2020/09/26/sss</id><content type="html" xml:base="http://localhost:4000/planlama/2020/09/26/sss.html">&lt;!-- todo add table of contents, sort the questions in order of importance, maybe add some categories --&gt;
-
-&lt;h2 id=&quot;genel-bilgiler&quot;&gt;Genel Bilgiler&lt;/h2&gt;
-
-&lt;p&gt;S: &lt;strong&gt;Programın öğretim dili nedir?&lt;/strong&gt;  &lt;br /&gt;
-Programın öğretim dili Türkçedir.&lt;/p&gt;
-
-&lt;p&gt;S: &lt;strong&gt;Programın katılım koşulları nelerdir?&lt;/strong&gt;&lt;br /&gt;
- Program tamamen ücretsiz olup stabil bir internet bağlantısına ve program boyunca düzenli erişim sağlayabileceğiniz bir bilgisayara erişiminiz olması yeterlidir.&lt;/p&gt;
-
-&lt;p&gt;S: &lt;strong&gt;Grup buluşması nedir?&lt;/strong&gt;&lt;br /&gt;
- Grup Buluşmaları, her hafta bir Grup Lideri’nin öncülüğünde 10-13 kişilik bir öğrenci grubuyla toplanıp pratik yaptığınız zamanlardır. Doğası gereği Grup Buluşmaları interaktif geçer; problem çözme ve kodlama becerilerinize çok büyük faydası bulunur.&lt;/p&gt;
-
-&lt;h2 id=&quot;program-lojistikleri&quot;&gt;Program Lojistikleri&lt;/h2&gt;
-
-&lt;p&gt;S: &lt;strong&gt;Bu program notlandırılıyor mu?&lt;/strong&gt;&lt;br /&gt;
- Hayır, bu eğitmen ve öğrencilerin gönüllü olarak buluştuğu bağımsız bir programdır.&lt;/p&gt;
-
-&lt;p&gt;S: &lt;strong&gt;Program hakkında sorularımı nerede sorabilirim?&lt;/strong&gt;&lt;br /&gt;
- Program ve programda kullandığımız materyalle ilgili bütün sorularını CS 101 &lt;a href=&quot;&quot;&gt;Ed Sayfasında&lt;/a&gt; sorabilirsiniz. Ed’de sorunuzu en iyi kapsayan kategoriyi seçin, Ed’i düzenli olarak kontrol ederek sorularınızı en kısa sürede cevaplamaya çalışacağız.&lt;/p&gt;
-
-&lt;p&gt;S: &lt;strong&gt;Dersleri daha sonra izleyebilir miyim?&lt;/strong&gt;&lt;br /&gt;
- Evet ama biz yine de sorularınızı anında sormak, ders atmosferini tatmak ve motivasyonunuzu yüksek tutmak için derslere canlı katılmanızı şiddetle tavsiye ediyoruz. Beklenmedik bir durum sebebiyle derse katılamadıysanız ya da dersi tekrar dinlemek isterseniz kayıtları sitemizde bulabileceksiniz.
-&lt;!-- add hyperlink to Lcture videos--&gt;&lt;/p&gt;
-
-&lt;p&gt;S: &lt;strong&gt;Programın ofis saatleri var mı?&lt;/strong&gt;&lt;br /&gt;
- Hayır, ancak sorularınızı her zaman &lt;em&gt;Grup Buluşmaları&lt;/em&gt;nda, Ed üzerinden ya da zaman kaldığı sürece derste sorabilirsiniz.&lt;/p&gt;
-
-&lt;h2 id=&quot;program-hakkında-endişeler&quot;&gt;Program hakkında endişeler&lt;/h2&gt;
-&lt;p&gt;S: &lt;strong&gt;Programı takip etmekte zorlanıyorum, ne yapmalıyım?&lt;/strong&gt;&lt;br /&gt;
- Öncelikle, üç derin nefes alın. Derste öğrendiklerinizin kimi zaman zorlayıcı ya da fazla gelmesi çok doğal ama bu yolculukta yalnız olmadığınızı unutmayın! Lütfen, eğitmenlerinizden ve arkadaşlarınızdan yardım istemekten, yaşadığınız zorlukları bizimle paylaşmaktan çekinmeyin. Grup Lideriniz başta olmak üzere &lt;em&gt;CS 101: Merhaba, dünya!&lt;/em&gt; ailesi  bu deneyimden en iyi şekilde yararlanmanız için yanınızda.&lt;/p&gt;
-
-&lt;p&gt;S: &lt;strong&gt;Ödevimi bitiremedim ama teslim zamanı geldi, ne yapabilirim?&lt;/strong&gt;&lt;br /&gt;
- Yapabildiğiniz kadarıyla ödevinizi teslim edin.&lt;/p&gt;
-
-&lt;p&gt;S: &lt;strong&gt;Bu hafta derse ya da grup buluşmamıza katılamayacağım, ne yapmalıyım?&lt;/strong&gt;&lt;br /&gt;
- Program boyunca düzenlediğimiz aktivitelere devamlılığınız programdan en iyi verimi alabilmeniz için çok önemli. Ancak beklenmedik durumların oluşabileceğinin farkındayız, böyle bir durumda Ed üzerinden bize özel gönderi paylaşın. Grup Lideriniz size gerekli yönlendirmeyi yapacaktır.&lt;/p&gt;
-
-&lt;h2 id=&quot;programa-katılım&quot;&gt;Programa katılım&lt;/h2&gt;
-&lt;p&gt;S: &lt;strong&gt;Programa öğrenci olarak nasıl katılabilirim?&lt;/strong&gt;&lt;br /&gt;
- Programa gösterdiğiniz ilgi için çok teşekkür ederiz. Şu an için programı ancak önceden belirlediğimiz liselerden aldığımız öğrencilerle yürütebiliyoruz. Ekimizin büyüklüğü hayallerimizi yakalayana kadar websitemizde açık kaynak olarak yayınladığımız tüm materyalleri kendi öğrenme maceranızda kullanabilirsiniz!&lt;/p&gt;
-
-&lt;p&gt;S: &lt;strong&gt;CS 101 ekibine nasıl dahil olabilirim, koşullar nelerdir?&lt;/strong&gt;&lt;br /&gt;
- CS 101 ekibi programlama deneyimi olan (CS 101’de şu an Python kullanılıyor), eğitmeye, akranlar arası iletişime emek vermeye hazır kişilerden oluşur. Ekibe başvurmak için bize email adresimizden ulaşabilirsiniz.
-&lt;!-- todo: add email address --&gt;&lt;/p&gt;
-
-&lt;!-- todo
-## Program ekibi ile nasıl iletişime geçebilirim?**  
-Eğer programda yer alan bir öğrenciyseniz Ed sayfamızdan, değilseniz email adresimizden bize ulaşabilirsiniz. 
-todo: maybe add a contact form
---&gt;</content><author><name>GitHub User</name></author><category term="planlama" /><category term="planlama" /><summary type="html">Genel Bilgiler S: Programın öğretim dili nedir? Programın öğretim dili Türkçedir. S: Programın katılım koşulları nelerdir? Program tamamen ücretsiz olup stabil bir internet bağlantısına ve program boyunca düzenli erişim sağlayabileceğiniz bir bilgisayara erişiminiz olması yeterlidir. S: Grup buluşması nedir? Grup Buluşmaları, her hafta bir Grup Lideri’nin öncülüğünde 10-13 kişilik bir öğrenci grubuyla toplanıp pratik yaptığınız zamanlardır. Doğası gereği Grup Buluşmaları interaktif geçer; problem çözme ve kodlama becerilerinize çok büyük faydası bulunur. Program Lojistikleri S: Bu program notlandırılıyor mu? Hayır, bu eğitmen ve öğrencilerin gönüllü olarak buluştuğu bağımsız bir programdır. S: Program hakkında sorularımı nerede sorabilirim? Program ve programda kullandığımız materyalle ilgili bütün sorularını CS 101 Ed Sayfasında sorabilirsiniz. Ed’de sorunuzu en iyi kapsayan kategoriyi seçin, Ed’i düzenli olarak kontrol ederek sorularınızı en kısa sürede cevaplamaya çalışacağız. S: Dersleri daha sonra izleyebilir miyim? Evet ama biz yine de sorularınızı anında sormak, ders atmosferini tatmak ve motivasyonunuzu yüksek tutmak için derslere canlı katılmanızı şiddetle tavsiye ediyoruz. Beklenmedik bir durum sebebiyle derse katılamadıysanız ya da dersi tekrar dinlemek isterseniz kayıtları sitemizde bulabileceksiniz. S: Programın ofis saatleri var mı? Hayır, ancak sorularınızı her zaman Grup Buluşmalarında, Ed üzerinden ya da zaman kaldığı sürece derste sorabilirsiniz. Program hakkında endişeler S: Programı takip etmekte zorlanıyorum, ne yapmalıyım? Öncelikle, üç derin nefes alın. Derste öğrendiklerinizin kimi zaman zorlayıcı ya da fazla gelmesi çok doğal ama bu yolculukta yalnız olmadığınızı unutmayın! Lütfen, eğitmenlerinizden ve arkadaşlarınızdan yardım istemekten, yaşadığınız zorlukları bizimle paylaşmaktan çekinmeyin. Grup Lideriniz başta olmak üzere CS 101: Merhaba, dünya! ailesi bu deneyimden en iyi şekilde yararlanmanız için yanınızda. S: Ödevimi bitiremedim ama teslim zamanı geldi, ne yapabilirim? Yapabildiğiniz kadarıyla ödevinizi teslim edin. S: Bu hafta derse ya da grup buluşmamıza katılamayacağım, ne yapmalıyım? Program boyunca düzenlediğimiz aktivitelere devamlılığınız programdan en iyi verimi alabilmeniz için çok önemli. Ancak beklenmedik durumların oluşabileceğinin farkındayız, böyle bir durumda Ed üzerinden bize özel gönderi paylaşın. Grup Lideriniz size gerekli yönlendirmeyi yapacaktır. Programa katılım S: Programa öğrenci olarak nasıl katılabilirim? Programa gösterdiğiniz ilgi için çok teşekkür ederiz. Şu an için programı ancak önceden belirlediğimiz liselerden aldığımız öğrencilerle yürütebiliyoruz. Ekimizin büyüklüğü hayallerimizi yakalayana kadar websitemizde açık kaynak olarak yayınladığımız tüm materyalleri kendi öğrenme maceranızda kullanabilirsiniz! S: CS 101 ekibine nasıl dahil olabilirim, koşullar nelerdir? CS 101 ekibi programlama deneyimi olan (CS 101’de şu an Python kullanılıyor), eğitmeye, akranlar arası iletişime emek vermeye hazır kişilerden oluşur. Ekibe başvurmak için bize email adresimizden ulaşabilirsiniz.</summary></entry><entry><title type="html">Müfredat</title><link href="http://localhost:4000/planlama/2020/09/20/sllybaus.html" rel="alternate" type="text/html" title="Müfredat" /><published>2020-09-20T00:00:00+03:00</published><updated>2020-09-20T00:00:00+03:00</updated><id>http://localhost:4000/planlama/2020/09/20/sllybaus</id><content type="html" xml:base="http://localhost:4000/planlama/2020/09/20/sllybaus.html">&lt;!--
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-22T22:58:35+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">CS 101: Merhaba, Dünya!</title><subtitle>CS 101: Merhaba, dünya! Türkiye'deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.</subtitle><author><name>GitHub User</name></author><entry><title type="html">Müfredat</title><link href="http://localhost:4000/planlama/2020/09/20/sllybaus.html" rel="alternate" type="text/html" title="Müfredat" /><published>2020-09-20T00:00:00+03:00</published><updated>2020-09-20T00:00:00+03:00</updated><id>http://localhost:4000/planlama/2020/09/20/sllybaus</id><content type="html" xml:base="http://localhost:4000/planlama/2020/09/20/sllybaus.html">&lt;!--
     syllabus
     sample syllabi:
         - Turkish wording example: http://dosya.marmara.edu.tr/eng/cse/documents/syllabus_tr/fall/CSE1141_S_v2018.pdf
@@ -96,7 +46,7 @@ Fırat Tamur       Necla Mutlu&lt;/p&gt;
 
 &lt;h2 id=&quot;kaynaklar&quot;&gt;Kaynaklar&lt;/h2&gt;
 
-&lt;p&gt;Program boyunca materyalleri websitemizde yayınlarken karşılıklı iletişimimizi &lt;a href=&quot;#Ed&quot;&gt;Ed platformu&lt;/a&gt; üzerinden sürdüreceğiz.&lt;/p&gt;
+&lt;p&gt;Program boyunca materyalleri websitemizde yayınlarken karşılıklı iletişimimizi &lt;a href=&quot;#h-ed&quot;&gt;Ed platformu&lt;/a&gt; üzerinden sürdüreceğiz.&lt;/p&gt;
 
 &lt;h3 id=&quot;websitesi&quot;&gt;Websitesi&lt;/h3&gt;
 
@@ -259,7 +209,7 @@ Workshop: pandas &amp; Matplotlib
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Bitirme Projesi&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;[Detaylı bilgi için burayı okuyun](#Final-Projesi)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;[Detaylı bilgi için burayı okuyun](#h-final-projesi)&lt;/td&gt;
       &lt;td&gt;(Toplamda) 6-8 saat&lt;!-- todo --&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;

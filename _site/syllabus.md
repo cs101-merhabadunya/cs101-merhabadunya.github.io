@@ -1,11 +1,3 @@
----
-layout: post
-title: Müfredat
-subtitle: Programın genel planı
-categories: planlama
-tags: [planlama]
----
-
 <!--
     syllabus
     sample syllabi:
@@ -19,6 +11,23 @@ tags: [planlama]
 </center>
 
 Bu belge Ekim-Aralık 2020 tarihleri arasında gerçekleştirilecek _CS 101: Merhaba, Dünya!_ programını tanıtıcı ve öğrencilere yol gösterici olması amacıyla hazırlanmıştır.
+
+## İçindekiler
+
+- [Genel Bilgiler](#Genel-bilgler)
+- [Programın Amacı](#Programın-Amacı)
+- [Eğitmenler](#Eğitmenler)
+- [Kaynaklar](#Kaynaklar)
+  - [Websitesi](#Websitesi)
+  - [Ed](#Ed)
+- [Programın İşleyişi](#Programın-İşleyişi)
+  - [Dersler](#Dersler)
+  - [Grup Buluşmaları](#Grup-Buluşmaları)
+  - [Ödevler](#Ödevler)
+  - [Final Projesi](#Final-Projesi)
+- [Öngörülen Müfredat](#Öngörülen-Müfredat)
+- [Program için harcanan tahmini zaman](#Program-için-harcanan-tahmini-zaman)
+- [Akademik Dürüstlük](#Akademik-Dürüstlük)
 
 ## Genel Bilgiler
 
@@ -52,7 +61,7 @@ Fırat Tamur&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; Necla Mutlu
 
 ## Kaynaklar
 
-Program boyunca materyalleri websitemizde yayınlarken karşılıklı iletişimimizi [Ed platformu](#h-ed) üzerinden sürdüreceğiz.
+Program boyunca materyalleri websitemizde yayınlarken karşılıklı iletişimimizi [Ed platformu](#Ed) üzerinden sürdüreceğiz.
 
 ### Websitesi
 
@@ -128,11 +137,10 @@ Workshop: pandas & Matplotlib
 | Ders Hazırlık ve Ders Tekrarı |                                                  Ders materyalinin düzenli tekrarı                                                  | 30 dk                            |
 | Ödev                          | Program boyunca zorlukları değişken seviyede 2 ödev verilecek olup belirtilen süre ödev başına harcanacak zamanı temsil etmektedir. | 1.5-4 saat                       |
 | Pratik soruları               |           Websitemize yer alan bonus pratik problemlerini çözmek opsiyonel olup materyali özümsemenize destek olacaktır.           | 30-60 dk                         |
-| Bitirme Projesi               |   [Detaylı bilgi için burayı okuyun](#h-final-projesi)                                                                                                                                  | (Toplamda) 6-8 saat<!-- todo --> |
+| Bitirme Projesi               |   [Detaylı bilgi için burayı okuyun](#Final-Projesi)                                                                                                                                  | (Toplamda) 6-8 saat<!-- todo --> |
 
 ## Akademik Dürüstlük
 
 <!-- couldn't find anything under this name on MEB pages, todo: discuss -->
 
 CS 101 öğrencileri, Koç Üniversitesi tarafından hazırlanan [Öğrenci Davranış Kuralları](https://apdd.ku.edu.tr/akademik-kurallar-ve-prosedurler/ogrenci-davranis-kurallari/)'na uymakla yükümlüdür. Ödevleri ve Python hakkındaki sorularınızı beraber tartışmanızı desteklemekle birlikte teslim ettiğiniz ödev ve projelerin sizin tarafınızdan yapılmasını bekliyoruz. Eğer başka öğrencilerden, eğitmenlerinizden ya da dış kaynaklardan yardım alırsanız lütfen bunu teslim ettiğiniz ödevlerde belirtin.
-

@@ -8,13 +8,10 @@ title: "CS 101: Merhaba, Dünya!"
 email: your-email@domain.com
 author: GitHub User
 copyright: Copyright © 1970-2010
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: "CS 101: Merhaba, dünya! Türkiye'deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler."
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cs101-merhabadunya.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
 
 # Yat date format
@@ -29,6 +26,8 @@ header_pages:
   - projects.html
 collections:
   projects:
+    output: true
+  lectures:
     output: true
 # If you want more debug log, you can set true
 # debug: false
