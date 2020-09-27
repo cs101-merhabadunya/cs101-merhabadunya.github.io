@@ -2,7 +2,7 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
-body { font-family: "Noto Sans Light", AppleSDGothicNeo-Regular, "Malgun Gothic", "Apple Color Emoji", Helvetica, Arial, Oswald, sans-serif; font-weight: 400; font-size: 14px; line-height: 1.6; color: #313b3f; background-color: #fff; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+body { font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Roboto", Helvetica, sans-serif; font-weight: 400; font-size: 14px; line-height: 1.6; color: #313b3f; background-color: #fff; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure { margin-bottom: 15px; }
@@ -204,7 +204,7 @@ html[data-scroll-status='down'] .framework .sidebar { top: 20px; }
 
 .post .post-header .post-meta { color: #808080; }
 
-.post .post-content { margin-bottom: 30px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-all; }
+.post .post-content { margin-bottom: 30px; overflow-wrap: normal; word-wrap: normal; word-break: normal; }
 
 .post .post-content h2 { font-size: 28px; }
 
@@ -261,7 +261,7 @@ html[data-scroll-status='down'] .framework .sidebar { top: 20px; }
 .page-archives .post-meta { font-size: 12.25px; color: #828282; }
 
 /** Page banner */
-.page-banner { display: block; position: relative; height: 640px; background-color: rgba(0, 0, 0, 0.8); transition: height 0.2s; margin-bottom: 32px; }
+.page-banner { display: block; position: relative; height: 450px; background-color: rgba(0, 0, 0, 0.8); transition: height 0.2s; margin-bottom: 32px; }
 
 .page-banner .page-banner-img { position: absolute; width: 100%; height: 100%; overflow: hidden; }
 
@@ -297,7 +297,7 @@ html[data-scroll-status='down'] .framework .sidebar { top: 20px; }
 
 .page-banner .page-banner-inner .post-tags .post-tag:hover { text-decoration: underline; }
 
-@media screen and (max-width: 600px) { .page-banner { height: 426.6666666667px; } }
+@media screen and (max-width: 600px) { .page-banner { height: 300px; } }
 
 /** Layout and sidebar */
 .framework .sidebar { padding-left: 8px; transition: top 0.2s, display 0.2s; position: sticky; position: -moz-sticky; /* <-- fix sticky compatibility issue */ position: -ms-sticky; position: -o-sticky; position: -webkit-sticky; align-self: flex-start; /* <-- fix the sticky not work issue */ transform: scale(0.9999); /* <-- fix the sticky x overflow issue */ top: 83.84px; }

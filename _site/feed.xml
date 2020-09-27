@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4001/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/" rel="alternate" type="text/html" /><updated>2020-09-28T00:16:08+03:00</updated><id>http://localhost:4001/feed.xml</id><title type="html">CS 101: Merhaba, Dünya!</title><subtitle>CS 101: Merhaba, dünya! Türkiye'deki lise öğrencileri arasında programlama  eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri  teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır.  CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın  olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme  becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini  artırmayı hedefler.
-</subtitle><author><name>CS 101: Merhaba, Dünya!</name></author><entry><title type="html">Program Fragmanı</title><link href="http://localhost:4001/code/2020/09/27/examples.html" rel="alternate" type="text/html" title="Program Fragmanı" /><published>2020-09-27T00:00:00+03:00</published><updated>2020-09-27T00:00:00+03:00</updated><id>http://localhost:4001/code/2020/09/27/examples</id><content type="html" xml:base="http://localhost:4001/code/2020/09/27/examples.html">&lt;p&gt;Normal şartlarda &lt;em&gt;spoiler&lt;/em&gt; yani gelecekte olacakları belli edip heyecanı bozan bilgiler pek makbul değildir. Ancak biz programın başlangıcında ileride başarabileceğiniz birbirinden ilginç projelerden kesitler göstermenin ve hatta belki küçük bir &lt;em&gt;fragman&lt;/em&gt; yayınlamanın heyecanınızı artırabileceğini düşünüyoruz.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4003/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4003/" rel="alternate" type="text/html" /><updated>2020-09-28T01:09:13+03:00</updated><id>http://localhost:4003/feed.xml</id><title type="html">CS 101: Merhaba, Dünya!</title><subtitle>CS 101: Merhaba, dünya! Türkiye'deki lise öğrencileri arasında programlama  eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri  teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır.  CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın  olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme  becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini  artırmayı hedefler.
+</subtitle><author><name>CS 101: Merhaba, Dünya!</name></author><entry><title type="html">Program Fragmanı</title><link href="http://localhost:4003/code/2020/09/27/examples.html" rel="alternate" type="text/html" title="Program Fragmanı" /><published>2020-09-27T00:00:00+03:00</published><updated>2020-09-27T00:00:00+03:00</updated><id>http://localhost:4003/code/2020/09/27/examples</id><content type="html" xml:base="http://localhost:4003/code/2020/09/27/examples.html">Normal şartlarda *spoiler* yani gelecekte olacakları belli edip heyecanı bozan bilgiler pek makbul değildir. Ancak biz programın başlangıcında ileride başarabileceğiniz birbirinden ilginç projelerden kesitler göstermenin ve hatta belki küçük bir *fragman* yayınlamanın heyecanınızı artırabileceğini düşünüyoruz. 
 
-&lt;p&gt;Aşağıda KOLT Python döneminde hazırlanmış iki ödevin ekran görüntüsünü bulabilirsiniz. Merak edenler için &lt;em&gt;&lt;a href=&quot;https://koltpython.com/&quot;&gt;KOLT Python&lt;/a&gt;&lt;/em&gt; bir nevi CS 101’in velisi sayılır. Grup Liderlerimizden Ahmet’in başlatıp şu anki CS 101 ekibinin birçoğunun dahil olduğu, en büyük ilham kaynaklarımızdan birine ve ilk göz ağrımıza dönüşen, birçoğumuzun yakın arkadaş olmasına vesile olan bir organizasyon :sparkle:!&lt;/p&gt;
+Aşağıda KOLT Python döneminde hazırlanmış iki ödevin ekran görüntüsünü bulabilirsiniz. Merak edenler için *[KOLT Python](https://koltpython.com/)* bir nevi CS 101'in velisi sayılır. Grup Liderlerimizden Ahmet'in başlatıp şu anki CS 101 ekibinin birçoğunun dahil olduğu, en büyük ilham kaynaklarımızdan birine ve ilk göz ağrımıza dönüşen, birçoğumuzun yakın arkadaş olmasına vesile olan bir organizasyon!
 
-&lt;p&gt;Unutmayın, bu projeler örnek niteliğinde olup eğitmenleriniz size farklı ödevler verebilir.&lt;/p&gt;
+Unutmayın, bu projeler örnek niteliğinde olup eğitmenleriniz size farklı ödevler verebilir.
 
-&lt;h2 id=&quot;xox&quot;&gt;XOX&lt;/h2&gt;
-&lt;p&gt;Korona döneminde servislerin, minibüslerin buğulu camında oynayamadığımız XOX oyununu bilgisayarlarımıza taşıdık:&lt;/p&gt;
+## XOX
+Korona döneminde servislerin, minibüslerin buğulu camında oynayamadığımız XOX oyununu bilgisayarlarımıza taşıdık:
 
-&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://drive.google.com/file/d/1CF2YnAcDz37nZcoqimbIgQDVfHN0W8Dw/preview&quot;&gt; &lt;/iframe&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://drive.google.com/file/d/1CF2YnAcDz37nZcoqimbIgQDVfHN0W8Dw/preview&quot; &gt; &lt;/iframe&gt;
 
-&lt;h2 id=&quot;adam-asmaca&quot;&gt;Adam asmaca&lt;/h2&gt;
-&lt;p&gt;Sizin sormayı en sevdiğiniz kelime hangisiydi?&lt;/p&gt;
+## Adam asmaca
+Sizin sormayı en sevdiğiniz kelime hangisiydi?
 
-&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://drive.google.com/file/d/1ExKBHQbzv5QCsrquVi43Rodjsy_zrf9f/preview&quot;&gt; &lt;/iframe&gt;</content><author><name>CS 101: Merhaba, Dünya!</name></author><category term="code" /><category term="code" /><summary type="html">Normal şartlarda spoiler yani gelecekte olacakları belli edip heyecanı bozan bilgiler pek makbul değildir. Ancak biz programın başlangıcında ileride başarabileceğiniz birbirinden ilginç projelerden kesitler göstermenin ve hatta belki küçük bir fragman yayınlamanın heyecanınızı artırabileceğini düşünüyoruz. Aşağıda KOLT Python döneminde hazırlanmış iki ödevin ekran görüntüsünü bulabilirsiniz. Merak edenler için KOLT Python bir nevi CS 101’in velisi sayılır. Grup Liderlerimizden Ahmet’in başlatıp şu anki CS 101 ekibinin birçoğunun dahil olduğu, en büyük ilham kaynaklarımızdan birine ve ilk göz ağrımıza dönüşen, birçoğumuzun yakın arkadaş olmasına vesile olan bir organizasyon :sparkle:! Unutmayın, bu projeler örnek niteliğinde olup eğitmenleriniz size farklı ödevler verebilir. XOX Korona döneminde servislerin, minibüslerin buğulu camında oynayamadığımız XOX oyununu bilgisayarlarımıza taşıdık: Adam asmaca Sizin sormayı en sevdiğiniz kelime hangisiydi?</summary></entry><entry><title type="html">Sıkça Sorulan Sorular</title><link href="http://localhost:4001/planlama/2020/09/26/sss.html" rel="alternate" type="text/html" title="Sıkça Sorulan Sorular" /><published>2020-09-26T00:00:00+03:00</published><updated>2020-09-26T00:00:00+03:00</updated><id>http://localhost:4001/planlama/2020/09/26/sss</id><content type="html" xml:base="http://localhost:4001/planlama/2020/09/26/sss.html">&lt;!-- todo add table of contents, sort the questions in order of importance, maybe add some categories --&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://drive.google.com/file/d/1ExKBHQbzv5QCsrquVi43Rodjsy_zrf9f/preview&quot; &gt; &lt;/iframe&gt;</content><author><name>CS 101: Merhaba, Dünya!</name></author><category term="code" /><category term="code" /><summary type="html">Normal şartlarda spoiler yani gelecekte olacakları belli edip heyecanı bozan bilgiler pek makbul değildir. Ancak biz programın başlangıcında ileride başarabileceğiniz birbirinden ilginç projelerden kesitler göstermenin ve hatta belki küçük bir fragman yayınlamanın heyecanınızı artırabileceğini düşünüyoruz. Aşağıda KOLT Python döneminde hazırlanmış iki ödevin ekran görüntüsünü bulabilirsiniz. Merak edenler için KOLT Python bir nevi CS 101’in velisi sayılır. Grup Liderlerimizden Ahmet’in başlatıp şu anki CS 101 ekibinin birçoğunun dahil olduğu, en büyük ilham kaynaklarımızdan birine ve ilk göz ağrımıza dönüşen, birçoğumuzun yakın arkadaş olmasına vesile olan bir organizasyon! Unutmayın, bu projeler örnek niteliğinde olup eğitmenleriniz size farklı ödevler verebilir. XOX Korona döneminde servislerin, minibüslerin buğulu camında oynayamadığımız XOX oyununu bilgisayarlarımıza taşıdık: Adam asmaca Sizin sormayı en sevdiğiniz kelime hangisiydi?</summary></entry><entry><title type="html">Sıkça Sorulan Sorular</title><link href="http://localhost:4003/planlama/2020/09/26/sss.html" rel="alternate" type="text/html" title="Sıkça Sorulan Sorular" /><published>2020-09-26T00:00:00+03:00</published><updated>2020-09-26T00:00:00+03:00</updated><id>http://localhost:4003/planlama/2020/09/26/sss</id><content type="html" xml:base="http://localhost:4003/planlama/2020/09/26/sss.html">&lt;!-- todo add table of contents, sort the questions in order of importance, maybe add some categories --&gt;
 
 
 ## Genel Bilgiler  
@@ -65,7 +65,7 @@ S: **CS 101 ekibine nasıl dahil olabilirim, koşullar nelerdir?**
 ## Program ekibi ile nasıl iletişime geçebilirim?**  
 Eğer programda yer alan bir öğrenciyseniz Ed sayfamızdan, değilseniz email adresimizden bize ulaşabilirsiniz. 
 todo: maybe add a contact form
---&gt;</content><author><name>CS 101: Merhaba, Dünya!</name></author><category term="planlama" /><category term="planlama" /><summary type="html">Genel Bilgiler S: Programın öğretim dili nedir? Programın öğretim dili Türkçedir. S: Programın katılım koşulları nelerdir? Program tamamen ücretsiz olup stabil bir internet bağlantısına ve program boyunca düzenli erişim sağlayabileceğiniz bir bilgisayara erişiminiz olması yeterlidir. S: Grup buluşması nedir? Grup Buluşmaları, her hafta bir Grup Lideri’nin öncülüğünde 10-13 kişilik bir öğrenci grubuyla toplanıp pratik yaptığınız zamanlardır. Doğası gereği Grup Buluşmaları interaktif geçer; problem çözme ve kodlama becerilerinize çok büyük faydası bulunur. Program Lojistikleri S: Bu program notlandırılıyor mu? Hayır, bu eğitmen ve öğrencilerin gönüllü olarak buluştuğu bağımsız bir programdır. S: Program hakkında sorularımı nerede sorabilirim? Program ve programda kullandığımız materyalle ilgili bütün sorularını CS 101 Ed Sayfasında sorabilirsiniz. Ed’de sorunuzu en iyi kapsayan kategoriyi seçin, Ed’i düzenli olarak kontrol ederek sorularınızı en kısa sürede cevaplamaya çalışacağız. S: Dersleri daha sonra izleyebilir miyim? Evet ama biz yine de sorularınızı anında sormak, ders atmosferini tatmak ve motivasyonunuzu yüksek tutmak için derslere canlı katılmanızı şiddetle tavsiye ediyoruz. Beklenmedik bir durum sebebiyle derse katılamadıysanız ya da dersi tekrar dinlemek isterseniz kayıtları sitemizde bulabileceksiniz. S: Programın ofis saatleri var mı? Hayır, ancak sorularınızı her zaman Grup Buluşmalarında, Ed üzerinden ya da zaman kaldığı sürece derste sorabilirsiniz. Öğrencilerden Sorular S: Programı takip etmekte zorlanıyorum, ne yapmalıyım? Öncelikle, üç derin nefes alın. Derste öğrendiklerinizin kimi zaman zorlayıcı ya da fazla gelmesi çok doğal ama bu yolculukta yalnız olmadığınızı unutmayın! Lütfen, eğitmenlerinizden ve arkadaşlarınızdan yardım istemekten, yaşadığınız zorlukları bizimle paylaşmaktan çekinmeyin. Grup Lideriniz başta olmak üzere CS 101: Merhaba, dünya! ailesi bu deneyimden en iyi şekilde yararlanmanız için yanınızda. S: Ödevimi bitiremedim ama teslim zamanı geldi, ne yapabilirim? Yapabildiğiniz kadarıyla ödevinizi teslim edin. S: Bu hafta derse ya da grup buluşmamıza katılamayacağım, ne yapmalıyım? Program boyunca düzenlediğimiz aktivitelere devamlılığınız programdan en iyi verimi alabilmeniz için çok önemli. Ancak beklenmedik durumların oluşabileceğinin farkındayız, böyle bir durumda Ed üzerinden bize özel gönderi paylaşın. Grup Lideriniz size gerekli yönlendirmeyi yapacaktır. Programa Katılım S: Programa öğrenci olarak nasıl katılabilirim? Programa gösterdiğiniz ilgi için çok teşekkür ederiz. Şu an için programı ancak önceden belirlediğimiz liselerden aldığımız öğrencilerle yürütebiliyoruz. Ekimizin büyüklüğü hayallerimizi yakalayana kadar websitemizde açık kaynak olarak yayınladığımız tüm materyalleri kendi öğrenme maceranızda kullanabilirsiniz! S: CS 101 ekibine nasıl dahil olabilirim, koşullar nelerdir? CS 101 ekibi programlama deneyimi olan (CS 101’de şu an Python kullanılıyor), eğitmeye, akranlar arası iletişime emek vermeye hazır kişilerden oluşur. Ekibe başvurmak için bize email adresimizden ulaşabilirsiniz.</summary></entry><entry><title type="html">Müfredat</title><link href="http://localhost:4001/planlama/2020/09/20/sllybaus.html" rel="alternate" type="text/html" title="Müfredat" /><published>2020-09-20T00:00:00+03:00</published><updated>2020-09-20T00:00:00+03:00</updated><id>http://localhost:4001/planlama/2020/09/20/sllybaus</id><content type="html" xml:base="http://localhost:4001/planlama/2020/09/20/sllybaus.html">&lt;!--
+--&gt;</content><author><name>CS 101: Merhaba, Dünya!</name></author><category term="planlama" /><category term="planlama" /><summary type="html">Genel Bilgiler S: Programın öğretim dili nedir? Programın öğretim dili Türkçedir. S: Programın katılım koşulları nelerdir? Program tamamen ücretsiz olup stabil bir internet bağlantısına ve program boyunca düzenli erişim sağlayabileceğiniz bir bilgisayara erişiminiz olması yeterlidir. S: Grup buluşması nedir? Grup Buluşmaları, her hafta bir Grup Lideri’nin öncülüğünde 10-13 kişilik bir öğrenci grubuyla toplanıp pratik yaptığınız zamanlardır. Doğası gereği Grup Buluşmaları interaktif geçer; problem çözme ve kodlama becerilerinize çok büyük faydası bulunur. Program Lojistikleri S: Bu program notlandırılıyor mu? Hayır, bu eğitmen ve öğrencilerin gönüllü olarak buluştuğu bağımsız bir programdır. S: Program hakkında sorularımı nerede sorabilirim? Program ve programda kullandığımız materyalle ilgili bütün sorularını CS 101 Ed Sayfasında sorabilirsiniz. Ed’de sorunuzu en iyi kapsayan kategoriyi seçin, Ed’i düzenli olarak kontrol ederek sorularınızı en kısa sürede cevaplamaya çalışacağız. S: Dersleri daha sonra izleyebilir miyim? Evet ama biz yine de sorularınızı anında sormak, ders atmosferini tatmak ve motivasyonunuzu yüksek tutmak için derslere canlı katılmanızı şiddetle tavsiye ediyoruz. Beklenmedik bir durum sebebiyle derse katılamadıysanız ya da dersi tekrar dinlemek isterseniz kayıtları sitemizde bulabileceksiniz. S: Programın ofis saatleri var mı? Hayır, ancak sorularınızı her zaman Grup Buluşmalarında, Ed üzerinden ya da zaman kaldığı sürece derste sorabilirsiniz. Öğrencilerden Sorular S: Programı takip etmekte zorlanıyorum, ne yapmalıyım? Öncelikle, üç derin nefes alın. Derste öğrendiklerinizin kimi zaman zorlayıcı ya da fazla gelmesi çok doğal ama bu yolculukta yalnız olmadığınızı unutmayın! Lütfen, eğitmenlerinizden ve arkadaşlarınızdan yardım istemekten, yaşadığınız zorlukları bizimle paylaşmaktan çekinmeyin. Grup Lideriniz başta olmak üzere CS 101: Merhaba, dünya! ailesi bu deneyimden en iyi şekilde yararlanmanız için yanınızda. S: Ödevimi bitiremedim ama teslim zamanı geldi, ne yapabilirim? Yapabildiğiniz kadarıyla ödevinizi teslim edin. S: Bu hafta derse ya da grup buluşmamıza katılamayacağım, ne yapmalıyım? Program boyunca düzenlediğimiz aktivitelere devamlılığınız programdan en iyi verimi alabilmeniz için çok önemli. Ancak beklenmedik durumların oluşabileceğinin farkındayız, böyle bir durumda Ed üzerinden bize özel gönderi paylaşın. Grup Lideriniz size gerekli yönlendirmeyi yapacaktır. Programa Katılım S: Programa öğrenci olarak nasıl katılabilirim? Programa gösterdiğiniz ilgi için çok teşekkür ederiz. Şu an için programı ancak önceden belirlediğimiz liselerden aldığımız öğrencilerle yürütebiliyoruz. Ekimizin büyüklüğü hayallerimizi yakalayana kadar websitemizde açık kaynak olarak yayınladığımız tüm materyalleri kendi öğrenme maceranızda kullanabilirsiniz! S: CS 101 ekibine nasıl dahil olabilirim, koşullar nelerdir? CS 101 ekibi programlama deneyimi olan (CS 101’de şu an Python kullanılıyor), eğitmeye, akranlar arası iletişime emek vermeye hazır kişilerden oluşur. Ekibe başvurmak için bize email adresimizden ulaşabilirsiniz.</summary></entry><entry><title type="html">Müfredat</title><link href="http://localhost:4003/planlama/2020/09/20/syllabus.html" rel="alternate" type="text/html" title="Müfredat" /><published>2020-09-20T00:00:00+03:00</published><updated>2020-09-20T00:00:00+03:00</updated><id>http://localhost:4003/planlama/2020/09/20/syllabus</id><content type="html" xml:base="http://localhost:4003/planlama/2020/09/20/syllabus.html">&lt;!--
     syllabus
     sample syllabi:
         - Turkish wording example: http://dosya.marmara.edu.tr/eng/cse/documents/syllabus_tr/fall/CSE1141_S_v2018.pdf
@@ -77,86 +77,138 @@ todo: maybe add a contact form
 &lt;/h1&gt;
 &lt;/center&gt;
 
-Bu belge Ekim-Aralık 2020 tarihleri arasında gerçekleştirilecek _CS 101: Merhaba, Dünya!_ programını tanıtıcı ve öğrencilere yol gösterici olması amacıyla hazırlanmıştır.
+&lt;p&gt;Bu belge Ekim-Aralık 2020 tarihleri arasında gerçekleştirilecek &lt;em&gt;CS 101: Merhaba, Dünya!&lt;/em&gt;  programını tanıtıcı ve öğrencilere yol gösterici olması amacıyla hazırlanmıştır.&lt;/p&gt;
 
-## Genel Bilgiler
+&lt;h2 id=&quot;genel-bilgiler&quot;&gt;Genel Bilgiler&lt;/h2&gt;
 
-_CS 101: Merhaba, dünya!_ Türkiye'deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.
+&lt;p&gt;&lt;em&gt;CS 101: Merhaba, dünya!&lt;/em&gt; Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.&lt;/p&gt;
 
-CS 101 materyalleri programa katılan öğrencilerin çok az ya da hiç programlama bilmediği, Python'a aşina olmadığı varsayımı ile hazırlanmıştır.
+&lt;p&gt;CS 101 materyalleri programa katılan öğrencilerin çok az ya da hiç programlama bilmediği, Python’a aşina olmadığı varsayımı ile hazırlanmıştır.&lt;/p&gt;
 
-Şu an için önceden belirlenmiş liselerle işbirliği içinde yürütülen programın gün geçtikçe daha çok öğrenci ve eğitmene ulaşması en büyük hayalimizdir.
+&lt;p&gt;Şu an için önceden belirlenmiş liselerle işbirliği içinde yürütülen programın gün geçtikçe daha çok öğrenci ve eğitmene ulaşması en büyük hayalimizdir.&lt;/p&gt;
 
-## Programın Amacı
+&lt;h2 id=&quot;programın-amacı&quot;&gt;Programın Amacı&lt;/h2&gt;
 
-- Herkes için güvenli, eğlenceli ve verimli bir öğrenme ve öğretme ortamı oluşturmak.
-- Öğrencilere ilgi alanlarında kullanabilecekleri ve program boyunca kazandıkları becerileri kendi başlarına ilerletebilecekleri pratik becerileri kazandırmak.
-- Öğrencilerin fen, teknoloji, mühendislik ve matematik (STEM) alanlarındaki ilgilerini desteklemek.
-- Fen, teknoloji, mühendislik ve matematik alanında cinsiyet eşitliğine katkıda bulunmak.
-- Kaliteli ve açık kaynaklı Türkçe programlamaya giriş içeriklerine katkıda bulunmak.
-- Hepsi üniversite öğrencisi olan eğitmenlere akranlarıyla işbirliği içinde ders vermek, materyal hazırlamak gibi deneyimleri kazanarak öğretim becerilerini geliştirebilecekleri bir ortam sunmak.
+&lt;ul&gt;
+  &lt;li&gt;Herkes için güvenli, eğlenceli ve verimli bir öğrenme ve öğretme ortamı oluşturmak.&lt;/li&gt;
+  &lt;li&gt;Öğrencilere ilgi alanlarında kullanabilecekleri ve program boyunca kazandıkları becerileri kendi başlarına ilerletebilecekleri pratik becerileri kazandırmak.&lt;/li&gt;
+  &lt;li&gt;Öğrencilerin fen, teknoloji, mühendislik ve matematik (STEM) alanlarındaki ilgilerini desteklemek.&lt;/li&gt;
+  &lt;li&gt;Fen, teknoloji, mühendislik ve matematik alanında cinsiyet eşitliğine katkıda bulunmak.&lt;/li&gt;
+  &lt;li&gt;Kaliteli ve açık kaynaklı Türkçe programlamaya giriş içeriklerine katkıda bulunmak.&lt;/li&gt;
+  &lt;li&gt;Hepsi üniversite öğrencisi olan eğitmenlere akranlarıyla işbirliği içinde ders vermek, materyal hazırlamak gibi deneyimleri kazanarak öğretim becerilerini geliştirebilecekleri bir ortam sunmak.&lt;/li&gt;
+&lt;/ul&gt;
 
-## Eğitmenler
+&lt;h2 id=&quot;eğitmenler&quot;&gt;Eğitmenler&lt;/h2&gt;
 
 &lt;!-- may refactor this bit to a more About like page --&gt;
 
-CS 101 ekibi, bilgisayar bilimleri eğitimine gönül vermiş, akranlar arası öğretme ve öğrenmenin değerine inanan 11 üniversite öğrencisinden oluşur. Haftalık toplu dersleri canlı olarak dönüşümlü şekilde anlatan ekip üyeleri, materyallerin hazırlanmasında yer alır. Her eğitmen program başında kendisine atanan 12 &lt;!-- todo: add exact number --&gt; kişilik küçük gruplarla her hafta düzenli olarak 75 dakika toplanır. CS 101 eğitmenlerinin listesini aşağıda görebilirsiniz:
+&lt;p&gt;CS 101 ekibi, bilgisayar bilimleri eğitimine gönül vermiş, akranlar arası öğretme ve öğrenmenin değerine inanan 11 üniversite öğrencisinden oluşur. Haftalık toplu dersleri canlı olarak dönüşümlü şekilde anlatan ekip üyeleri, materyallerin hazırlanmasında yer alır. Her eğitmen program başında kendisine atanan 12 &lt;!-- todo: add exact number --&gt; kişilik küçük gruplarla her hafta düzenli olarak 75 dakika toplanır. CS 101 eğitmenlerinin listesini aşağıda görebilirsiniz:&lt;/p&gt;
 
 &lt;!-- table didn't go well here --&gt;
 
-Ahmet Uyar&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; Gül Sena Altıntaş &amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; Oya Suran  
-Ahmet Uysal &amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;ensp; Hasan Can Aslan &amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; Yekta Kocaoğullar  
-Demet Tümkaya &amp;emsp;&amp;emsp;&amp;emsp; İdil Defne Çekin &amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;ensp; Ö. Ozan Nacitarhan  
-Fırat Tamur&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;ensp; Necla Mutlu
+&lt;p&gt;Ahmet Uyar      Gül Sena Altıntaş       Oya Suran&lt;br /&gt;
+Ahmet Uysal       Hasan Can Aslan       Yekta Kocaoğullar&lt;br /&gt;
+Demet Tümkaya     İdil Defne Çekin        Ö. Ozan Nacitarhan&lt;br /&gt;
+Fırat Tamur       Necla Mutlu&lt;/p&gt;
 
-## Kaynaklar
+&lt;h2 id=&quot;kaynaklar&quot;&gt;Kaynaklar&lt;/h2&gt;
 
-Program boyunca materyalleri websitemizde yayınlarken karşılıklı iletişimimizi [Ed platformu](#h-ed) üzerinden sürdüreceğiz.
+&lt;p&gt;Program boyunca materyalleri websitemizde yayınlarken karşılıklı iletişimimizi &lt;a href=&quot;#h-ed&quot;&gt;Ed platformu&lt;/a&gt; üzerinden sürdüreceğiz.&lt;/p&gt;
 
-### Websitesi
+&lt;h3 id=&quot;websitesi&quot;&gt;Websitesi&lt;/h3&gt;
 
 &lt;!-- add link later --&gt;
 
-Websitesi derste kullanılan bütün materyal ve kaynakları barındırır. Websitesinden slaytlara, &lt;!--ders kayıtlarına, ?--&gt; projelerin açıklama ve başlangıç kodlarına, ödevlere ulaşılabilir. Websitesini sık kullanılanlara eklemenizde fayda var.
+&lt;p&gt;Websitesi derste kullanılan bütün materyal ve kaynakları barındırır. Websitesinden slaytlara, &lt;!--ders kayıtlarına, ?--&gt; projelerin açıklama ve başlangıç kodlarına, ödevlere ulaşılabilir. Websitesini sık kullanılanlara eklemenizde fayda var.&lt;/p&gt;
 
-### Ed
+&lt;h3 id=&quot;ed&quot;&gt;Ed&lt;/h3&gt;
 
-Her öğrencinin program başlangıcında email'ine gelen Ed davetine tıklayarak platforma üye olması gerekir. Program boyunca eğitmenler duyurularını ve ödevlerin toplamasını Ed üzerinden yapacaklar. Öğrenciler akıllarına takılan herhangi bir soruyu buradan eğitmenlerine sorabilir, herkese açık olarak sorulmuş diğer gönderileri görüntüleyip yorum yazabilirler. [Ödev teslimi]() ve [Ed kullanımı]() hakkında Kaynaklar sayfamızda daha detaylı bilgi bulabilirsiniz.
+&lt;p&gt;Her öğrencinin program başlangıcında email’ine gelen Ed davetine tıklayarak platforma üye olması gerekir. Program boyunca eğitmenler duyurularını ve ödevlerin toplamasını Ed üzerinden yapacaklar. Öğrenciler akıllarına takılan herhangi bir soruyu buradan eğitmenlerine sorabilir, herkese açık olarak sorulmuş diğer gönderileri görüntüleyip yorum yazabilirler. Ödev teslimi ve Ed kullanımı&lt;!--[Ödev teslimi]() ve [Ed kullanımı]()--&gt; hakkında Kaynaklar sayfamızda daha detaylı bilgi bulabilirsiniz.&lt;/p&gt;
 
 &lt;!-- todo: add Ed help sheet as hyperlink --&gt;
 
-## Programın İşleyişi
+&lt;h2 id=&quot;programın-i̇şleyişi&quot;&gt;Programın İşleyişi&lt;/h2&gt;
 
-### Dersler
+&lt;h3 id=&quot;dersler&quot;&gt;Dersler&lt;/h3&gt;
 
-CS 101 eğitmenleri 8 hafta boyunca haftada bir tane online toplu ders gerçekleştirir ve temel programlama konularından anlatırlar.
+&lt;p&gt;CS 101 eğitmenleri 8 hafta boyunca haftada bir tane online toplu ders gerçekleştirir ve temel programlama konularından anlatırlar.&lt;/p&gt;
 
-### Grup Buluşmaları
+&lt;h3 id=&quot;grup-buluşmaları&quot;&gt;Grup Buluşmaları&lt;/h3&gt;
 
-Grup Buluşmaları, her hafta bir Grup Lideri'nin öncülüğünde 10-13 kişilik bir öğrenci grubuyla toplanıp pratik yaptığınız zamanlardır. Doğası gereği Grup Buluşmaları interaktif geçer; problem çözme ve kodlama becerilerinize çok büyük faydası bulunur.
+&lt;p&gt;Grup Buluşmaları, her hafta bir Grup Lideri’nin öncülüğünde 10-13 kişilik bir öğrenci grubuyla toplanıp pratik yaptığınız zamanlardır. Doğası gereği Grup Buluşmaları interaktif geçer; problem çözme ve kodlama becerilerinize çok büyük faydası bulunur.&lt;/p&gt;
 
-### Ödevler
+&lt;h3 id=&quot;ödevler&quot;&gt;Ödevler&lt;/h3&gt;
 
-Ödevler öğrencilerin derste işlenen materyalleri bireysel olarak pekiştirmek için kullanabileceği önemli fırsatlardır. Program boyunca 2 ödeviniz olacak. CS 101 Ödevleri notlandırılmaz ancak Grup Liderleri kendi öğrencilerine kısa geri bildirimlerde bulunarak öğrencilerin gidişatını takip eder.
+&lt;p&gt;Ödevler öğrencilerin derste işlenen materyalleri bireysel olarak pekiştirmek için kullanabileceği önemli fırsatlardır. Program boyunca 2 ödeviniz olacak. CS 101 Ödevleri notlandırılmaz ancak Grup Liderleri kendi öğrencilerine kısa geri bildirimlerde bulunarak öğrencilerin gidişatını takip eder.&lt;/p&gt;
 
-## Final Projesi
+&lt;h2 id=&quot;final-projesi&quot;&gt;Final Projesi&lt;/h2&gt;
 
-Final Projesi programın son iki haftasında ilan edilir. Öğrenciler tek başlarına ya da aksi belirtilmediği sürece ikili gruplar halinde çalışabilirler. Grup Liderlerinden onay aldıkları sürece kendilerine önerilen konulardan birinde ya da ilgilerini çeken başka bir alanda Final Projesi gerçekleştirebilirler. Ödevlerden farklı olarak Final Projesinin dizaynı ve işleyişi baştan sona öğrencilerin sorumluluğundadır. Öğrencilere proje ile ilgili sorunlarında Grup Liderleri destek olurlar.
+&lt;p&gt;Final Projesi programın son iki haftasında ilan edilir. Öğrenciler tek başlarına ya da aksi belirtilmediği sürece ikili gruplar halinde çalışabilirler. Grup Liderlerinden onay aldıkları sürece kendilerine önerilen konulardan birinde ya da ilgilerini çeken başka bir alanda Final Projesi gerçekleştirebilirler. Ödevlerden farklı olarak Final Projesinin dizaynı ve işleyişi baştan sona öğrencilerin sorumluluğundadır. Öğrencilere proje ile ilgili sorunlarında Grup Liderleri destek olurlar.&lt;/p&gt;
 
-## Öngörülen Müfredat
+&lt;h2 id=&quot;öngörülen-müfredat&quot;&gt;Öngörülen Müfredat&lt;/h2&gt;
 
-CS 101 müfredatı programlamaya giriş derslerinin birçoğu ile benzer bir akış takip etmektedir. Son 2 haftada o dönemin eğitmenlerinin uzmanlık alanlarına ya da öğrencilerden gelen taleplere göre daha özelleşmiş bir konuda atölye-dersler düzenlenecektir.
+&lt;p&gt;CS 101 müfredatı programlamaya giriş derslerinin birçoğu ile benzer bir akış takip etmektedir. Son 2 haftada o dönemin eğitmenlerinin uzmanlık alanlarına ya da öğrencilerden gelen taleplere göre daha özelleşmiş bir konuda atölye-dersler düzenlenecektir.&lt;/p&gt;
 
-|     | Hafta      | Konu                                                                                                                            |
-| --- | :--------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| 1   | 10.10.2020 | Program hakkında genel bilgiler, Python ile temel programlamaya giriş, değişkenler                                              |
-| 2   | 17.10.2020 | Basit Operatörler, Kontrol yapıları &amp; basit fonksiyonlar, For döngülerine giriş                                                 |
-| 3   | 24.10.2020 | For Dögüleri, Stringler, Grafik programlarına giriş                                                                             |
-| 4   | 31.10.2020 | While döngüleri, Animasyonlar                                                                                                   | &lt;!--- 31 i belki tatil olur--&gt; |
-| 5   | 07.11.2020 | Listeler, Fonksiyonlar                                                                                                          |
-| 6   | 14.11.2020 | Data modeli, çoklu veri tipleri &lt;!-- doğrau kelimeyi bul --&gt; (listeler (*list*s), kümeler (*set*s) ve sözlükler (_dictionary_)) |
-| 7   | 21.11.2020 | İleride güncellenecek                                                                                                           | &lt;!-- workshops tbd later --&gt; |
-| 8   | 28.11.2020 | İleride güncellenecek                                                                                                           |
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Hafta&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Konu&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;10.10.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Program hakkında genel bilgiler, Python ile temel programlamaya giriş, değişkenler&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;17.10.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Basit Operatörler, Kontrol yapıları &amp;amp; basit fonksiyonlar, For döngülerine giriş&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;24.10.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;For Döngüleri, Stringler, Grafik programlarına giriş&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;31.10.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;While Döngüleri, Animasyonlar&lt;/td&gt;
+      &lt;td&gt;&lt;!--- 31 i belki tatil olur--&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;07.11.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Listeler, Fonksiyonlar&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;14.11.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Data modeli, çoklu veri tipleri &lt;!-- doğrau kelimeyi bul --&gt; (listeler (*list*s), kümeler (*set*s) ve sözlükler (_dictionary_))&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;21.11.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;İleride güncellenecek&lt;/td&gt;
+      &lt;td&gt;&lt;!-- workshops tbd later --&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;28.11.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;İleride güncellenecek&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;!--
 Introduction	programı tanıtmaca, hızlı python ve pycharm soruları,  intro to variables&amp;types, io (print, input)
@@ -176,21 +228,62 @@ Python Modules and Third-Party Packages	Son iki hafta ucu açık workshoplar
 Workshop: pandas &amp; Matplotlib
 			--&gt;
 
-## Program için harcanan tahmini zaman
+&lt;h2 id=&quot;program-için-harcanan-tahmini-zaman&quot;&gt;Program için harcanan tahmini zaman&lt;/h2&gt;
 
-| Tür                           |                                                              Açıklama                                                               | Süre (Haftalık)                  |
-| ----------------------------- | :---------------------------------------------------------------------------------------------------------------------------------: | -------------------------------- |
-|                               |                                                     Eğitmenlerle geçirilen süre                                                      |
-| Ders                          |                     Her hafta canlı olarak programa katılan tüm öğrencilerin aynı anda katılımıyla gerçekleşir.                     | 75 dk                            |
-| Grup buluşması                | Grup liderlerinin öncülüğünde öğrenciler 12-13 kişilik küçük gruplarda o haftanın konusuyla ilgili hazırlanan problemleri çözerler. | 75 dk                            |
-|                               |                                                Öğrencinin bireysel ayıracağı süre                                                 |
-| Ders Hazırlık ve Ders Tekrarı |                                                  Ders materyalinin düzenli tekrarı                                                  | 30 dk                            |
-| Ödev                          | Program boyunca zorlukları değişken seviyede 2 ödev verilecek olup belirtilen süre ödev başına harcanacak zamanı temsil etmektedir. | 1.5-4 saat                       |
-| Pratik soruları               |           Websitemize yer alan bonus pratik problemlerini çözmek opsiyonel olup materyali özümsemenize destek olacaktır.           | 30-60 dk                         |
-| Bitirme Projesi               |   [Detaylı bilgi için burayı okuyun](#h-final-projesi)                                                                                                                                  | (Toplamda) 6-8 saat&lt;!-- todo --&gt; |
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Tür&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Açıklama&lt;/th&gt;
+      &lt;th&gt;Süre (Haftalık)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Eğitmenlerle geçirilen süre&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ders&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Her hafta canlı olarak programa katılan tüm öğrencilerin aynı anda katılımıyla gerçekleşir.&lt;/td&gt;
+      &lt;td&gt;75 dk&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grup buluşması&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Grup liderlerinin öncülüğünde öğrenciler 12-13 kişilik küçük gruplarda o haftanın konusuyla ilgili hazırlanan problemleri çözerler.&lt;/td&gt;
+      &lt;td&gt;75 dk&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Öğrencinin bireysel ayıracağı süre&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ders Hazırlık ve Ders Tekrarı&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ders materyalinin düzenli tekrarı&lt;/td&gt;
+      &lt;td&gt;30 dk&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ödev&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Program boyunca zorlukları değişken seviyede 2 ödev verilecek olup belirtilen süre ödev başına harcanacak zamanı temsil etmektedir.&lt;/td&gt;
+      &lt;td&gt;1.5-4 saat&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pratik soruları&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Websitemize yer alan bonus pratik problemlerini çözmek opsiyonel olup materyali özümsemenize destek olacaktır.&lt;/td&gt;
+      &lt;td&gt;30-60 dk&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bitirme Projesi&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;[Detaylı bilgi için burayı okuyun](#h-final-projesi)&lt;/td&gt;
+      &lt;td&gt;(Toplamda) 6-8 saat&lt;!-- todo --&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-## Akademik Dürüstlük
+&lt;h2 id=&quot;akademik-dürüstlük&quot;&gt;Akademik Dürüstlük&lt;/h2&gt;
 
 &lt;!-- couldn't find anything under this name on MEB pages, todo: discuss --&gt;
 
-CS 101 öğrencileri, Koç Üniversitesi tarafından hazırlanan [Öğrenci Davranış Kuralları](https://apdd.ku.edu.tr/akademik-kurallar-ve-prosedurler/ogrenci-davranis-kurallari/)'na uymakla yükümlüdür. Ödevleri ve Python hakkındaki sorularınızı beraber tartışmanızı desteklemekle birlikte teslim ettiğiniz ödev ve projelerin sizin tarafınızdan yapılmasını bekliyoruz. Eğer başka öğrencilerden, eğitmenlerinizden ya da dış kaynaklardan yardım alırsanız lütfen bunu teslim ettiğiniz ödevlerde belirtin.</content><author><name>CS 101: Merhaba, Dünya!</name></author><category term="planlama" /><category term="planlama" /><summary type="html">CS 101: Merhaba, Dünya! Bu belge Ekim-Aralık 2020 tarihleri arasında gerçekleştirilecek CS 101: Merhaba, Dünya! programını tanıtıcı ve öğrencilere yol gösterici olması amacıyla hazırlanmıştır. Genel Bilgiler CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler. CS 101 materyalleri programa katılan öğrencilerin çok az ya da hiç programlama bilmediği, Python’a aşina olmadığı varsayımı ile hazırlanmıştır. Şu an için önceden belirlenmiş liselerle işbirliği içinde yürütülen programın gün geçtikçe daha çok öğrenci ve eğitmene ulaşması en büyük hayalimizdir. Programın Amacı Herkes için güvenli, eğlenceli ve verimli bir öğrenme ve öğretme ortamı oluşturmak. Öğrencilere ilgi alanlarında kullanabilecekleri ve program boyunca kazandıkları becerileri kendi başlarına ilerletebilecekleri pratik becerileri kazandırmak. Öğrencilerin fen, teknoloji, mühendislik ve matematik (STEM) alanlarındaki ilgilerini desteklemek. Fen, teknoloji, mühendislik ve matematik alanında cinsiyet eşitliğine katkıda bulunmak. Kaliteli ve açık kaynaklı Türkçe programlamaya giriş içeriklerine katkıda bulunmak. Hepsi üniversite öğrencisi olan eğitmenlere akranlarıyla işbirliği içinde ders vermek, materyal hazırlamak gibi deneyimleri kazanarak öğretim becerilerini geliştirebilecekleri bir ortam sunmak. Eğitmenler CS 101 ekibi, bilgisayar bilimleri eğitimine gönül vermiş, akranlar arası öğretme ve öğrenmenin değerine inanan 11 üniversite öğrencisinden oluşur. Haftalık toplu dersleri canlı olarak dönüşümlü şekilde anlatan ekip üyeleri, materyallerin hazırlanmasında yer alır. Her eğitmen program başında kendisine atanan 12 kişilik küçük gruplarla her hafta düzenli olarak 75 dakika toplanır. CS 101 eğitmenlerinin listesini aşağıda görebilirsiniz: Ahmet Uyar      Gül Sena Altıntaş       Oya Suran Ahmet Uysal       Hasan Can Aslan       Yekta Kocaoğullar Demet Tümkaya     İdil Defne Çekin        Ö. Ozan Nacitarhan Fırat Tamur       Necla Mutlu Kaynaklar Program boyunca materyalleri websitemizde yayınlarken karşılıklı iletişimimizi Ed platformu üzerinden sürdüreceğiz. Websitesi Websitesi derste kullanılan bütün materyal ve kaynakları barındırır. Websitesinden slaytlara, projelerin açıklama ve başlangıç kodlarına, ödevlere ulaşılabilir. Websitesini sık kullanılanlara eklemenizde fayda var. Ed Her öğrencinin program başlangıcında email’ine gelen Ed davetine tıklayarak platforma üye olması gerekir. Program boyunca eğitmenler duyurularını ve ödevlerin toplamasını Ed üzerinden yapacaklar. Öğrenciler akıllarına takılan herhangi bir soruyu buradan eğitmenlerine sorabilir, herkese açık olarak sorulmuş diğer gönderileri görüntüleyip yorum yazabilirler. Ödev teslimi ve Ed kullanımı hakkında Kaynaklar sayfamızda daha detaylı bilgi bulabilirsiniz. Programın İşleyişi Dersler CS 101 eğitmenleri 8 hafta boyunca haftada bir tane online toplu ders gerçekleştirir ve temel programlama konularından anlatırlar. Grup Buluşmaları Grup Buluşmaları, her hafta bir Grup Lideri’nin öncülüğünde 10-13 kişilik bir öğrenci grubuyla toplanıp pratik yaptığınız zamanlardır. Doğası gereği Grup Buluşmaları interaktif geçer; problem çözme ve kodlama becerilerinize çok büyük faydası bulunur. Ödevler Ödevler öğrencilerin derste işlenen materyalleri bireysel olarak pekiştirmek için kullanabileceği önemli fırsatlardır. Program boyunca 2 ödeviniz olacak. CS 101 Ödevleri notlandırılmaz ancak Grup Liderleri kendi öğrencilerine kısa geri bildirimlerde bulunarak öğrencilerin gidişatını takip eder. Final Projesi Final Projesi programın son iki haftasında ilan edilir. Öğrenciler tek başlarına ya da aksi belirtilmediği sürece ikili gruplar halinde çalışabilirler. Grup Liderlerinden onay aldıkları sürece kendilerine önerilen konulardan birinde ya da ilgilerini çeken başka bir alanda Final Projesi gerçekleştirebilirler. Ödevlerden farklı olarak Final Projesinin dizaynı ve işleyişi baştan sona öğrencilerin sorumluluğundadır. Öğrencilere proje ile ilgili sorunlarında Grup Liderleri destek olurlar. Öngörülen Müfredat CS 101 müfredatı programlamaya giriş derslerinin birçoğu ile benzer bir akış takip etmektedir. Son 2 haftada o dönemin eğitmenlerinin uzmanlık alanlarına ya da öğrencilerden gelen taleplere göre daha özelleşmiş bir konuda atölye-dersler düzenlenecektir.   Hafta Konu   1 10.10.2020 Program hakkında genel bilgiler, Python ile temel programlamaya giriş, değişkenler   2 17.10.2020 Basit Operatörler, Kontrol yapıları &amp;amp; basit fonksiyonlar, For döngülerine giriş   3 24.10.2020 For Dögüleri, Stringler, Grafik programlarına giriş   4 31.10.2020 While döngüleri, Animasyonlar 5 07.11.2020 Listeler, Fonksiyonlar   6 14.11.2020 Data modeli, çoklu veri tipleri (listeler (lists), kümeler (sets) ve sözlükler (dictionary))   7 21.11.2020 İleride güncellenecek 8 28.11.2020 İleride güncellenecek   Program için harcanan tahmini zaman Tür Açıklama Süre (Haftalık)   Eğitmenlerle geçirilen süre   Ders Her hafta canlı olarak programa katılan tüm öğrencilerin aynı anda katılımıyla gerçekleşir. 75 dk Grup buluşması Grup liderlerinin öncülüğünde öğrenciler 12-13 kişilik küçük gruplarda o haftanın konusuyla ilgili hazırlanan problemleri çözerler. 75 dk   Öğrencinin bireysel ayıracağı süre   Ders Hazırlık ve Ders Tekrarı Ders materyalinin düzenli tekrarı 30 dk Ödev Program boyunca zorlukları değişken seviyede 2 ödev verilecek olup belirtilen süre ödev başına harcanacak zamanı temsil etmektedir. 1.5-4 saat Pratik soruları Websitemize yer alan bonus pratik problemlerini çözmek opsiyonel olup materyali özümsemenize destek olacaktır. 30-60 dk Bitirme Projesi Detaylı bilgi için burayı okuyun (Toplamda) 6-8 saat Akademik Dürüstlük CS 101 öğrencileri, Koç Üniversitesi tarafından hazırlanan Öğrenci Davranış Kuralları‘na uymakla yükümlüdür. Ödevleri ve Python hakkındaki sorularınızı beraber tartışmanızı desteklemekle birlikte teslim ettiğiniz ödev ve projelerin sizin tarafınızdan yapılmasını bekliyoruz. Eğer başka öğrencilerden, eğitmenlerinizden ya da dış kaynaklardan yardım alırsanız lütfen bunu teslim ettiğiniz ödevlerde belirtin.</summary></entry></feed>
+&lt;p&gt;CS 101 öğrencileri, Koç Üniversitesi tarafından hazırlanan &lt;a href=&quot;https://apdd.ku.edu.tr/akademik-kurallar-ve-prosedurler/ogrenci-davranis-kurallari/&quot;&gt;Öğrenci Davranış Kuralları&lt;/a&gt;‘na uymakla yükümlüdür. Ödevleri ve Python hakkındaki sorularınızı beraber tartışmanızı desteklemekle birlikte teslim ettiğiniz ödev ve projelerin sizin tarafınızdan yapılmasını bekliyoruz. Eğer başka öğrencilerden, eğitmenlerinizden ya da dış kaynaklardan yardım alırsanız lütfen bunu teslim ettiğiniz ödevlerde belirtin.&lt;/p&gt;</content><author><name>CS 101: Merhaba, Dünya!</name></author><category term="planlama" /><category term="planlama" /><summary type="html">CS 101: Merhaba, Dünya! Bu belge Ekim-Aralık 2020 tarihleri arasında gerçekleştirilecek CS 101: Merhaba, Dünya! programını tanıtıcı ve öğrencilere yol gösterici olması amacıyla hazırlanmıştır. Genel Bilgiler CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler. CS 101 materyalleri programa katılan öğrencilerin çok az ya da hiç programlama bilmediği, Python’a aşina olmadığı varsayımı ile hazırlanmıştır. Şu an için önceden belirlenmiş liselerle işbirliği içinde yürütülen programın gün geçtikçe daha çok öğrenci ve eğitmene ulaşması en büyük hayalimizdir. Programın Amacı Herkes için güvenli, eğlenceli ve verimli bir öğrenme ve öğretme ortamı oluşturmak. Öğrencilere ilgi alanlarında kullanabilecekleri ve program boyunca kazandıkları becerileri kendi başlarına ilerletebilecekleri pratik becerileri kazandırmak. Öğrencilerin fen, teknoloji, mühendislik ve matematik (STEM) alanlarındaki ilgilerini desteklemek. Fen, teknoloji, mühendislik ve matematik alanında cinsiyet eşitliğine katkıda bulunmak. Kaliteli ve açık kaynaklı Türkçe programlamaya giriş içeriklerine katkıda bulunmak. Hepsi üniversite öğrencisi olan eğitmenlere akranlarıyla işbirliği içinde ders vermek, materyal hazırlamak gibi deneyimleri kazanarak öğretim becerilerini geliştirebilecekleri bir ortam sunmak. Eğitmenler CS 101 ekibi, bilgisayar bilimleri eğitimine gönül vermiş, akranlar arası öğretme ve öğrenmenin değerine inanan 11 üniversite öğrencisinden oluşur. Haftalık toplu dersleri canlı olarak dönüşümlü şekilde anlatan ekip üyeleri, materyallerin hazırlanmasında yer alır. Her eğitmen program başında kendisine atanan 12 kişilik küçük gruplarla her hafta düzenli olarak 75 dakika toplanır. CS 101 eğitmenlerinin listesini aşağıda görebilirsiniz: Ahmet Uyar      Gül Sena Altıntaş       Oya Suran Ahmet Uysal       Hasan Can Aslan       Yekta Kocaoğullar Demet Tümkaya     İdil Defne Çekin        Ö. Ozan Nacitarhan Fırat Tamur       Necla Mutlu Kaynaklar Program boyunca materyalleri websitemizde yayınlarken karşılıklı iletişimimizi Ed platformu üzerinden sürdüreceğiz. Websitesi Websitesi derste kullanılan bütün materyal ve kaynakları barındırır. Websitesinden slaytlara, projelerin açıklama ve başlangıç kodlarına, ödevlere ulaşılabilir. Websitesini sık kullanılanlara eklemenizde fayda var. Ed Her öğrencinin program başlangıcında email’ine gelen Ed davetine tıklayarak platforma üye olması gerekir. Program boyunca eğitmenler duyurularını ve ödevlerin toplamasını Ed üzerinden yapacaklar. Öğrenciler akıllarına takılan herhangi bir soruyu buradan eğitmenlerine sorabilir, herkese açık olarak sorulmuş diğer gönderileri görüntüleyip yorum yazabilirler. Ödev teslimi ve Ed kullanımı hakkında Kaynaklar sayfamızda daha detaylı bilgi bulabilirsiniz. Programın İşleyişi Dersler CS 101 eğitmenleri 8 hafta boyunca haftada bir tane online toplu ders gerçekleştirir ve temel programlama konularından anlatırlar. Grup Buluşmaları Grup Buluşmaları, her hafta bir Grup Lideri’nin öncülüğünde 10-13 kişilik bir öğrenci grubuyla toplanıp pratik yaptığınız zamanlardır. Doğası gereği Grup Buluşmaları interaktif geçer; problem çözme ve kodlama becerilerinize çok büyük faydası bulunur. Ödevler Ödevler öğrencilerin derste işlenen materyalleri bireysel olarak pekiştirmek için kullanabileceği önemli fırsatlardır. Program boyunca 2 ödeviniz olacak. CS 101 Ödevleri notlandırılmaz ancak Grup Liderleri kendi öğrencilerine kısa geri bildirimlerde bulunarak öğrencilerin gidişatını takip eder. Final Projesi Final Projesi programın son iki haftasında ilan edilir. Öğrenciler tek başlarına ya da aksi belirtilmediği sürece ikili gruplar halinde çalışabilirler. Grup Liderlerinden onay aldıkları sürece kendilerine önerilen konulardan birinde ya da ilgilerini çeken başka bir alanda Final Projesi gerçekleştirebilirler. Ödevlerden farklı olarak Final Projesinin dizaynı ve işleyişi baştan sona öğrencilerin sorumluluğundadır. Öğrencilere proje ile ilgili sorunlarında Grup Liderleri destek olurlar. Öngörülen Müfredat CS 101 müfredatı programlamaya giriş derslerinin birçoğu ile benzer bir akış takip etmektedir. Son 2 haftada o dönemin eğitmenlerinin uzmanlık alanlarına ya da öğrencilerden gelen taleplere göre daha özelleşmiş bir konuda atölye-dersler düzenlenecektir.   Hafta Konu   1 10.10.2020 Program hakkında genel bilgiler, Python ile temel programlamaya giriş, değişkenler   2 17.10.2020 Basit Operatörler, Kontrol yapıları &amp;amp; basit fonksiyonlar, For döngülerine giriş   3 24.10.2020 For Döngüleri, Stringler, Grafik programlarına giriş   4 31.10.2020 While Döngüleri, Animasyonlar 5 07.11.2020 Listeler, Fonksiyonlar   6 14.11.2020 Data modeli, çoklu veri tipleri (listeler (lists), kümeler (sets) ve sözlükler (dictionary))   7 21.11.2020 İleride güncellenecek 8 28.11.2020 İleride güncellenecek   Program için harcanan tahmini zaman Tür Açıklama Süre (Haftalık)   Eğitmenlerle geçirilen süre   Ders Her hafta canlı olarak programa katılan tüm öğrencilerin aynı anda katılımıyla gerçekleşir. 75 dk Grup buluşması Grup liderlerinin öncülüğünde öğrenciler 12-13 kişilik küçük gruplarda o haftanın konusuyla ilgili hazırlanan problemleri çözerler. 75 dk   Öğrencinin bireysel ayıracağı süre   Ders Hazırlık ve Ders Tekrarı Ders materyalinin düzenli tekrarı 30 dk Ödev Program boyunca zorlukları değişken seviyede 2 ödev verilecek olup belirtilen süre ödev başına harcanacak zamanı temsil etmektedir. 1.5-4 saat Pratik soruları Websitemize yer alan bonus pratik problemlerini çözmek opsiyonel olup materyali özümsemenize destek olacaktır. 30-60 dk Bitirme Projesi Detaylı bilgi için burayı okuyun (Toplamda) 6-8 saat Akademik Dürüstlük CS 101 öğrencileri, Koç Üniversitesi tarafından hazırlanan Öğrenci Davranış Kuralları‘na uymakla yükümlüdür. Ödevleri ve Python hakkındaki sorularınızı beraber tartışmanızı desteklemekle birlikte teslim ettiğiniz ödev ve projelerin sizin tarafınızdan yapılmasını bekliyoruz. Eğer başka öğrencilerden, eğitmenlerinizden ya da dış kaynaklardan yardım alırsanız lütfen bunu teslim ettiğiniz ödevlerde belirtin.</summary></entry></feed>

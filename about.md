@@ -11,6 +11,8 @@ CS 101 materyalleri programa katılan öğrencilerin çok az ya da hiç programl
 
 Şu an için önceden belirlenmiş liselerle işbirliği içinde yürütülen programın gün geçtikçe daha çok öğrenci ve eğitmene ulaşması en büyük hayalimizdir.
 
+Programın işleyişi, konular ve lojistik bilgiler için [Müfredat]({% post_url /_posts/2020-09-20-syllabus %})'ı inceleyebilirsiniz.
+
 ## Programın Amacı
 
 - Herkes için güvenli, eğlenceli ve verimli bir öğrenme ve öğretme ortamı oluşturmak.
@@ -32,10 +34,3 @@ CS 101 ekibi, bilgisayar bilimleri eğitimine gönül vermiş, akranlar arası �
  Demet Tümkaya | İdil Defne Çekin  | Ö. Ozan Nacitarhan   
  Fırat Tamur | Necla Mutlu 
 {: style="color:gray; font-size: 120%; text-align: center; border:0px;"}
-
-<!-- 
-| Ahmet Uyar | Ahmet Uysal  | Demet Tümkaya  |
-| Fırat Tamur | Gül Sena Altıntaş  | Hasan Can Aslan  |
-| İdil Defne Çekin  | Necla Mutlu | Oya Suran  |
-| Ö. Ozan Nacitarhan | Yekta Kocaoğullar  |
-{: style="color:gray; font-size: 120%; text-align: center;"} -->

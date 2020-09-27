@@ -20,3 +20,9 @@
     Kolt python sitesindeki gibi bir tablo iyi olabilir
 $$\def\arraystretch{0.8} \begin{array}{llll} Konu & Tarih & Slaytlar & Video \end{array}$$
 - [ ] Ödevler (ilk ödevden sonra visible olacak)
+
+`bundle exec jekyll serve [--trace --incremental --port XXXX]`
+
+If included `--port XXXX` your server will be directed to `127.0.0.1:XXXX` in the browser.
+
+You can find some templates in templates folder, note that the pages inside this folder aren't compiled.
