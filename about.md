@@ -1,6 +1,7 @@
 ---
 layout: about
 title: Hakkımızda
+permalink: /hakkimizda/
 ---
 
 ## CS 101: Merhaba, Dünya!
@@ -11,7 +12,7 @@ CS 101 materyalleri programa katılan öğrencilerin çok az ya da hiç programl
 
 Şu an için önceden belirlenmiş liselerle işbirliği içinde yürütülen programın gün geçtikçe daha çok öğrenci ve eğitmene ulaşması en büyük hayalimizdir.
 
-Programın işleyişi, konular ve lojistik bilgiler için [Müfredat]({% post_url /_posts/2020-09-20-syllabus %})'ı inceleyebilirsiniz.
+Programın işleyişi, konular ve lojistik bilgiler için [Müfredat](/mufredat/<!--{% link _posts/2020-09-20-syllabus.md %}-->)'ı inceleyebilirsiniz.
 
 ## Programın Amacı
 

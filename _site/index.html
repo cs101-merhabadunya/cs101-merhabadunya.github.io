@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
@@ -11,14 +11,14 @@
 <meta name="generator" content="Jekyll v4.1.1">
 <meta property="og:title" content="Home">
 <meta name="author" content="CS 101: Merhaba, Dünya!">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="tr">
 <meta name="description" content="CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.">
 <meta property="og:description" content="CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.">
-<link rel="canonical" href="http://localhost:4003/">
-<meta property="og:url" content="http://localhost:4003/">
+<link rel="canonical" href="http://localhost:4007/">
+<meta property="og:url" content="http://localhost:4007/">
 <meta property="og:site_name" content="CS 101: Merhaba, Dünya!">
 <script type="application/ld+json">
-{"@type":"WebSite","url":"http://localhost:4003/","headline":"Home","author":{"@type":"Person","name":"CS 101: Merhaba, Dünya!"},"description":"CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.","name":"CS 101: Merhaba, Dünya!","@context":"https://schema.org"}</script>
+{"@type":"WebSite","url":"http://localhost:4007/","headline":"Home","author":{"@type":"Person","name":"CS 101: Merhaba, Dünya!"},"description":"CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.","name":"CS 101: Merhaba, Dünya!","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="shortcut icon" href="">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,7 +28,7 @@
   <!-- and it's easy to individually load additional languages -->
   <script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
   <link rel="stylesheet" href="/assets/css/main.css">
-  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4003/feed.xml" title="CS 101: Merhaba, Dünya!">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4007/feed.xml" title="CS 101: Merhaba, Dünya!">
 </head>
 <body>
 
@@ -68,9 +68,7 @@
             </span>
           </label>
 
-          <div class="trigger">
-<a class="page-link" href="/about.html">HAKKIMIZDA</a><a class="page-link" href="/resources.html">KAYNAKLAR</a><a class="page-link" href="/lectures.html">DERSLER</a><a class="page-link" href="/projects.html">PROJELER</a>
-</div>
+          <div class="trigger"></div>
         </nav>
 </div>
   </div>
@@ -82,7 +80,14 @@
     var documentElement = document.documentElement;
 
     function storeScrollData() {
-      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
+      var y = getScrollPos().y;
+
+      ////   documentElement.setAttribute("data-header-transparent", "");
+      //if (banner && header_transparent) {
+        documentElement.setAttribute("data-header-transparent", "");
+      }
+
+      var scrollStatus = "";
 
       if (y <= 0) {
         scrollStatus = "top";
@@ -104,7 +109,6 @@
     storeScrollData();
   })();
 </script>
-
 
 
 
@@ -242,7 +246,7 @@
 
 
       <h2 class="post-title">
-<a class="post-link" href="/code/2020/09/27/examples.html">
+<a class="post-link" href="/ornekler">
           Program Fragmanı
         </a>
       </h2>
@@ -253,7 +257,9 @@
       <p class="post-excerpt">
         Normal şartlarda spoiler yani gelecekte olacakları belli edip heyecanı bozan bilgiler pek makbul değildir. Ancak biz programın başlangıcında ileride başarabileceğiniz birbirinden ilginç projelerden kesitler göstermenin ve hatta belki küçük bir fragman yayınlamanın heyecanınızı artırabileceğini düşünüyoruz. Aşağıda KOLT Python döneminde hazırlanmış iki ödevin ekran görüntüsünü bulabilirsiniz. Merak edenler için KOLT Python...
       </p>
-      <div class="post-tags"><a class="post-tag" href="/tags.html#code">#code</a></div>
+      <div class="post-tags">
+<a class="post-tag" href="/tags.html#kod">#kod</a><a class="post-tag" href="/tags.html#planlama">#planlama</a>
+</div>
     </li>
 <li>
 
@@ -279,7 +285,7 @@
 
 
       <h2 class="post-title">
-<a class="post-link" href="/planlama/2020/09/26/sss.html">
+<a class="post-link" href="/sss">
           Sıkça Sorulan Sorular
         </a>
       </h2>
@@ -316,7 +322,7 @@
 
 
       <h2 class="post-title">
-<a class="post-link" href="/planlama/2020/09/20/syllabus.html">
+<a class="post-link" href="/mufredat">
           Müfredat
         </a>
       </h2>
@@ -353,7 +359,7 @@
 
 
       <h2 class="post-title">
-<a class="post-link" href="/projects/2020-09-21-section-questions1.html">
+<a class="post-link" href="/projeler/">
           Hafta 1 - Grup Çalışması Egzersizleri
         </a>
       </h2>
@@ -390,7 +396,7 @@
 
 
       <h2 class="post-title">
-<a class="post-link" href="/projects/2020-09-21-section-questions2.html">
+<a class="post-link" href="/projeler/">
           Hafta 2 - Grup Çalışması Egzersizleri
         </a>
       </h2>
@@ -421,7 +427,7 @@
 
   <div class="wrapper">
     <div class="site-footer-inner">
-      <div>Copyright © 1970-2010 CS 101: Merhaba, Dünya!</div>
+      <div>Copyright © 2020 CS 101: Merhaba, Dünya!</div>
       <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
       generator." href="http://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
       another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>

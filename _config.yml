@@ -34,13 +34,14 @@ header_pages:
 collections:
   projects:
     output: true
+    # permalink: /projeler/:title/  #todo: find a better way
   lectures:
     output: true
 # If you want more debug log, you can set true
 # debug: false
 
 # If you don't want transparent header, you can set false
-# header_transparent: true
+header_transparent: false
 
 # Google analytics
 google_analytics: UA-179081985-1 #[Tracking ID]

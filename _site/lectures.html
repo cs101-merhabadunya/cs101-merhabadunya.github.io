@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
@@ -11,14 +11,14 @@
 <meta name="generator" content="Jekyll v4.1.1">
 <meta property="og:title" content="Dersler">
 <meta name="author" content="CS 101: Merhaba, Dünya!">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="tr">
 <meta name="description" content="CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.">
 <meta property="og:description" content="CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.">
-<link rel="canonical" href="http://localhost:4003/lectures.html">
-<meta property="og:url" content="http://localhost:4003/lectures.html">
+<link rel="canonical" href="http://localhost:4007/lectures.html">
+<meta property="og:url" content="http://localhost:4007/lectures.html">
 <meta property="og:site_name" content="CS 101: Merhaba, Dünya!">
 <script type="application/ld+json">
-{"@type":"WebPage","url":"http://localhost:4003/lectures.html","headline":"Dersler","author":{"@type":"Person","name":"CS 101: Merhaba, Dünya!"},"description":"CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"http://localhost:4007/lectures.html","headline":"Dersler","author":{"@type":"Person","name":"CS 101: Merhaba, Dünya!"},"description":"CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="shortcut icon" href="">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,7 +28,7 @@
   <!-- and it's easy to individually load additional languages -->
   <script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
   <link rel="stylesheet" href="/assets/css/main.css">
-  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4003/feed.xml" title="CS 101: Merhaba, Dünya!">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4007/feed.xml" title="CS 101: Merhaba, Dünya!">
 </head>
 <body>
 
@@ -68,9 +68,7 @@
             </span>
           </label>
 
-          <div class="trigger">
-<a class="page-link" href="/about.html">HAKKIMIZDA</a><a class="page-link" href="/resources.html">KAYNAKLAR</a><a class="page-link" href="/lectures.html">DERSLER</a><a class="page-link" href="/projects.html">PROJELER</a>
-</div>
+          <div class="trigger"></div>
         </nav>
 </div>
   </div>
@@ -82,7 +80,13 @@
     var documentElement = document.documentElement;
 
     function storeScrollData() {
-      var y = getScrollPos().y;var scrollStatus = "";
+      var y = getScrollPos().y;
+
+      //if (banner && header_transparent) {
+        documentElement.setAttribute("data-header-transparent", "");
+      }
+
+      var scrollStatus = "";
 
       if (y <= 0) {
         scrollStatus = "top";
@@ -104,7 +108,6 @@
     storeScrollData();
   })();
 </script>
-
 
 
 
@@ -214,7 +217,7 @@
 
   <div class="wrapper">
     <div class="site-footer-inner">
-      <div>Copyright © 1970-2010 CS 101: Merhaba, Dünya!</div>
+      <div>Copyright © 2020 CS 101: Merhaba, Dünya!</div>
       <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
       generator." href="http://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
       another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>

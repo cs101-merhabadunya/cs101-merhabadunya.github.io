@@ -59,9 +59,13 @@
     function storeScrollData() {
       var y = getScrollPos().y;
 
-      {%- if banner and header_transparent -%}
-      documentElement.setAttribute("data-header-transparent", "");
-      {%- endif -%}
+      // {%- if banner and header_transparent -%}
+      //   documentElement.setAttribute("data-header-transparent", "");
+      // {%- endif -%}
+
+      if (banner && header_transparent) {
+        documentElement.setAttribute("data-header-transparent", "");
+      }
 
       var scrollStatus = "";
 
