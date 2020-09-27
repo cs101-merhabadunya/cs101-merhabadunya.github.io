@@ -2,8 +2,8 @@
 layout: post
 title: Sample Lecture
 subtitle: Deneme
-categories: code
-tags: [code]
+categories: kod
+tags: [kod]
 ---
 
 ## Sample Lecture 1

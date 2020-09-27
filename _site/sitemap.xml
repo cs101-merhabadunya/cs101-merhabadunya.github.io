@@ -9,7 +9,7 @@
 <lastmod>2020-09-26T00:00:00+03:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4003/code/2020/09/27/examples.html</loc>
+<loc>http://localhost:4003/kod/2020/09/27/examples.html</loc>
 <lastmod>2020-09-27T00:00:00+03:00</lastmod>
 </url>
 <url>
@@ -37,5 +37,8 @@
 </url>
 <url>
 <loc>http://localhost:4003/resources.html</loc>
+</url>
+<url>
+<loc>http://localhost:4003/tags.html</loc>
 </url>
 </urlset>

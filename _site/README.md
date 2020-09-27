@@ -23,6 +23,11 @@ $$\def\arraystretch{0.8} \begin{array}{llll} Konu & Tarih & Slaytlar & Video \en
 
 `bundle exec jekyll serve [--trace --incremental --port XXXX]`
 
-If included `--port XXXX` your server will be directed to `127.0.0.1:XXXX` in the browser.
+If included `--port XXXX` your server will be directed to `127.0.0.1:XXXX` in the browser. Sometimes using the same port gives error in WSL.
 
 You can find some templates in templates folder, note that the pages inside this folder aren't compiled.
+`bundle update` to update all gems to the lates version, `bundle update jekyll` to update jekyll.
+
+Please update the used tags below
+- kod
+- planlama

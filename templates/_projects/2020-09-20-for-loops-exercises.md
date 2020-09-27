@@ -2,8 +2,8 @@
 layout: post
 title: For loops exercises
 subtitle: Deneme
-categories: code
-tags: [code]
+categories: kod
+tags: [kod]
 ---
 
 ## Exercise 1
