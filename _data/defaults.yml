@@ -1,4 +1,4 @@
 home:
   heading: "CS 101: Merhaba, Dünya!"
   subheading: "Python ile programlamayı öğreniyorum!"
-  banner: "Your image url"
+  banner: "/assets/images/banner.png"

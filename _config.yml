@@ -19,7 +19,7 @@ description: >
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cs101-merhabadunya.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-favicon: "" # the favicon for your site
+favicon: "/assets/images/logo_small.png" # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
