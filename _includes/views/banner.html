@@ -21,7 +21,14 @@
 {% if banner %}
   <section class="page-banner">
     <div class="page-banner-img">
-      <div style="background-image: url({{ banner | relative_url }})"></div>
+      <picture>
+        {% if banner-webp %}
+        <source srcset="{{ banner-webp | relative_url }}" type="image/webp">
+        {%- endif -%}
+        <img src="{{ banner | relative_url }}"
+             style="object-fit: cover;"
+        />
+      </picture>
     </div>
     <div class="wrapper">
       <div class="page-banner-inner">

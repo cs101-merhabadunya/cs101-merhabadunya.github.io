@@ -2,3 +2,4 @@ home:
   heading: "CS 101: Merhaba, Dünya!"
   subheading: "Python ile programlamayı öğreniyorum!"
   banner: "/assets/images/banner.png"
+  banner-webp: "/assets/images/banner.webp"
