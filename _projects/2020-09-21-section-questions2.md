@@ -4,6 +4,7 @@ title: Hafta 2 - Grup Çalışması Egzersizleri
 subtitle: Temel Operatörler, Dallanma, Temel Düzeyde Fonksiyonlar ve For Döngülerine Giriş 
 categories: grup çalışması
 tags: [grup çalışması]
+slug: hafta2-grup  # link is generated as /projeler/hafta2
 ---
 ## Egzersiz 1
 

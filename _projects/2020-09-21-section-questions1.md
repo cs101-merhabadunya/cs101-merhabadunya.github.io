@@ -4,6 +4,7 @@ title: Hafta 1 - Grup Çalışması Egzersizleri
 subtitle: Değişkenlere giriş, veri türleri, print ve input
 categories: grup çalışması
 tags: [grup çalışması]
+slug: hafta1-grup
 ---
 ## Egzersiz 1
 
