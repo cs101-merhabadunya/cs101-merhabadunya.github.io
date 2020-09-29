@@ -265,8 +265,6 @@ html[data-scroll-status='down'] .framework .sidebar { top: 20px; }
 
 .page-banner .page-banner-img { position: absolute; width: 100%; height: 100%; overflow: hidden; }
 
-.page-banner .page-banner-img > *:first-child { height: 100%; max-width: 1000%; background-size: cover; background-position: center center; overflow: hidden; }
-
 .page-banner .wrapper { height: 100%; }
 
 .page-banner .page-banner-inner { position: relative; top: 50%; transform: translateY(-50%); color: #fdfdfd; padding: 10px 5px; text-shadow: 1px 1px 2px #33333355; }
