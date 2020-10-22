@@ -5,7 +5,6 @@ permalink: /pycharm-info/
 categories: planlama
 tags: [planlama]
 ---
-# PyCharm Kurulumu
 
 **CS 101: Merhaba, dünya!** programı boyunca, bilgisayarınızda kodu yazmak, çalıştırmak, incelemek ve hata ayıklamak için PyCharm adı verilen bir uygulama kullanıyor olacaksınız. PyCharm, *IDE* yani Bütünleşik Geliştirme Ortamı (Integrated Development Environment) türünde bir uygulamadır ve yaygın olarak kullanılmaktadır. Bu doküman sizlere kurulumun nasıl yapılacağını anlatmak için oluşturulmuştur.
 
