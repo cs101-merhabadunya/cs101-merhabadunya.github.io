@@ -3,10 +3,42 @@ layout: about
 title: Hakkımızda
 permalink: /hakkimizda/
 ---
+<style>
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: center;
+  width: 25%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 ## CS 101: Merhaba, Dünya!
 
-_CS 101: Merhaba, dünya!_ Türkiye'deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.
+_CS 101: Merhaba, dünya!_ Türkiye'deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş, Koç Üniversitesi öğrencileri tarafından organize edilen, 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.
 
 CS 101 materyalleri programa katılan öğrencilerin çok az ya da hiç programlama bilmediği, Python'a aşina olmadığı varsayımı ile hazırlanmıştır.
 
@@ -30,8 +62,89 @@ Programın işleyişi, konular ve lojistik bilgiler için [Müfredat](/mufredat/
 CS 101 ekibi, bilgisayar bilimleri eğitimine gönül vermiş, akranlar arası öğretme ve öğrenmenin değerine inanan 11 üniversite öğrencisinden oluşur. Haftalık toplu dersleri canlı olarak dönüşümlü şekilde anlatan ekip üyeleri, materyallerin hazırlanmasında yer alır. Her eğitmen program başında kendisine atanan 12 <!-- todo: add exact number --> kişilik küçük gruplarla her hafta düzenli olarak 75 dakika toplanır. CS 101 eğitmenlerinin listesini aşağıda görebilirsiniz:
 
 
+<!-- 
+
+<!-- Course Staff -->
+<div class="row">
+        <div class="column">
+                <img src="../assets/images/people/gs.jpg" alt="profile picture">
+                <!--<div class="caption">
+                    <b>Gül Sena</b>
+                </div>-->
+        <!-- </div>
+        <div class="column"> -->
+                <img src="../assets/images/people/necla.jpeg" alt="profile picture">
+                <!--<div class="caption">
+                    <b>Necla</b>
+                </div>-->
+        <!-- </div>
+        <div class="column"> -->
+                <img src="../assets/images/people/ahmet.jpg" alt="profile picture">
+                <!--<div class="caption">
+                    <b>Ahmet Uysal</b>
+                </div>-->
+        </div>
+        <div class="column">
+                <img src="../assets/images/people/ahmet-uyar.jpeg" alt="profile picture">
+                <!--<div class="caption">
+                    <b>Ahmet Uyar</b>
+                </div>-->
+        </div>
+ </div>
+<div class="row">       
+        <div class="column">
+                <img src="../assets/images/people/demet.jpeg" alt="profile picture">
+                <!--<div class="caption">
+                    <b>Demet</b>
+                </div>-->
+        </div>
+        <div class="column">
+                <img src="../assets/images/people/firat.jpg" alt="profile picture">
+                <!--<div class="caption">
+                    <b>Fırat</b>
+                </div>-->
+        </div>
+        <div class="column">
+                <img src="../assets/images/people/hasancan.JPG" alt="profile picture">
+                <!--<div class="caption">
+                    <b>Hasan Can</b>
+                </div>-->
+        </div>
+        <div class="column">
+                <img src="../assets/images/people/idil.jpeg" alt="profile picture">
+                <!--<div class="caption">
+                    <b>İdil</b>
+                </div>-->
+</div>
+<div class="row">
+        <div class="column">
+                <img src="../assets/images/people/oya.jpeg" alt="profile picture">
+                <!--<div class="caption">
+                    <b>Oya</b>
+                </div>-->
+        </div>
+        <div class="column">
+                <img src="../assets/images/people/ozan.jpeg" alt="profile picture">
+                <!--<div class="caption">
+                    <b>Ozan</b>
+                </div>-->
+        </div>
+        <div class="column">
+                <img src="../assets/images/people/yekta.jpeg" alt="profile picture">
+                <!--<div class="caption">
+                    <b>Yekta</b>
+                </div>-->
+        </div>
+</div>
+ -->
+
+
  Ahmet Uyar | Gül Sena Altıntaş  | Oya Suran   
  Ahmet Uysal | Hasan Can Aslan  | Yekta Kocaoğullar   
  Demet Tümkaya | İdil Defne Çekin  | Ö. Ozan Nacitarhan   
  Fırat Tamur | Necla Mutlu 
 {: style="color:gray; font-size: 120%; text-align: center; border:0px;"}
+
+
+<!-- todo: add işbirlikçilerimiz, okullar, danışmanlar -->
+<!-- ## İşbirlikçilerimiz -->
