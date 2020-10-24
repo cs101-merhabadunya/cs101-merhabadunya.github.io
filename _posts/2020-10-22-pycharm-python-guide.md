@@ -1,9 +1,9 @@
 ---
 layout: post
 title: PyCharm Kurulumu
-permalink: /pycharm-info/
+permalink: /pycharm-python/
 categories: planlama
-tags: [planlama]
+tags: [planlama, kod]
 ---
 
 **CS 101: Merhaba, dünya!** programı boyunca, bilgisayarınızda kodu yazmak, çalıştırmak, incelemek ve hata ayıklamak için PyCharm adı verilen bir uygulama kullanıyor olacaksınız. PyCharm, *IDE* yani Bütünleşik Geliştirme Ortamı (Integrated Development Environment) türünde bir uygulamadır ve yaygın olarak kullanılmaktadır. Bu doküman sizlere kurulumun nasıl yapılacağını anlatmak için oluşturulmuştur.
@@ -31,27 +31,33 @@ Kurulum tamamlandıktan sonra, programı çalıştırmakla başlayın.
 
 Program açılır açılmaz karşınıza aşağıdaki gibi bir giriş ekranı çıkacaktır. 
 
-![PyCharm Welcome](https://drive.google.com/file/d/1Evv8zeAVZREv97g0mVB7bJqbPoTijOkX/preview)
+<!-- ![PyCharm Welcome](https://drive.google.com/uc?export=view&id=1Evv8zeAVZREv97g0mVB7bJqbPoTijOkX) -->
+![PyCharm Welcome](/assets/images/pycharm-python/p1.png)
 
 Sağ altta bulunan “Configure” listesinden “Settings”i seçerek PyCharm ayarlarını açın.
 
-![PyCharm Settings](https://drive.google.com/file/d/1YZdkCnmw9tdbgtPDNdzTdjsVWCYm1x1A/preview)
+<!-- ![PyCharm Settings](https://drive.google.com/uc?export=view&id=1YZdkCnmw9tdbgtPDNdzTdjsVWCYm1x1A) -->
+![PyCharm Settings](/assets/images/pycharm-python/p2.png)
 
 Ayarlar penceresindeki listeden *Python Interpreter* veya *Project Interpreter*'a tıklayın. Açılan pencerede **“No Interpreter”** yazan açılır listeden **“Show All**” seçeneğini seçin. *(Bilgisayarınızdaki Python versiyonlarına bağlı olarak görünüm resimdekinden farklı olabilir, bu bir sorun değil, “Show All” ile devam etmeniz yeterli.)*
 
-![Interpreter](https://drive.google.com/file/d/1YTYYa5jkuwloRArcV97OFAo4QXuijJHR/preview)
+<!-- ![Interpreter](https://drive.google.com/uc?export=view&id=1YTYYa5jkuwloRArcV97OFAo4QXuijJHR) -->
+![Interpreter](/assets/images/pycharm-python/p3.png)
 
 Bir sonraki ekranda, **+** işaretine basın.
 
-![Add New Interpreter](https://drive.google.com/file/d/1yLaOkXhZBtBR-uxIuZleLEkQ4V4FNLOU/preview)
+<!-- ![Add New Interpreter](https://drive.google.com/uc?export=view&id=1yLaOkXhZBtBR-uxIuZleLEkQ4V4FNLOU) -->
+![Add New Interpreter](/assets/images/pycharm-python/p4.png)
 
 Yan taraftaki listeden **“System Interpreter”** seçin ve Interpreter ifadesinin yanındaki açılır listeden indirdiğiniz Python versiyonunu (sizler için *Python 3.8* ile başlayan) seçin.
 
-![System Interpreter](https://drive.google.com/file/d/1a8A0E-ZnUv0FnxBGYcg3GjXpIWS07G1r/preview)
+<!-- ![System Interpreter](https://drive.google.com/uc?export=view&id=1a8A0E-ZnUv0FnxBGYcg3GjXpIWS07G1r) -->
+![System Interpreter](/assets/images/pycharm-python/p5.png)
 
 Sonrasında aşağıdaki gibi bir görünüme sahip olmalısınız, henüz özel paketler indirmediğiniz için *Package* listesi altında daha az veya farklı isimlerle karşılaşabilirsiniz.
 
-![OK](https://drive.google.com/file/d/1RLXyEJ6904Wq6e1y9sNQrtgb-UkQA59L/preview)
+<!-- ![OK](https://drive.google.com/uc?export=view&id=1RLXyEJ6904Wq6e1y9sNQrtgb-UkQA59L) -->
+![OK](/assets/images/pycharm-python/p6.png)
 
 Sağ alttaki **OK** butonuna basarak kurulumu ve hazırlığı tamamlayın, artık **Python kodlarınızı yazmaya başlayabilirsiniz!**
 
