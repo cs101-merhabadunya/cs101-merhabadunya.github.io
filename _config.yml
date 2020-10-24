@@ -5,7 +5,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "CS 101: Merhaba, Dünya!"
-email: your-email@domain.com
+email: "cs-101-merhaba-dunya-staff@ku.edu.tr"
 author: "CS 101: Merhaba, Dünya!"
 copyright: Copyright © 2020
 description: >

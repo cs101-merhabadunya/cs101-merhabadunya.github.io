@@ -2,6 +2,7 @@
 layout: post
 title: PyCharm Kurulumu
 permalink: /pycharm-python/
+authors: [Demet Tümkaya]
 categories: planlama
 tags: [planlama, kod]
 ---

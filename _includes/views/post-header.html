@@ -1,6 +1,6 @@
 <header class="post-header">
   <h1 class="post-title p-name" itemprop="name headline">{{ heading | default: page.title | escape }}</h1>
-  <h3 class="post-subtitle">{{ subheading | default: page.subtitle | escape }}</h3>
+  <h3 class="post-subtitle">{{ subheading | default: page.subtitle| esca pe }}</h3>
 
   <p class="post-meta">
     <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -13,6 +13,16 @@
     {% assign reading_time = return %}
     <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> {{ reading_time }}</span>
   </p>
+
+  {%- if page.authors.size > 0 -%}
+  <div class="post-authors">
+    <h4 class="post-author">Hazırlayan:&nbsp; 
+    {%- for author in page.authors -%}
+    {{ author }}{% if forloop.last %}{% else %}, {% endif %}
+    {%- endfor -%}
+    </h4>
+  </div>
+  {%- endif -%}
 
   {%- if page.tags.size > 0 -%}
   <div class="post-tags">

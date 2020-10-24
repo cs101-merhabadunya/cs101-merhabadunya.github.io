@@ -238,6 +238,14 @@ html {
       margin: 0 12px 0 0;
     }
   }
+  
+  .post-authors {
+    padding-right: 150px;
+
+    .post-author {
+      margin: 0 12px 0 0;
+    }
+  }
 }
 
 /**
@@ -330,6 +338,19 @@ html {
 
     &:hover {
       color: #777;
+    }
+  }
+
+  .post-authors .post-author {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 2px 4px;
+    border-radius: 2px;
+    transition: color 0.2s;
+    color: $grey-color;
+
+    &:not(:first-child) {
+      margin-left: 8px;
     }
   }
 
@@ -646,6 +667,16 @@ html {
         }
       }
     }
+
+    .post-authors {
+      @include relative-font-size(1.525);
+      color: $grey-color;
+      padding-right: 280px;
+
+      @include media-query($on-palm) {
+        padding-right: 0;
+      }
+    }
   }
 
   @include media-query($on-palm) {
@@ -748,4 +779,23 @@ html {
   margin: 0 10px;
   background-color: #e3e3e3e3;
   vertical-align: baseline;
+}
+
+
+// images
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }

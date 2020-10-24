@@ -3,6 +3,7 @@ layout: post
 title: Hafta 1 - Grup Çalışması Egzersizleri
 subtitle: Değişkenlere giriş, veri türleri, print ve input
 categories: grup çalışması
+authors: [Necla Mutlu]
 tags: [grup çalışması]
 slug: hafta1-grup
 ---
