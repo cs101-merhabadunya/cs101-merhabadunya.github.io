@@ -91,6 +91,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (>= 1.6, < 3.0)
+  jekyll-sitemap
   jekyll-spaceship
   jekyll-theme-yat!
   rake (>= 12.0, < 13.0)
