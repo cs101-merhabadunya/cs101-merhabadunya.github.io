@@ -59,25 +59,6 @@ Manav Ahmet Bey müşterilerin aldıkları ürünler karşılığında ödemesi 
 
 ## Egzersiz 1
 
-Kullanıcıdan koordinat sistemi üzerinde iki noktanın koordinatlarını alan ve iki nokta arasındaki yataydaki ve dikeydeki farkı yazdıran bir program hazırlayınız.
-
-![](https://s3-us-west-2.amazonaws.com/courses-images-archive-read-only/wp-content/uploads/sites/924/2015/09/25200243/CNX_CAT_Figure_02_01_003.jpg)
-
-```
-# Örnek Çalışma Şekli
-
-> Birinci noktanın x koordinatını giriniz: 3
-> Birinci noktanın y koordinatını giriniz: 4
-> İkinci noktanın x koordinatını giriniz: 5
-> İkinci noktanın y koordinatını giriniz: 4
-> İki noktanın yataydaki farkı: 2
-> İki noktanın dikeydeki farkı: 0
-
-```
-> Burda iki noktanın yataydaki farkı -2, dikeydeki farkı 0 da bir cevap olabilirdi. 
-
-## Egzersiz 2
-
 Yüksek bir uçurumdan aşağıya bırakılan elmanın t saniye sonraki hızını hesaplayan bir program yazın. t'nin değeri kullanıcı tarafından girdi olarak verilecektir.  
 <center>$$hız = {gt}$$</center>
 
