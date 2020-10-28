@@ -110,7 +110,7 @@ CS 101 ekibi, bilgisayar bilimleri eğitimine gönül vermiş, akranlar arası �
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/hasancan.JPG" alt="profile picture">
+                <img src="../assets/images/people/hasancan.jpg" alt="profile picture">
                 <div class="caption">
                         <b>Hasan Can Aslan</b>
                 </div>
