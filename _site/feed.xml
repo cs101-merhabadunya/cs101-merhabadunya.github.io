@@ -1,5 +1,149 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="tr" /><updated>2020-09-29T23:37:33+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">CS 101: Merhaba, Dünya!</title><subtitle>CS 101: Merhaba, dünya! Türkiye'deki lise öğrencileri arasında programlama  eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri  teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır.  CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın  olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme  becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini  artırmayı hedefler.
-</subtitle><author><name>CS 101: Merhaba, Dünya!</name></author><entry><title type="html">Program Fragmanı</title><link href="http://localhost:4000/ornekler/" rel="alternate" type="text/html" title="Program Fragmanı" /><published>2020-09-27T00:00:00+03:00</published><updated>2020-09-27T00:00:00+03:00</updated><id>http://localhost:4000/examples</id><content type="html" xml:base="http://localhost:4000/ornekler/">&lt;p&gt;Normal şartlarda &lt;em&gt;spoiler&lt;/em&gt; yani gelecekte olacakları belli edip heyecanı bozan bilgiler pek makbul değildir. Ancak biz programın başlangıcında ileride başarabileceğiniz birbirinden ilginç projelerden kesitler göstermenin ve hatta belki küçük bir &lt;em&gt;fragman&lt;/em&gt; yayınlamanın heyecanınızı artırabileceğini düşünüyoruz.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="tr" /><updated>2020-10-28T19:07:44+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">CS 101: Merhaba, Dünya!</title><subtitle>CS 101: Merhaba, dünya! Türkiye'deki lise öğrencileri arasında programlama  eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri  teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır.  CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın  olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme  becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini  artırmayı hedefler.
+</subtitle><author><name>CS 101: Merhaba, Dünya!</name></author><entry><title type="html">Ed Platformu Kullanım Rehberi</title><link href="http://localhost:4000/kaynaklar/ed-rehberi/" rel="alternate" type="text/html" title="Ed Platformu Kullanım Rehberi" /><published>2020-10-22T00:00:00+03:00</published><updated>2020-10-22T00:00:00+03:00</updated><id>http://localhost:4000/kaynaklar/ed-guide</id><content type="html" xml:base="http://localhost:4000/kaynaklar/ed-rehberi/">&lt;!-- &lt;style&gt;
+    span {
+        font-weight:bold;
+    }
+&lt;/style&gt; --&gt;
+
+&lt;p&gt;&lt;strong&gt;CS 101: Merhaba, dünya!&lt;/strong&gt; programı boyunca ana iletişim kanalımız &lt;a href=&quot;https://us.edstem.org/courses/2639/discussion/&quot;&gt;&lt;strong&gt;Ed&lt;/strong&gt;&lt;/a&gt; platformu olacak, size gelen davet email’ini takip ederek Ed’e giriş yapabilirsiniz. Aşağıda daha detaylı bir şekilde nasıl kullanabileceğinizi görebileceğiniz bu platform üzerinden eğitmenlerinizin duyurularını takip edebilir, ödevlerinizi teslim edebilir ve aklınıza takılan herhangi bir soruyu buradan eğitmenlerinize sorabilir, herkese açık olarak sorulmuş diğer gönderileri görüntüleyip yorum yazabilirsiniz. Ed, program süresince iletişimi sağlarken yazılı materyalin yanı sıra matematiksel işlemleri, çalıştırılabilir kodları, yüklenebilir figürleri ve linkleri içeren paylaşımlar yapabilmenize olanak sağlar.&lt;/p&gt;
+
+&lt;h2 id=&quot;giriş---dashboard&quot;&gt;Giriş - Dashboard&lt;/h2&gt;
+&lt;!-- ![Ed Dashboard](https://drive.google.com/uc?export=view&amp;id=1SovSEp2qUR95AIo0mMcLYfK3T8YzV5NE) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ed/3_1.png&quot; alt=&quot;Ed Dashboard&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Giriş yaptıktan sonra ilk karşılaşacağınız ekran, katılımcısı olduğunuz tüm kursları görebileceğiniz Dashboard’dur. CS 101 kapsamında hem tüm öğrencilerin bulunduğu genel gruba hem de kendi grubunuzun Ed sayfasına ekleneceksiniz. 1 numara ile işaretlenmiş kutucuğa tıkladığınızda, ilgili kursa ait paylaşım alanına erişim sağlayabilirsiniz.&lt;/p&gt;
+
+&lt;h2 id=&quot;genel-görünüm&quot;&gt;Genel Görünüm&lt;/h2&gt;
+&lt;!-- ![Ed Discussion](https://drive.google.com/uc?export=view&amp;id=1X5A1todXRhcbRS23pmXF8Rp8SKRxzE7h) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ed/1.png&quot; alt=&quot;Ed Discussion&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;2.&lt;/span&gt; Yeni bir paylaşım yapmak için &lt;strong&gt;“New Thread”&lt;/strong&gt; butonuna tıklamalısınız.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;3.&lt;/span&gt; Kurslarınız arasında geçiş yapmak için &lt;strong&gt;“Courses”&lt;/strong&gt; başlığında yer alan kurslarınıza göz atabilirsiniz. Paylaşım alanında olduğunu kurs açık mavi ile işaretlenmiş gözükür.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;4.&lt;/span&gt; &lt;strong&gt;“Categories”&lt;/strong&gt; başlığında ise yapılan paylaşımları kategorilerine göre filtreleyebilirsiniz. CS101 için kategoriler: genel, dersler, gruplar, pratik problemleri, ödevler ve sosyaldir.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;5.&lt;/span&gt; Paylaşım alanına ait sembolü işaret eder.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;6.&lt;/span&gt; Yaptığınız paylaşıma bir cevap geldiğinde veya takip ettiğiniz bir paylaşımda bir etkileşim olduğunda zil şeklindeki logo üzerinde uyarıyı görebilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;7.&lt;/span&gt; Kurstaki tüm paylaşımları sırayla görebileceğiniz alandır. Yeni veya okunmamış bir paylaşımın yanında kırmızıyla &lt;strong&gt;“1 new”&lt;/strong&gt; ifadesi bulunur.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;8.&lt;/span&gt; &lt;strong&gt;“Search”&lt;/strong&gt; yazan kısımda spesifik bir kelimeyi yazarak paylaşımlar arasında arama yaparak ihtiyacınız olan paylaşımı kolayca bulabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;9.&lt;/span&gt; Yapılan bir paylaşıma gelen cevapları takip etmek istiyorsanız, göz logosuyla birlikte gözüken &lt;em&gt;Watch&lt;/em&gt;‘a tıklayabilirsiniz. O paylaşımı daha fazla takip etmek istemiyorsanız, tekrar aynı yere tıklayıp &lt;em&gt;Not watching&lt;/em&gt;‘i seçebilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;10.&lt;/span&gt; Yapılan paylaşımlara verilen cevapları sorunun hemen altında görebilirsiniz. Resimde görüldüğü gibi yanında yeşil bir tik beliren cevaplar onaylanmıştır.&lt;/p&gt;
+
+&lt;h2 id=&quot;paylaşım-oluştururken&quot;&gt;Paylaşım Oluştururken&lt;/h2&gt;
+
+&lt;!-- ![New Thread](https://drive.google.com/uc?export=view&amp;id=1DDleSjGQdMrby37QWtHzwkbpQNYg9A93) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ed/2_1.png&quot; alt=&quot;New Thread&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;11.&lt;/span&gt; &lt;strong&gt;“New Thread”&lt;/strong&gt; yazan mavi butona tıklayarak yeni paylaşımlar oluşturabilir, sorularınızı sorabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;12.&lt;/span&gt; Paylaşımlar da kendi içinde ikiye ayrılıyorlar, &lt;strong&gt;“Question”&lt;/strong&gt; başlığı altında sorularınızı paylaşabilirsiniz, &lt;strong&gt;“Post”&lt;/strong&gt; başlığıyla ise duyuru, öneri gibi gönderilerinizi paylaşabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;13.&lt;/span&gt; Paylaşımların kategorileri olduğundan bahsetmiştik, sizler de paylaşım yaparken gönderilerinizi veya sorularınızı uygun kategoriye koyabilirsiniz. Bir de alt kategoriler olarak kurs haftaları özelinde işaretleme yapabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;14.&lt;/span&gt; Sorunuzu veya gönderi içeriğinizi yazdıktan sonra bu paylaşımı &lt;strong&gt;“Private”&lt;/strong&gt; gizli yani sadece sizin ve kurs ekibinin görebileceği şekilde veya &lt;strong&gt;“Anonymous”&lt;/strong&gt; anonim yani isminizi gizleyerek paylaşabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;15.&lt;/span&gt; Tüm bu adımları tamamladıktan ve paylaşımınıza &lt;em&gt;Title&lt;/em&gt; kısmında bir başlık yazdıktan sonra paylaşmaya hazırsınız! &lt;strong&gt;“Post”&lt;/strong&gt; butonuna tıkladığınızda paylaşılmış olacak.&lt;/p&gt;
+
+&lt;!-- ![Code Snippet](https://drive.google.com/uc?export=view&amp;id=1kJPV5ulY2Wm4kLOxHQsvjPIVw3KgWDkJ) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ed/code_snippet.png&quot; alt=&quot;Code Snippet&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;16.&lt;/span&gt; Özellikle bu kursta faydalı olan bir özellikten bahsedecek olursak, resimde de görüldüğü gibi bir çalıştırılabilir kod paylaşarak daha ayrıntılı şekilde sorunuzu açıklayabilirsiniz, çerçeve içinde gözüken &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;&amp;gt;&lt;/code&gt; işaretine tıklayarak bu kod ekranını eklemeniz yeterli! &lt;strong&gt;Runnable&lt;/strong&gt; özelliğini seçerek kodun çalıştırılabilir olup olmamasını kendiniz de ayarlayabilirsiniz.&lt;/p&gt;
+
+&lt;h2 id=&quot;workspaces---online-kod-çalışma-alanları&quot;&gt;Workspaces - Online Kod Çalışma Alanları&lt;/h2&gt;
+
+&lt;!-- ![Workspaces](https://drive.google.com/uc?export=view&amp;id=1XUJ0C-WbnsEn70i09rdVyp7-AHDxY1Cb) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ed/workspaces1.png&quot; alt=&quot;Workspaces&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;17.&lt;/span&gt; Ed ekranı üzerinde her zaman görebileceğiniz mor şerit, kullanabileceğiniz farklı alanlar arasında geçiş yapmanızı sağlar. Önceki görüntülerde kullanılan konuşma balonları logosu olan kısımdı. 17 ile işaretli kod işareti ise &lt;strong&gt;“Workspace”&lt;/strong&gt; adı verilen kod çalıştırma ortamlarının görülebileceği ve oluşturulabileceği ekrana geçiş yapar. Workspaces, internet ortamında herhangi bir uygulama olmadan kod yazmaya ve çalıştırmaya yarar.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;18.&lt;/span&gt; &lt;strong&gt;“New Workspace”&lt;/strong&gt; ile kendiniz ait yeni çalışma alanları açarak onları adlandırabilir, herkese açık veya gizli yapabilirsiniz.
+&lt;span&gt;19.&lt;/span&gt; &lt;strong&gt;“Public”&lt;/strong&gt; yani herkese açık olan workspacelere de erişerek inceleyebilir, oluşturan kişi tarafından izin verilmişse düzenleyebilirsiniz.&lt;/p&gt;
+
+&lt;!-- ![Workspace Code](https://drive.google.com/uc?export=view&amp;id=1j4BvaccL7_1XBLN-nze85t6kcIXND4Vn) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ed/workspaces2.png&quot; alt=&quot;Workspace Code&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;20.&lt;/span&gt; Bir workspace bu şekilde gözükür. Üst kısımda koda ait dosyayı görüntüleyebilir ve üzerinde değişiklikler yapabilirsiniz, farklı dosyaların olduğu çalışma alanlarında tıpkı &lt;em&gt;toplama.py&lt;/em&gt; dosyasının gözüktüğü kısımdaki gibi listeden belirli bir dosyayı seçip üzerinde çalışabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;21.&lt;/span&gt; Kodunuzu çalıştırmak için alt kısımda yer alan terminale uygun komutu yani python dosya adı yazarak sonuçları görebilirsiniz. Örneğin &lt;em&gt;toplama.py&lt;/em&gt; kodunu çalıştırmak için terminale &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python toplama.py&lt;/code&gt; yazmanız yeterli olacaktır.&lt;/p&gt;
+
+&lt;h2 id=&quot;meraklısına&quot;&gt;Meraklısına&lt;/h2&gt;
+&lt;!-- &gt;![Bonus Features](https://drive.google.com/uc?export=view&amp;id=1naqEOt-H-H1YYMlXTT8c6shG1a20WMHe) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ed/bonus.png&quot; alt=&quot;Bonus Features&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Paylaşımlarınızı yaparken metni yazdığınız beyaz alanda, kullanılabilecek pek çok özellik var. Sırasıyla “B” harfinin olduğu kısımdan itibaren açıklayacak olursak:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;B&lt;/strong&gt; ile metninizi veya belirli kelimeleri kalın yazı tipine çevirebilirsiniz.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;I&lt;/em&gt; ile italik yani eğik bir yazı tipine dönüştürebilirsiniz.&lt;/li&gt;
+  &lt;li&gt;&lt;u&gt;U&lt;/u&gt; ile kelimelerin altını çizebilirsiniz.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;&amp;gt;&lt;/code&gt; ile yazı tipini “kod görünümlü” yapabilirsiniz.&lt;/li&gt;
+  &lt;li&gt;Zincire benzeyen işaretle metne gömülü bir link ekleyebilirsiniz.&lt;/li&gt;
+  &lt;li&gt;Devamındaki 2 metin görünümlü işaretin ilkiyle nokta ile maddeleme yaparken, ikincisiyle maddeleri numaralandırabilirsiniz.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Demet Tümkaya</name></author><category term="planlama" /><category term="planlama" /><summary type="html"></summary></entry><entry><title type="html">PyCharm Kurulumu</title><link href="http://localhost:4000/kaynaklar/pycharm-python/" rel="alternate" type="text/html" title="PyCharm Kurulumu" /><published>2020-10-22T00:00:00+03:00</published><updated>2020-10-22T00:00:00+03:00</updated><id>http://localhost:4000/kaynaklar/pycharm-python-guide</id><content type="html" xml:base="http://localhost:4000/kaynaklar/pycharm-python/">&lt;p&gt;&lt;em&gt;CS 101: Merhaba, dünya!&lt;/em&gt;  programı boyunca, bilgisayarınızda kodu yazmak, çalıştırmak, incelemek ve hata ayıklamak için PyCharm adı verilen bir uygulama kullanıyor olacaksınız. PyCharm, &lt;em&gt;IDE&lt;/em&gt;  yani Bütünleşik Geliştirme Ortamı (Integrated Development Environment) türünde bir uygulamadır ve yaygın olarak kullanılmaktadır. Bu doküman sizlere kurulumun nasıl yapılacağını anlatmak için oluşturulmuştur.&lt;/p&gt;
+
+&lt;h2 id=&quot;pythonu-indirmek&quot;&gt;Python’u indirmek&lt;/h2&gt;
+&lt;p&gt;Bilgisayarınızda Python programlarını çalıştırmak için öncelikle bir Python Interpreter indirmelisiniz, bu PyCharm’ın varlığına bağlı bir durum değildir.&lt;/p&gt;
+
+&lt;p&gt;Interpreter adı verilen yorumlayıcı programlar, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.py&lt;/code&gt; uzantılı dosyaları okuyarak kodunuzu bilgisayarınızın işleyebileceği hale getirir. Python’un farklı versiyonları bulunmaktadır, bu program süresince &lt;strong&gt;Python 3.8&lt;/strong&gt; kullanacağız.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;İndirmek için aşağıdaki linkleri kullanabilirsiniz:&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Eğer &lt;em&gt;Windows&lt;/em&gt; kullanıyorsanız, &lt;a href=&quot;https://www.python.org/ftp/python/3.8.6/python-3.8.6-amd64.exe&quot; target=&quot;_blank&quot;&gt;bu link&lt;/a&gt; direkt olarak dosyayı bilgisayarınıza indirecektir.&lt;/li&gt;
+    &lt;li&gt;Eğer &lt;em&gt;Mac&lt;/em&gt; kullanıyorsanız, &lt;a href=&quot;https://www.python.org/ftp/python/3.8.6/python-3.8.6-macosx10.9.pkg&quot; target=&quot;_blank&quot;&gt;bu link&lt;/a&gt; ile  gerekli dosyalar indirilecektir.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;windows-için-uyarı&quot;&gt;Windows için Uyarı&lt;/h4&gt;
+&lt;p&gt;İndirilen dosyayı açtıktan sonra, Python kurulum aşamalarında karşınıza çıkacak “Add Python 3.8 in PATH” seçeneğini işaretlediğinizden emin olun lütfen.&lt;/p&gt;
+
+&lt;h2 id=&quot;pycharmı-indirmek&quot;&gt;PyCharm’ı indirmek&lt;/h2&gt;
+&lt;p&gt;PyCharm Community versiyonunu, &lt;em&gt;Windows&lt;/em&gt; bilgisayarınıza indirmek için &lt;a href=&quot;https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&amp;amp;code=PCC&quot; target=&quot;_blank&quot;&gt;bu linki&lt;/a&gt;, &lt;em&gt;Mac&lt;/em&gt; bilgisayarınıza indirmek için &lt;a href=&quot;https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=mac&amp;amp;code=PCC&quot; target=&quot;_blank&quot;&gt;bu linki&lt;/a&gt; kullanabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;İndirme tamamlandıktan sonra &lt;em&gt;Windows&lt;/em&gt; için &lt;em&gt;.exe&lt;/em&gt; uzantılı, &lt;em&gt;Mac&lt;/em&gt; için ise &lt;em&gt;.dmg&lt;/em&gt; uzantılı dosyayı açarak varsayılan ayarlarla, yani herhangi bir değişiklik yapmadan ilerleyin ve kurulumu tamamlayın.&lt;/p&gt;
+
+&lt;h2 id=&quot;pycharmı-kullanıma-hazırlamak&quot;&gt;PyCharm’ı kullanıma hazırlamak&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;NOT:&lt;/strong&gt; Görünümler aynı olmasa da hem Mac hem de Windows için aşağıdaki adımları takip edebilirsiniz.
+Kurulum tamamlandıktan sonra, programı çalıştırmakla başlayın.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Program açılır açılmaz karşınıza aşağıdaki gibi bir giriş ekranı çıkacaktır.&lt;/p&gt;
+
+&lt;!-- ![PyCharm Welcome](https://drive.google.com/uc?export=view&amp;id=1Evv8zeAVZREv97g0mVB7bJqbPoTijOkX) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p1.png&quot; alt=&quot;PyCharm Welcome&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sağ altta bulunan “Configure” listesinden “Settings”i seçerek PyCharm ayarlarını açın.&lt;/p&gt;
+
+&lt;!-- ![PyCharm Settings](https://drive.google.com/uc?export=view&amp;id=1YZdkCnmw9tdbgtPDNdzTdjsVWCYm1x1A) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p2.png&quot; alt=&quot;PyCharm Settings&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ayarlar penceresindeki listeden &lt;em&gt;Python Interpreter&lt;/em&gt; veya &lt;em&gt;Project Interpreter&lt;/em&gt;‘a tıklayın. Açılan pencerede &lt;strong&gt;“No Interpreter”&lt;/strong&gt; yazan açılır listeden &lt;strong&gt;“Show All&lt;/strong&gt;” seçeneğini seçin. &lt;em&gt;(Bilgisayarınızdaki Python versiyonlarına bağlı olarak görünüm resimdekinden farklı olabilir, bu bir sorun değil, “Show All” ile devam etmeniz yeterli.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;!-- ![Interpreter](https://drive.google.com/uc?export=view&amp;id=1YTYYa5jkuwloRArcV97OFAo4QXuijJHR) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p3.png&quot; alt=&quot;Interpreter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bir sonraki ekranda, &lt;strong&gt;+&lt;/strong&gt; işaretine basın.&lt;/p&gt;
+
+&lt;!-- ![Add New Interpreter](https://drive.google.com/uc?export=view&amp;id=1yLaOkXhZBtBR-uxIuZleLEkQ4V4FNLOU) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p4.png&quot; alt=&quot;Add New Interpreter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Yan taraftaki listeden &lt;strong&gt;“System Interpreter”&lt;/strong&gt; seçin ve Interpreter ifadesinin yanındaki açılır listeden indirdiğiniz Python versiyonunu (sizler için &lt;em&gt;Python 3.8&lt;/em&gt; ile başlayan) seçin.&lt;/p&gt;
+
+&lt;!-- ![System Interpreter](https://drive.google.com/uc?export=view&amp;id=1a8A0E-ZnUv0FnxBGYcg3GjXpIWS07G1r) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p5.png&quot; alt=&quot;System Interpreter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sonrasında aşağıdaki gibi bir görünüme sahip olmalısınız, henüz özel paketler indirmediğiniz için &lt;em&gt;Package&lt;/em&gt; listesi altında daha az veya farklı isimlerle karşılaşabilirsiniz.&lt;/p&gt;
+
+&lt;!-- ![OK](https://drive.google.com/uc?export=view&amp;id=1RLXyEJ6904Wq6e1y9sNQrtgb-UkQA59L) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p6.png&quot; alt=&quot;OK&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sağ alttaki &lt;strong&gt;OK&lt;/strong&gt; butonuna basarak kurulumu ve hazırlığı tamamlayın, artık &lt;strong&gt;Python kodlarınızı yazmaya başlayabilirsiniz!&lt;/strong&gt;&lt;/p&gt;</content><author><name>Demet Tümkaya</name></author><category term="planlama" /><category term="planlama" /><category term="kod" /><summary type="html">CS 101: Merhaba, dünya! programı boyunca, bilgisayarınızda kodu yazmak, çalıştırmak, incelemek ve hata ayıklamak için PyCharm adı verilen bir uygulama kullanıyor olacaksınız. PyCharm, IDE yani Bütünleşik Geliştirme Ortamı (Integrated Development Environment) türünde bir uygulamadır ve yaygın olarak kullanılmaktadır. Bu doküman sizlere kurulumun nasıl yapılacağını anlatmak için oluşturulmuştur.</summary></entry><entry><title type="html">Program Fragmanı</title><link href="http://localhost:4000/ornekler/" rel="alternate" type="text/html" title="Program Fragmanı" /><published>2020-09-27T00:00:00+03:00</published><updated>2020-09-27T00:00:00+03:00</updated><id>http://localhost:4000/examples</id><content type="html" xml:base="http://localhost:4000/ornekler/">&lt;p&gt;Normal şartlarda &lt;em&gt;spoiler&lt;/em&gt; yani gelecekte olacakları belli edip heyecanı bozan bilgiler pek makbul değildir. Ancak biz programın başlangıcında ileride başarabileceğiniz birbirinden ilginç projelerden kesitler göstermenin ve hatta belki küçük bir &lt;em&gt;fragman&lt;/em&gt; yayınlamanın heyecanınızı artırabileceğini düşünüyoruz.&lt;/p&gt;
 
 &lt;p&gt;Aşağıda KOLT Python döneminde hazırlanmış iki ödevin ekran görüntüsünü bulabilirsiniz. Merak edenler için &lt;em&gt;&lt;a href=&quot;https://koltpython.com/&quot;&gt;KOLT Python&lt;/a&gt;&lt;/em&gt; bir nevi CS 101’in velisi sayılır. Grup Liderlerimizden Ahmet’in başlatıp şu anki CS 101 ekibinin birçoğunun dahil olduğu, en büyük ilham kaynaklarımızdan birine ve ilk göz ağrımıza dönüşen, birçoğumuzun yakın arkadaş olmasına vesile olan bir organizasyon!&lt;/p&gt;
 
@@ -13,7 +157,7 @@
 &lt;h2 id=&quot;adam-asmaca&quot;&gt;Adam asmaca&lt;/h2&gt;
 &lt;p&gt;Sizin sormayı en sevdiğiniz kelime hangisiydi?&lt;/p&gt;
 
-&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://drive.google.com/file/d/1ExKBHQbzv5QCsrquVi43Rodjsy_zrf9f/preview&quot; alt=&quot;Adam Asmaca oyunu videosu&quot;&gt; &lt;/iframe&gt;</content><author><name>CS 101: Merhaba, Dünya!</name></author><category term="kod" /><category term="kod" /><category term="planlama" /><summary type="html">Normal şartlarda spoiler yani gelecekte olacakları belli edip heyecanı bozan bilgiler pek makbul değildir. Ancak biz programın başlangıcında ileride başarabileceğiniz birbirinden ilginç projelerden kesitler göstermenin ve hatta belki küçük bir fragman yayınlamanın heyecanınızı artırabileceğini düşünüyoruz.</summary></entry><entry><title type="html">Sıkça Sorulan Sorular</title><link href="http://localhost:4000/sss/" rel="alternate" type="text/html" title="Sıkça Sorulan Sorular" /><published>2020-09-26T00:00:00+03:00</published><updated>2020-09-26T00:00:00+03:00</updated><id>http://localhost:4000/sss</id><content type="html" xml:base="http://localhost:4000/sss/">&lt;!-- todo add table of contents, sort the questions in order of importance, maybe add some categories --&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://drive.google.com/file/d/1ExKBHQbzv5QCsrquVi43Rodjsy_zrf9f/preview&quot; alt=&quot;Adam Asmaca oyunu videosu&quot;&gt; &lt;/iframe&gt;</content><author><name>İdil Defne Çekin</name></author><category term="kod" /><category term="kod" /><category term="planlama" /><summary type="html">Normal şartlarda spoiler yani gelecekte olacakları belli edip heyecanı bozan bilgiler pek makbul değildir. Ancak biz programın başlangıcında ileride başarabileceğiniz birbirinden ilginç projelerden kesitler göstermenin ve hatta belki küçük bir fragman yayınlamanın heyecanınızı artırabileceğini düşünüyoruz.</summary></entry><entry><title type="html">Sıkça Sorulan Sorular</title><link href="http://localhost:4000/sss/" rel="alternate" type="text/html" title="Sıkça Sorulan Sorular" /><published>2020-09-26T00:00:00+03:00</published><updated>2020-09-26T00:00:00+03:00</updated><id>http://localhost:4000/sss</id><content type="html" xml:base="http://localhost:4000/sss/">&lt;!-- todo add table of contents, sort the questions in order of importance, maybe add some categories --&gt;
 
 &lt;h2 id=&quot;genel-bilgiler&quot;&gt;Genel Bilgiler&lt;/h2&gt;
 
@@ -57,7 +201,7 @@ Programın öğretim dili Türkçedir.&lt;/p&gt;
  Programa gösterdiğiniz ilgi için çok teşekkür ederiz. Şu an için programı ancak önceden belirlediğimiz liselerden aldığımız öğrencilerle yürütebiliyoruz. Ekimizin büyüklüğü hayallerimizi yakalayana kadar websitemizde açık kaynak olarak yayınladığımız tüm materyalleri kendi öğrenme maceranızda kullanabilirsiniz!&lt;/p&gt;
 
 &lt;p&gt;S: &lt;strong&gt;CS 101 ekibine nasıl dahil olabilirim, koşullar nelerdir?&lt;/strong&gt;&lt;br /&gt;
- CS 101 ekibi programlama deneyimi olan (CS 101’de şu an Python kullanılıyor), eğitmeye, akranlar arası iletişime emek vermeye hazır kişilerden oluşur. Ekibe başvurmak için bize email adresimizden ulaşabilirsiniz.
+ CS 101 ekibi programlama deneyimi olan (CS 101’de şu an Python kullanılıyor), eğitmeye, akranlar arası iletişime emek vermeye hazır kişilerden oluşur. Ekibe başvurmak için bize &lt;a href=&quot;mailto:cs-101-merhaba-dunya-staff@ku.edu.tr&quot;&gt;email&lt;/a&gt; adresimizden ulaşabilirsiniz.
 &lt;!-- todo: add email address --&gt;&lt;/p&gt;
 
 &lt;!-- todo
@@ -118,11 +262,12 @@ Fırat Tamur       Necla Mutlu&lt;/p&gt;
 
 &lt;!-- add link later --&gt;
 
-&lt;p&gt;Websitesi derste kullanılan bütün materyal ve kaynakları barındırır. Websitesinden slaytlara, &lt;!--ders kayıtlarına, ?--&gt; projelerin açıklama ve başlangıç kodlarına, ödevlere ulaşılabilir. Websitesini sık kullanılanlara eklemenizde fayda var.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cs101-merhabadunya.github.io/&quot;&gt;Websitesi&lt;/a&gt; derste kullanılan bütün materyal ve kaynakları barındırır. Websitesinden slaytlara, &lt;!--ders kayıtlarına, ?--&gt; projelerin açıklama ve başlangıç kodlarına, ödevlere ulaşılabilir. Websitesini sık kullanılanlara eklemenizde fayda var.&lt;/p&gt;
 
 &lt;h3 id=&quot;ed&quot;&gt;Ed&lt;/h3&gt;
 
-&lt;p&gt;Her öğrencinin program başlangıcında email’ine gelen Ed davetine tıklayarak platforma üye olması gerekir. Program boyunca eğitmenler duyurularını ve ödevlerin toplamasını Ed üzerinden yapacaklar. Öğrenciler akıllarına takılan herhangi bir soruyu buradan eğitmenlerine sorabilir, herkese açık olarak sorulmuş diğer gönderileri görüntüleyip yorum yazabilirler. Ödev teslimi ve Ed kullanımı&lt;!--[Ödev teslimi]() ve [Ed kullanımı]()--&gt; hakkında Kaynaklar sayfamızda daha detaylı bilgi bulabilirsiniz.&lt;/p&gt;
+&lt;p&gt;Her öğrencinin program başlangıcında email’ine gelen Ed davetine tıklayarak platforma üye olması gerekir. Program boyunca eğitmenler duyurularını ve ödevlerin toplamasını Ed üzerinden yapacaklar. Öğrenciler akıllarına takılan herhangi bir soruyu buradan eğitmenlerine sorabilir, herkese açık olarak sorulmuş diğer gönderileri görüntüleyip yorum yazabilirler. Ödev teslimi ve &lt;a href=&quot;/kaynaklar/ed-rehberi&quot;&gt;Ed kullanımı&lt;/a&gt; hakkında Kaynaklar sayfamızda daha detaylı bilgi bulabilirsiniz.&lt;br /&gt;
+Grup Çalışmaları için atamalar tamamlandıktan sonra öğrenciler kendi gruplarının Ed sayfasına da eklenecektir.&lt;/p&gt;
 
 &lt;!-- todo: add Ed help sheet as hyperlink --&gt;
 
@@ -130,11 +275,13 @@ Fırat Tamur       Necla Mutlu&lt;/p&gt;
 
 &lt;h3 id=&quot;dersler&quot;&gt;Dersler&lt;/h3&gt;
 
-&lt;p&gt;CS 101 eğitmenleri 8 hafta boyunca haftada bir tane online toplu ders gerçekleştirir ve temel programlama konularından anlatırlar.&lt;/p&gt;
+&lt;p&gt;CS 101 eğitmenleri 8 hafta boyunca &lt;em&gt;Cumartesi 10.00-11.00&lt;/em&gt; arasında haftada bir tane online toplu ders gerçekleştirir ve temel programlama konularından anlatırlar.&lt;/p&gt;
 
 &lt;h3 id=&quot;grup-buluşmaları&quot;&gt;Grup Buluşmaları&lt;/h3&gt;
 
 &lt;p&gt;Grup Buluşmaları, her hafta bir Grup Lideri’nin öncülüğünde 10-13 kişilik bir öğrenci grubuyla toplanıp pratik yaptığınız zamanlardır. Doğası gereği Grup Buluşmaları interaktif geçer; problem çözme ve kodlama becerilerinize çok büyük faydası bulunur.&lt;/p&gt;
+
+&lt;p&gt;Dersler ve Grup Çalışmaları Zoom üzerinden gerçekleşir.&lt;/p&gt;
 
 &lt;h3 id=&quot;ödevler&quot;&gt;Ödevler&lt;/h3&gt;
 
@@ -160,49 +307,49 @@ Fırat Tamur       Necla Mutlu&lt;/p&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;10.10.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;31.10.2020&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Program hakkında genel bilgiler, Python ile temel programlamaya giriş, değişkenler&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;2&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;17.10.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;07.11.2020&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Basit Operatörler, Kontrol yapıları &amp;amp; basit fonksiyonlar, For döngülerine giriş&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;3&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;24.10.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;14.11.2020&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;For Döngüleri, Stringler, Grafik programlarına giriş&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;4&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;31.10.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;21.11.2020&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;While Döngüleri, Animasyonlar&lt;/td&gt;
       &lt;td&gt;&lt;!--- 31 i belki tatil olur--&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;07.11.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;28.11.2020&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Listeler, Fonksiyonlar&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;6&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;14.11.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;05.12.2020&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Data modeli, çoklu veri tipleri &lt;!-- doğrau kelimeyi bul --&gt; (listeler (*list*s), kümeler (*set*s) ve sözlükler (_dictionary_))&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;7&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;21.11.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;12.12.2020&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;İleride güncellenecek&lt;/td&gt;
       &lt;td&gt;&lt;!-- workshops tbd later --&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;8&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;28.11.2020&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;19.12.2020&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;İleride güncellenecek&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
