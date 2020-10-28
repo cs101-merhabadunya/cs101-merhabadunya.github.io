@@ -7,6 +7,9 @@ authors: [Necla Mutlu]
 tags: [grup çalışması]
 slug: hafta1-grup
 ---
+## Başlangıç Kodları
+[Buraya tıklayarak](https://drive.google.com/file/d/1kJ-PuU040CnOe2AKjS54stf9Z0UTPPQk/view?usp=sharing) problemlere ait başlangıç kodlarına ulaşabilirsiniz.
+
 ## Egzersiz 1
 
 Bir yapay zeka şirketi yeni çıkaracakları robotun insanları selamlamasını istemektedir. Robot kullanıcıdan ismini girdi olarak alıp kullanıcıyı ismiyle selamlamaktadır. Bu işlevi sağlayan, kullanıcıdan ismini girdi olarak alıp onu selamlayan, bir program parçası yazınız.
@@ -60,7 +63,7 @@ Manav Ahmet Bey müşterilerin aldıkları ürünler karşılığında ödemesi 
 ## Egzersiz 1
 
 Yüksek bir uçurumdan aşağıya bırakılan elmanın t saniye sonraki hızını hesaplayan bir program yazın. t'nin değeri kullanıcı tarafından girdi olarak verilecektir.  
-<center>$$hız = {gt}$$</center>
+<center> $$hız = {gt}$$ </center>
 
 >    Yerçekimi ivmesini yani g'yi 10 m/(s<sup>2</sup>)
  olarak alabilirsiniz.
