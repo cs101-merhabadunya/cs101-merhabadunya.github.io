@@ -35,6 +35,11 @@ body {
   display: table;
   clear: both;
 }
+
+table {
+        text-align: center;
+}
+
 </style>
 ## CS 101: Merhaba, Dünya!
 
@@ -59,91 +64,91 @@ Programın işleyişi, konular ve lojistik bilgiler için [Müfredat](/mufredat/
 
 <!-- may refactor this bit to a more About like page -->
 
-CS 101 ekibi, bilgisayar bilimleri eğitimine gönül vermiş, akranlar arası öğretme ve öğrenmenin değerine inanan 11 üniversite öğrencisinden oluşur. Haftalık toplu dersleri canlı olarak dönüşümlü şekilde anlatan ekip üyeleri, materyallerin hazırlanmasında yer alır. Her eğitmen program başında kendisine atanan 12 <!-- todo: add exact number --> kişilik küçük gruplarla her hafta düzenli olarak 75 dakika toplanır. CS 101 eğitmenlerinin listesini aşağıda görebilirsiniz:
+CS 101 ekibi, bilgisayar bilimleri eğitimine gönül vermiş, akranlar arası öğretme ve öğrenmenin değerine inanan 11 üniversite öğrencisinden oluşur. Haftalık toplu dersleri canlı olarak dönüşümlü şekilde anlatan ekip üyeleri, materyallerin hazırlanmasında yer alır. Her eğitmen program başında kendisine atanan 12 <!-- todo: add exact number --> kişilik küçük gruplarla her hafta düzenli olarak 75 dakika toplanır. CS 101 eğitmenlerimizle tanışın:
 
 
-<!-- 
 
 <!-- Course Staff -->
-<div class="row">
-        <div class="column">
+<table>
+<tr>
+        <th>
                 <img src="../assets/images/people/gs.jpg" alt="profile picture">
-                <!--<div class="caption">
-                    <b>Gül Sena</b>
-                </div>-->
-        <!-- </div>
-        <div class="column"> -->
-                <img src="../assets/images/people/necla.jpeg" alt="profile picture">
-                <!--<div class="caption">
-                    <b>Necla</b>
-                </div>-->
-        <!-- </div>
-        <div class="column"> -->
+                <div class="caption">
+                        <b>Gül Sena Altıntaş</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/necla.jpg" alt="profile picture">
+                <div class="caption">
+                        <b>Necla Mutlu</b>
+                </div>
+        </th>
+        <th>
                 <img src="../assets/images/people/ahmet.jpg" alt="profile picture">
-                <!--<div class="caption">
-                    <b>Ahmet Uysal</b>
-                </div>-->
-        </div>
-        <div class="column">
-                <img src="../assets/images/people/ahmet-uyar.jpeg" alt="profile picture">
-                <!--<div class="caption">
-                    <b>Ahmet Uyar</b>
-                </div>-->
-        </div>
- </div>
-<div class="row">       
-        <div class="column">
-                <img src="../assets/images/people/demet.jpeg" alt="profile picture">
-                <!--<div class="caption">
-                    <b>Demet</b>
-                </div>-->
-        </div>
-        <div class="column">
+                <div class="caption">
+                        <b>Ahmet Uysal</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/ahmet-uyar.jpg" alt="profile picture">
+                <div class="caption">
+                        <b>Ahmet Uyar</b>
+                </div>
+        </th>
+        </tr>
+        <tr>       
+        <th>
+                <img src="../assets/images/people/demet.jpg" alt="profile picture">
+                <div class="caption">
+                        <b>Demet Tümkaya</b>
+                </div>
+        </th>
+        <th>
                 <img src="../assets/images/people/firat.jpg" alt="profile picture">
-                <!--<div class="caption">
-                    <b>Fırat</b>
-                </div>-->
-        </div>
-        <div class="column">
+                <div class="caption">
+                        <b>Fırat Tamur</b>
+                </div>
+        </th>
+        <th>
                 <img src="../assets/images/people/hasancan.JPG" alt="profile picture">
-                <!--<div class="caption">
-                    <b>Hasan Can</b>
-                </div>-->
-        </div>
-        <div class="column">
-                <img src="../assets/images/people/idil.jpeg" alt="profile picture">
-                <!--<div class="caption">
-                    <b>İdil</b>
-                </div>-->
-</div>
-<div class="row">
-        <div class="column">
-                <img src="../assets/images/people/oya.jpeg" alt="profile picture">
-                <!--<div class="caption">
-                    <b>Oya</b>
-                </div>-->
-        </div>
-        <div class="column">
-                <img src="../assets/images/people/ozan.jpeg" alt="profile picture">
-                <!--<div class="caption">
-                    <b>Ozan</b>
-                </div>-->
-        </div>
-        <div class="column">
-                <img src="../assets/images/people/yekta.jpeg" alt="profile picture">
-                <!--<div class="caption">
-                    <b>Yekta</b>
-                </div>-->
-        </div>
-</div>
- -->
-
-
+                <div class="caption">
+                        <b>Hasan Can Aslan</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/idil.jpg" alt="profile picture">
+                <div class="caption">
+                        <b>İdil Defne Çekin</b>
+                </div>
+        </th>
+        </tr>
+        <tr>
+        <th>
+                <img src="../assets/images/people/oya.jpg" alt="profile picture">
+                <div class="caption">
+                        <b>Oya Suran</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/ozan.jpg" alt="profile picture">
+                <div class="caption">
+                        <b>Özgün Ozan Nacitarhan</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/yekta.jpg" alt="profile picture">
+                <div class="caption">
+                        <b>Yekta Kocaoğullar</b>
+                </div>
+        </th>
+</tr>
+</table>
+<!-- 
  Ahmet Uyar | Gül Sena Altıntaş  | Oya Suran   
  Ahmet Uysal | Hasan Can Aslan  | Yekta Kocaoğullar   
  Demet Tümkaya | İdil Defne Çekin  | Ö. Ozan Nacitarhan   
  Fırat Tamur | Necla Mutlu 
-{: style="color:gray; font-size: 120%; text-align: center; border:0px;"}
+{: style="color:gray; font-size: 120%; text-align: center; border:0px;"} -->
 
 
 <!-- todo: add işbirlikçilerimiz, okullar, danışmanlar -->
