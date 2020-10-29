@@ -24,7 +24,6 @@ Bir yapay zeka şirketi yeni çıkaracakları robotun insanları selamlamasını
 
 ```
 
-
 ## Egzersiz 2
 
 Yer kabuğu levha adı verilen parçalardan oluşur. Levhalar magmadaki akımların etkisiyle hareket ederler. Her yıl levha hareketleri dolayısıyla Hawaii, Alaska'ya 7,5 santimetre yaklaşmaktadır.
@@ -63,10 +62,11 @@ Manav Ahmet Bey müşterilerin aldıkları ürünler karşılığında ödemesi 
 ## Egzersiz 1
 
 Yüksek bir uçurumdan aşağıya bırakılan elmanın t saniye sonraki hızını hesaplayan bir program yazın. t'nin değeri kullanıcı tarafından girdi olarak verilecektir.  
-<center> $$hız = {gt}$$ </center>
+<center> hız = gt </center>
 
->    Yerçekimi ivmesini yani g'yi 10 m/(s<sup>2</sup>)
- olarak alabilirsiniz.
+> Yerçekimi ivmesini yani g'yi 10 m/(s<sup>2</sup>) olarak alabilirsiniz.
+
+![](https://images.pexels.com/photos/1451649/pexels-photo-1451649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 
 ```
 # Örnek Çalışma Şekli
@@ -76,5 +76,22 @@ Yüksek bir uçurumdan aşağıya bırakılan elmanın t saniye sonraki hızın�
 
 ```
 
-![](https://images.pexels.com/photos/1451649/pexels-photo-1451649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+## Egzersiz 2
+
+Varlıkların kütle değeri bulundukları yere göre değişmez, fakat ağırlık çekim ivmesine bağlıdır. Kişinin kütlesini kullanıcıdan girdi olarak alıp Dünya'daki ve Ay'daki ağırlığını hesaplayan bir program yazın.
+
+<center> ağırlık = kütle * gök cisminin çekim ivmesi (g) </center>
+
+>Çekim ivmeleri sabit olarak başlangıç kodunda verilmiştir.
+
+![](https://cdn.pixabay.com/photo/2020/01/13/01/40/astronaut-4761434_960_720.jpg)
+
+```
+# Örnek Çalışma Şekli
+
+> Ağırlığa çevirmek için bir kütle değeri girin: 60
+> Dünyadaki ağırlık: 588.6 N
+> Aydaki ağırlık: 97.2 N
+
+```
 
