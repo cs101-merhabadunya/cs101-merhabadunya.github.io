@@ -2,7 +2,7 @@
 layout: post
 title: Hafta 2 - Grup Çalışması Egzersizleri
 subtitle: Temel Operatörler, Dallanma, Temel Düzeyde Fonksiyonlar ve For Döngülerine Giriş 
-authors: [Necla Mutlu]
+authors: [Necla Mutlu, Ahmet Uyar, İdil Defne Çekin]
 categories: grup çalışması
 tags: [grup çalışması]
 slug: hafta2-grup  # link is generated as /projeler/hafta2
@@ -25,8 +25,23 @@ Size verilen başlangıç kodunda **televizyon_izleyebilir_mi()** fonksiyonu bul
 
 ## Egzersiz 3
 
-Cız bız, çocukların bölmeyi öğrenmesi için oynanan bir oyundur. Oyuncular sırayla üçe bölünebilen bir sayıyı "Cız" kelimesiyle, beşe bölünebilen bir sayıyı "Bız" kelimesiyle ifade eder. 
-Size verilen baslangıç kodunda da buna ek olarak on beş ile bölünebilen bir sayı için konsola "CızBız" yazdırmanızı istiyoruz. Sayı, kullanıcıdan alınacaktır. 
+Cız bız, çocukların bölmeyi öğrenmesi için oynanan bir oyundur. Oyuncular sırayla belli bir sayıya kadar sayarlar ancak dikkat etmeleri gereken kurallar vardır:
+- Üçe bölünebilen bir sayı "Cız" kelimesiyle, 
+- Beşe bölünebilen bir sayı "Bız" kelimesiyle,
+- On beşe bölünebilen bir sayı "CızBız" ile ifade edilmelidir.
+- Diğer sayılar olduğu gibi söylenir.
+Size verilen başlangıç kodunu kullanarak kullanıcıdan kaça kadar saymak istediğini alıp başarılı bir Cız Bız oyununu konsola yazdırmanızı istiyoruz. Örnek vermek gerekirse:
+```
+Kaça kadar sayalım? 16
+1
+2
+Cız
+4
+Bız
+.....
+CızBız
+16
+```
 
 ## Ekstra Egzersizler
 
