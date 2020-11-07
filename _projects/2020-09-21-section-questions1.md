@@ -3,7 +3,7 @@ layout: post
 title: Hafta 1 - Grup Çalışması Egzersizleri
 subtitle: Değişkenlere giriş, veri türleri, print ve input
 categories: grup çalışması
-authors: [Necla Mutlu]
+authors: [Necla Mutlu, Demet Tümkaya]
 tags: [grup çalışması]
 slug: hafta1-grup
 ---
@@ -80,7 +80,7 @@ Yüksek bir uçurumdan aşağıya bırakılan elmanın t saniye sonraki hızın�
 
 Varlıkların kütle değeri bulundukları yere göre değişmez, fakat ağırlık çekim ivmesine bağlıdır. Kişinin kütlesini kullanıcıdan girdi olarak alıp Dünya'daki ve Ay'daki ağırlığını hesaplayan bir program yazın.
 
-<center> ağırlık = kütle * gök cisminin çekim ivmesi (g) </center>
+<center> ağırlık = kütle * gök cisminin çekim ivmesi </center>
 
 >Çekim ivmeleri sabit olarak başlangıç kodunda verilmiştir.
 

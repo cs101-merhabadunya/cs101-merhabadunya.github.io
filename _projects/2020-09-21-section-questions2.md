@@ -47,11 +47,11 @@ CızBız
 
 ## Egzersiz 1 
 
-Bu programda **for** dongüsünün nasıl çalistığına dair bir orneğimiz bulunmakta. Kulanıcıdan bir ile on arasında bir sayı istenecek ve bu sayı adedince kendinizi tanıtmanız istenecektir.
-Size verilen baslangic kodunda **kendini_tanıt()** fonksiyonu bulunmaktadir. Bu fonksiyonu, konsola kendi isminizi yazdiracak sekilde duzenlemeniz istenecektir. 
+Bu programda **for** döngüsünün nasıl çalıştığına dair bir örneğimiz bulunmakta. Kullanıcıdan 1 ile 10 arasında bir sayı istenecek ve bu sayı adedince kendinizi tanıtmanız istenecektir.
+Size verilen başlangıç kodunda **kendini_tanıt()** fonksiyonu bulunmaktadır. Bu fonksiyonu, konsola kendi isminizi yazdıracak şekilde düzenlemeniz istenecektir. 
 
 ## Egzersiz 2 
 
 Artık yıl, Miladi takvimde 365 yerine 366 günü olan yıldır. Dört yılda bir yapılan bu uygulamanın nedeni Dünya'nın Güneş çevresinde dönme süresinin (astronomik yıl), Güneş'in aynı meridyenden iki kez geçişi arasındaki ortalama zamanın (gün) tam katı olmamasıdır. Bir astronomik yıl yaklaşık olarak 365,242 gün olmasına rağmen normal bir takvim yılı 365 gündür.
-Bir yılın artık yıl olarak adlandırılabilmesi için bu yılın dört ile bölünebilmesi gerekir. Fakat bu yıl yüz ile bölünebiliyorsa aynı zamanda dört yüz ile bölünebilmelidir. Geriye kalan yillar artık yıl sayılmazlar. 
-Size verilen baslangıç kodunda kullanıcıdan bir yıl istemenizi, ardından da bu yılın artık yıl olup olmadığını kullanıcıya kullanıcıya bildirmeniz istenecektir. 
+Bir yılın artık yıl olarak adlandırılabilmesi için bu yılın dört ile bölünebilmesi gerekir. Fakat bu yıl yüz ile bölünebiliyorsa aynı zamanda dört yüz ile bölünebilmelidir. Geriye kalan yıllar artık yıl sayılmazlar. 
+Size verilen başlangıç kodunda kullanıcıdan bir yıl istemenizi, ardından da bu yılın artık yıl olup olmadığını kullanıcıya bildirmeniz istenecektir. 
