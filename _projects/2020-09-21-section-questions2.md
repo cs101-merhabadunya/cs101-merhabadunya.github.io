@@ -8,7 +8,7 @@ tags: [grup çalışması]
 slug: hafta2-grup  # link is generated as /projeler/hafta2
 ---
 ## Başlangıç Kodları
-[Buraya tıklayarak](https://drive.google.com/file/d/14Z3WmVhrQKE86qqjr5u3AVXQn3zWEnCG/view?usp=sharing) problemlere ait başlangıç kodlarına ulaşabilirsiniz.
+[Buraya tıklayarak](https://drive.google.com/file/d/1YGeGMTZT6yuBbOobX6FsxilN1M3i3xA6/view?usp=sharing) problemlere ait başlangıç kodlarına ulaşabilirsiniz.
 
 ## Egzersiz 1
 
