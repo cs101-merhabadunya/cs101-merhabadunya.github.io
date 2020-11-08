@@ -32,15 +32,25 @@ Cız bız, çocukların bölmeyi öğrenmesi için oynanan bir oyundur. Oyuncula
 - Diğer sayılar olduğu gibi söylenir.
 Size verilen başlangıç kodunu kullanarak kullanıcıdan kaça kadar saymak istediğini alıp başarılı bir Cız Bız oyununu konsola yazdırmanızı istiyoruz. Örnek vermek gerekirse:
 ```
-Kaça kadar sayalım? 16
-1
-2
-Cız
-4
-Bız
-.....
-CızBız
-16
+# Örnek Çalışma Şekli
+
+ Bir sayı giriniz: 5
+ Bız
+
+# Örnek Çalışma Şekli
+
+ Bir sayı giriniz: 3
+ Cız
+
+# Örnek Çalışma Şekli
+
+ Bir sayı giriniz: 15
+ CızBız
+
+# Örnek Çalışma Şekli
+
+ Bir sayı giriniz: 4
+ 4
 ```
 
 ## Ekstra Egzersizler
@@ -73,5 +83,23 @@ Size verilen başlangıç kodunda kullanıcıdan bir yıl istemenizi, ardından 
 
 ```
 # Örnek Çalışma Şekli
+
+ Yılı giriniz: 2004
+ Artık yıl
+
+# Örnek Çalışma Şekli
+
+ Yılı giriniz: 1900
+ Artık yıl değil
+
+# Örnek Çalışma Şekli
+
+ Yılı giriniz: 48
+ Artık yıl
+
+# Örnek Çalışma Şekli
+
+ Yılı giriniz: 2003
+ Artık yıl değil
 
 ```
