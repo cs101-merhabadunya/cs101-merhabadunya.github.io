@@ -31,26 +31,28 @@ Cız bız, çocukların bölmeyi öğrenmesi için oynanan bir oyundur. Oyuncula
 - On beşe bölünebilen bir sayı "CızBız" ile ifade edilmelidir.
 - Diğer sayılar olduğu gibi söylenir.
 Size verilen başlangıç kodunu kullanarak kullanıcıdan kaça kadar saymak istediğini alıp başarılı bir Cız Bız oyununu konsola yazdırmanızı istiyoruz. Örnek vermek gerekirse:
+
 ```
 # Örnek Çalışma Şekli
 
- Bir sayı giriniz: 5
- Bız
+> Bir sayı giriniz: 5
+> Bız
 
 # Örnek Çalışma Şekli
 
- Bir sayı giriniz: 3
- Cız
+> Bir sayı giriniz: 3
+> Cız
 
 # Örnek Çalışma Şekli
 
- Bir sayı giriniz: 15
- CızBız
+> Bir sayı giriniz: 15
+> CızBız
 
 # Örnek Çalışma Şekli
 
- Bir sayı giriniz: 4
- 4
+> Bir sayı giriniz: 4
+> 4
+
 ```
 
 ## Ekstra Egzersizler
@@ -63,15 +65,16 @@ Size verilen başlangıç kodunda **kendini_tanıt()** fonksiyonu bulunmaktadır
 ```
 # Örnek Çalışma Şekli
 
-Bir sayı giriniz: 3
-Benim adım Idil
-Benim adım Idil
-Benim adım Idil
-----------------
+> Bir sayı giriniz: 3
+> Benim adım Idil
+> Benim adım Idil
+> Benim adım Idil
+
 # Örnek Çalışma Şekli
 
-Bir sayı giriniz: 12
-Error
+> Bir sayı giriniz: 12
+> Error
+
 ```
 
 
@@ -84,22 +87,22 @@ Size verilen başlangıç kodunda kullanıcıdan bir yıl istemenizi, ardından 
 ```
 # Örnek Çalışma Şekli
 
- Yılı giriniz: 2004
- Artık yıl
+> Yılı giriniz: 2004
+> Artık yıl
 
 # Örnek Çalışma Şekli
 
- Yılı giriniz: 1900
- Artık yıl değil
+> Yılı giriniz: 1900
+> Artık yıl değil
 
 # Örnek Çalışma Şekli
 
- Yılı giriniz: 48
- Artık yıl
+> Yılı giriniz: 48
+> Artık yıl
 
 # Örnek Çalışma Şekli
 
- Yılı giriniz: 2003
- Artık yıl değil
+> Yılı giriniz: 2003
+> Artık yıl değil
 
 ```
