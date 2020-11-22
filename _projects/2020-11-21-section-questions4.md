@@ -14,6 +14,6 @@ slug: hafta4-grup
 
 ## Başlangıç Kodları
 
-[Buraya tıklayarak](https://drive.google.com/file/d/12NJZV1FUK3DB2T8ZT90Ew6Ti_z_K3sKs/view?usp=sharing) problemlere ait başlangıç kodlarına ulaşabilirsiniz.
+[Buraya tıklayarak](https://drive.google.com/file/d/1VZIHQx-b9sNMbkN1ZFZBKYQ8f8D95Ts9/view?usp=sharing) oyunun başlangıç kodlarına ve resimlere ulaşabilirsiniz.
 
 
