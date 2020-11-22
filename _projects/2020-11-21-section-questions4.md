@@ -14,7 +14,7 @@ slug: hafta4-grup
 
 ## Egzersiz 1
 
-Kasiyer Selin Hanım müşterilerin aldıkları ürünlerin fiyatlarının toplamını bulmak istiyor. Ona yardımcı olmak için bir program hazırlayalım. Selim Hanım girdi olarak 0 girene kadar ürünlerin fiyatları toplanmaya devam etmelidir.
+Kasiyer Selin Hanım müşterilerin aldıkları ürünlerin fiyatlarının toplamını bulmak istiyor. Ona yardımcı olmak için bir program hazırlayalım. Selin Hanım girdi olarak 0 girene kadar ürünlerin fiyatları toplanmaya devam etmelidir.
 
 ```
 # Örnek Çalışma Şekli
@@ -33,14 +33,15 @@ Toplam fiyat: 33.25
 
 ## Araba Oyunu
 
-Bu egzersizde Python’da Grafik kütüphanesini ve while döngülerini kullanarak bir oyun geliştirmeye başlayacağız. Oyunumuz bittiğinde nasıl görüneceğini [bu videodan] (https://drive.google.com/file/d/1Z0V48Gl_6YYi195LPJJorN54yS1gZmwn/view?usp=sharing) izleyebilirsiniz. Oyunun bu haftaki aşamasında hedeflerimiz:
+Bu egzersizde Python’da Grafik kütüphanesini ve while döngülerini kullanarak bir oyun geliştirmeye başlayacağız. Bu haftaki hedeflerimiz bittiğinde oyunumuzun nasıl görüneceğini [bu videodan](https://drive.google.com/file/d/14-YbEiv2qRbv0HwvfLZovXMkT_bUxMds/view?usp=sharing) izleyebilirsiniz. Oyunun bu haftaki aşamasında hedeflerimiz:
 - Ekrana bir text ekleyerek kullanıcıya fareyle ekrana tıkladığında oyunu başlatabileceğini bildirmek.
 - Kanvasımızın üzerine yolun şeritlerini çizdirmek.
 - Yeşil ve mavi araçların kanvas üzerindeki pozisyonlarını verilen sabitleri kullanarak belirlemek ve basit dikdörtgenler olarak yoldaki şeritlere eklemek. Araçlar şeritlerinin tam ortasında olmalı.
 - Araçları sürekli aşağı doğru hareket ettirmek.
 - Ekrandan çıkan araçların tekrar başlangıç pozisyonlarından rastgele yeni bir hızla hareket etmesini sağlamak.
 - Bonus olarak, araçları çizmekte kullandığınız dikdörtgenleri başlangıç kodunda verilen resimlerle değiştirmek ve daha fazla şerit ve araç eklemek.
-
+## Oyun Videosu
+[Buraya tıklayarak](https://drive.google.com/file/d/1Z0V48Gl_6YYi195LPJJorN54yS1gZmwn/view?usp=sharing) oyunumuzun tamamlandığında nasıl görüneceğini izleyebilirsiniz.
 ## Oyun Tasarımı
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS9DXKtrTWnZI4Z0yHsExtX7jlPuWO7IR7lhK5HWuGD4jmeFfBpx99hWGI81lM6Ezf6NYemvMyHusam/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
