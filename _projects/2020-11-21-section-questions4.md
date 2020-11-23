@@ -39,19 +39,21 @@ Bu egzersizde Python’da Grafik kütüphanesini ve while döngülerini kullanar
 - Yeşil ve mavi araçların kanvas üzerindeki pozisyonlarını verilen sabitleri kullanarak belirlemek ve basit dikdörtgenler olarak yoldaki şeritlere eklemek. Araçlar şeritlerinin tam ortasında olmalı.
 - Araçları sürekli aşağı doğru hareket ettirmek.
 - Ekrandan çıkan araçların tekrar başlangıç pozisyonlarından rastgele yeni bir hızla hareket etmesini sağlamak. Ancak araçlar ekrandan çıktıktan sonra yeni bir hız belirlemelisiniz.
-### Oyununuza isterseniz ekleyebileceğiniz bonus özellikler:
+### Bonus özellikler:
+İsterseniz oyununuza bonus özellikler ekleyebilirsiniz, bizim aklımıza gelen birkaç madde aşağıda. Oyununuza eklediğiniz bonus özellikleri Ed üzerinden bizimle paylaşmayı unutmayın!
 - Araçları çizmekte kullandığınız dikdörtgenleri başlangıç kodunda verilen resimlerle değiştirmek
 - Daha fazla şerit ve araç eklemek
 - Skor eklemek (arabaların kaç kere yolu tamamladığı üzerine iki skor tanımlayabilirsiniz)
 ## Oyun Videosu
  Bu haftaki hedeflerimiz bittiğinde oyunumuzun nasıl görüneceğini aşağıdaki videodan izleyebilirsiniz:
 <iframe src="https://drive.google.com/file/d/14-YbEiv2qRbv0HwvfLZovXMkT_bUxMds/preview" width="640" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-[Buraya tıklayarak](https://drive.google.com/file/d/1Z0V48Gl_6YYi195LPJJorN54yS1gZmwn/view?usp=sharing) oyunumuzun tamamlandığında nasıl görüneceğini izleyebilirsiniz.
+[Buraya tıklayarak](https://drive.google.com/file/d/1Z0V48Gl_6YYi195LPJJorN54yS1gZmwn/view?usp=sharing) derste gördüğünüz oyunun tamamlandığında nasıl görüneceğini izleyebilirsiniz.
+
 ## Oyun Tasarımı
 <!-- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS9DXKtrTWnZI4Z0yHsExtX7jlPuWO7IR7lhK5HWuGD4jmeFfBpx99hWGI81lM6Ezf6NYemvMyHusam/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
 Grafik programları yazarken ortaya çıkarmak istediğimiz programı canlandırmak her zaman ilk aşama olmalı, bu sayede koordinatları, objelerin birbirleriyle ilişkilerini kolayca anlayabiliriz. İlk grafik programımızda bu konuda size biraz yardımcı olmak istedik, aşağıda kanvasımızın genel görüntüsünü bulabilirsiniz.
 
-![](https://drive.google.com/file/d/147McyCDVvJs7XoopZOAnUd5p4w9sNxw_/view?usp=sharing)
+![Oyun kanvası tasarımız](/assets/images/sections/hafta4_oyun_visualization.jpg)
 Elle çizildiği için bazı küçük kaymalar olabilir ancak zaten bu taslağı sadece bize yardımcı olması için çiziyoruz, mükemmel olmak zorunda değil :).
 
 ## Ekstra Egzersizler
