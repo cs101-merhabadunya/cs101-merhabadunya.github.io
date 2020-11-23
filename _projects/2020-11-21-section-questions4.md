@@ -33,14 +33,16 @@ Toplam fiyat: 33.25
 
 ## Araba Oyunu
 
-Bu egzersizde Python’da Grafik kütüphanesini ve while döngülerini kullanarak bir oyun geliştirmeye başlayacağız. Bu haftaki hedeflerimiz bittiğinde oyunumuzun nasıl görüneceğini [bu videodan](https://drive.google.com/file/d/14-YbEiv2qRbv0HwvfLZovXMkT_bUxMds/view?usp=sharing) izleyebilirsiniz. Oyunun bu haftaki aşamasında hedeflerimiz:
-- Ekrana bir text ekleyerek kullanıcıya fareyle ekrana tıkladığında oyunu başlatabileceğini bildirmek.
+Bu egzersizde Python’da Grafik kütüphanesini ve while döngülerini kullanarak 4. dersimizde gördüğümüz oyunu geliştirmeye başlayacağız. Oyunun bu haftaki aşamasında hedeflerimiz:
+- Ekrana bir yazı (text) ekleyerek kullanıcıya fareyle ekrana tıkladığında oyunu başlatabileceğini bildirmek.
 - Kanvasımızın üzerine yolun şeritlerini çizdirmek.
 - Yeşil ve mavi araçların kanvas üzerindeki pozisyonlarını verilen sabitleri kullanarak belirlemek ve basit dikdörtgenler olarak yoldaki şeritlere eklemek. Araçlar şeritlerinin tam ortasında olmalı.
 - Araçları sürekli aşağı doğru hareket ettirmek.
-- Ekrandan çıkan araçların tekrar başlangıç pozisyonlarından rastgele yeni bir hızla hareket etmesini sağlamak.
+- Ekrandan çıkan araçların tekrar başlangıç pozisyonlarından rastgele yeni bir hızla hareket etmesini sağlamak. Ancak araçlar ekrandan çıktıktan sonra yeni bir hız belirlemelisiniz.
 - Bonus olarak, araçları çizmekte kullandığınız dikdörtgenleri başlangıç kodunda verilen resimlerle değiştirmek ve daha fazla şerit ve araç eklemek.
 ## Oyun Videosu
+ Bu haftaki hedeflerimiz bittiğinde oyunumuzun nasıl görüneceğini aşağıdaki videodan izleyebilirsiniz:
+<iframe src="https://drive.google.com/file/d/14-YbEiv2qRbv0HwvfLZovXMkT_bUxMds/preview" width="640" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 [Buraya tıklayarak](https://drive.google.com/file/d/1Z0V48Gl_6YYi195LPJJorN54yS1gZmwn/view?usp=sharing) oyunumuzun tamamlandığında nasıl görüneceğini izleyebilirsiniz.
 ## Oyun Tasarımı
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS9DXKtrTWnZI4Z0yHsExtX7jlPuWO7IR7lhK5HWuGD4jmeFfBpx99hWGI81lM6Ezf6NYemvMyHusam/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
