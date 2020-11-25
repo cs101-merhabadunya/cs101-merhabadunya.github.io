@@ -1,0 +1,2480 @@
+---
+layout: none
+title: Grafik Kütüphanesi Renk Referansları
+permalink: /kaynaklar/grafik-renk-referans/
+categories: kod
+tags: [kod]
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.9.1" />
+<title>colors API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>colors</code></h1>
+</header>
+<section id="section-intro">
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="colors.CanvasColors"><code class="flex name class">
+<span>class <span class="ident">CanvasColors</span></span>
+<span>(</span><span>value, names=None, *, module=None, qualname=None, type=None, start=1)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Canvas sınıfı için renk enum sınıfı.</p>
+<p>Bu liste Canvas'ta grafikler için kullanılabilecek tüm renk isimlerinin listesidir.
+Thinkter renklerinin listesi <a href="https://stackoverflow.com/questions/4969543/colour-chart-for-tkinter-and-tix">https://stackoverflow.com/questions/4969543/colour-chart-for-tkinter-and-tix</a> adresinden
+alınmıştır.</p></div>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li>enum.Enum</li>
+</ul>
+<h3>Class variables</h3>
+<dl>
+<dt id="colors.CanvasColors.Aliceblue"><code class="name">var <span class="ident">Aliceblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Antiquewhite"><code class="name">var <span class="ident">Antiquewhite</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Antiquewhite1"><code class="name">var <span class="ident">Antiquewhite1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Antiquewhite2"><code class="name">var <span class="ident">Antiquewhite2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Antiquewhite3"><code class="name">var <span class="ident">Antiquewhite3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Antiquewhite4"><code class="name">var <span class="ident">Antiquewhite4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Aquamarine"><code class="name">var <span class="ident">Aquamarine</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Aquamarine2"><code class="name">var <span class="ident">Aquamarine2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Aquamarine4"><code class="name">var <span class="ident">Aquamarine4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Azure"><code class="name">var <span class="ident">Azure</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Azure2"><code class="name">var <span class="ident">Azure2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Azure3"><code class="name">var <span class="ident">Azure3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Azure4"><code class="name">var <span class="ident">Azure4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Bisque"><code class="name">var <span class="ident">Bisque</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Bisque2"><code class="name">var <span class="ident">Bisque2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Bisque3"><code class="name">var <span class="ident">Bisque3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Bisque4"><code class="name">var <span class="ident">Bisque4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Blanchedalmond"><code class="name">var <span class="ident">Blanchedalmond</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Blue"><code class="name">var <span class="ident">Blue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Blue2"><code class="name">var <span class="ident">Blue2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Blue4"><code class="name">var <span class="ident">Blue4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Blueviolet"><code class="name">var <span class="ident">Blueviolet</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Brown1"><code class="name">var <span class="ident">Brown1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Brown2"><code class="name">var <span class="ident">Brown2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Brown3"><code class="name">var <span class="ident">Brown3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Brown4"><code class="name">var <span class="ident">Brown4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Burlywood1"><code class="name">var <span class="ident">Burlywood1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Burlywood2"><code class="name">var <span class="ident">Burlywood2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Burlywood3"><code class="name">var <span class="ident">Burlywood3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Burlywood4"><code class="name">var <span class="ident">Burlywood4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Cadetblue"><code class="name">var <span class="ident">Cadetblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Cadetblue1"><code class="name">var <span class="ident">Cadetblue1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Cadetblue2"><code class="name">var <span class="ident">Cadetblue2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Cadetblue3"><code class="name">var <span class="ident">Cadetblue3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Cadetblue4"><code class="name">var <span class="ident">Cadetblue4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Chartreuse2"><code class="name">var <span class="ident">Chartreuse2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Chartreuse3"><code class="name">var <span class="ident">Chartreuse3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Chartreuse4"><code class="name">var <span class="ident">Chartreuse4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Chocolate1"><code class="name">var <span class="ident">Chocolate1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Chocolate2"><code class="name">var <span class="ident">Chocolate2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Chocolate3"><code class="name">var <span class="ident">Chocolate3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Coral"><code class="name">var <span class="ident">Coral</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Coral1"><code class="name">var <span class="ident">Coral1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Coral2"><code class="name">var <span class="ident">Coral2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Coral3"><code class="name">var <span class="ident">Coral3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Coral4"><code class="name">var <span class="ident">Coral4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Cornflowerblue"><code class="name">var <span class="ident">Cornflowerblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Cornsilk2"><code class="name">var <span class="ident">Cornsilk2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Cornsilk3"><code class="name">var <span class="ident">Cornsilk3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Cornsilk4"><code class="name">var <span class="ident">Cornsilk4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Cyan"><code class="name">var <span class="ident">Cyan</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Cyan2"><code class="name">var <span class="ident">Cyan2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Cyan3"><code class="name">var <span class="ident">Cyan3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Cyan4"><code class="name">var <span class="ident">Cyan4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkgoldenrod"><code class="name">var <span class="ident">Darkgoldenrod</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkgoldenrod1"><code class="name">var <span class="ident">Darkgoldenrod1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkgoldenrod2"><code class="name">var <span class="ident">Darkgoldenrod2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkgoldenrod3"><code class="name">var <span class="ident">Darkgoldenrod3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkgoldenrod4"><code class="name">var <span class="ident">Darkgoldenrod4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkgreen"><code class="name">var <span class="ident">Darkgreen</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkkhaki"><code class="name">var <span class="ident">Darkkhaki</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkolivegreen"><code class="name">var <span class="ident">Darkolivegreen</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkolivegreen1"><code class="name">var <span class="ident">Darkolivegreen1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkolivegreen2"><code class="name">var <span class="ident">Darkolivegreen2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkolivegreen3"><code class="name">var <span class="ident">Darkolivegreen3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkolivegreen4"><code class="name">var <span class="ident">Darkolivegreen4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkorange"><code class="name">var <span class="ident">Darkorange</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkorange1"><code class="name">var <span class="ident">Darkorange1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkorange2"><code class="name">var <span class="ident">Darkorange2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkorange3"><code class="name">var <span class="ident">Darkorange3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkorange4"><code class="name">var <span class="ident">Darkorange4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkorchid"><code class="name">var <span class="ident">Darkorchid</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkorchid1"><code class="name">var <span class="ident">Darkorchid1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkorchid2"><code class="name">var <span class="ident">Darkorchid2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkorchid3"><code class="name">var <span class="ident">Darkorchid3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkorchid4"><code class="name">var <span class="ident">Darkorchid4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darksalmon"><code class="name">var <span class="ident">Darksalmon</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkseagreen"><code class="name">var <span class="ident">Darkseagreen</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkseagreen1"><code class="name">var <span class="ident">Darkseagreen1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkseagreen2"><code class="name">var <span class="ident">Darkseagreen2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkseagreen3"><code class="name">var <span class="ident">Darkseagreen3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkseagreen4"><code class="name">var <span class="ident">Darkseagreen4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkslateblue"><code class="name">var <span class="ident">Darkslateblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkslategray"><code class="name">var <span class="ident">Darkslategray</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkslategray1"><code class="name">var <span class="ident">Darkslategray1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkslategray2"><code class="name">var <span class="ident">Darkslategray2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkslategray3"><code class="name">var <span class="ident">Darkslategray3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkslategray4"><code class="name">var <span class="ident">Darkslategray4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkturquoise"><code class="name">var <span class="ident">Darkturquoise</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Darkviolet"><code class="name">var <span class="ident">Darkviolet</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Deeppink"><code class="name">var <span class="ident">Deeppink</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Deeppink2"><code class="name">var <span class="ident">Deeppink2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Deeppink3"><code class="name">var <span class="ident">Deeppink3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Deeppink4"><code class="name">var <span class="ident">Deeppink4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Deepskyblue"><code class="name">var <span class="ident">Deepskyblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Deepskyblue2"><code class="name">var <span class="ident">Deepskyblue2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Deepskyblue3"><code class="name">var <span class="ident">Deepskyblue3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Deepskyblue4"><code class="name">var <span class="ident">Deepskyblue4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Dimgray"><code class="name">var <span class="ident">Dimgray</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Dodgerblue"><code class="name">var <span class="ident">Dodgerblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Dodgerblue2"><code class="name">var <span class="ident">Dodgerblue2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Dodgerblue3"><code class="name">var <span class="ident">Dodgerblue3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Dodgerblue4"><code class="name">var <span class="ident">Dodgerblue4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Firebrick1"><code class="name">var <span class="ident">Firebrick1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Firebrick2"><code class="name">var <span class="ident">Firebrick2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Firebrick3"><code class="name">var <span class="ident">Firebrick3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Firebrick4"><code class="name">var <span class="ident">Firebrick4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Floralwhite"><code class="name">var <span class="ident">Floralwhite</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Forestgreen"><code class="name">var <span class="ident">Forestgreen</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gainsboro"><code class="name">var <span class="ident">Gainsboro</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Ghostwhite"><code class="name">var <span class="ident">Ghostwhite</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gold"><code class="name">var <span class="ident">Gold</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gold2"><code class="name">var <span class="ident">Gold2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gold3"><code class="name">var <span class="ident">Gold3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gold4"><code class="name">var <span class="ident">Gold4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Goldenrod"><code class="name">var <span class="ident">Goldenrod</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Goldenrod1"><code class="name">var <span class="ident">Goldenrod1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Goldenrod2"><code class="name">var <span class="ident">Goldenrod2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Goldenrod3"><code class="name">var <span class="ident">Goldenrod3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Goldenrod4"><code class="name">var <span class="ident">Goldenrod4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray"><code class="name">var <span class="ident">Gray</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray1"><code class="name">var <span class="ident">Gray1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray10"><code class="name">var <span class="ident">Gray10</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray11"><code class="name">var <span class="ident">Gray11</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray12"><code class="name">var <span class="ident">Gray12</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray13"><code class="name">var <span class="ident">Gray13</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray14"><code class="name">var <span class="ident">Gray14</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray15"><code class="name">var <span class="ident">Gray15</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray16"><code class="name">var <span class="ident">Gray16</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray17"><code class="name">var <span class="ident">Gray17</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray18"><code class="name">var <span class="ident">Gray18</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray19"><code class="name">var <span class="ident">Gray19</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray2"><code class="name">var <span class="ident">Gray2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray20"><code class="name">var <span class="ident">Gray20</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray21"><code class="name">var <span class="ident">Gray21</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray22"><code class="name">var <span class="ident">Gray22</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray23"><code class="name">var <span class="ident">Gray23</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray24"><code class="name">var <span class="ident">Gray24</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray25"><code class="name">var <span class="ident">Gray25</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray26"><code class="name">var <span class="ident">Gray26</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray27"><code class="name">var <span class="ident">Gray27</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray28"><code class="name">var <span class="ident">Gray28</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray29"><code class="name">var <span class="ident">Gray29</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray3"><code class="name">var <span class="ident">Gray3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray30"><code class="name">var <span class="ident">Gray30</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray31"><code class="name">var <span class="ident">Gray31</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray32"><code class="name">var <span class="ident">Gray32</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray33"><code class="name">var <span class="ident">Gray33</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray34"><code class="name">var <span class="ident">Gray34</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray35"><code class="name">var <span class="ident">Gray35</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray36"><code class="name">var <span class="ident">Gray36</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray37"><code class="name">var <span class="ident">Gray37</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray38"><code class="name">var <span class="ident">Gray38</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray39"><code class="name">var <span class="ident">Gray39</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray4"><code class="name">var <span class="ident">Gray4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray40"><code class="name">var <span class="ident">Gray40</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray42"><code class="name">var <span class="ident">Gray42</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray43"><code class="name">var <span class="ident">Gray43</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray44"><code class="name">var <span class="ident">Gray44</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray45"><code class="name">var <span class="ident">Gray45</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray46"><code class="name">var <span class="ident">Gray46</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray47"><code class="name">var <span class="ident">Gray47</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray48"><code class="name">var <span class="ident">Gray48</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray49"><code class="name">var <span class="ident">Gray49</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray5"><code class="name">var <span class="ident">Gray5</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray50"><code class="name">var <span class="ident">Gray50</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray51"><code class="name">var <span class="ident">Gray51</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray52"><code class="name">var <span class="ident">Gray52</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray53"><code class="name">var <span class="ident">Gray53</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray54"><code class="name">var <span class="ident">Gray54</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray55"><code class="name">var <span class="ident">Gray55</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray56"><code class="name">var <span class="ident">Gray56</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray57"><code class="name">var <span class="ident">Gray57</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray58"><code class="name">var <span class="ident">Gray58</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray59"><code class="name">var <span class="ident">Gray59</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray6"><code class="name">var <span class="ident">Gray6</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray60"><code class="name">var <span class="ident">Gray60</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray61"><code class="name">var <span class="ident">Gray61</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray62"><code class="name">var <span class="ident">Gray62</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray63"><code class="name">var <span class="ident">Gray63</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray64"><code class="name">var <span class="ident">Gray64</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray65"><code class="name">var <span class="ident">Gray65</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray66"><code class="name">var <span class="ident">Gray66</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray67"><code class="name">var <span class="ident">Gray67</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray68"><code class="name">var <span class="ident">Gray68</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray69"><code class="name">var <span class="ident">Gray69</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray7"><code class="name">var <span class="ident">Gray7</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray70"><code class="name">var <span class="ident">Gray70</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray71"><code class="name">var <span class="ident">Gray71</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray72"><code class="name">var <span class="ident">Gray72</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray73"><code class="name">var <span class="ident">Gray73</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray74"><code class="name">var <span class="ident">Gray74</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray75"><code class="name">var <span class="ident">Gray75</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray76"><code class="name">var <span class="ident">Gray76</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray77"><code class="name">var <span class="ident">Gray77</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray78"><code class="name">var <span class="ident">Gray78</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray79"><code class="name">var <span class="ident">Gray79</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray8"><code class="name">var <span class="ident">Gray8</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray80"><code class="name">var <span class="ident">Gray80</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray81"><code class="name">var <span class="ident">Gray81</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray82"><code class="name">var <span class="ident">Gray82</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray83"><code class="name">var <span class="ident">Gray83</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray84"><code class="name">var <span class="ident">Gray84</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray85"><code class="name">var <span class="ident">Gray85</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray86"><code class="name">var <span class="ident">Gray86</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray87"><code class="name">var <span class="ident">Gray87</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray88"><code class="name">var <span class="ident">Gray88</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray89"><code class="name">var <span class="ident">Gray89</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray9"><code class="name">var <span class="ident">Gray9</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray90"><code class="name">var <span class="ident">Gray90</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray91"><code class="name">var <span class="ident">Gray91</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray92"><code class="name">var <span class="ident">Gray92</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray93"><code class="name">var <span class="ident">Gray93</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray94"><code class="name">var <span class="ident">Gray94</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray95"><code class="name">var <span class="ident">Gray95</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray97"><code class="name">var <span class="ident">Gray97</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray98"><code class="name">var <span class="ident">Gray98</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Gray99"><code class="name">var <span class="ident">Gray99</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Green2"><code class="name">var <span class="ident">Green2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Green3"><code class="name">var <span class="ident">Green3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Green4"><code class="name">var <span class="ident">Green4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Greenyellow"><code class="name">var <span class="ident">Greenyellow</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Honeydew2"><code class="name">var <span class="ident">Honeydew2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Honeydew3"><code class="name">var <span class="ident">Honeydew3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Honeydew4"><code class="name">var <span class="ident">Honeydew4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Hotpink"><code class="name">var <span class="ident">Hotpink</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Hotpink1"><code class="name">var <span class="ident">Hotpink1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Hotpink2"><code class="name">var <span class="ident">Hotpink2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Hotpink3"><code class="name">var <span class="ident">Hotpink3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Hotpink4"><code class="name">var <span class="ident">Hotpink4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Indianred"><code class="name">var <span class="ident">Indianred</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Indianred1"><code class="name">var <span class="ident">Indianred1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Indianred2"><code class="name">var <span class="ident">Indianred2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Indianred3"><code class="name">var <span class="ident">Indianred3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Indianred4"><code class="name">var <span class="ident">Indianred4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Ivory2"><code class="name">var <span class="ident">Ivory2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Ivory3"><code class="name">var <span class="ident">Ivory3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Ivory4"><code class="name">var <span class="ident">Ivory4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Khaki"><code class="name">var <span class="ident">Khaki</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Khaki1"><code class="name">var <span class="ident">Khaki1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Khaki2"><code class="name">var <span class="ident">Khaki2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Khaki3"><code class="name">var <span class="ident">Khaki3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Khaki4"><code class="name">var <span class="ident">Khaki4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lavender"><code class="name">var <span class="ident">Lavender</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lavenderblush"><code class="name">var <span class="ident">Lavenderblush</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lavenderblush2"><code class="name">var <span class="ident">Lavenderblush2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lavenderblush3"><code class="name">var <span class="ident">Lavenderblush3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lavenderblush4"><code class="name">var <span class="ident">Lavenderblush4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lawngreen"><code class="name">var <span class="ident">Lawngreen</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lemonchiffon"><code class="name">var <span class="ident">Lemonchiffon</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lemonchiffon2"><code class="name">var <span class="ident">Lemonchiffon2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lemonchiffon3"><code class="name">var <span class="ident">Lemonchiffon3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lemonchiffon4"><code class="name">var <span class="ident">Lemonchiffon4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightblue"><code class="name">var <span class="ident">Lightblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightblue1"><code class="name">var <span class="ident">Lightblue1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightblue2"><code class="name">var <span class="ident">Lightblue2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightblue3"><code class="name">var <span class="ident">Lightblue3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightblue4"><code class="name">var <span class="ident">Lightblue4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightcoral"><code class="name">var <span class="ident">Lightcoral</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightcyan"><code class="name">var <span class="ident">Lightcyan</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightcyan2"><code class="name">var <span class="ident">Lightcyan2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightcyan3"><code class="name">var <span class="ident">Lightcyan3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightcyan4"><code class="name">var <span class="ident">Lightcyan4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightgoldenrod"><code class="name">var <span class="ident">Lightgoldenrod</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightgoldenrod1"><code class="name">var <span class="ident">Lightgoldenrod1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightgoldenrod2"><code class="name">var <span class="ident">Lightgoldenrod2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightgoldenrod3"><code class="name">var <span class="ident">Lightgoldenrod3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightgoldenrod4"><code class="name">var <span class="ident">Lightgoldenrod4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightgoldenrodyellow"><code class="name">var <span class="ident">Lightgoldenrodyellow</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightgrey"><code class="name">var <span class="ident">Lightgrey</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightpink"><code class="name">var <span class="ident">Lightpink</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightpink1"><code class="name">var <span class="ident">Lightpink1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightpink2"><code class="name">var <span class="ident">Lightpink2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightpink3"><code class="name">var <span class="ident">Lightpink3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightpink4"><code class="name">var <span class="ident">Lightpink4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightsalmon"><code class="name">var <span class="ident">Lightsalmon</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightsalmon2"><code class="name">var <span class="ident">Lightsalmon2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightsalmon3"><code class="name">var <span class="ident">Lightsalmon3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightsalmon4"><code class="name">var <span class="ident">Lightsalmon4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightseagreen"><code class="name">var <span class="ident">Lightseagreen</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightskyblue"><code class="name">var <span class="ident">Lightskyblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightskyblue1"><code class="name">var <span class="ident">Lightskyblue1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightskyblue2"><code class="name">var <span class="ident">Lightskyblue2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightskyblue3"><code class="name">var <span class="ident">Lightskyblue3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightskyblue4"><code class="name">var <span class="ident">Lightskyblue4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightslateblue"><code class="name">var <span class="ident">Lightslateblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightslategray"><code class="name">var <span class="ident">Lightslategray</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightsteelblue"><code class="name">var <span class="ident">Lightsteelblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightsteelblue1"><code class="name">var <span class="ident">Lightsteelblue1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightsteelblue2"><code class="name">var <span class="ident">Lightsteelblue2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightsteelblue3"><code class="name">var <span class="ident">Lightsteelblue3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightsteelblue4"><code class="name">var <span class="ident">Lightsteelblue4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightyellow"><code class="name">var <span class="ident">Lightyellow</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightyellow2"><code class="name">var <span class="ident">Lightyellow2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightyellow3"><code class="name">var <span class="ident">Lightyellow3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Lightyellow4"><code class="name">var <span class="ident">Lightyellow4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Limegreen"><code class="name">var <span class="ident">Limegreen</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Linen"><code class="name">var <span class="ident">Linen</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Magenta2"><code class="name">var <span class="ident">Magenta2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Magenta3"><code class="name">var <span class="ident">Magenta3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Magenta4"><code class="name">var <span class="ident">Magenta4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Maroon"><code class="name">var <span class="ident">Maroon</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Maroon1"><code class="name">var <span class="ident">Maroon1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Maroon2"><code class="name">var <span class="ident">Maroon2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Maroon3"><code class="name">var <span class="ident">Maroon3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Maroon4"><code class="name">var <span class="ident">Maroon4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumaquamarine"><code class="name">var <span class="ident">Mediumaquamarine</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumblue"><code class="name">var <span class="ident">Mediumblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumorchid"><code class="name">var <span class="ident">Mediumorchid</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumorchid1"><code class="name">var <span class="ident">Mediumorchid1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumorchid2"><code class="name">var <span class="ident">Mediumorchid2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumorchid3"><code class="name">var <span class="ident">Mediumorchid3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumorchid4"><code class="name">var <span class="ident">Mediumorchid4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumpurple"><code class="name">var <span class="ident">Mediumpurple</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumpurple1"><code class="name">var <span class="ident">Mediumpurple1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumpurple2"><code class="name">var <span class="ident">Mediumpurple2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumpurple3"><code class="name">var <span class="ident">Mediumpurple3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumpurple4"><code class="name">var <span class="ident">Mediumpurple4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumseagreen"><code class="name">var <span class="ident">Mediumseagreen</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumslateblue"><code class="name">var <span class="ident">Mediumslateblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumspringgreen"><code class="name">var <span class="ident">Mediumspringgreen</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumturquoise"><code class="name">var <span class="ident">Mediumturquoise</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mediumvioletred"><code class="name">var <span class="ident">Mediumvioletred</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Midnightblue"><code class="name">var <span class="ident">Midnightblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mintcream"><code class="name">var <span class="ident">Mintcream</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mistyrose"><code class="name">var <span class="ident">Mistyrose</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mistyrose2"><code class="name">var <span class="ident">Mistyrose2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mistyrose3"><code class="name">var <span class="ident">Mistyrose3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Mistyrose4"><code class="name">var <span class="ident">Mistyrose4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Navajowhite"><code class="name">var <span class="ident">Navajowhite</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Navajowhite2"><code class="name">var <span class="ident">Navajowhite2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Navajowhite3"><code class="name">var <span class="ident">Navajowhite3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Navajowhite4"><code class="name">var <span class="ident">Navajowhite4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Navy"><code class="name">var <span class="ident">Navy</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Oldlace"><code class="name">var <span class="ident">Oldlace</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Olivedrab"><code class="name">var <span class="ident">Olivedrab</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Olivedrab1"><code class="name">var <span class="ident">Olivedrab1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Olivedrab2"><code class="name">var <span class="ident">Olivedrab2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Olivedrab4"><code class="name">var <span class="ident">Olivedrab4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Orange"><code class="name">var <span class="ident">Orange</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Orange2"><code class="name">var <span class="ident">Orange2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Orange3"><code class="name">var <span class="ident">Orange3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Orange4"><code class="name">var <span class="ident">Orange4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Orangered"><code class="name">var <span class="ident">Orangered</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Orangered2"><code class="name">var <span class="ident">Orangered2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Orangered3"><code class="name">var <span class="ident">Orangered3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Orangered4"><code class="name">var <span class="ident">Orangered4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Orchid1"><code class="name">var <span class="ident">Orchid1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Orchid2"><code class="name">var <span class="ident">Orchid2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Orchid3"><code class="name">var <span class="ident">Orchid3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Orchid4"><code class="name">var <span class="ident">Orchid4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Palegoldenrod"><code class="name">var <span class="ident">Palegoldenrod</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Palegreen"><code class="name">var <span class="ident">Palegreen</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Palegreen1"><code class="name">var <span class="ident">Palegreen1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Palegreen2"><code class="name">var <span class="ident">Palegreen2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Palegreen3"><code class="name">var <span class="ident">Palegreen3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Palegreen4"><code class="name">var <span class="ident">Palegreen4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Paleturquoise"><code class="name">var <span class="ident">Paleturquoise</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Paleturquoise1"><code class="name">var <span class="ident">Paleturquoise1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Paleturquoise2"><code class="name">var <span class="ident">Paleturquoise2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Paleturquoise3"><code class="name">var <span class="ident">Paleturquoise3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Paleturquoise4"><code class="name">var <span class="ident">Paleturquoise4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Palevioletred"><code class="name">var <span class="ident">Palevioletred</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Palevioletred1"><code class="name">var <span class="ident">Palevioletred1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Palevioletred2"><code class="name">var <span class="ident">Palevioletred2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Palevioletred3"><code class="name">var <span class="ident">Palevioletred3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Palevioletred4"><code class="name">var <span class="ident">Palevioletred4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Papayawhip"><code class="name">var <span class="ident">Papayawhip</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Peachpuff"><code class="name">var <span class="ident">Peachpuff</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Peachpuff2"><code class="name">var <span class="ident">Peachpuff2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Peachpuff3"><code class="name">var <span class="ident">Peachpuff3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Peachpuff4"><code class="name">var <span class="ident">Peachpuff4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Pink"><code class="name">var <span class="ident">Pink</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Pink1"><code class="name">var <span class="ident">Pink1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Pink2"><code class="name">var <span class="ident">Pink2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Pink3"><code class="name">var <span class="ident">Pink3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Pink4"><code class="name">var <span class="ident">Pink4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Plum1"><code class="name">var <span class="ident">Plum1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Plum2"><code class="name">var <span class="ident">Plum2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Plum3"><code class="name">var <span class="ident">Plum3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Plum4"><code class="name">var <span class="ident">Plum4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Powderblue"><code class="name">var <span class="ident">Powderblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Purple"><code class="name">var <span class="ident">Purple</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Purple1"><code class="name">var <span class="ident">Purple1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Purple2"><code class="name">var <span class="ident">Purple2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Purple3"><code class="name">var <span class="ident">Purple3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Purple4"><code class="name">var <span class="ident">Purple4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Red"><code class="name">var <span class="ident">Red</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Red2"><code class="name">var <span class="ident">Red2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Red3"><code class="name">var <span class="ident">Red3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Red4"><code class="name">var <span class="ident">Red4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Rosybrown"><code class="name">var <span class="ident">Rosybrown</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Rosybrown1"><code class="name">var <span class="ident">Rosybrown1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Rosybrown2"><code class="name">var <span class="ident">Rosybrown2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Rosybrown3"><code class="name">var <span class="ident">Rosybrown3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Rosybrown4"><code class="name">var <span class="ident">Rosybrown4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Royalblue"><code class="name">var <span class="ident">Royalblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Royalblue1"><code class="name">var <span class="ident">Royalblue1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Royalblue2"><code class="name">var <span class="ident">Royalblue2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Royalblue3"><code class="name">var <span class="ident">Royalblue3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Royalblue4"><code class="name">var <span class="ident">Royalblue4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Saddlebrown"><code class="name">var <span class="ident">Saddlebrown</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Salmon"><code class="name">var <span class="ident">Salmon</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Salmon1"><code class="name">var <span class="ident">Salmon1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Salmon2"><code class="name">var <span class="ident">Salmon2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Salmon3"><code class="name">var <span class="ident">Salmon3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Salmon4"><code class="name">var <span class="ident">Salmon4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Sandybrown"><code class="name">var <span class="ident">Sandybrown</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Seagreen"><code class="name">var <span class="ident">Seagreen</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Seagreen1"><code class="name">var <span class="ident">Seagreen1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Seagreen2"><code class="name">var <span class="ident">Seagreen2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Seagreen3"><code class="name">var <span class="ident">Seagreen3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Seashell2"><code class="name">var <span class="ident">Seashell2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Seashell3"><code class="name">var <span class="ident">Seashell3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Seashell4"><code class="name">var <span class="ident">Seashell4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Sienna1"><code class="name">var <span class="ident">Sienna1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Sienna2"><code class="name">var <span class="ident">Sienna2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Sienna3"><code class="name">var <span class="ident">Sienna3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Sienna4"><code class="name">var <span class="ident">Sienna4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Skyblue"><code class="name">var <span class="ident">Skyblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Skyblue1"><code class="name">var <span class="ident">Skyblue1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Skyblue2"><code class="name">var <span class="ident">Skyblue2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Skyblue3"><code class="name">var <span class="ident">Skyblue3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Skyblue4"><code class="name">var <span class="ident">Skyblue4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Slateblue"><code class="name">var <span class="ident">Slateblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Slateblue1"><code class="name">var <span class="ident">Slateblue1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Slateblue2"><code class="name">var <span class="ident">Slateblue2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Slateblue3"><code class="name">var <span class="ident">Slateblue3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Slateblue4"><code class="name">var <span class="ident">Slateblue4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Slategray"><code class="name">var <span class="ident">Slategray</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Slategray1"><code class="name">var <span class="ident">Slategray1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Slategray2"><code class="name">var <span class="ident">Slategray2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Slategray3"><code class="name">var <span class="ident">Slategray3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Slategray4"><code class="name">var <span class="ident">Slategray4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Snow"><code class="name">var <span class="ident">Snow</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Snow2"><code class="name">var <span class="ident">Snow2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Snow3"><code class="name">var <span class="ident">Snow3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Snow4"><code class="name">var <span class="ident">Snow4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Springgreen"><code class="name">var <span class="ident">Springgreen</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Springgreen2"><code class="name">var <span class="ident">Springgreen2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Springgreen3"><code class="name">var <span class="ident">Springgreen3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Springgreen4"><code class="name">var <span class="ident">Springgreen4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Steelblue"><code class="name">var <span class="ident">Steelblue</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Steelblue1"><code class="name">var <span class="ident">Steelblue1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Steelblue2"><code class="name">var <span class="ident">Steelblue2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Steelblue3"><code class="name">var <span class="ident">Steelblue3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Steelblue4"><code class="name">var <span class="ident">Steelblue4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Tan1"><code class="name">var <span class="ident">Tan1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Tan2"><code class="name">var <span class="ident">Tan2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Tan4"><code class="name">var <span class="ident">Tan4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Thistle"><code class="name">var <span class="ident">Thistle</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Thistle1"><code class="name">var <span class="ident">Thistle1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Thistle2"><code class="name">var <span class="ident">Thistle2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Thistle3"><code class="name">var <span class="ident">Thistle3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Thistle4"><code class="name">var <span class="ident">Thistle4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Tomato"><code class="name">var <span class="ident">Tomato</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Tomato2"><code class="name">var <span class="ident">Tomato2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Tomato3"><code class="name">var <span class="ident">Tomato3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Tomato4"><code class="name">var <span class="ident">Tomato4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Turquoise"><code class="name">var <span class="ident">Turquoise</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Turquoise1"><code class="name">var <span class="ident">Turquoise1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Turquoise2"><code class="name">var <span class="ident">Turquoise2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Turquoise3"><code class="name">var <span class="ident">Turquoise3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Turquoise4"><code class="name">var <span class="ident">Turquoise4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Violetred"><code class="name">var <span class="ident">Violetred</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Violetred1"><code class="name">var <span class="ident">Violetred1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Violetred2"><code class="name">var <span class="ident">Violetred2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Violetred3"><code class="name">var <span class="ident">Violetred3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Violetred4"><code class="name">var <span class="ident">Violetred4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Wheat1"><code class="name">var <span class="ident">Wheat1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Wheat2"><code class="name">var <span class="ident">Wheat2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Wheat3"><code class="name">var <span class="ident">Wheat3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Wheat4"><code class="name">var <span class="ident">Wheat4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Whitesmoke"><code class="name">var <span class="ident">Whitesmoke</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Yellow"><code class="name">var <span class="ident">Yellow</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Yellow2"><code class="name">var <span class="ident">Yellow2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Yellow3"><code class="name">var <span class="ident">Yellow3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Yellow4"><code class="name">var <span class="ident">Yellow4</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="colors.CanvasColors.Yellowgreen"><code class="name">var <span class="ident">Yellowgreen</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+</dl>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="colors.CanvasColors" href="#colors.CanvasColors">CanvasColors</a></code></h4>
+<ul class="">
+<li><code><a title="colors.CanvasColors.Aliceblue" href="#colors.CanvasColors.Aliceblue">Aliceblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Antiquewhite" href="#colors.CanvasColors.Antiquewhite">Antiquewhite</a></code></li>
+<li><code><a title="colors.CanvasColors.Antiquewhite1" href="#colors.CanvasColors.Antiquewhite1">Antiquewhite1</a></code></li>
+<li><code><a title="colors.CanvasColors.Antiquewhite2" href="#colors.CanvasColors.Antiquewhite2">Antiquewhite2</a></code></li>
+<li><code><a title="colors.CanvasColors.Antiquewhite3" href="#colors.CanvasColors.Antiquewhite3">Antiquewhite3</a></code></li>
+<li><code><a title="colors.CanvasColors.Antiquewhite4" href="#colors.CanvasColors.Antiquewhite4">Antiquewhite4</a></code></li>
+<li><code><a title="colors.CanvasColors.Aquamarine" href="#colors.CanvasColors.Aquamarine">Aquamarine</a></code></li>
+<li><code><a title="colors.CanvasColors.Aquamarine2" href="#colors.CanvasColors.Aquamarine2">Aquamarine2</a></code></li>
+<li><code><a title="colors.CanvasColors.Aquamarine4" href="#colors.CanvasColors.Aquamarine4">Aquamarine4</a></code></li>
+<li><code><a title="colors.CanvasColors.Azure" href="#colors.CanvasColors.Azure">Azure</a></code></li>
+<li><code><a title="colors.CanvasColors.Azure2" href="#colors.CanvasColors.Azure2">Azure2</a></code></li>
+<li><code><a title="colors.CanvasColors.Azure3" href="#colors.CanvasColors.Azure3">Azure3</a></code></li>
+<li><code><a title="colors.CanvasColors.Azure4" href="#colors.CanvasColors.Azure4">Azure4</a></code></li>
+<li><code><a title="colors.CanvasColors.Bisque" href="#colors.CanvasColors.Bisque">Bisque</a></code></li>
+<li><code><a title="colors.CanvasColors.Bisque2" href="#colors.CanvasColors.Bisque2">Bisque2</a></code></li>
+<li><code><a title="colors.CanvasColors.Bisque3" href="#colors.CanvasColors.Bisque3">Bisque3</a></code></li>
+<li><code><a title="colors.CanvasColors.Bisque4" href="#colors.CanvasColors.Bisque4">Bisque4</a></code></li>
+<li><code><a title="colors.CanvasColors.Blanchedalmond" href="#colors.CanvasColors.Blanchedalmond">Blanchedalmond</a></code></li>
+<li><code><a title="colors.CanvasColors.Blue" href="#colors.CanvasColors.Blue">Blue</a></code></li>
+<li><code><a title="colors.CanvasColors.Blue2" href="#colors.CanvasColors.Blue2">Blue2</a></code></li>
+<li><code><a title="colors.CanvasColors.Blue4" href="#colors.CanvasColors.Blue4">Blue4</a></code></li>
+<li><code><a title="colors.CanvasColors.Blueviolet" href="#colors.CanvasColors.Blueviolet">Blueviolet</a></code></li>
+<li><code><a title="colors.CanvasColors.Brown1" href="#colors.CanvasColors.Brown1">Brown1</a></code></li>
+<li><code><a title="colors.CanvasColors.Brown2" href="#colors.CanvasColors.Brown2">Brown2</a></code></li>
+<li><code><a title="colors.CanvasColors.Brown3" href="#colors.CanvasColors.Brown3">Brown3</a></code></li>
+<li><code><a title="colors.CanvasColors.Brown4" href="#colors.CanvasColors.Brown4">Brown4</a></code></li>
+<li><code><a title="colors.CanvasColors.Burlywood1" href="#colors.CanvasColors.Burlywood1">Burlywood1</a></code></li>
+<li><code><a title="colors.CanvasColors.Burlywood2" href="#colors.CanvasColors.Burlywood2">Burlywood2</a></code></li>
+<li><code><a title="colors.CanvasColors.Burlywood3" href="#colors.CanvasColors.Burlywood3">Burlywood3</a></code></li>
+<li><code><a title="colors.CanvasColors.Burlywood4" href="#colors.CanvasColors.Burlywood4">Burlywood4</a></code></li>
+<li><code><a title="colors.CanvasColors.Cadetblue" href="#colors.CanvasColors.Cadetblue">Cadetblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Cadetblue1" href="#colors.CanvasColors.Cadetblue1">Cadetblue1</a></code></li>
+<li><code><a title="colors.CanvasColors.Cadetblue2" href="#colors.CanvasColors.Cadetblue2">Cadetblue2</a></code></li>
+<li><code><a title="colors.CanvasColors.Cadetblue3" href="#colors.CanvasColors.Cadetblue3">Cadetblue3</a></code></li>
+<li><code><a title="colors.CanvasColors.Cadetblue4" href="#colors.CanvasColors.Cadetblue4">Cadetblue4</a></code></li>
+<li><code><a title="colors.CanvasColors.Chartreuse2" href="#colors.CanvasColors.Chartreuse2">Chartreuse2</a></code></li>
+<li><code><a title="colors.CanvasColors.Chartreuse3" href="#colors.CanvasColors.Chartreuse3">Chartreuse3</a></code></li>
+<li><code><a title="colors.CanvasColors.Chartreuse4" href="#colors.CanvasColors.Chartreuse4">Chartreuse4</a></code></li>
+<li><code><a title="colors.CanvasColors.Chocolate1" href="#colors.CanvasColors.Chocolate1">Chocolate1</a></code></li>
+<li><code><a title="colors.CanvasColors.Chocolate2" href="#colors.CanvasColors.Chocolate2">Chocolate2</a></code></li>
+<li><code><a title="colors.CanvasColors.Chocolate3" href="#colors.CanvasColors.Chocolate3">Chocolate3</a></code></li>
+<li><code><a title="colors.CanvasColors.Coral" href="#colors.CanvasColors.Coral">Coral</a></code></li>
+<li><code><a title="colors.CanvasColors.Coral1" href="#colors.CanvasColors.Coral1">Coral1</a></code></li>
+<li><code><a title="colors.CanvasColors.Coral2" href="#colors.CanvasColors.Coral2">Coral2</a></code></li>
+<li><code><a title="colors.CanvasColors.Coral3" href="#colors.CanvasColors.Coral3">Coral3</a></code></li>
+<li><code><a title="colors.CanvasColors.Coral4" href="#colors.CanvasColors.Coral4">Coral4</a></code></li>
+<li><code><a title="colors.CanvasColors.Cornflowerblue" href="#colors.CanvasColors.Cornflowerblue">Cornflowerblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Cornsilk2" href="#colors.CanvasColors.Cornsilk2">Cornsilk2</a></code></li>
+<li><code><a title="colors.CanvasColors.Cornsilk3" href="#colors.CanvasColors.Cornsilk3">Cornsilk3</a></code></li>
+<li><code><a title="colors.CanvasColors.Cornsilk4" href="#colors.CanvasColors.Cornsilk4">Cornsilk4</a></code></li>
+<li><code><a title="colors.CanvasColors.Cyan" href="#colors.CanvasColors.Cyan">Cyan</a></code></li>
+<li><code><a title="colors.CanvasColors.Cyan2" href="#colors.CanvasColors.Cyan2">Cyan2</a></code></li>
+<li><code><a title="colors.CanvasColors.Cyan3" href="#colors.CanvasColors.Cyan3">Cyan3</a></code></li>
+<li><code><a title="colors.CanvasColors.Cyan4" href="#colors.CanvasColors.Cyan4">Cyan4</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkgoldenrod" href="#colors.CanvasColors.Darkgoldenrod">Darkgoldenrod</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkgoldenrod1" href="#colors.CanvasColors.Darkgoldenrod1">Darkgoldenrod1</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkgoldenrod2" href="#colors.CanvasColors.Darkgoldenrod2">Darkgoldenrod2</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkgoldenrod3" href="#colors.CanvasColors.Darkgoldenrod3">Darkgoldenrod3</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkgoldenrod4" href="#colors.CanvasColors.Darkgoldenrod4">Darkgoldenrod4</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkgreen" href="#colors.CanvasColors.Darkgreen">Darkgreen</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkkhaki" href="#colors.CanvasColors.Darkkhaki">Darkkhaki</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkolivegreen" href="#colors.CanvasColors.Darkolivegreen">Darkolivegreen</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkolivegreen1" href="#colors.CanvasColors.Darkolivegreen1">Darkolivegreen1</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkolivegreen2" href="#colors.CanvasColors.Darkolivegreen2">Darkolivegreen2</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkolivegreen3" href="#colors.CanvasColors.Darkolivegreen3">Darkolivegreen3</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkolivegreen4" href="#colors.CanvasColors.Darkolivegreen4">Darkolivegreen4</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkorange" href="#colors.CanvasColors.Darkorange">Darkorange</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkorange1" href="#colors.CanvasColors.Darkorange1">Darkorange1</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkorange2" href="#colors.CanvasColors.Darkorange2">Darkorange2</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkorange3" href="#colors.CanvasColors.Darkorange3">Darkorange3</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkorange4" href="#colors.CanvasColors.Darkorange4">Darkorange4</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkorchid" href="#colors.CanvasColors.Darkorchid">Darkorchid</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkorchid1" href="#colors.CanvasColors.Darkorchid1">Darkorchid1</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkorchid2" href="#colors.CanvasColors.Darkorchid2">Darkorchid2</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkorchid3" href="#colors.CanvasColors.Darkorchid3">Darkorchid3</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkorchid4" href="#colors.CanvasColors.Darkorchid4">Darkorchid4</a></code></li>
+<li><code><a title="colors.CanvasColors.Darksalmon" href="#colors.CanvasColors.Darksalmon">Darksalmon</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkseagreen" href="#colors.CanvasColors.Darkseagreen">Darkseagreen</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkseagreen1" href="#colors.CanvasColors.Darkseagreen1">Darkseagreen1</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkseagreen2" href="#colors.CanvasColors.Darkseagreen2">Darkseagreen2</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkseagreen3" href="#colors.CanvasColors.Darkseagreen3">Darkseagreen3</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkseagreen4" href="#colors.CanvasColors.Darkseagreen4">Darkseagreen4</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkslateblue" href="#colors.CanvasColors.Darkslateblue">Darkslateblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkslategray" href="#colors.CanvasColors.Darkslategray">Darkslategray</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkslategray1" href="#colors.CanvasColors.Darkslategray1">Darkslategray1</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkslategray2" href="#colors.CanvasColors.Darkslategray2">Darkslategray2</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkslategray3" href="#colors.CanvasColors.Darkslategray3">Darkslategray3</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkslategray4" href="#colors.CanvasColors.Darkslategray4">Darkslategray4</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkturquoise" href="#colors.CanvasColors.Darkturquoise">Darkturquoise</a></code></li>
+<li><code><a title="colors.CanvasColors.Darkviolet" href="#colors.CanvasColors.Darkviolet">Darkviolet</a></code></li>
+<li><code><a title="colors.CanvasColors.Deeppink" href="#colors.CanvasColors.Deeppink">Deeppink</a></code></li>
+<li><code><a title="colors.CanvasColors.Deeppink2" href="#colors.CanvasColors.Deeppink2">Deeppink2</a></code></li>
+<li><code><a title="colors.CanvasColors.Deeppink3" href="#colors.CanvasColors.Deeppink3">Deeppink3</a></code></li>
+<li><code><a title="colors.CanvasColors.Deeppink4" href="#colors.CanvasColors.Deeppink4">Deeppink4</a></code></li>
+<li><code><a title="colors.CanvasColors.Deepskyblue" href="#colors.CanvasColors.Deepskyblue">Deepskyblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Deepskyblue2" href="#colors.CanvasColors.Deepskyblue2">Deepskyblue2</a></code></li>
+<li><code><a title="colors.CanvasColors.Deepskyblue3" href="#colors.CanvasColors.Deepskyblue3">Deepskyblue3</a></code></li>
+<li><code><a title="colors.CanvasColors.Deepskyblue4" href="#colors.CanvasColors.Deepskyblue4">Deepskyblue4</a></code></li>
+<li><code><a title="colors.CanvasColors.Dimgray" href="#colors.CanvasColors.Dimgray">Dimgray</a></code></li>
+<li><code><a title="colors.CanvasColors.Dodgerblue" href="#colors.CanvasColors.Dodgerblue">Dodgerblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Dodgerblue2" href="#colors.CanvasColors.Dodgerblue2">Dodgerblue2</a></code></li>
+<li><code><a title="colors.CanvasColors.Dodgerblue3" href="#colors.CanvasColors.Dodgerblue3">Dodgerblue3</a></code></li>
+<li><code><a title="colors.CanvasColors.Dodgerblue4" href="#colors.CanvasColors.Dodgerblue4">Dodgerblue4</a></code></li>
+<li><code><a title="colors.CanvasColors.Firebrick1" href="#colors.CanvasColors.Firebrick1">Firebrick1</a></code></li>
+<li><code><a title="colors.CanvasColors.Firebrick2" href="#colors.CanvasColors.Firebrick2">Firebrick2</a></code></li>
+<li><code><a title="colors.CanvasColors.Firebrick3" href="#colors.CanvasColors.Firebrick3">Firebrick3</a></code></li>
+<li><code><a title="colors.CanvasColors.Firebrick4" href="#colors.CanvasColors.Firebrick4">Firebrick4</a></code></li>
+<li><code><a title="colors.CanvasColors.Floralwhite" href="#colors.CanvasColors.Floralwhite">Floralwhite</a></code></li>
+<li><code><a title="colors.CanvasColors.Forestgreen" href="#colors.CanvasColors.Forestgreen">Forestgreen</a></code></li>
+<li><code><a title="colors.CanvasColors.Gainsboro" href="#colors.CanvasColors.Gainsboro">Gainsboro</a></code></li>
+<li><code><a title="colors.CanvasColors.Ghostwhite" href="#colors.CanvasColors.Ghostwhite">Ghostwhite</a></code></li>
+<li><code><a title="colors.CanvasColors.Gold" href="#colors.CanvasColors.Gold">Gold</a></code></li>
+<li><code><a title="colors.CanvasColors.Gold2" href="#colors.CanvasColors.Gold2">Gold2</a></code></li>
+<li><code><a title="colors.CanvasColors.Gold3" href="#colors.CanvasColors.Gold3">Gold3</a></code></li>
+<li><code><a title="colors.CanvasColors.Gold4" href="#colors.CanvasColors.Gold4">Gold4</a></code></li>
+<li><code><a title="colors.CanvasColors.Goldenrod" href="#colors.CanvasColors.Goldenrod">Goldenrod</a></code></li>
+<li><code><a title="colors.CanvasColors.Goldenrod1" href="#colors.CanvasColors.Goldenrod1">Goldenrod1</a></code></li>
+<li><code><a title="colors.CanvasColors.Goldenrod2" href="#colors.CanvasColors.Goldenrod2">Goldenrod2</a></code></li>
+<li><code><a title="colors.CanvasColors.Goldenrod3" href="#colors.CanvasColors.Goldenrod3">Goldenrod3</a></code></li>
+<li><code><a title="colors.CanvasColors.Goldenrod4" href="#colors.CanvasColors.Goldenrod4">Goldenrod4</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray" href="#colors.CanvasColors.Gray">Gray</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray1" href="#colors.CanvasColors.Gray1">Gray1</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray10" href="#colors.CanvasColors.Gray10">Gray10</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray11" href="#colors.CanvasColors.Gray11">Gray11</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray12" href="#colors.CanvasColors.Gray12">Gray12</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray13" href="#colors.CanvasColors.Gray13">Gray13</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray14" href="#colors.CanvasColors.Gray14">Gray14</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray15" href="#colors.CanvasColors.Gray15">Gray15</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray16" href="#colors.CanvasColors.Gray16">Gray16</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray17" href="#colors.CanvasColors.Gray17">Gray17</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray18" href="#colors.CanvasColors.Gray18">Gray18</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray19" href="#colors.CanvasColors.Gray19">Gray19</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray2" href="#colors.CanvasColors.Gray2">Gray2</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray20" href="#colors.CanvasColors.Gray20">Gray20</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray21" href="#colors.CanvasColors.Gray21">Gray21</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray22" href="#colors.CanvasColors.Gray22">Gray22</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray23" href="#colors.CanvasColors.Gray23">Gray23</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray24" href="#colors.CanvasColors.Gray24">Gray24</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray25" href="#colors.CanvasColors.Gray25">Gray25</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray26" href="#colors.CanvasColors.Gray26">Gray26</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray27" href="#colors.CanvasColors.Gray27">Gray27</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray28" href="#colors.CanvasColors.Gray28">Gray28</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray29" href="#colors.CanvasColors.Gray29">Gray29</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray3" href="#colors.CanvasColors.Gray3">Gray3</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray30" href="#colors.CanvasColors.Gray30">Gray30</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray31" href="#colors.CanvasColors.Gray31">Gray31</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray32" href="#colors.CanvasColors.Gray32">Gray32</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray33" href="#colors.CanvasColors.Gray33">Gray33</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray34" href="#colors.CanvasColors.Gray34">Gray34</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray35" href="#colors.CanvasColors.Gray35">Gray35</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray36" href="#colors.CanvasColors.Gray36">Gray36</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray37" href="#colors.CanvasColors.Gray37">Gray37</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray38" href="#colors.CanvasColors.Gray38">Gray38</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray39" href="#colors.CanvasColors.Gray39">Gray39</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray4" href="#colors.CanvasColors.Gray4">Gray4</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray40" href="#colors.CanvasColors.Gray40">Gray40</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray42" href="#colors.CanvasColors.Gray42">Gray42</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray43" href="#colors.CanvasColors.Gray43">Gray43</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray44" href="#colors.CanvasColors.Gray44">Gray44</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray45" href="#colors.CanvasColors.Gray45">Gray45</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray46" href="#colors.CanvasColors.Gray46">Gray46</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray47" href="#colors.CanvasColors.Gray47">Gray47</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray48" href="#colors.CanvasColors.Gray48">Gray48</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray49" href="#colors.CanvasColors.Gray49">Gray49</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray5" href="#colors.CanvasColors.Gray5">Gray5</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray50" href="#colors.CanvasColors.Gray50">Gray50</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray51" href="#colors.CanvasColors.Gray51">Gray51</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray52" href="#colors.CanvasColors.Gray52">Gray52</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray53" href="#colors.CanvasColors.Gray53">Gray53</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray54" href="#colors.CanvasColors.Gray54">Gray54</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray55" href="#colors.CanvasColors.Gray55">Gray55</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray56" href="#colors.CanvasColors.Gray56">Gray56</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray57" href="#colors.CanvasColors.Gray57">Gray57</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray58" href="#colors.CanvasColors.Gray58">Gray58</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray59" href="#colors.CanvasColors.Gray59">Gray59</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray6" href="#colors.CanvasColors.Gray6">Gray6</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray60" href="#colors.CanvasColors.Gray60">Gray60</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray61" href="#colors.CanvasColors.Gray61">Gray61</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray62" href="#colors.CanvasColors.Gray62">Gray62</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray63" href="#colors.CanvasColors.Gray63">Gray63</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray64" href="#colors.CanvasColors.Gray64">Gray64</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray65" href="#colors.CanvasColors.Gray65">Gray65</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray66" href="#colors.CanvasColors.Gray66">Gray66</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray67" href="#colors.CanvasColors.Gray67">Gray67</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray68" href="#colors.CanvasColors.Gray68">Gray68</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray69" href="#colors.CanvasColors.Gray69">Gray69</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray7" href="#colors.CanvasColors.Gray7">Gray7</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray70" href="#colors.CanvasColors.Gray70">Gray70</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray71" href="#colors.CanvasColors.Gray71">Gray71</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray72" href="#colors.CanvasColors.Gray72">Gray72</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray73" href="#colors.CanvasColors.Gray73">Gray73</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray74" href="#colors.CanvasColors.Gray74">Gray74</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray75" href="#colors.CanvasColors.Gray75">Gray75</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray76" href="#colors.CanvasColors.Gray76">Gray76</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray77" href="#colors.CanvasColors.Gray77">Gray77</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray78" href="#colors.CanvasColors.Gray78">Gray78</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray79" href="#colors.CanvasColors.Gray79">Gray79</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray8" href="#colors.CanvasColors.Gray8">Gray8</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray80" href="#colors.CanvasColors.Gray80">Gray80</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray81" href="#colors.CanvasColors.Gray81">Gray81</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray82" href="#colors.CanvasColors.Gray82">Gray82</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray83" href="#colors.CanvasColors.Gray83">Gray83</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray84" href="#colors.CanvasColors.Gray84">Gray84</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray85" href="#colors.CanvasColors.Gray85">Gray85</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray86" href="#colors.CanvasColors.Gray86">Gray86</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray87" href="#colors.CanvasColors.Gray87">Gray87</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray88" href="#colors.CanvasColors.Gray88">Gray88</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray89" href="#colors.CanvasColors.Gray89">Gray89</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray9" href="#colors.CanvasColors.Gray9">Gray9</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray90" href="#colors.CanvasColors.Gray90">Gray90</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray91" href="#colors.CanvasColors.Gray91">Gray91</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray92" href="#colors.CanvasColors.Gray92">Gray92</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray93" href="#colors.CanvasColors.Gray93">Gray93</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray94" href="#colors.CanvasColors.Gray94">Gray94</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray95" href="#colors.CanvasColors.Gray95">Gray95</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray97" href="#colors.CanvasColors.Gray97">Gray97</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray98" href="#colors.CanvasColors.Gray98">Gray98</a></code></li>
+<li><code><a title="colors.CanvasColors.Gray99" href="#colors.CanvasColors.Gray99">Gray99</a></code></li>
+<li><code><a title="colors.CanvasColors.Green2" href="#colors.CanvasColors.Green2">Green2</a></code></li>
+<li><code><a title="colors.CanvasColors.Green3" href="#colors.CanvasColors.Green3">Green3</a></code></li>
+<li><code><a title="colors.CanvasColors.Green4" href="#colors.CanvasColors.Green4">Green4</a></code></li>
+<li><code><a title="colors.CanvasColors.Greenyellow" href="#colors.CanvasColors.Greenyellow">Greenyellow</a></code></li>
+<li><code><a title="colors.CanvasColors.Honeydew2" href="#colors.CanvasColors.Honeydew2">Honeydew2</a></code></li>
+<li><code><a title="colors.CanvasColors.Honeydew3" href="#colors.CanvasColors.Honeydew3">Honeydew3</a></code></li>
+<li><code><a title="colors.CanvasColors.Honeydew4" href="#colors.CanvasColors.Honeydew4">Honeydew4</a></code></li>
+<li><code><a title="colors.CanvasColors.Hotpink" href="#colors.CanvasColors.Hotpink">Hotpink</a></code></li>
+<li><code><a title="colors.CanvasColors.Hotpink1" href="#colors.CanvasColors.Hotpink1">Hotpink1</a></code></li>
+<li><code><a title="colors.CanvasColors.Hotpink2" href="#colors.CanvasColors.Hotpink2">Hotpink2</a></code></li>
+<li><code><a title="colors.CanvasColors.Hotpink3" href="#colors.CanvasColors.Hotpink3">Hotpink3</a></code></li>
+<li><code><a title="colors.CanvasColors.Hotpink4" href="#colors.CanvasColors.Hotpink4">Hotpink4</a></code></li>
+<li><code><a title="colors.CanvasColors.Indianred" href="#colors.CanvasColors.Indianred">Indianred</a></code></li>
+<li><code><a title="colors.CanvasColors.Indianred1" href="#colors.CanvasColors.Indianred1">Indianred1</a></code></li>
+<li><code><a title="colors.CanvasColors.Indianred2" href="#colors.CanvasColors.Indianred2">Indianred2</a></code></li>
+<li><code><a title="colors.CanvasColors.Indianred3" href="#colors.CanvasColors.Indianred3">Indianred3</a></code></li>
+<li><code><a title="colors.CanvasColors.Indianred4" href="#colors.CanvasColors.Indianred4">Indianred4</a></code></li>
+<li><code><a title="colors.CanvasColors.Ivory2" href="#colors.CanvasColors.Ivory2">Ivory2</a></code></li>
+<li><code><a title="colors.CanvasColors.Ivory3" href="#colors.CanvasColors.Ivory3">Ivory3</a></code></li>
+<li><code><a title="colors.CanvasColors.Ivory4" href="#colors.CanvasColors.Ivory4">Ivory4</a></code></li>
+<li><code><a title="colors.CanvasColors.Khaki" href="#colors.CanvasColors.Khaki">Khaki</a></code></li>
+<li><code><a title="colors.CanvasColors.Khaki1" href="#colors.CanvasColors.Khaki1">Khaki1</a></code></li>
+<li><code><a title="colors.CanvasColors.Khaki2" href="#colors.CanvasColors.Khaki2">Khaki2</a></code></li>
+<li><code><a title="colors.CanvasColors.Khaki3" href="#colors.CanvasColors.Khaki3">Khaki3</a></code></li>
+<li><code><a title="colors.CanvasColors.Khaki4" href="#colors.CanvasColors.Khaki4">Khaki4</a></code></li>
+<li><code><a title="colors.CanvasColors.Lavender" href="#colors.CanvasColors.Lavender">Lavender</a></code></li>
+<li><code><a title="colors.CanvasColors.Lavenderblush" href="#colors.CanvasColors.Lavenderblush">Lavenderblush</a></code></li>
+<li><code><a title="colors.CanvasColors.Lavenderblush2" href="#colors.CanvasColors.Lavenderblush2">Lavenderblush2</a></code></li>
+<li><code><a title="colors.CanvasColors.Lavenderblush3" href="#colors.CanvasColors.Lavenderblush3">Lavenderblush3</a></code></li>
+<li><code><a title="colors.CanvasColors.Lavenderblush4" href="#colors.CanvasColors.Lavenderblush4">Lavenderblush4</a></code></li>
+<li><code><a title="colors.CanvasColors.Lawngreen" href="#colors.CanvasColors.Lawngreen">Lawngreen</a></code></li>
+<li><code><a title="colors.CanvasColors.Lemonchiffon" href="#colors.CanvasColors.Lemonchiffon">Lemonchiffon</a></code></li>
+<li><code><a title="colors.CanvasColors.Lemonchiffon2" href="#colors.CanvasColors.Lemonchiffon2">Lemonchiffon2</a></code></li>
+<li><code><a title="colors.CanvasColors.Lemonchiffon3" href="#colors.CanvasColors.Lemonchiffon3">Lemonchiffon3</a></code></li>
+<li><code><a title="colors.CanvasColors.Lemonchiffon4" href="#colors.CanvasColors.Lemonchiffon4">Lemonchiffon4</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightblue" href="#colors.CanvasColors.Lightblue">Lightblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightblue1" href="#colors.CanvasColors.Lightblue1">Lightblue1</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightblue2" href="#colors.CanvasColors.Lightblue2">Lightblue2</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightblue3" href="#colors.CanvasColors.Lightblue3">Lightblue3</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightblue4" href="#colors.CanvasColors.Lightblue4">Lightblue4</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightcoral" href="#colors.CanvasColors.Lightcoral">Lightcoral</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightcyan" href="#colors.CanvasColors.Lightcyan">Lightcyan</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightcyan2" href="#colors.CanvasColors.Lightcyan2">Lightcyan2</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightcyan3" href="#colors.CanvasColors.Lightcyan3">Lightcyan3</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightcyan4" href="#colors.CanvasColors.Lightcyan4">Lightcyan4</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightgoldenrod" href="#colors.CanvasColors.Lightgoldenrod">Lightgoldenrod</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightgoldenrod1" href="#colors.CanvasColors.Lightgoldenrod1">Lightgoldenrod1</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightgoldenrod2" href="#colors.CanvasColors.Lightgoldenrod2">Lightgoldenrod2</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightgoldenrod3" href="#colors.CanvasColors.Lightgoldenrod3">Lightgoldenrod3</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightgoldenrod4" href="#colors.CanvasColors.Lightgoldenrod4">Lightgoldenrod4</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightgoldenrodyellow" href="#colors.CanvasColors.Lightgoldenrodyellow">Lightgoldenrodyellow</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightgrey" href="#colors.CanvasColors.Lightgrey">Lightgrey</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightpink" href="#colors.CanvasColors.Lightpink">Lightpink</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightpink1" href="#colors.CanvasColors.Lightpink1">Lightpink1</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightpink2" href="#colors.CanvasColors.Lightpink2">Lightpink2</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightpink3" href="#colors.CanvasColors.Lightpink3">Lightpink3</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightpink4" href="#colors.CanvasColors.Lightpink4">Lightpink4</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightsalmon" href="#colors.CanvasColors.Lightsalmon">Lightsalmon</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightsalmon2" href="#colors.CanvasColors.Lightsalmon2">Lightsalmon2</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightsalmon3" href="#colors.CanvasColors.Lightsalmon3">Lightsalmon3</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightsalmon4" href="#colors.CanvasColors.Lightsalmon4">Lightsalmon4</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightseagreen" href="#colors.CanvasColors.Lightseagreen">Lightseagreen</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightskyblue" href="#colors.CanvasColors.Lightskyblue">Lightskyblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightskyblue1" href="#colors.CanvasColors.Lightskyblue1">Lightskyblue1</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightskyblue2" href="#colors.CanvasColors.Lightskyblue2">Lightskyblue2</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightskyblue3" href="#colors.CanvasColors.Lightskyblue3">Lightskyblue3</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightskyblue4" href="#colors.CanvasColors.Lightskyblue4">Lightskyblue4</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightslateblue" href="#colors.CanvasColors.Lightslateblue">Lightslateblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightslategray" href="#colors.CanvasColors.Lightslategray">Lightslategray</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightsteelblue" href="#colors.CanvasColors.Lightsteelblue">Lightsteelblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightsteelblue1" href="#colors.CanvasColors.Lightsteelblue1">Lightsteelblue1</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightsteelblue2" href="#colors.CanvasColors.Lightsteelblue2">Lightsteelblue2</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightsteelblue3" href="#colors.CanvasColors.Lightsteelblue3">Lightsteelblue3</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightsteelblue4" href="#colors.CanvasColors.Lightsteelblue4">Lightsteelblue4</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightyellow" href="#colors.CanvasColors.Lightyellow">Lightyellow</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightyellow2" href="#colors.CanvasColors.Lightyellow2">Lightyellow2</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightyellow3" href="#colors.CanvasColors.Lightyellow3">Lightyellow3</a></code></li>
+<li><code><a title="colors.CanvasColors.Lightyellow4" href="#colors.CanvasColors.Lightyellow4">Lightyellow4</a></code></li>
+<li><code><a title="colors.CanvasColors.Limegreen" href="#colors.CanvasColors.Limegreen">Limegreen</a></code></li>
+<li><code><a title="colors.CanvasColors.Linen" href="#colors.CanvasColors.Linen">Linen</a></code></li>
+<li><code><a title="colors.CanvasColors.Magenta2" href="#colors.CanvasColors.Magenta2">Magenta2</a></code></li>
+<li><code><a title="colors.CanvasColors.Magenta3" href="#colors.CanvasColors.Magenta3">Magenta3</a></code></li>
+<li><code><a title="colors.CanvasColors.Magenta4" href="#colors.CanvasColors.Magenta4">Magenta4</a></code></li>
+<li><code><a title="colors.CanvasColors.Maroon" href="#colors.CanvasColors.Maroon">Maroon</a></code></li>
+<li><code><a title="colors.CanvasColors.Maroon1" href="#colors.CanvasColors.Maroon1">Maroon1</a></code></li>
+<li><code><a title="colors.CanvasColors.Maroon2" href="#colors.CanvasColors.Maroon2">Maroon2</a></code></li>
+<li><code><a title="colors.CanvasColors.Maroon3" href="#colors.CanvasColors.Maroon3">Maroon3</a></code></li>
+<li><code><a title="colors.CanvasColors.Maroon4" href="#colors.CanvasColors.Maroon4">Maroon4</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumaquamarine" href="#colors.CanvasColors.Mediumaquamarine">Mediumaquamarine</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumblue" href="#colors.CanvasColors.Mediumblue">Mediumblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumorchid" href="#colors.CanvasColors.Mediumorchid">Mediumorchid</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumorchid1" href="#colors.CanvasColors.Mediumorchid1">Mediumorchid1</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumorchid2" href="#colors.CanvasColors.Mediumorchid2">Mediumorchid2</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumorchid3" href="#colors.CanvasColors.Mediumorchid3">Mediumorchid3</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumorchid4" href="#colors.CanvasColors.Mediumorchid4">Mediumorchid4</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumpurple" href="#colors.CanvasColors.Mediumpurple">Mediumpurple</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumpurple1" href="#colors.CanvasColors.Mediumpurple1">Mediumpurple1</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumpurple2" href="#colors.CanvasColors.Mediumpurple2">Mediumpurple2</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumpurple3" href="#colors.CanvasColors.Mediumpurple3">Mediumpurple3</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumpurple4" href="#colors.CanvasColors.Mediumpurple4">Mediumpurple4</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumseagreen" href="#colors.CanvasColors.Mediumseagreen">Mediumseagreen</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumslateblue" href="#colors.CanvasColors.Mediumslateblue">Mediumslateblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumspringgreen" href="#colors.CanvasColors.Mediumspringgreen">Mediumspringgreen</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumturquoise" href="#colors.CanvasColors.Mediumturquoise">Mediumturquoise</a></code></li>
+<li><code><a title="colors.CanvasColors.Mediumvioletred" href="#colors.CanvasColors.Mediumvioletred">Mediumvioletred</a></code></li>
+<li><code><a title="colors.CanvasColors.Midnightblue" href="#colors.CanvasColors.Midnightblue">Midnightblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Mintcream" href="#colors.CanvasColors.Mintcream">Mintcream</a></code></li>
+<li><code><a title="colors.CanvasColors.Mistyrose" href="#colors.CanvasColors.Mistyrose">Mistyrose</a></code></li>
+<li><code><a title="colors.CanvasColors.Mistyrose2" href="#colors.CanvasColors.Mistyrose2">Mistyrose2</a></code></li>
+<li><code><a title="colors.CanvasColors.Mistyrose3" href="#colors.CanvasColors.Mistyrose3">Mistyrose3</a></code></li>
+<li><code><a title="colors.CanvasColors.Mistyrose4" href="#colors.CanvasColors.Mistyrose4">Mistyrose4</a></code></li>
+<li><code><a title="colors.CanvasColors.Navajowhite" href="#colors.CanvasColors.Navajowhite">Navajowhite</a></code></li>
+<li><code><a title="colors.CanvasColors.Navajowhite2" href="#colors.CanvasColors.Navajowhite2">Navajowhite2</a></code></li>
+<li><code><a title="colors.CanvasColors.Navajowhite3" href="#colors.CanvasColors.Navajowhite3">Navajowhite3</a></code></li>
+<li><code><a title="colors.CanvasColors.Navajowhite4" href="#colors.CanvasColors.Navajowhite4">Navajowhite4</a></code></li>
+<li><code><a title="colors.CanvasColors.Navy" href="#colors.CanvasColors.Navy">Navy</a></code></li>
+<li><code><a title="colors.CanvasColors.Oldlace" href="#colors.CanvasColors.Oldlace">Oldlace</a></code></li>
+<li><code><a title="colors.CanvasColors.Olivedrab" href="#colors.CanvasColors.Olivedrab">Olivedrab</a></code></li>
+<li><code><a title="colors.CanvasColors.Olivedrab1" href="#colors.CanvasColors.Olivedrab1">Olivedrab1</a></code></li>
+<li><code><a title="colors.CanvasColors.Olivedrab2" href="#colors.CanvasColors.Olivedrab2">Olivedrab2</a></code></li>
+<li><code><a title="colors.CanvasColors.Olivedrab4" href="#colors.CanvasColors.Olivedrab4">Olivedrab4</a></code></li>
+<li><code><a title="colors.CanvasColors.Orange" href="#colors.CanvasColors.Orange">Orange</a></code></li>
+<li><code><a title="colors.CanvasColors.Orange2" href="#colors.CanvasColors.Orange2">Orange2</a></code></li>
+<li><code><a title="colors.CanvasColors.Orange3" href="#colors.CanvasColors.Orange3">Orange3</a></code></li>
+<li><code><a title="colors.CanvasColors.Orange4" href="#colors.CanvasColors.Orange4">Orange4</a></code></li>
+<li><code><a title="colors.CanvasColors.Orangered" href="#colors.CanvasColors.Orangered">Orangered</a></code></li>
+<li><code><a title="colors.CanvasColors.Orangered2" href="#colors.CanvasColors.Orangered2">Orangered2</a></code></li>
+<li><code><a title="colors.CanvasColors.Orangered3" href="#colors.CanvasColors.Orangered3">Orangered3</a></code></li>
+<li><code><a title="colors.CanvasColors.Orangered4" href="#colors.CanvasColors.Orangered4">Orangered4</a></code></li>
+<li><code><a title="colors.CanvasColors.Orchid1" href="#colors.CanvasColors.Orchid1">Orchid1</a></code></li>
+<li><code><a title="colors.CanvasColors.Orchid2" href="#colors.CanvasColors.Orchid2">Orchid2</a></code></li>
+<li><code><a title="colors.CanvasColors.Orchid3" href="#colors.CanvasColors.Orchid3">Orchid3</a></code></li>
+<li><code><a title="colors.CanvasColors.Orchid4" href="#colors.CanvasColors.Orchid4">Orchid4</a></code></li>
+<li><code><a title="colors.CanvasColors.Palegoldenrod" href="#colors.CanvasColors.Palegoldenrod">Palegoldenrod</a></code></li>
+<li><code><a title="colors.CanvasColors.Palegreen" href="#colors.CanvasColors.Palegreen">Palegreen</a></code></li>
+<li><code><a title="colors.CanvasColors.Palegreen1" href="#colors.CanvasColors.Palegreen1">Palegreen1</a></code></li>
+<li><code><a title="colors.CanvasColors.Palegreen2" href="#colors.CanvasColors.Palegreen2">Palegreen2</a></code></li>
+<li><code><a title="colors.CanvasColors.Palegreen3" href="#colors.CanvasColors.Palegreen3">Palegreen3</a></code></li>
+<li><code><a title="colors.CanvasColors.Palegreen4" href="#colors.CanvasColors.Palegreen4">Palegreen4</a></code></li>
+<li><code><a title="colors.CanvasColors.Paleturquoise" href="#colors.CanvasColors.Paleturquoise">Paleturquoise</a></code></li>
+<li><code><a title="colors.CanvasColors.Paleturquoise1" href="#colors.CanvasColors.Paleturquoise1">Paleturquoise1</a></code></li>
+<li><code><a title="colors.CanvasColors.Paleturquoise2" href="#colors.CanvasColors.Paleturquoise2">Paleturquoise2</a></code></li>
+<li><code><a title="colors.CanvasColors.Paleturquoise3" href="#colors.CanvasColors.Paleturquoise3">Paleturquoise3</a></code></li>
+<li><code><a title="colors.CanvasColors.Paleturquoise4" href="#colors.CanvasColors.Paleturquoise4">Paleturquoise4</a></code></li>
+<li><code><a title="colors.CanvasColors.Palevioletred" href="#colors.CanvasColors.Palevioletred">Palevioletred</a></code></li>
+<li><code><a title="colors.CanvasColors.Palevioletred1" href="#colors.CanvasColors.Palevioletred1">Palevioletred1</a></code></li>
+<li><code><a title="colors.CanvasColors.Palevioletred2" href="#colors.CanvasColors.Palevioletred2">Palevioletred2</a></code></li>
+<li><code><a title="colors.CanvasColors.Palevioletred3" href="#colors.CanvasColors.Palevioletred3">Palevioletred3</a></code></li>
+<li><code><a title="colors.CanvasColors.Palevioletred4" href="#colors.CanvasColors.Palevioletred4">Palevioletred4</a></code></li>
+<li><code><a title="colors.CanvasColors.Papayawhip" href="#colors.CanvasColors.Papayawhip">Papayawhip</a></code></li>
+<li><code><a title="colors.CanvasColors.Peachpuff" href="#colors.CanvasColors.Peachpuff">Peachpuff</a></code></li>
+<li><code><a title="colors.CanvasColors.Peachpuff2" href="#colors.CanvasColors.Peachpuff2">Peachpuff2</a></code></li>
+<li><code><a title="colors.CanvasColors.Peachpuff3" href="#colors.CanvasColors.Peachpuff3">Peachpuff3</a></code></li>
+<li><code><a title="colors.CanvasColors.Peachpuff4" href="#colors.CanvasColors.Peachpuff4">Peachpuff4</a></code></li>
+<li><code><a title="colors.CanvasColors.Pink" href="#colors.CanvasColors.Pink">Pink</a></code></li>
+<li><code><a title="colors.CanvasColors.Pink1" href="#colors.CanvasColors.Pink1">Pink1</a></code></li>
+<li><code><a title="colors.CanvasColors.Pink2" href="#colors.CanvasColors.Pink2">Pink2</a></code></li>
+<li><code><a title="colors.CanvasColors.Pink3" href="#colors.CanvasColors.Pink3">Pink3</a></code></li>
+<li><code><a title="colors.CanvasColors.Pink4" href="#colors.CanvasColors.Pink4">Pink4</a></code></li>
+<li><code><a title="colors.CanvasColors.Plum1" href="#colors.CanvasColors.Plum1">Plum1</a></code></li>
+<li><code><a title="colors.CanvasColors.Plum2" href="#colors.CanvasColors.Plum2">Plum2</a></code></li>
+<li><code><a title="colors.CanvasColors.Plum3" href="#colors.CanvasColors.Plum3">Plum3</a></code></li>
+<li><code><a title="colors.CanvasColors.Plum4" href="#colors.CanvasColors.Plum4">Plum4</a></code></li>
+<li><code><a title="colors.CanvasColors.Powderblue" href="#colors.CanvasColors.Powderblue">Powderblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Purple" href="#colors.CanvasColors.Purple">Purple</a></code></li>
+<li><code><a title="colors.CanvasColors.Purple1" href="#colors.CanvasColors.Purple1">Purple1</a></code></li>
+<li><code><a title="colors.CanvasColors.Purple2" href="#colors.CanvasColors.Purple2">Purple2</a></code></li>
+<li><code><a title="colors.CanvasColors.Purple3" href="#colors.CanvasColors.Purple3">Purple3</a></code></li>
+<li><code><a title="colors.CanvasColors.Purple4" href="#colors.CanvasColors.Purple4">Purple4</a></code></li>
+<li><code><a title="colors.CanvasColors.Red" href="#colors.CanvasColors.Red">Red</a></code></li>
+<li><code><a title="colors.CanvasColors.Red2" href="#colors.CanvasColors.Red2">Red2</a></code></li>
+<li><code><a title="colors.CanvasColors.Red3" href="#colors.CanvasColors.Red3">Red3</a></code></li>
+<li><code><a title="colors.CanvasColors.Red4" href="#colors.CanvasColors.Red4">Red4</a></code></li>
+<li><code><a title="colors.CanvasColors.Rosybrown" href="#colors.CanvasColors.Rosybrown">Rosybrown</a></code></li>
+<li><code><a title="colors.CanvasColors.Rosybrown1" href="#colors.CanvasColors.Rosybrown1">Rosybrown1</a></code></li>
+<li><code><a title="colors.CanvasColors.Rosybrown2" href="#colors.CanvasColors.Rosybrown2">Rosybrown2</a></code></li>
+<li><code><a title="colors.CanvasColors.Rosybrown3" href="#colors.CanvasColors.Rosybrown3">Rosybrown3</a></code></li>
+<li><code><a title="colors.CanvasColors.Rosybrown4" href="#colors.CanvasColors.Rosybrown4">Rosybrown4</a></code></li>
+<li><code><a title="colors.CanvasColors.Royalblue" href="#colors.CanvasColors.Royalblue">Royalblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Royalblue1" href="#colors.CanvasColors.Royalblue1">Royalblue1</a></code></li>
+<li><code><a title="colors.CanvasColors.Royalblue2" href="#colors.CanvasColors.Royalblue2">Royalblue2</a></code></li>
+<li><code><a title="colors.CanvasColors.Royalblue3" href="#colors.CanvasColors.Royalblue3">Royalblue3</a></code></li>
+<li><code><a title="colors.CanvasColors.Royalblue4" href="#colors.CanvasColors.Royalblue4">Royalblue4</a></code></li>
+<li><code><a title="colors.CanvasColors.Saddlebrown" href="#colors.CanvasColors.Saddlebrown">Saddlebrown</a></code></li>
+<li><code><a title="colors.CanvasColors.Salmon" href="#colors.CanvasColors.Salmon">Salmon</a></code></li>
+<li><code><a title="colors.CanvasColors.Salmon1" href="#colors.CanvasColors.Salmon1">Salmon1</a></code></li>
+<li><code><a title="colors.CanvasColors.Salmon2" href="#colors.CanvasColors.Salmon2">Salmon2</a></code></li>
+<li><code><a title="colors.CanvasColors.Salmon3" href="#colors.CanvasColors.Salmon3">Salmon3</a></code></li>
+<li><code><a title="colors.CanvasColors.Salmon4" href="#colors.CanvasColors.Salmon4">Salmon4</a></code></li>
+<li><code><a title="colors.CanvasColors.Sandybrown" href="#colors.CanvasColors.Sandybrown">Sandybrown</a></code></li>
+<li><code><a title="colors.CanvasColors.Seagreen" href="#colors.CanvasColors.Seagreen">Seagreen</a></code></li>
+<li><code><a title="colors.CanvasColors.Seagreen1" href="#colors.CanvasColors.Seagreen1">Seagreen1</a></code></li>
+<li><code><a title="colors.CanvasColors.Seagreen2" href="#colors.CanvasColors.Seagreen2">Seagreen2</a></code></li>
+<li><code><a title="colors.CanvasColors.Seagreen3" href="#colors.CanvasColors.Seagreen3">Seagreen3</a></code></li>
+<li><code><a title="colors.CanvasColors.Seashell2" href="#colors.CanvasColors.Seashell2">Seashell2</a></code></li>
+<li><code><a title="colors.CanvasColors.Seashell3" href="#colors.CanvasColors.Seashell3">Seashell3</a></code></li>
+<li><code><a title="colors.CanvasColors.Seashell4" href="#colors.CanvasColors.Seashell4">Seashell4</a></code></li>
+<li><code><a title="colors.CanvasColors.Sienna1" href="#colors.CanvasColors.Sienna1">Sienna1</a></code></li>
+<li><code><a title="colors.CanvasColors.Sienna2" href="#colors.CanvasColors.Sienna2">Sienna2</a></code></li>
+<li><code><a title="colors.CanvasColors.Sienna3" href="#colors.CanvasColors.Sienna3">Sienna3</a></code></li>
+<li><code><a title="colors.CanvasColors.Sienna4" href="#colors.CanvasColors.Sienna4">Sienna4</a></code></li>
+<li><code><a title="colors.CanvasColors.Skyblue" href="#colors.CanvasColors.Skyblue">Skyblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Skyblue1" href="#colors.CanvasColors.Skyblue1">Skyblue1</a></code></li>
+<li><code><a title="colors.CanvasColors.Skyblue2" href="#colors.CanvasColors.Skyblue2">Skyblue2</a></code></li>
+<li><code><a title="colors.CanvasColors.Skyblue3" href="#colors.CanvasColors.Skyblue3">Skyblue3</a></code></li>
+<li><code><a title="colors.CanvasColors.Skyblue4" href="#colors.CanvasColors.Skyblue4">Skyblue4</a></code></li>
+<li><code><a title="colors.CanvasColors.Slateblue" href="#colors.CanvasColors.Slateblue">Slateblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Slateblue1" href="#colors.CanvasColors.Slateblue1">Slateblue1</a></code></li>
+<li><code><a title="colors.CanvasColors.Slateblue2" href="#colors.CanvasColors.Slateblue2">Slateblue2</a></code></li>
+<li><code><a title="colors.CanvasColors.Slateblue3" href="#colors.CanvasColors.Slateblue3">Slateblue3</a></code></li>
+<li><code><a title="colors.CanvasColors.Slateblue4" href="#colors.CanvasColors.Slateblue4">Slateblue4</a></code></li>
+<li><code><a title="colors.CanvasColors.Slategray" href="#colors.CanvasColors.Slategray">Slategray</a></code></li>
+<li><code><a title="colors.CanvasColors.Slategray1" href="#colors.CanvasColors.Slategray1">Slategray1</a></code></li>
+<li><code><a title="colors.CanvasColors.Slategray2" href="#colors.CanvasColors.Slategray2">Slategray2</a></code></li>
+<li><code><a title="colors.CanvasColors.Slategray3" href="#colors.CanvasColors.Slategray3">Slategray3</a></code></li>
+<li><code><a title="colors.CanvasColors.Slategray4" href="#colors.CanvasColors.Slategray4">Slategray4</a></code></li>
+<li><code><a title="colors.CanvasColors.Snow" href="#colors.CanvasColors.Snow">Snow</a></code></li>
+<li><code><a title="colors.CanvasColors.Snow2" href="#colors.CanvasColors.Snow2">Snow2</a></code></li>
+<li><code><a title="colors.CanvasColors.Snow3" href="#colors.CanvasColors.Snow3">Snow3</a></code></li>
+<li><code><a title="colors.CanvasColors.Snow4" href="#colors.CanvasColors.Snow4">Snow4</a></code></li>
+<li><code><a title="colors.CanvasColors.Springgreen" href="#colors.CanvasColors.Springgreen">Springgreen</a></code></li>
+<li><code><a title="colors.CanvasColors.Springgreen2" href="#colors.CanvasColors.Springgreen2">Springgreen2</a></code></li>
+<li><code><a title="colors.CanvasColors.Springgreen3" href="#colors.CanvasColors.Springgreen3">Springgreen3</a></code></li>
+<li><code><a title="colors.CanvasColors.Springgreen4" href="#colors.CanvasColors.Springgreen4">Springgreen4</a></code></li>
+<li><code><a title="colors.CanvasColors.Steelblue" href="#colors.CanvasColors.Steelblue">Steelblue</a></code></li>
+<li><code><a title="colors.CanvasColors.Steelblue1" href="#colors.CanvasColors.Steelblue1">Steelblue1</a></code></li>
+<li><code><a title="colors.CanvasColors.Steelblue2" href="#colors.CanvasColors.Steelblue2">Steelblue2</a></code></li>
+<li><code><a title="colors.CanvasColors.Steelblue3" href="#colors.CanvasColors.Steelblue3">Steelblue3</a></code></li>
+<li><code><a title="colors.CanvasColors.Steelblue4" href="#colors.CanvasColors.Steelblue4">Steelblue4</a></code></li>
+<li><code><a title="colors.CanvasColors.Tan1" href="#colors.CanvasColors.Tan1">Tan1</a></code></li>
+<li><code><a title="colors.CanvasColors.Tan2" href="#colors.CanvasColors.Tan2">Tan2</a></code></li>
+<li><code><a title="colors.CanvasColors.Tan4" href="#colors.CanvasColors.Tan4">Tan4</a></code></li>
+<li><code><a title="colors.CanvasColors.Thistle" href="#colors.CanvasColors.Thistle">Thistle</a></code></li>
+<li><code><a title="colors.CanvasColors.Thistle1" href="#colors.CanvasColors.Thistle1">Thistle1</a></code></li>
+<li><code><a title="colors.CanvasColors.Thistle2" href="#colors.CanvasColors.Thistle2">Thistle2</a></code></li>
+<li><code><a title="colors.CanvasColors.Thistle3" href="#colors.CanvasColors.Thistle3">Thistle3</a></code></li>
+<li><code><a title="colors.CanvasColors.Thistle4" href="#colors.CanvasColors.Thistle4">Thistle4</a></code></li>
+<li><code><a title="colors.CanvasColors.Tomato" href="#colors.CanvasColors.Tomato">Tomato</a></code></li>
+<li><code><a title="colors.CanvasColors.Tomato2" href="#colors.CanvasColors.Tomato2">Tomato2</a></code></li>
+<li><code><a title="colors.CanvasColors.Tomato3" href="#colors.CanvasColors.Tomato3">Tomato3</a></code></li>
+<li><code><a title="colors.CanvasColors.Tomato4" href="#colors.CanvasColors.Tomato4">Tomato4</a></code></li>
+<li><code><a title="colors.CanvasColors.Turquoise" href="#colors.CanvasColors.Turquoise">Turquoise</a></code></li>
+<li><code><a title="colors.CanvasColors.Turquoise1" href="#colors.CanvasColors.Turquoise1">Turquoise1</a></code></li>
+<li><code><a title="colors.CanvasColors.Turquoise2" href="#colors.CanvasColors.Turquoise2">Turquoise2</a></code></li>
+<li><code><a title="colors.CanvasColors.Turquoise3" href="#colors.CanvasColors.Turquoise3">Turquoise3</a></code></li>
+<li><code><a title="colors.CanvasColors.Turquoise4" href="#colors.CanvasColors.Turquoise4">Turquoise4</a></code></li>
+<li><code><a title="colors.CanvasColors.Violetred" href="#colors.CanvasColors.Violetred">Violetred</a></code></li>
+<li><code><a title="colors.CanvasColors.Violetred1" href="#colors.CanvasColors.Violetred1">Violetred1</a></code></li>
+<li><code><a title="colors.CanvasColors.Violetred2" href="#colors.CanvasColors.Violetred2">Violetred2</a></code></li>
+<li><code><a title="colors.CanvasColors.Violetred3" href="#colors.CanvasColors.Violetred3">Violetred3</a></code></li>
+<li><code><a title="colors.CanvasColors.Violetred4" href="#colors.CanvasColors.Violetred4">Violetred4</a></code></li>
+<li><code><a title="colors.CanvasColors.Wheat1" href="#colors.CanvasColors.Wheat1">Wheat1</a></code></li>
+<li><code><a title="colors.CanvasColors.Wheat2" href="#colors.CanvasColors.Wheat2">Wheat2</a></code></li>
+<li><code><a title="colors.CanvasColors.Wheat3" href="#colors.CanvasColors.Wheat3">Wheat3</a></code></li>
+<li><code><a title="colors.CanvasColors.Wheat4" href="#colors.CanvasColors.Wheat4">Wheat4</a></code></li>
+<li><code><a title="colors.CanvasColors.Whitesmoke" href="#colors.CanvasColors.Whitesmoke">Whitesmoke</a></code></li>
+<li><code><a title="colors.CanvasColors.Yellow" href="#colors.CanvasColors.Yellow">Yellow</a></code></li>
+<li><code><a title="colors.CanvasColors.Yellow2" href="#colors.CanvasColors.Yellow2">Yellow2</a></code></li>
+<li><code><a title="colors.CanvasColors.Yellow3" href="#colors.CanvasColors.Yellow3">Yellow3</a></code></li>
+<li><code><a title="colors.CanvasColors.Yellow4" href="#colors.CanvasColors.Yellow4">Yellow4</a></code></li>
+<li><code><a title="colors.CanvasColors.Yellowgreen" href="#colors.CanvasColors.Yellowgreen">Yellowgreen</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.9.1</a>.</p>
+</footer>
+</body>
+</html>
