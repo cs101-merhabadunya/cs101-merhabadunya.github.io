@@ -33,7 +33,7 @@ Toplam fiyat: 33.25
 
 ## Araba Oyunu
 
-Bu egzersizde Python’da Grafik kütüphanesini ve while döngülerini kullanarak 4. dersimizde gördüğümüz oyunu geliştirmeye başlayacağız. Oyunun bu haftaki aşamasında hedeflerimiz:
+Bu egzersizde Python’da [Grafik kütüphanesini]({{ site.baseurl }} {% link graphics.html %}) ve while döngülerini kullanarak 4. dersimizde gördüğümüz oyunu geliştirmeye başlayacağız. Oyunun bu haftaki aşamasında hedeflerimiz:
 - Ekrana bir yazı (text) ekleyerek kullanıcıya fareyle ekrana tıkladığında oyunu başlatabileceğini bildirmek.
 - Kanvasımızın üzerine yolun şeritlerini çizdirmek.
 - Yeşil ve mavi araçların kanvas üzerindeki pozisyonlarını verilen sabitleri kullanarak belirlemek ve basit dikdörtgenler olarak yoldaki şeritlere eklemek. Araçlar şeritlerinin tam ortasında olmalı.
