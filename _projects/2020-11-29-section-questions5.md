@@ -10,7 +10,10 @@ slug: hafta5-grup
 
 ## Başlangıç Kodları
 
-[Buraya tıklayarak](https://drive.google.com/file/d/1F8gfLECYaDmYFm_1bgmZ9WgpA7SM3fJ6/view?usp=sharing) bu haftaya ait çalışmaların başlangıç kodlarına ve oyundaki araba resimlerine ulaşabilirsiniz.
+[Buraya tıklayarak](https://drive.google.com/file/d/1F8gfLECYaDmYFm_1bgmZ9WgpA7SM3fJ6/view?usp=sharing) bu haftaya ait çalışmaların başlangıç kodlarına ulaşabilirsiniz.
+
+## Grafik Kütüphanesi
+Bu haftaki çalışmalarınızı yaparken [grafik kütüphanesi referansını]({{ site.baseurl }} {% link graphics.html %}) da açmak size yardımcı olacaktır. 
 
 ## Egzersiz 1 - Araba Oyuna Devam 
 Geçen hafta araba oyunumuzu yazmaya başlamıştık. Geçen hafta bahsettiğimiz adımları tekrar hatırlayalım:
@@ -40,7 +43,7 @@ Bu egzersizde sizden CS 101 Evreni Grafik kütüphanesi kullanarak canlandırman
 - **Güneş**-*programlama*: Yarı çapı kodda `GUNES_YARI_CAP` olarak belirtilmiş bir oval ile temsil edilir. Güneş kanvası tam ortalamalıdır.
 - **Yıldızlar**-*CS 101 Topluluğu*: Yıldızlar farklı boyutlarda ve kanvasın farklı köşelerinde oval olarak belirirler, aynı CS 101 öğrenci ve eğitmenlerinin farklı yerlerden programlama yaptığı gibi.
 
-## Birinci Aşama - Şekilleri oluşturmak
+### Birinci Aşama - Şekilleri oluşturmak
 İlk olarak kanvasa Güneş'i ve yıldızlar ekleyin. Dikkat etmeniz gerekenler: 
 
 - **Güneş** yarı çapı kodda `GUNES_YARI_CAP` olarak belirtilmiş bir oval ile temsil edilir. Güneş kanvası tam ortalamalıdır.
@@ -49,7 +52,7 @@ Bu egzersizde sizden CS 101 Evreni Grafik kütüphanesi kullanarak canlandırman
     - Yıldızların enini de boyunu da rastgele belirlemelisiniz. Olabilecek en küçük yıldız boyutu `YILDIZ_MIN_BOYUT`, en büyük yıldız boyutu da `YILDIZ_MAX_BOYUT` ile kodda belirtilmiştir.
     - Yıldızların rengini rastgele seçmek için başlangıç kodunda verilen `rastgele_renk_sec` fonksiyonunu kullanabilirsiniz.
 
-## İkinci Aşama - Yıldızları Hareketlendirmek
+### İkinci Aşama - Yıldızları Hareketlendirmek
 
 Evrenimizi yarattıktan sonra kullanıcıdan gelecek fare tıklaması ile yıldızlarımızı hareketlendirelim. Yıldızlar sürekli olarak rastgele süratlerde hareket etmeli. Birinci aşamada oluşturduğunuz yıldızlar `YENILEME_SURESI` kadar saniyede bir `x`ve `y` yönündeki hızlarını değiştirir. Yıldızların hızı kodda belirtilen `MIN_HIZ` ve `MAX_HIZ` aralığında kalmalıdır.
 
@@ -62,7 +65,7 @@ Evrenimizin nasıl gözükeceğini aşağıdaki örnek videoda görebilirsiniz:
 ## Ekstra Egzersizler
 
 ### Egzersiz 1
-Bilgisayar mühendisliği yöntemleri günümüzde nispeten yeni bir sanat dalı olan dijital sanatlarda sıkça kullanılmaktadır. Gelin birçok çizgi kullanarak bir eğri deseni çizen bir dijital sanat kodu yazalım! Desenimiz şu şekilde:
+Bilgisayar mühendisliği yöntemleri günümüzde nispeten yeni bir sanat dalı olan dijital sanatlarda sıkça kullanılmaktadır. Gelin birçok çizgi kullanarak bir eğri deseni çizen bir dijital sanat kodu yazalım! Desenimizi aşağıda görebilirsiniz. Daha kolay anlaşılması için çizgilerin başlangıç ve bitiş noktalarını işaretledik, sizin bu noktaları eklemenize gerek yok:
 **İpucu**: Kanvasımızın iki kenarına eşit aralıklarla (`CIZGILER_ARASI_BOSLUK`) noktalar yerleştirdiğimizi ve bu noktalarımızı birleştirdiğimizi hayal edin. 
 
 <table>
