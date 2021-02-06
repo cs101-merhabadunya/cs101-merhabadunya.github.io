@@ -1,5 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="tr" /><updated>2020-10-28T20:07:28+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">CS 101: Merhaba, Dünya!</title><subtitle>CS 101: Merhaba, dünya! Türkiye'deki lise öğrencileri arasında programlama  eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri  teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır.  CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın  olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme  becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini  artırmayı hedefler.
-</subtitle><author><name>CS 101: Merhaba, Dünya!</name></author><entry><title type="html">Ed Platformu Kullanım Rehberi</title><link href="http://localhost:4000/kaynaklar/ed-rehberi/" rel="alternate" type="text/html" title="Ed Platformu Kullanım Rehberi" /><published>2020-10-22T00:00:00+03:00</published><updated>2020-10-22T00:00:00+03:00</updated><id>http://localhost:4000/kaynaklar/ed-guide</id><content type="html" xml:base="http://localhost:4000/kaynaklar/ed-rehberi/">&lt;!-- &lt;style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="tr" /><updated>2021-02-07T01:11:22+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">CS 101: Merhaba, Dünya!</title><subtitle>CS 101: Merhaba, dünya! Türkiye'deki lise öğrencileri arasında programlama  eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri  teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır.  CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın  olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme  becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini  artırmayı hedefler.
+</subtitle><author><name>CS 101: Merhaba, Dünya!</name></author><entry><title type="html">Grafik Kütüphanesi Referansı</title><link href="http://localhost:4000/kaynaklar/grafik/" rel="alternate" type="text/html" title="Grafik Kütüphanesi Referansı" /><published>2020-11-25T00:00:00+03:00</published><updated>2020-11-25T00:00:00+03:00</updated><id>http://localhost:4000/kaynaklar/graphics</id><content type="html" xml:base="http://localhost:4000/kaynaklar/grafik/">&lt;h2 id=&quot;grafik-kütüphanesi&quot;&gt;Grafik Kütüphanesi&lt;/h2&gt;
+&lt;p&gt;Python’da grafik programlarımızı &lt;a href=&quot;https://www.csbridge.org/&quot;&gt;CS Bridge&lt;/a&gt; eğitmenleri Chris Piech, Lisa Yan ve Nick Troccoli tarafından yazılmış &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grafik.py&lt;/code&gt; dosyasının fonksiyonlarını kullanarak yazacağız. Bu dosyayı TkInter grafik kütüphanesini kullanmamızı kolaylaştıran bir arayüz olarak düşünebilirsiniz.&lt;/p&gt;
+
+&lt;h3 id=&quot;canvas-ve-referansı&quot;&gt;Canvas ve Referansı&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;/kaynaklar/grafik-referans/&quot;&gt;Bu sayfada&lt;/a&gt; Grafik kütüphanesi kapsamında nasıl &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Canvas&lt;/code&gt; yaratacağınızı ve &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Canvas&lt;/code&gt;‘a ait fonksiyon ve sabitlerin açıklamalarını bulabilirsiniz.&lt;/p&gt;
+
+&lt;h3 id=&quot;renkler&quot;&gt;Renkler&lt;/h3&gt;
+&lt;p&gt;Grafik programlarınızda kullanabileceğiniz renklerin listesine de &lt;a href=&quot;/kaynaklar/grafik-renk-referans/&quot;&gt;bu linkten&lt;/a&gt;  ulaşabilirsiniz.&lt;/p&gt;</content><author><name>Gül Sena Altıntaş</name></author><category term="kod" /><category term="kod" /><summary type="html">Grafik Kütüphanesi Python’da grafik programlarımızı CS Bridge eğitmenleri Chris Piech, Lisa Yan ve Nick Troccoli tarafından yazılmış grafik.py dosyasının fonksiyonlarını kullanarak yazacağız. Bu dosyayı TkInter grafik kütüphanesini kullanmamızı kolaylaştıran bir arayüz olarak düşünebilirsiniz.</summary></entry><entry><title type="html">Ed Platformu Kullanım Rehberi</title><link href="http://localhost:4000/kaynaklar/ed-rehberi/" rel="alternate" type="text/html" title="Ed Platformu Kullanım Rehberi" /><published>2020-10-22T00:00:00+03:00</published><updated>2020-10-22T00:00:00+03:00</updated><id>http://localhost:4000/kaynaklar/ed-guide</id><content type="html" xml:base="http://localhost:4000/kaynaklar/ed-rehberi/">&lt;!-- &lt;style&gt;
     span {
         font-weight:bold;
     }
@@ -320,19 +327,19 @@ Grup Çalışmaları için atamalar tamamlandıktan sonra öğrenciler kendi gru
     &lt;tr&gt;
       &lt;td&gt;3&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;14.11.2020&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;For Döngüleri, Stringler, Grafik programlarına giriş&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;For Döngüleri, Fonksiyonlar&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;4&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;21.11.2020&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;While Döngüleri, Animasyonlar&lt;/td&gt;
-      &lt;td&gt;&lt;!--- 31 i belki tatil olur--&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;While Döngüleri, Grafik Porgramları ve Animasyonlar&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;5&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;28.11.2020&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Listeler, Fonksiyonlar&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Listeler, Stringler&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -344,13 +351,13 @@ Grup Çalışmaları için atamalar tamamlandıktan sonra öğrenciler kendi gru
     &lt;tr&gt;
       &lt;td&gt;7&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;12.12.2020&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;İleride güncellenecek&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Yapay Zeka Atölyesi&lt;/td&gt;
       &lt;td&gt;&lt;!-- workshops tbd later --&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;8&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;19.12.2020&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;İleride güncellenecek&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;İnternet, Veri Kazıma, CS 101’e Veda&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -432,4 +439,35 @@ Workshop: pandas &amp; Matplotlib
 
 &lt;!-- couldn't find anything under this name on MEB pages, todo: discuss --&gt;
 
-&lt;p&gt;CS 101 öğrencileri, Koç Üniversitesi tarafından hazırlanan &lt;a href=&quot;https://apdd.ku.edu.tr/akademik-kurallar-ve-prosedurler/ogrenci-davranis-kurallari/&quot;&gt;Öğrenci Davranış Kuralları&lt;/a&gt;‘na uymakla yükümlüdür. Ödevleri ve Python hakkındaki sorularınızı beraber tartışmanızı desteklemekle birlikte teslim ettiğiniz ödev ve projelerin sizin tarafınızdan yapılmasını bekliyoruz. Eğer başka öğrencilerden, eğitmenlerinizden ya da dış kaynaklardan yardım alırsanız lütfen bunu teslim ettiğiniz ödevlerde belirtin.&lt;/p&gt;</content><author><name>CS 101: Merhaba, Dünya!</name></author><category term="planlama" /><category term="planlama" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;CS 101 öğrencileri, Koç Üniversitesi tarafından hazırlanan &lt;a href=&quot;https://apdd.ku.edu.tr/akademik-kurallar-ve-prosedurler/ogrenci-davranis-kurallari/&quot;&gt;Öğrenci Davranış Kuralları&lt;/a&gt;‘na uymakla yükümlüdür. Ödevleri ve Python hakkındaki sorularınızı beraber tartışmanızı desteklemekle birlikte teslim ettiğiniz ödev ve projelerin sizin tarafınızdan yapılmasını bekliyoruz. Eğer başka öğrencilerden, eğitmenlerinizden ya da dış kaynaklardan yardım alırsanız lütfen bunu teslim ettiğiniz ödevlerde belirtin.&lt;/p&gt;
+
+&lt;h2 id=&quot;sertifika-kazanma-koşulları&quot;&gt;Sertifika Kazanma Koşulları&lt;/h2&gt;
+
+&lt;p&gt;Pandemi ve evde kalmanın yarattığı olası sıkıntılara rağmen öğrencilerimizin programa gösterdikleri ilgi ve çaba sebebiyle bu dönem için Sertifika Kazanma Koşulları sene başında belirlenene göre gevşetilmiştir. Öğrencilerin katılımları aşağıdaki tabloda yer alan ağırlıklar kullanılarak hesaplanmıştır. Her öğrenci için 1. ve 2. Modelden hangisinden daha yüksek bir katılım çıkıyorsa o kullanılmıştır.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Görev&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;1. Model&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;2. Model&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Grup çalışmalarına katılım&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;%40&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;%45&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Ödevler&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;%40&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;%35&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Derslere katılım&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;%20&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;%20&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>CS 101: Merhaba, Dünya!</name></author><category term="planlama" /><category term="planlama" /><summary type="html"></summary></entry></feed>

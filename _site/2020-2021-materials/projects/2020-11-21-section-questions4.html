@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Hafta 4 - Grup Çalışması Egzersizleri | CS 101: Merhaba, Dünya!</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="Hafta 4 - Grup Çalışması Egzersizleri">
+<meta name="author" content="Demet Tümkaya">
+<meta property="og:locale" content="tr">
+<meta name="description" content="CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.">
+<meta property="og:description" content="CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.">
+<link rel="canonical" href="http://localhost:4000/2020-2021-materials/projects/2020-11-21-section-questions4.html">
+<meta property="og:url" content="http://localhost:4000/2020-2021-materials/projects/2020-11-21-section-questions4.html">
+<meta property="og:site_name" content="CS 101: Merhaba, Dünya!">
+<script type="application/ld+json">
+{"@type":"WebPage","headline":"Hafta 4 - Grup Çalışması Egzersizleri","url":"http://localhost:4000/2020-2021-materials/projects/2020-11-21-section-questions4.html","author":{"@type":"Person","name":"Demet Tümkaya"},"description":"CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="/assets/images/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+  <!-- and it's easy to individually load additional languages -->
+  <script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="CS 101: Merhaba, Dünya!">
+<meta name="google-site-verification" content="NXQVGvtnQel8sRG_OUcGdD8QOiXY9NFYAFuJoTUkWps">
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <picture class="site-favicon" title="CS 101: Merhaba, Dünya!">
+    <source srcset="/assets/images/logo.webp" type="image/webp">
+    <img src="/assets/images/logo.png" style="max-height: 100%;" alt="CS 101: Merhaba, Dünya!">
+  </source></picture>
+  CS 101: Merhaba, Dünya!
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/hakkimizda/">HAKKIMIZDA</a><a class="page-link" href="/kaynaklar/">KAYNAKLAR</a><a class="page-link" href="/dersler/">DERSLER</a><a class="page-link" href="/projeler/">PROJELER</a><a class="page-link" href="/arsiv/">ARŞIV</a>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  (function() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;
+
+      //if (banner && header_transparent) {
+        documentElement.setAttribute("data-header-transparent", "");
+      }
+
+      var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  })();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.matches('a')) {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">Hafta 4 - Grup Çalışması Egzersizleri</h1>
+  <h3 class="post-subtitle">While Döngüsü ve Grafik Kütüphanesi</h3>
+
+  <p class="post-meta">
+    <time class="dt-published" datetime="" itemprop="datePublished"><i class="fa fa-calendar"></i> 
+    </time>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+  </p>
+<div class="post-authors">
+    <h4 class="post-author">Hazırlayan: Demet Tümkaya, Fırat Tamur</h4>
+  </div>
+<div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div></header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <h2 id="başlangıç-kodları">Başlangıç Kodları</h2>
+
+<p><a href="https://drive.google.com/file/d/13x2Z3ttEKilyAclRVVw6n7eceDGj-o50/view?usp=sharing">Buraya tıklayarak</a> bu haftaya ait çalışmaların başlangıç kodlarına ve oyundaki araba resimlerine ulaşabilirsiniz.</p>
+
+<h2 id="egzersiz-1">Egzersiz 1</h2>
+
+<p>Kasiyer Selin Hanım müşterilerin aldıkları ürünlerin fiyatlarının toplamını bulmak istiyor. Ona yardımcı olmak için bir program hazırlayalım. Selin Hanım girdi olarak 0 girene kadar ürünlerin fiyatları toplanmaya devam etmelidir.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Örnek Çalışma Şekli
+
+Merhabalar, toplam fiyatı öğrenmek için fiyatları girmeye başlayabilirsiniz!
+&gt; Ürün fiyatı giriniz: 5
+&gt; Ürün fiyatı giriniz: 10
+&gt; Ürün fiyatı giriniz: 14.5
+&gt; Ürün fiyatı giriniz: 3.75
+&gt; Ürün fiyatı giriniz: 0
+Toplam fiyat: 33.25
+
+</code></pre></div></div>
+
+<p><img src="https://images.pexels.com/photos/3907161/pexels-photo-3907161.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3907161.jpg&fm=jpg" alt=""></p>
+
+<h2 id="araba-oyunu">Araba Oyunu</h2>
+
+<p>Bu egzersizde Python’da <a href="/kaynaklar/grafik-referans/">Grafik kütüphanesini</a> ve while döngülerini kullanarak 4. dersimizde gördüğümüz oyunu geliştirmeye başlayacağız. Oyunun bu haftaki aşamasında hedeflerimiz:</p>
+<ul>
+  <li>Ekrana bir yazı (text) ekleyerek kullanıcıya fareyle ekrana tıkladığında oyunu başlatabileceğini bildirmek.</li>
+  <li>Kanvasımızın üzerine yolun şeritlerini çizdirmek.</li>
+  <li>Yeşil ve mavi araçların kanvas üzerindeki pozisyonlarını verilen sabitleri kullanarak belirlemek ve basit dikdörtgenler olarak yoldaki şeritlere eklemek. Araçlar şeritlerinin tam ortasında olmalı.</li>
+  <li>Araçları sürekli aşağı doğru hareket ettirmek.</li>
+  <li>Ekrandan çıkan araçların tekrar başlangıç pozisyonlarından rastgele yeni bir hızla hareket etmesini sağlamak. Ancak araçlar ekrandan çıktıktan sonra yeni bir hız belirlemelisiniz.
+    <h3 id="bonus-özellikler">Bonus özellikler:</h3>
+    <p>İsterseniz oyununuza bonus özellikler ekleyebilirsiniz, bizim aklımıza gelen birkaç madde aşağıda. Oyununuza eklediğiniz bonus özellikleri Ed üzerinden bizimle paylaşmayı unutmayın!</p>
+  </li>
+  <li>Araçları çizmekte kullandığınız dikdörtgenleri başlangıç kodunda verilen resimlerle değiştirmek</li>
+  <li>Daha fazla şerit ve araç eklemek</li>
+  <li>Skor eklemek (arabaların kaç kere yolu tamamladığı üzerine iki skor tanımlayabilirsiniz)
+    <h2 id="oyun-videosu">Oyun Videosu</h2>
+    <p>Bu haftaki hedeflerimiz bittiğinde oyunumuzun nasıl görüneceğini aşağıdaki videodan izleyebilirsiniz:</p>
+  </li>
+</ul>
+<iframe src="https://drive.google.com/file/d/14-YbEiv2qRbv0HwvfLZovXMkT_bUxMds/preview" width="640" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<p><a href="https://drive.google.com/file/d/1Z0V48Gl_6YYi195LPJJorN54yS1gZmwn/view?usp=sharing">Buraya tıklayarak</a> derste gördüğünüz oyunun tamamlandığında nasıl görüneceğini izleyebilirsiniz.</p>
+
+<h2 id="oyun-tasarımı">Oyun Tasarımı</h2>
+<!-- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS9DXKtrTWnZI4Z0yHsExtX7jlPuWO7IR7lhK5HWuGD4jmeFfBpx99hWGI81lM6Ezf6NYemvMyHusam/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+<p>Grafik programları yazarken ortaya çıkarmak istediğimiz programı canlandırmak her zaman ilk aşama olmalı, bu sayede koordinatları, objelerin birbirleriyle ilişkilerini kolayca anlayabiliriz. İlk grafik programımızda bu konuda size biraz yardımcı olmak istedik, aşağıda kanvasımızın genel görüntüsünü bulabilirsiniz.</p>
+
+<p><img src="/assets/images/sections/hafta4_oyun_visualization.jpg" alt="Oyun kanvası tasarımız">
+Elle çizildiği için bazı küçük kaymalar olabilir ancak zaten bu taslağı sadece bize yardımcı olması için çiziyoruz, mükemmel olmak zorunda değil :).</p>
+
+<h2 id="ekstra-egzersizler">Ekstra Egzersizler</h2>
+
+<h3 id="egzersiz-1-1">Egzersiz 1</h3>
+
+<p>Özellikle şu zamanlarda zamanı kontrol etmek çoğumuz için zor oluyor. Sevdiğimiz şeyler üzerinde daha çok zaman harcamayı tercih ederken sorumluluklarımızı da aksatmamaya çalışıyoruz. Bize bir şey üzerinde yeterince uğraştığımızı verdiğimiz süre içerisinde geriye doğru sayarak ve bittiğinde de bildiren bir program yazalım.</p>
+
+<p>Not: Programın her bir saniyede çalışması için time kütüphanesini projeye dahil etmeyi ve time.sleep(saniye) fonksiyonunu kullanmayı unutma! Bu fonksiyon programın “saniye” kısmına girdiğiniz süre kadar beklemesini sağlar.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Örnek Çalışma Şekli
+
+&gt; Seni süre bittiğinde uyarmam için kaç saniye geçmeli? 360
+Süre başlıyor...
+360
+359
+...
+...
+...
+1
+0
+Süren bitti!
+
+</code></pre></div></div>
+
+<p><img src="https://images.pexels.com/photos/1178684/pexels-photo-1178684.jpeg?cs=srgb&dl=pexels-mike-1178684.jpg&fm=jpg" alt=""></p>
+
+<h3 id="egzersiz-2">Egzersiz 2</h3>
+
+<p>1 den büyük asal olmayan bir tamsayının rakamlarının toplamı, sayının çarpanlarına ayrılarak yazıldığında, bu yazılışta bulunan tüm asal sayıların rakamlarının toplamına eşitse bu sayı bir Smith sayısıdır. 
+Örneğin, 728 sayısı asal çarpanlarına 728 = 2 . 2 . 2 . 7 . 13 biçiminde ayrılır. 7 + 2 + 8 = 17 = 2 + 2 + 2 + 7 + (1 + 3) olduğundan 728 bir Smith sayısıdır.
+Bu egzersizde kullanıcı negatif bir sayı girene kadar ondan sayılar girip bu sayıların Smith sayısı olup olmadığını konsola yazdırmalısın.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Örnek Çalışma Şekli
+
+&gt; Bir sayı gir: 2
+2 bir Smith sayısı değil
+&gt; Bir sayı gir: 3
+3 bir Smith sayısı değil
+&gt; Bir sayı gir: 4
+4 bir Smith sayısı
+&gt; Bir sayı gir: 5
+5 bir Smith sayısı değil
+&gt; Bir sayı gir: 4937775
+4937775 bir Smith sayısı
+&gt; Bir sayı gir: -1
+Görüşmek üzere
+
+</code></pre></div></div>
+
+<p><img src="https://images.pexels.com/photos/1364700/pexels-photo-1364700.jpeg?cs=srgb&dl=pexels-logan-kirschner-1364700.jpg&fm=jpg" alt=""></p>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<span></span><span></span>
+</div>
+<div class="post-comments"></div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">İçindekiler</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items=20) {
+      var items = menuContent.firstChild.children;
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+      <div>Copyright © 2020 CS 101: Merhaba, Dünya!</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="http://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

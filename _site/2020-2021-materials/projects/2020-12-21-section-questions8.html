@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Hafta 8 - Grup Çalışması Egzersizleri | CS 101: Merhaba, Dünya!</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="Hafta 8 - Grup Çalışması Egzersizleri">
+<meta name="author" content="Gül Sena Altıntaş">
+<meta property="og:locale" content="tr">
+<meta name="description" content="CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.">
+<meta property="og:description" content="CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.">
+<link rel="canonical" href="http://localhost:4000/2020-2021-materials/projects/2020-12-21-section-questions8.html">
+<meta property="og:url" content="http://localhost:4000/2020-2021-materials/projects/2020-12-21-section-questions8.html">
+<meta property="og:site_name" content="CS 101: Merhaba, Dünya!">
+<script type="application/ld+json">
+{"@type":"WebPage","headline":"Hafta 8 - Grup Çalışması Egzersizleri","url":"http://localhost:4000/2020-2021-materials/projects/2020-12-21-section-questions8.html","author":{"@type":"Person","name":"Gül Sena Altıntaş"},"description":"CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="/assets/images/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+  <!-- and it's easy to individually load additional languages -->
+  <script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="CS 101: Merhaba, Dünya!">
+<meta name="google-site-verification" content="NXQVGvtnQel8sRG_OUcGdD8QOiXY9NFYAFuJoTUkWps">
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <picture class="site-favicon" title="CS 101: Merhaba, Dünya!">
+    <source srcset="/assets/images/logo.webp" type="image/webp">
+    <img src="/assets/images/logo.png" style="max-height: 100%;" alt="CS 101: Merhaba, Dünya!">
+  </source></picture>
+  CS 101: Merhaba, Dünya!
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/hakkimizda/">HAKKIMIZDA</a><a class="page-link" href="/kaynaklar/">KAYNAKLAR</a><a class="page-link" href="/dersler/">DERSLER</a><a class="page-link" href="/projeler/">PROJELER</a><a class="page-link" href="/arsiv/">ARŞIV</a>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  (function() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;
+
+      //if (banner && header_transparent) {
+        documentElement.setAttribute("data-header-transparent", "");
+      }
+
+      var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  })();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.matches('a')) {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">Hafta 8 - Grup Çalışması Egzersizleri</h1>
+  <h3 class="post-subtitle">İnternetten Veri Kazıma</h3>
+
+  <p class="post-meta">
+    <time class="dt-published" datetime="" itemprop="datePublished"><i class="fa fa-calendar"></i> 
+    </time>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 8 mins</span>
+  </p>
+<div class="post-authors">
+    <h4 class="post-author">Hazırlayan: Gül Sena Altıntaş, Ozan Nacitarhan</h4>
+  </div>
+<div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div></header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <h2 id="başlangıç-kodları">Başlangıç Kodları</h2>
+
+<p><a href="https://drive.google.com/file/d/1__TX9mRsjZHVREKYJIN1KiIQG7Qguy0X/view?usp=sharing">Buraya tıklayarak</a> bu haftaya ait çalışmaların başlangıç kodlarına ulaşabilirsiniz. Dilerseniz <a href="https://us.edstem.org/courses/2639/lessons/7683/edit/slides/37118">Ed üzerinden</a> de çalışabilirsiniz.</p>
+
+<h2 id="ön-bilgi">Ön Bilgi</h2>
+<p>Günlük hayatta olduğu gibi internetteki iletişimin de kuralları var. Web tarayıcımız ile web server’u arasında iletişim kurmamızı 
+sağlayan kural ve metodları <em>protokol</em> olarak adlandırıyoruz. Bu haftaki egzersizimizde HTTP Protokolüne ait metodları kullanacağız. 
+Meraklısı <a href="https://www.hosting.com.tr/bilgi-bankasi/http-nedir/">buradaki</a> gibi bir kaynaktan daha fazla bilgi edinebilir.</p>
+
+<p>HTTP (Hyper Text Transfer Protocol)’de en çok kullandığımız metodlar şöyle:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">HTTP Metodları</th>
+      <th style="text-align: left">Açıklamaları</th>
+      <th style="text-align: left">Örnek</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">GET</td>
+      <td style="text-align: left">Get metodu ile bir sorgu gerçekleştirebilir ve sonucunu sunucudan elde edilebilir.</td>
+      <td style="text-align: left">Arama, Belge indirme</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">HEAD</td>
+      <td style="text-align: left">Head GET ile aynı işlemi yapar ancak yanıtta gövdeyi istemez.</td>
+      <td style="text-align: left">-</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">POST</td>
+      <td style="text-align: left">Post ile sunucuya veri veya bir komut gönderebiliriz, genellikle sunucuda bir durum değişikliği yaratır.</td>
+      <td style="text-align: left">Sitenizdeki bir veriyi güncellemek, medya aktarmak</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">DELETE</td>
+      <td style="text-align: left">Mesajda belirtilen kaynağı siler.</td>
+      <td style="text-align: left">Gönderi silmek, kaldırmak</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Diğer HTTP metodlarına <a href="https://developer.mozilla.org/tr/docs/Web/HTTP/metotlar">bu siteden</a> bakabilirsiniz.</p>
+
+<h2 id="ön-hazırlık">Ön Hazırlık</h2>
+<h3 id="python-requests-kütüphanesi">Python requests kütüphanesi</h3>
+<p>Bu haftaki egzersizlerimiz için <code class="language-plaintext highlighter-rouge">requests</code> kütüphanesini ve <code class="language-plaintext highlighter-rouge">BeautifulSoup</code> kullanacağız, onun için `terminale aşağıdaki komutu yazarak requests ve BeautifulSoup kütüphanelerini indirin:</p>
+<pre><code class="language-commandline">python -m pip install requests
+python -m pip install beautifulsoup4
+</code></pre>
+
+<h3 id="başlamadan-önce">Başlamadan Önce</h3>
+<p>Bir websitesine sorgu yapmak için requests kütüphanesinin <code class="language-plaintext highlighter-rouge">request</code> isimli fonksiyonunu kullanabiliriz. Buradaki headers, 
+ikinci egzersizimizde önemli olacak. Örneğin:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">requests</span><span class="p">.</span><span class="n">request</span><span class="p">(</span><span class="s">'GET'</span><span class="p">,</span> <span class="n">URL</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">detaylar</span><span class="p">)</span>
+</code></pre></div></div>
+<p>kullanarak belirtilen <code class="language-plaintext highlighter-rouge">URL</code> adresine gerekli detayları içeren (API anahtarı gibi) bir <code class="language-plaintext highlighter-rouge">GET</code> isteği gönderebiliriz. Denemek için</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">response</span><span class="o">=</span><span class="n">requests</span><span class="p">.</span><span class="n">request</span><span class="p">(</span><span class="s">"GET"</span><span class="p">,</span> <span class="s">"https://cs101-merhabadunya.github.io/hakkimizda"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Aldığımız cevabı (response) inceleyelim:</p>
+<ul>
+  <li>Cevabın statüsü <code class="language-plaintext highlighter-rouge">response.status_code</code><br>
+Eğer 200 ise sorgumuz başarıyla gerçekleştirildiği, 403 ise sağladığınız API anahtarında bir hata olduğu anlamına gelir. 403 cevabı aldığınızda api anahtarınızı kontrol kedin.</li>
+  <li>Sorgumuzun microsaniye cinsinden ne kadar sürede cevaplandığı: <code class="language-plaintext highlighter-rouge">response.elapsed</code>
+</li>
+  <li>Sorgumuzda kullanılan url: <code class="language-plaintext highlighter-rouge">response.url</code>
+</li>
+  <li>Cevapta bize iletilen text (yazı): <code class="language-plaintext highlighter-rouge">response.text</code>
+</li>
+</ul>
+
+<p>Cevabı aldıktan sonra, BeautifulSoup kütüphanesinin kendi fonksiyonlarını kullanarak websitesinin istediğiniz kısmındaki bilgilere ulaşabilirsiniz. class-adi olan yere istediğiniz class’ı yazıp oradaki bilgiyi alabilirsiniz.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">content</span><span class="p">,</span> <span class="s">"html.parser"</span><span class="p">)</span>
+<span class="n">aradigimiz_yer</span> <span class="o">=</span> <span class="n">soup</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="s">"div"</span><span class="p">,</span> <span class="n">attrs</span><span class="o">=</span><span class="p">{</span><span class="s">"class"</span><span class="p">:</span><span class="s">"class_adi"</span><span class="p">})</span>
+<span class="n">yazi</span> <span class="o">=</span> <span class="n">aradigimiz_yer</span><span class="p">.</span><span class="n">text</span>
+</code></pre></div></div>
+
+<p>Tarayıcımızda bir internet sayfasına girdiğimizde sağ tıklayıp “İncele” (Inspect) seçeneğine bastığımızda sayfanın html koduna ulaşabiliyoruz. 
+Sayfanın html koduna ulaştıktan sonra da açılan pencerede (genelde kutunun üzerinde bir mouse imleci olarak gözükür) 
+incelenecek bir element seç butonuna basıyoruz. Bu butona bastıktan sonra anlık kurun üzerine gelip tıkladığımızda bize onun html kodundaki yerini gösterecektir. 
+Buradaki <code class="language-plaintext highlighter-rouge">class, id</code> gibi özellikleri kullanarak BeautifulSoup’da kolay filtreleme yapabiliriz.
+Aşağıdaki ekran görüntüsünde bir örneğini görebilirsiniz:
+<img src="/assets/images/sections/week8/chrome-inspect.jpeg" alt="Chrome'da html kodu inceleme"></p>
+
+<h2 id="egzersiz-1">Egzersiz 1</h2>
+<p>Hızla globalleşen günümüz dünyasında artık saniyelerin bile çok önemi var. Para birimlerinin değerleri saniyeler içinde değişebiliyor. Sizden anlık olarak para değerlerini alıp, 
+güncel kura göre dönüşüm yapabilen bir kod yazmanızı istiyoruz.</p>
+
+<p>Bu egzersizimizde <a href="https://kur.doviz.com/serbest-piyasa">doviz.com</a> sitesinde olan güncel döviz kurlarından yararlanacağız.</p>
+
+<h3 id="döviz-kurları">Döviz kurları</h3>
+<p>Döviz kurlarının güncel olması için, kodumuz her çalıştığında döviz kurlarını tekrar almamız gerekiyor. Dolar kurunu almak için bu <a href="https://kur.doviz.com/serbest-piyasa/amerikan-dolari">linkteki</a>, 
+Euro kurunu almak için de bu <a href="https://kur.doviz.com/serbest-piyasa/euro">linkteki</a> sayfayı kullanıyor olacağız. Ön bilgi bölümünde anlatıldığı 
+gibi sayfanın HTML kodunu açıp buraki class isimlerini ve BeautifulSoup kütüphanesini kullanarak anlık döviz kurunu alalım.</p>
+
+<h3 id="kur-dönüşümü-yapma">Kur dönüşümü yapma</h3>
+<p>Kullanıcıya hangi kurdan hangi kura çevirmek istediğini ve ne kadar miktar parayı dönüştürmek istediğini soralım. Sonrasında gerekli matematik işlemini yaparak kullanıcıya sonucu gösterelim.</p>
+
+<p>Örnek Çıktı:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hangi para birimlerini dönüştürmek istiyorsunuz? usd-try
+Kaç USD'nin TRY karşılığını merak ediyorsunuz? 1000
+1000.0 $ = 7670.9 TRY
+</code></pre></div></div>
+
+<h2 id="egzersiz-2">Egzersiz 2</h2>
+<p>Bu haftaki CS 101 ekip toplantısında karantina bitse de eskisi gibi sokaklarda özgürce yürüyebilsek sinemaya, kafelere, lokantalara gidebilsek gibi dilekler dile getirildi. 
+Eğitmenlerinin bu dileklerine CS 101 öğrencilerinin sessiz kalmayacağını düşündük. İyi birer programlamacı olarak sizden 
+CS 101 eğitmenlerinin karantina bitiminde gidebilecekleri restoranları bulmanızı istiyoruz.</p>
+
+<p>Bu egzersizimizde <a href="https://www.zomato.com/tr/istanbul">Zomato’nun</a> geliştiriciler için sağladığı API’yi kullanarak şu sorulara cevap bulacağız:</p>
+
+<h3 id="ön-hazırlık-1">Ön hazırlık</h3>
+<h4 id="api-anahtarı-oluşturalım">API anahtarı oluşturalım</h4>
+<p>API kullandığımızda çoğunlukla servislerini kullanacağımız siteden bir anahtar üretmemiz gerekir. Bu anahtarı site ile 
+tüm iletişimimizde (istek atmak, bilgi edinmek, vb.) kullanırız ve bu sayede site bizim yaptığımız işlemlerin takibini tutabilir.
+Aynı zamanda site bizim apiyi kullanma miktarımızı ticari ve yasal sebeplerle sınırlayabilir. Bir API kullanırken sitenin
+kullanım koşullarını dikkatle incelememiz önemli!</p>
+
+<p>Bu sebeple, önce Zomato’nun geliştiriciler için hazırladığı siteye girerek anahtar edineceğiz. <a href="https://developers.zomato.com/api?lang=tr#headline2">Bu siteden</a>
+giriş yaparak <code class="language-plaintext highlighter-rouge">API anahtarı oluştur</code> butonuna tıklayarak anahtarımızı üretebiliriz. Anahtarınız günlük maksimum 1000 çağrı
+yapmanıza izin veriyor.</p>
+
+<h4 id="zomato-apisi-dokümantasyonu">Zomato API’si Dokümantasyonu</h4>
+<p>Zomato API’sinin dokümantasyonuna <a href="https://developers.zomato.com/documentation?lang=tr#!/">buradan</a> ulaşabilirsiniz.
+Fark ettiyseniz Zomato API’si ile kullanabildiğimiz tek HTTP metodu <code class="language-plaintext highlighter-rouge">GET</code> bu demek oluyor ki bu API ile sadece bilgi isteyebiliriz ve 
+sunucuda değişiklik yapamayız.</p>
+
+<h3 id="görevler">Görevler</h3>
+<p>Burada sorgudan gelen cevapların formatı api’ye bağlıdır. Bu sebeple size verdiğimiz 
+<code class="language-plaintext highlighter-rouge">get_sorgusu_cevabi</code> fonksiyonunu kulanabilirsiniz, bu fonksiyon cevabı bir 
+dictionary olarak döndürür. Bu fonksiyondan aldığınız değeri konsola yazdırarak dictionary’nin formatı, anahtarları ve içerdiği değerlerle ilgili daha çok bilgi edinebilir ya da dönen cevabın formatını Zomato’nun Dokümantasyonundaki örneklerden de inceleyebilirsiniz.</p>
+
+<h4 id="kategoriler">Kategoriler</h4>
+<p><span>1.</span> Hasan Can seçenekleri görmek için önce Zomato’daki bütün kategorileri bulmak istiyor. Bunun için ‘GET’ 
+kullanarak <code class="language-plaintext highlighter-rouge">api_baz_url</code> olarak verilen url’ye “/categories” stringini ekleyerek request oluşturmalıyız. 
+<code class="language-plaintext highlighter-rouge">get_sorgusu_cevabi</code> fonksiyonunu kulanabilirsiniz. Ancak formatın daha kompakt bir şekilde tutmak isteyen Hasan Can Fırat’tan yardım ister ve gelen sonucu {id_1: isim_1, id_2: isim_2} gibi bir dictionary’de tutmasını rica eder. Fırat’a yardım edelim.</p>
+
+<p>Örnek Çıktı:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{1: 'Delivery', 2: 'Dine-out', 3: 'Nightlife', 4: 'Catching-up', 5: 'Takeaway', 6: 'Cafes', 7: 'Daily Menus', 8: 'Breakfast', 9: 'Lunch', 10: 'Dinner', 11: 'Pubs &amp; Bars', 13: 'Pocket Friendly Delivery', 14: 'Clubs &amp; Lounges'}
+</code></pre></div></div>
+
+<h4 id="şehirler">Şehirler</h4>
+<p><span>2.</span> Gül Sena Zomato’yu Balıkesir’de de kullanıp kullanamayacağını öğrenmek istiyor. <code class="language-plaintext highlighter-rouge">"https://developers.zomato.com/api/v2.1/cities?q=SEHIR"</code>
+url’sini kullanarak Balıkesir’deki restoranlarla ilgili bir bilgi olup olmadığını bulalım. Sorgunun sonucunda dönen dictionary’deki
+<code class="language-plaintext highlighter-rouge">'has total'</code> anahtarının değerini kullanabiliriz.</p>
+
+<p>Örnek Çıktı:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Üzgünüm Gül Sena, Balıkesir'deki lokantalarla ilgili bir bilgim yok.
+</code></pre></div></div>
+
+<p><span>3.</span> Balıkesir’deki restoranlarla ilgili bilgi edinemeyen Gül Sena’yı teselli etmek isteyen İdil ve Oya 
+İstanbul’da hangi mutfaklardaki restoranların olduğunu bulmak isterler ve aralarında iş bölümü yaparlar.</p>
+<ul>
+  <li>İdil <code class="language-plaintext highlighter-rouge">"/cuisines"</code> anahtar kelimesini kullanabileceklerini fark eder ancak bu sorgu için <code class="language-plaintext highlighter-rouge">city_id</code>si (şehir kimliği) bilgisine 
+ihtiyaç duyduklarını fark eder.</li>
+  <li>Oya <code class="language-plaintext highlighter-rouge">"/cities"</code> anahtar kelimesini kullanarak İstanbul’un bilgilerine ulaşmalı ve <code class="language-plaintext highlighter-rouge">city_id</code>sini bulmalıdır.
+Oya’ya yardım etmek için <code class="language-plaintext highlighter-rouge">get_sorgusu_cevabi</code> fonksiyonunu kulanabilirsiniz. 
+Bu bilgiyi elde edebileceğimiz url şu şekilde: <code class="language-plaintext highlighter-rouge">https://developers.zomato.com/api/v2.1/cities?q=ISTANBUL</code>
+Bu sorgu sonucunda dönen dictionary’de ‘location_suggestions’ anahtarının değerinini incelemelisiniz.</li>
+  <li>Daha sonra İdil bu id’yi kullanarak İstanbul’daki mutfak türlerini bulabilir. Yine <code class="language-plaintext highlighter-rouge">get_sorgusu_cevabi</code> fonksiyonunu kullanabilirsiniz. 
+Bu bilgiyi elde edebileceğimiz url şu şekilde olacaktır: <code class="language-plaintext highlighter-rouge">https://developers.zomato.com/api/v2.1/cuisines?city_id=SEHIR_IDSI</code>
+</li>
+</ul>
+
+<p>Örnek Çıktı:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Oya: İdil, İstanbul'un şehir id'si 59
+İdil: Teşekkürler Oya!
+İdil: Gül Sena! İstanbulda toplamda 69 mutfak var, aşağıda bütün mutfakları görebilirsin: 
+{171: 'Aegean', 1: 'American', 4: 'Arabian', 3: 'Asian', 5: 'Bakery', 341: 'Balkans', 227: 'Bar Food', 132: 'Belgian', 270: 'Beverages', 170: 'Black Sea', 133: 'British', 168: 'Burger', 351: 'Börek', 30: 'Cafe', 172: 'Central Anatolia', 202: 'Central Asian', 25: 'Chinese', 1040: 'Coffee', 100: 'Desserts', 268: 'Drinks Only', 721: 'Döner', 174: 'Eastern Anatolia', 38: 'European', 40: 'Fast Food', 271: 'Finger Food', 45: 'French', 187: 'Fresh Fish', 134: 'German', 180: 'Giblets', 156: 'Greek', 181: 'Grill', 521: 'Hawaiian', 143: 'Healthy Food', 169: 'Home-made', 233: 'Ice Cream', 148: 'Indian', 140: 'Iranian', 55: 'Italian', 310: 'Izgara', 60: 'Japanese', 164: 'Juices', 178: 'Kebab', 1056: 'Kokoreç', 67: 'Korean', 711: 'Kumpir', 66: 'Lebanese', 70: 'Mediterranean', 73: 'Mexican', 137: 'Middle Eastern', 184: 'Old Turkish Bars', 176: 'Ottoman', 306: 'Pastry', 183: 'Patisserie', 1004: 'Pilav', 82: 'Pizza', 1017: 'Restaurant Cafe', 1005: 'Roast Chicken', 84: 'Russian', 83: 'Seafood', 173: 'South East', 89: 'Spanish', 141: 'Steak', 177: 'Sushi', 163: 'Tea', 95: 'Thai', 142: 'Turkish', 186: 'Turkish Pizza', 185: 'World Cuisine', 262: 'Çiğ Köfte'}
+</code></pre></div></div>
+
+<h4 id="lokanta-aramak">Lokanta Aramak</h4>
+<p><span>4.</span> Bunu duyan Ahmet, evini özlediğini söyleyip Ege mutfağından bir lokantaya gitmek ister ve Demet’in yardımını rica eder. Demet
+<code class="language-plaintext highlighter-rouge">"/search"</code> anahtar kelimesini kullanarak İstanbul’daki Ege mutfağı (Agean) restoranlarını aramalı ve fiyatlarına (cost) göre bunları 
+sıralamadır. Ozan başka bir sorguda bu url’yi kullandığını söyler: <code class="language-plaintext highlighter-rouge">"https://developers.zomato.com/api/v2.1/search?entity_id=59&entity_type=city&cuisines=70&category=delivery&sort=rating&order=asc"</code>
+Ozan’ın url’sini değiştirerek Demet’e yardımcı olalım. İpucu: Ege mutfağının id’si 171 ancak bu bilgiyi İdil’in bir önceki
+aşamada bulduğu dictionary’den de elde etmeyi deneyebilirsiniz</p>
+
+<p>Örnek Çıktı:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ahmet: Evimi özlediim.
+Demet: Merak etme Ahmet, 46 kadar lokanta buldum
+Demet: Yekta, gideceğimiz restoranın id'si: 18305691
+</code></pre></div></div>
+
+<h4 id="restoran-detayları">Restoran Detayları</h4>
+<p>Yekta Demet’in sorgusunda bulduğu birinci restoranın id’sini öğrenir ve <code class="language-plaintext highlighter-rouge">"https://developers.zomato.com/api/v2.1/restaurant?res_id="</code> url’sini kullanarak restoran hakkındaki detayları inceler. Restoranın adresini
+Necla’ya verir. Karantina bittiğinde Ahmet (diğeri) Necla’nın başka bir API kullanarak bulduğu navigasyon bilgileri ile ekibi restorana götürür. Ancak bir süre
+daha evde kalmamız doğru olacağı için bu son işlemi ileriye bırakıyoruz. Kim bilir, belki de CS 101 Bahar 2021 dönemi öğrencileri
+de bu görevi tamamlar :).</p>
+
+<p>Örnek Çıktı:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Yekta: Necla, gideceğimiz restoranın adresi: Ömer Avni Mahallesi, İnönü Caddesi, No 26, Kat 8, Beşiktaş, İstanbul
+</code></pre></div></div>
+
+<p>Herkese afiyet olsun!</p>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<span></span><span></span>
+</div>
+<div class="post-comments"></div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">İçindekiler</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items=20) {
+      var items = menuContent.firstChild.children;
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+      <div>Copyright © 2020 CS 101: Merhaba, Dünya!</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="http://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
