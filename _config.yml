@@ -36,26 +36,10 @@ header_pages:
 collections:
   projects:
     output: true
-    #rel_url: true
     permalink: /projeler/:slug 
   lectures:
     output: true
     permalink: /dersler/:slug
-  
-  archives:
-    output: true
-    permalink: /arsiv/:slug
-  2020-2021-materials:
-    permalink: /guz2020
-    lectures:
-      output: true
-      permalink: /dersler/:slug
-    projects:
-      output: true
-      permalink: /projeler/:slug
-    posts:
-      output: true
-      permalink: /:slug
 # If you want more debug log, you can set true
 # debug: false
 
@@ -156,4 +140,3 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
-  - jekyll-archives

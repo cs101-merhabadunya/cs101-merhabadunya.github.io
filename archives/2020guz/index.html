@@ -1,0 +1,661 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+title: Ana Sayfa - 2020 Güz
+banner: "/assets/images/banners/banner.png"
+banner-webp: "/assets/images/banners/banner.webp"
+permalink: /2020guz/
+---
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Güz 2020 Ana Sayfa | CS 101: Merhaba, Dünya!</title>
+<meta name="generator" content="Jekyll v4.2.0">
+<meta property="og:title" content="Ana Sayfa">
+<meta name="author" content="CS 101: Merhaba, Dünya!">
+<meta property="og:locale" content="tr">
+<meta name="description" content="CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.">
+<meta property="og:description" content="CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.">
+<link rel="canonical" href="https://cs101-merhabadunya.github.io//">
+<meta property="og:url" content="https://cs101-merhabadunya.github.io//">
+<meta property="og:site_name" content="CS 101: Merhaba, Dünya!">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Ana Sayfa">
+<script type="application/ld+json">
+{"headline":"Ana Sayfa","@type":"WebSite","url":"https://cs101-merhabadunya.github.io//","name":"CS 101: Merhaba, Dünya!","author":{"@type":"Person","name":"CS 101: Merhaba, Dünya!"},"description":"CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+</head>
+<body>
+<script>
+  (function() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;
+
+      ////   documentElement.setAttribute("data-header-transparent", "");
+      //if (banner && header_transparent) {
+        documentElement.setAttribute("data-header-transparent", "");
+      }
+
+      var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  })();
+</script>
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.matches('a')) {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="articles">
+  
+<p>2020 Güz döneminin içeriklerine bu sayfadan ulaşabilirsiniz.</p>
+  
+
+
+  <div class="pagination">
+  <!-- Post list links -->
+  <ul class="post-list">
+<li>
+    <h2 class="post-title">
+        <a class="post-link" href="/2020guz/hakkimizda">
+                  Hakkımızda
+                </a>
+              </h2>
+              <div class="post-meta">
+                <!-- <span class="post-date"><i class="fa fa-calendar"></i> 31 Oct 2020</span>
+                <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span> -->
+              </div>
+              <p class="post-excerpt">
+             
+        
+              </p>
+              <div class="post-tags">
+        <a class="post-tag" href="/tags.html#ders">#ders</a><a class="post-tag" href="/tags.html#planlama">#planlama</a>
+        </div>
+            </li>
+        <li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/dersler/ders1">
+          Ders 1
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 31 Oct 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+      </div>
+      <p class="post-excerpt">
+        Ders planı
+
+  CS 101’e hoşgeldiniz
+    
+      Programa Genel Bakış
+      Grup Liderleri
+    
+  
+  Program hakkında
+    
+      Lojistik hatırlatmalar
+    
+  
+  Programlamaya giriş
+    
+      Değişkenler
+      Konsol girdi/çıktı
+      İlk program
+      Basit operatörler
+    
+  
+
+
+Sunum
+
+
+Kullanılan Kod
+Buraya tıklayarak derste kullandığımız ilk kodu indirebilirsiniz.
+
+
+
+      </p>
+      <div class="post-tags">
+<a class="post-tag" href="/tags.html#ders">#ders</a><a class="post-tag" href="/tags.html#planlama">#planlama</a>
+</div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/dersler/ders2/">
+          Ders 2
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 07 Nov 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+      </div>
+      <p class="post-excerpt">
+        Ders planı
+
+  Ders1 Özeti
+  Değişkenlerin değerini güncellemek
+  Operatörler
+    
+      Karşılaştırma Operatörleri
+      Mantıksal Operatörler
+    
+  
+  Dallanma
+  Fonksiyonlara Giriş
+  For Döngülerine Giriş
+
+
+Sunum
+
+
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#ders">#ders</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/dersler/ders3/">
+          Ders 3
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 14 Nov 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+      </div>
+      <p class="post-excerpt">
+        Ders planı
+
+  Ders2 Özeti
+  For Döngüleri
+  Fonksiyonlar
+
+
+Sunum
+
+
+
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#ders">#ders</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/dersler/ders4/">
+          Ders 4
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 21 Nov 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+      </div>
+      <p class="post-excerpt">
+        Ders planı
+
+  Ders3 Özeti
+  While Döngüleri
+  Kütüphaneler
+  Grafik Kütüphanesi
+
+
+Sunum
+
+
+
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#ders">#ders</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/dersler/ders5/">
+          Ders 5
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 28 Nov 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+      </div>
+      <p class="post-excerpt">
+        Ders planı
+
+  Ders4 Özeti
+  Grafikler
+  Animasyon
+  Listeler ve Operasyonları
+
+
+Sunum
+
+
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#ders">#ders</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/dersler/ders6/">
+          Ders 6
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 05 Dec 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+      </div>
+      <p class="post-excerpt">
+        Ders planı
+
+
+  CS101’de daha önce…
+  str Veri Türü
+  Python Hafıza Modeli
+  dict Veri Türü
+  set Veri Türü
+
+
+Sunum
+
+
+
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#ders">#ders</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/dersler/ders7/">
+          Ders 7
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 12 Dec 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+      </div>
+      <p class="post-excerpt">
+        CS 101’in son iki haftasında derslerde pratik ve güncel konulardan atölyeler düzenleyerek CS 101’de başladığınız programlama yolculuğunuzun alabileceği farklı yönlerin bir kısmını keşfedebileceğinizi umuyoruz İlk atölyemizi Koç Üniversitesi Akıllı Arayüzler Laboratuvarında doktorosuna devam eden Alpay Sabuncuoğlu düzenledi. Alpay kolay erişilebilir akıllı eğitsel arayüzler tasarlıyor. Alpay’ın en çok bilinen projesi KartON...
+      </p>
+      <div class="post-tags">
+<a class="post-tag" href="/tags.html#ders">#ders</a><a class="post-tag" href="/tags.html#planlama">#planlama</a>
+</div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/dersler/ders8/">
+          Ders 8
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 19 Dec 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+      </div>
+      <p class="post-excerpt">
+        CS 101’in Güz 2020 döneminin son dersi Ders Planı 7 dakikada CS 101’de 7 hafta Final projesi İnternet İnternetten veri kazıma CS 101’den sonrası Sayılarla CS 101 Sunum Kullanılan Kod from wikipedia import wikipedia def main(): konu = input("Bana bir konu söyle: ") wikipedia.set_lang("TR") print(wikipedia.search(konu)) konu = input("Yukarıdaki maddelerden hangisini...
+      </p>
+      <div class="post-tags">
+<a class="post-tag" href="/tags.html#ders">#ders</a><a class="post-tag" href="/tags.html#planlama">#planlama</a>
+</div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/mufredat/">
+          Müfredat
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 08 Feb 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 7 mins</span>
+      </div>
+      <p class="post-excerpt">
+        CS 101: Merhaba, Dünya! Bu belge Şubat-Nisan 2021 tarihleri arasında gerçekleştirilecek CS 101: Merhaba, Dünya! programını tanıtıcı ve öğrencilere yol gösterici olması amacıyla hazırlanmıştır. Genel Bilgiler CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#planlama">#planlama</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/kaynaklar/grafik/">
+          Grafik Kütüphanesi Referansı
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 25 Nov 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+      </div>
+      <p class="post-excerpt">
+        Grafik Kütüphanesi Python’da grafik programlarımızı CS Bridge eğitmenleri Chris Piech, Lisa Yan ve Nick Troccoli tarafından yazılmış grafik.py dosyasının fonksiyonlarını kullanarak yazacağız. Bu dosyayı TkInter grafik kütüphanesini kullanmamızı kolaylaştıran bir arayüz olarak düşünebilirsiniz. Canvas ve Referansı Bu sayfada Grafik kütüphanesi kapsamında nasıl Canvas yaratacağınızı ve Canvas‘a ait fonksiyon ve sabitlerin...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#kod">#kod</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/kaynaklar/pycharm-python/">
+          PyCharm Kurulumu
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 22 Oct 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 2 mins</span>
+      </div>
+      <p class="post-excerpt">
+        CS 101: Merhaba, dünya! programı boyunca, bilgisayarınızda kodu yazmak, çalıştırmak, incelemek ve hata ayıklamak için PyCharm adı verilen bir uygulama kullanıyor olacaksınız. PyCharm, IDE yani Bütünleşik Geliştirme Ortamı (Integrated Development Environment) türünde bir uygulamadır ve yaygın olarak kullanılmaktadır. Bu doküman sizlere kurulumun nasıl yapılacağını anlatmak için oluşturulmuştur. Python’u indirmek Bilgisayarınızda...
+      </p>
+      <div class="post-tags">
+<a class="post-tag" href="/tags.html#planlama">#planlama</a><a class="post-tag" href="/tags.html#kod">#kod</a>
+</div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/kaynaklar/ed-rehberi/">
+          Ed Platformu Kullanım Rehberi
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 22 Oct 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 4 mins</span>
+      </div>
+      <p class="post-excerpt">
+        CS 101: Merhaba, dünya! programı boyunca ana iletişim kanalımız Ed platformu olacak, size gelen davet email’ini takip ederek Ed’e giriş yapabilirsiniz. Aşağıda daha detaylı bir şekilde nasıl kullanabileceğinizi görebileceğiniz bu platform üzerinden eğitmenlerinizin duyurularını takip edebilir, ödevlerinizi teslim edebilir ve aklınıza takılan herhangi bir soruyu buradan eğitmenlerinize sorabilir, herkese açık...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#planlama">#planlama</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/ornekler/">
+          Program Fragmanı
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 27 Sep 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+      </div>
+      <p class="post-excerpt">
+        Normal şartlarda spoiler yani gelecekte olacakları belli edip heyecanı bozan bilgiler pek makbul değildir. Ancak biz programın başlangıcında ileride başarabileceğiniz birbirinden ilginç projelerden kesitler göstermenin ve hatta belki küçük bir fragman yayınlamanın heyecanınızı artırabileceğini düşünüyoruz. Aşağıda KOLT Python döneminde hazırlanmış iki ödevin ekran görüntüsünü bulabilirsiniz. Merak edenler için KOLT Python...
+      </p>
+      <div class="post-tags">
+<a class="post-tag" href="/tags.html#kod">#kod</a><a class="post-tag" href="/tags.html#planlama">#planlama</a>
+</div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/sss/">
+          Sıkça Sorulan Sorular
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 26 Sep 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 2 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Genel Bilgiler S: Programın öğretim dili nedir? Programın öğretim dili Türkçedir. S: Programın katılım koşulları nelerdir? Program tamamen ücretsiz olup stabil bir internet bağlantısına ve program boyunca düzenli erişim sağlayabileceğiniz bir bilgisayara erişiminiz olması yeterlidir. S: Grup buluşması nedir? Grup Buluşmaları, her hafta bir Grup Lideri’nin öncülüğünde 10-13 kişilik bir...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#planlama">#planlama</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/mufredat">
+          Müfredat
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 20 Sep 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 7 mins</span>
+      </div>
+      <p class="post-excerpt">
+        CS 101: Merhaba, Dünya! Bu belge Ekim-Aralık 2020 tarihleri arasında gerçekleştirilecek CS 101: Merhaba, Dünya! programını tanıtıcı ve öğrencilere yol gösterici olması amacıyla hazırlanmıştır. Genel Bilgiler CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#planlama">#planlama</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/hafta1-grup">
+          Hafta 1 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 21 Sep 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 2 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak problemlere ait başlangıç kodlarına ulaşabilirsiniz. Egzersiz 1 Bir yapay zeka şirketi yeni çıkaracakları robotun insanları selamlamasını istemektedir. Robot kullanıcıdan ismini girdi olarak alıp kullanıcıyı ismiyle selamlamaktadır. Bu işlevi sağlayan, kullanıcıdan ismini girdi olarak alıp onu selamlayan, bir program parçası yazınız. # Örnek Çalışma Şekli &gt; Adınız?:...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/hafta2-grup">
+          Hafta 2 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 21 Sep 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak problemlere ait başlangıç kodlarına ulaşabilirsiniz. Egzersiz 1 Bazı ebeveynler çocuklarının saat kaça kadar televizyon izleyebileceklerini kontrol etmek ister. Bu egzersizde yazacağınız programda kullanıcının yaşını girdi olarak almalısınız. Eğer kullanıcının yaşı 12’yse veya 12’den küçükse, saatin kaç olduğunu kontrol etmelisiniz. Saat 19.00’dan erkense 12 yaşından büyük olmayan...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/hafta3-grup">
+          Hafta 3 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 14 Oct 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak problemlere ait başlangıç kodlarına ulaşabilirsiniz. Egzersiz 1 Arkadaşlarını için yemek siparişi verecek olan Cenk 5 farklı çorbadan 2 tanesini, 12 ana yemekten 4 tanesini ve 3 tatlıdan 1 tanesini seçmesi gerekmetedir. Cenk’in bu seçimi kaç farklı şekilde yapabileceğini bulmak için size verilen başlangıç kodundaki kombinasyon ve...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/odev1">
+          Taş Kağıt Makas
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 17 Nov 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 5 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Taş Kağıt Makas Ödeve Başlamadan Önce CS 101: Merhaba, Dünya! programının ilk ödevi olarak klasik bir oyunu oynayacağız. Bu ödeve başlamadan önce dikkat etmeniz gerekenler: Bu ödevin teslim tarihi 27 Kasım 2020 Cuma 23:59‘dur. Lütfen ödevin adımlarını dikkatlice okuyun ve programınızı yazarken bu adımları takip ederek kodunuzu yazmaya çalışın. Bu...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#odev">#odev</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/hafta4-grup">
+          Hafta 4 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 21 Nov 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak bu haftaya ait çalışmaların başlangıç kodlarına ve oyundaki araba resimlerine ulaşabilirsiniz. Egzersiz 1 Kasiyer Selin Hanım müşterilerin aldıkları ürünlerin fiyatlarının toplamını bulmak istiyor. Ona yardımcı olmak için bir program hazırlayalım. Selin Hanım girdi olarak 0 girene kadar ürünlerin fiyatları toplanmaya devam etmelidir. # Örnek Çalışma Şekli...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/hafta5-grup">
+          Hafta 5 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 29 Nov 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak bu haftaya ait çalışmaların başlangıç kodlarına ulaşabilirsiniz. Grafik Kütüphanesi Bu haftaki çalışmalarınızı yaparken grafik kütüphanesi referansını da açmak size yardımcı olacaktır. Egzersiz 1 - Araba Oyuna Devam Geçen hafta araba oyunumuzu yazmaya başlamıştık. Geçen hafta bahsettiğimiz adımları tekrar hatırlayalım: Ekrana bir yazı (text) ekleyerek kullanıcıya fareyle...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+<li>
+          <h2 class="post-title">
+<a class="post-link" href="/2020guz/odev2">
+          Renkli Kar Tanelerini Sayalım!
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 05 Dec 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Renkli Kar Tanelerini Sayalım! Fırat Tamur, Ahmet Uyar Ödeve Başlamadan Önce CS 101: Merhaba, Dünya! programının ikinci ödevi olarak bir animasyon hazırlayacağız. Bu ödeve başlamadan önce dikkat etmeniz gerekenler: Bu ödevin teslim tarihi 16 Aralık 2020 Cuma 23:59‘dur. Lütfen ödevin adımlarını dikkatlice okuyun ve programınızı yazarken bu adımları takip ederek...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#odev">#odev</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/hafta6-grup">
+          Hafta 6 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 07 Dec 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 5 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak bu haftaya ait çalışmaların başlangıç kodlarına ulaşabilirsiniz. Egzersiz 1 - Manav Sanal bir manavın sipariş işlerini düenlemek için bir program yazalım. Depodaki ürünlerimizin adı ve miktarları depo isimli dictionary veri tipinde tutulmaktadır. Depodaki herhangi bir ürün bittiği zaman günlük satış hedefimize ulaşıyoruz ve manavı kapatıyoruz. Depodaki...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/hafta7-grup">
+          Hafta 7 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 14 Dec 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 2 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Bu haftaki çalışmalarımızı Tensorflow kütüphanesini kullanacağız. Ancak Tensorflow kütüphanesi kullanmaya alışık olduğumuz kütüphanelere göre daha çok hata verebileceği ve yüklemesi zor olduğu için bu hafta Repl.it isimli online IDE’den faydalanacağız. Lütfen kendinize bir Repl.it hesabı açın. Buraya tıklayarak bu haftaya ait çalışmaların başlangıç kodlarına ulaşabilirsiniz. Makine Öğrenmesi Yapay...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+<li>
+
+      <h2 class="post-title">
+<a class="post-link" href="/2020guz/hafta8-grup">
+          Hafta 8 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 21 Dec 2020</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 9 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak bu haftaya ait çalışmaların başlangıç kodlarına ulaşabilirsiniz. Dilerseniz Ed üzerinden de çalışabilirsiniz. Ön Bilgi Günlük hayatta olduğu gibi internetteki iletişimin de kuralları var. Web tarayıcımız ile web server’u arasında iletişim kurmamızı sağlayan kural ve metodları protokol olarak adlandırıyoruz. Bu haftaki egzersizimizde HTTP Protokolüne ait metodları kullanacağız....
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+</ul>
+
+  <!-- Pagination links -->
+</div>
+</div>
+
+
+  </section>
+</div>
+
+      </div>
+    </main>
+</body>
+</html>
