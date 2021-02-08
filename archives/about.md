@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Hakkımızda
-permalink: /hakkimizda/
+slug: hakkimizda/
 ---
 <style>
 * {
