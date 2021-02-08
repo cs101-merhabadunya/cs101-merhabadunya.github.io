@@ -1,25 +1,25 @@
 # cs101-website
 
 ## :memo:To-do 
-- [ ] Anasayfa
-- [ ] Kaynaklar
+- [x] Anasayfa
+- [x] Kaynaklar
     - [x] Syllabus - Gül Sena
     - [x] Hakkımızda
         may add some things from the inital Syllabus
-    - [ ] Python referansı :snake: 
-    - [ ] Pycharm kurulumu :snake: 
-    - [ ] Pycharm kullanımı
-    - [ ] Ed üzerinden çalışmaları yükleme
-    - [ ] Ed kullanım rehberi
-    - [ ] Grafikler (sonra eklenecek)
+    - [x] Python referansı :snake: 
+    - [x] Pycharm kurulumu :snake: 
+    - [x] Pycharm kullanımı
+    - [x] Ed üzerinden çalışmaları yükleme
+    - [x] Ed kullanım rehberi
+    - [x] Grafikler (sonra eklenecek)
     - [x] FAQ - Gül Sena
-- [ ] Projeler
-    - [ ] Grup :family:
-    - [ ] Self-study :computer:
-- [ ] Dersler
+- [x] Projeler
+    - [x] Grup :family:
+    - [x] Self-study :computer:
+- [x] Dersler
     Kolt python sitesindeki gibi bir tablo iyi olabilir
 $$\def\arraystretch{0.8} \begin{array}{llll} Konu & Tarih & Slaytlar & Video \end{array}$$
-- [ ] Ödevler (ilk ödevden sonra visible olacak)
+- [x] Ödevler (ilk ödevden sonra visible olacak)
 
 `bundle exec jekyll serve [--trace --incremental --port XXXX]`
 

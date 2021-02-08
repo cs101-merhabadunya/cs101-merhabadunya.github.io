@@ -36,13 +36,10 @@ header_pages:
 collections:
   projects:
     output: true
-    #rel_url: true
-    permalink: /projeler/:slug #todo: find a better way
+    permalink: /projeler/:slug 
   lectures:
     output: true
-#archives:
-#output: true
-#permalink: /arsiv/
+    permalink: /dersler/:slug
 # If you want more debug log, you can set true
 # debug: false
 

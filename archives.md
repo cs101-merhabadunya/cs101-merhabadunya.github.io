@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: default
 title: Arşiv
 permalink: /arsiv/
 ---
@@ -43,5 +43,4 @@ table {
 </style>
 ## 2020-2021 Sonbahar Dönemi
 
-2020-2021 Sonbahar Dönemi materyallerimize [bu linke](https://drive.google.com/drive/folders/15k96gd5zEg1vznTlwjO3MGdcsryXEKwR?usp=sharing) tıklayarak ulaşabilirsiniz.
-
+2020-2021 Sonbahar Dönemi materyallerimize [bu linkten]({{ site.baseurl }} {%link archives/2020guz/index.html%}) ulaşabilirsiniz.

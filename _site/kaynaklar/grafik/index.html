@@ -6,21 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
-<!-- Begin Jekyll SEO tag v2.6.1 -->
+<!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Grafik Kütüphanesi Referansı | CS 101: Merhaba, Dünya!</title>
-<meta name="generator" content="Jekyll v4.1.1">
+<meta name="generator" content="Jekyll v4.2.0">
 <meta property="og:title" content="Grafik Kütüphanesi Referansı">
 <meta name="author" content="Gül Sena Altıntaş">
 <meta property="og:locale" content="tr">
-<meta name="description" content="Grafik Kütüphanesi Python’da grafik programlarımızı CS Bridge eğitmenleri Chris Piech, Lisa Yan ve Nick Troccoli tarafından yazılmış grafik.py dosyasının fonksiyonlarını kullanarak yazacağız. Bu dosyayı TkInter grafik kütüphanesini kullanmamızı kolaylaştıran bir arayüz olarak düşünebilirsiniz.">
-<meta property="og:description" content="Grafik Kütüphanesi Python’da grafik programlarımızı CS Bridge eğitmenleri Chris Piech, Lisa Yan ve Nick Troccoli tarafından yazılmış grafik.py dosyasının fonksiyonlarını kullanarak yazacağız. Bu dosyayı TkInter grafik kütüphanesini kullanmamızı kolaylaştıran bir arayüz olarak düşünebilirsiniz.">
-<link rel="canonical" href="http://localhost:4000/kaynaklar/grafik/">
-<meta property="og:url" content="http://localhost:4000/kaynaklar/grafik/">
+<meta name="description" content="Grafik Kütüphanesi Python’da grafik programlarımızı CS Bridge eğitmenleri Chris Piech, Lisa Yan ve Nick Troccoli tarafından yazılmış grafik.py dosyasının fonksiyonlarını kullanarak yazacağız. Bu dosyayı TkInter grafik kütüphanesini kullanmamızı kolaylaştıran bir arayüz olarak düşünebilirsiniz. Canvas ve Referansı Bu sayfada Grafik kütüphanesi kapsamında nasıl Canvas yaratacağınızı ve Canvas‘a ait fonksiyon ve sabitlerin açıklamalarını bulabilirsiniz. Renkler Grafik programlarınızda kullanabileceğiniz renklerin listesine de bu linkten ulaşabilirsiniz.">
+<meta property="og:description" content="Grafik Kütüphanesi Python’da grafik programlarımızı CS Bridge eğitmenleri Chris Piech, Lisa Yan ve Nick Troccoli tarafından yazılmış grafik.py dosyasının fonksiyonlarını kullanarak yazacağız. Bu dosyayı TkInter grafik kütüphanesini kullanmamızı kolaylaştıran bir arayüz olarak düşünebilirsiniz. Canvas ve Referansı Bu sayfada Grafik kütüphanesi kapsamında nasıl Canvas yaratacağınızı ve Canvas‘a ait fonksiyon ve sabitlerin açıklamalarını bulabilirsiniz. Renkler Grafik programlarınızda kullanabileceğiniz renklerin listesine de bu linkten ulaşabilirsiniz.">
+<link rel="canonical" href="http://localhost:4003/kaynaklar/grafik/">
+<meta property="og:url" content="http://localhost:4003/kaynaklar/grafik/">
 <meta property="og:site_name" content="CS 101: Merhaba, Dünya!">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2020-11-25T00:00:00+03:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Grafik Kütüphanesi Referansı">
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"Grafik Kütüphanesi Referansı","url":"http://localhost:4000/kaynaklar/grafik/","dateModified":"2020-11-25T00:00:00+03:00","datePublished":"2020-11-25T00:00:00+03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/kaynaklar/grafik/"},"author":{"@type":"Person","name":"Gül Sena Altıntaş"},"description":"Grafik Kütüphanesi Python’da grafik programlarımızı CS Bridge eğitmenleri Chris Piech, Lisa Yan ve Nick Troccoli tarafından yazılmış grafik.py dosyasının fonksiyonlarını kullanarak yazacağız. Bu dosyayı TkInter grafik kütüphanesini kullanmamızı kolaylaştıran bir arayüz olarak düşünebilirsiniz.","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4003/kaynaklar/grafik/","datePublished":"2020-11-25T00:00:00+03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4003/kaynaklar/grafik/"},"author":{"@type":"Person","name":"Gül Sena Altıntaş"},"headline":"Grafik Kütüphanesi Referansı","description":"Grafik Kütüphanesi Python’da grafik programlarımızı CS Bridge eğitmenleri Chris Piech, Lisa Yan ve Nick Troccoli tarafından yazılmış grafik.py dosyasının fonksiyonlarını kullanarak yazacağız. Bu dosyayı TkInter grafik kütüphanesini kullanmamızı kolaylaştıran bir arayüz olarak düşünebilirsiniz. Canvas ve Referansı Bu sayfada Grafik kütüphanesi kapsamında nasıl Canvas yaratacağınızı ve Canvas‘a ait fonksiyon ve sabitlerin açıklamalarını bulabilirsiniz. Renkler Grafik programlarınızda kullanabileceğiniz renklerin listesine de bu linkten ulaşabilirsiniz.","dateModified":"2020-11-25T00:00:00+03:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="shortcut icon" href="/assets/images/logo.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,7 +32,7 @@
   <!-- and it's easy to individually load additional languages -->
   <script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
   <link rel="stylesheet" href="/assets/css/main.css">
-  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="CS 101: Merhaba, Dünya!">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4003/feed.xml" title="CS 101: Merhaba, Dünya!">
 <meta name="google-site-verification" content="NXQVGvtnQel8sRG_OUcGdD8QOiXY9NFYAFuJoTUkWps">
 </head>
 <body>
@@ -280,7 +282,7 @@
 
 </article>
 <div class="post-nav">
-<a class="previous" href="/kaynaklar/pycharm-python/" title="PyCharm Kurulumu">PyCharm Kurulumu</a><span></span>
+<a class="previous" href="/kaynaklar/grafik/" title="Grafik Kütüphanesi Referansı">Grafik Kütüphanesi Referansı</a><a class="next" href="/mufredat/" title="Müfredat">Müfredat</a>
 </div>
 <div class="post-comments"></div></section>
 </div>

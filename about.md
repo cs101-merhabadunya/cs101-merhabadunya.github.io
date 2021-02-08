@@ -50,7 +50,7 @@ CS 101 materyalleri programa katılan öğrencilerin çok az ya da hiç programl
 Şu an için önceden belirlenmiş liselerle işbirliği içinde yürütülen programın gün geçtikçe daha çok öğrenci ve eğitmene ulaşması en büyük hayalimizdir.
 
 Programın işleyişi, konular ve lojistik bilgiler için [Müfredat](/mufredat/)'ı inceleyebilirsiniz.
-<!--{% link _posts/2020-09-20-syllabus.md %}-->
+<!--{% link _posts/2021-02-08-syllabus.md %}-->
 ## Programın Amacı
 
 - Herkes için güvenli, eğlenceli ve verimli bir öğrenme ve öğretme ortamı oluşturmak.
