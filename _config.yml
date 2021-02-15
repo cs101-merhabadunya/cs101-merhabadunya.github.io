@@ -33,6 +33,7 @@ header_pages:
   - lectures.html
   - projects.html
   - archives.html
+  - apply.md
 collections:
   projects:
     output: true

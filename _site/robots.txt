@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4003/sitemap.xml
+Sitemap: https://cs101-merhabadunya.github.io//sitemap.xml

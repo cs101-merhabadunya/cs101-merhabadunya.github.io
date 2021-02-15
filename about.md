@@ -60,11 +60,11 @@ Programın işleyişi, konular ve lojistik bilgiler için [Müfredat](/mufredat/
 - Kaliteli ve açık kaynaklı Türkçe programlamaya giriş içeriklerine katkıda bulunmak.
 - Hepsi üniversite öğrencisi olan eğitmenlere akranlarıyla işbirliği içinde ders vermek, materyal hazırlamak gibi deneyimleri kazanarak öğretim becerilerini geliştirebilecekleri bir ortam sunmak.
 
-## Eğitmenler
+## Takımımız
 
 <!-- may refactor this bit to a more About like page -->
 
-CS 101 ekibi, bilgisayar bilimleri eğitimine gönül vermiş, akranlar arası öğretme ve öğrenmenin değerine inanan 11 üniversite öğrencisinden oluşur. Haftalık toplu dersleri canlı olarak dönüşümlü şekilde anlatan ekip üyeleri, materyallerin hazırlanmasında yer alır. Her eğitmen program başında kendisine atanan 12 <!-- todo: add exact number --> kişilik küçük gruplarla her hafta düzenli olarak 75 dakika toplanır. CS 101 eğitmenlerimizle tanışın:
+CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üniversite öğrencisinden oluşur. CS 101 ekibimizle tanışın:
 
 
 
@@ -90,9 +90,9 @@ CS 101 ekibi, bilgisayar bilimleri eğitimine gönül vermiş, akranlar arası �
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/ahmet-uyar.jpg" alt="profile picture">
+                <img src="../assets/images/people/irem.jpg" alt="profile picture">
                 <div class="caption">
-                        <b>Ahmet Uyar</b>
+                        <b>İrem Karaca</b>
                 </div>
         </th>
         </tr>
@@ -104,15 +104,15 @@ CS 101 ekibi, bilgisayar bilimleri eğitimine gönül vermiş, akranlar arası �
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/firat.jpg" alt="profile picture">
+                <img src="../assets/images/people/basak.jpg" alt="profile picture">
                 <div class="caption">
-                        <b>Fırat Tamur</b>
+                        <b>Başak Çobantepesi</b>
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/hasancan.jpg" alt="profile picture">
+                <img src="../assets/images/people/ridvan.png" alt="profile picture">
                 <div class="caption">
-                        <b>Hasan Can Aslan</b>
+                        <b>Rıdvan Balamur</b>
                 </div>
         </th>
         <th>
@@ -139,6 +139,39 @@ CS 101 ekibi, bilgisayar bilimleri eğitimine gönül vermiş, akranlar arası �
                 <img src="../assets/images/people/yekta.jpg" alt="profile picture">
                 <div class="caption">
                         <b>Yekta Kocaoğullar</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/arda.jpg" alt="profile picture">
+                <div class="caption">
+                        <b>Arda Enfiyeci</b>
+                </div>
+        </th>
+</tr>
+
+<tr>
+        <th>
+                <img src="../assets/images/people/ibrahim.jpg" alt="profile picture">
+                <div class="caption">
+                        <b>İbrahim Gezici</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/mustafa.jpg" alt="profile picture">
+                <div class="caption">
+                        <b>Mustafa Ahmet Yücel</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/ege.jpg" alt="profile picture">
+                <div class="caption">
+                        <b>Doğa Ege İnhanlı</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/eren.jpg" alt="profile picture">
+                <div class="caption">
+                        <b>Eren Çetin</b>
                 </div>
         </th>
 </tr>
