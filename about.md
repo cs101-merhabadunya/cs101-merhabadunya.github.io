@@ -27,6 +27,8 @@ body {
 
 .column img {
   margin-top: 12px;
+  width: 144px;
+  height: 144px;
 }
 
 /* Clear floats after the columns */
@@ -72,73 +74,21 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
 <table>
 <tr>
         <th>
-                <img src="../assets/images/people/gs.jpg" alt="profile picture">
+                <img src="../assets/images/people/gs.jpg" alt="profile picture" width="144" height="144">
                 <div class="caption">
                         <b>Gül Sena Altıntaş</b>
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/necla.jpg" alt="profile picture">
+                <img src="../assets/images/people/necla.jpg" alt="profile picture" width="144" height="144">
                 <div class="caption">
                         <b>Necla Mutlu</b>
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/ahmet.jpg" alt="profile picture">
+                <img src="../assets/images/people/ahmet.jpg" alt="profile picture" width="144" height="144">
                 <div class="caption">
                         <b>Ahmet Uysal</b>
-                </div>
-        </th>
-        <th>
-                <img src="../assets/images/people/irem.jpg" alt="profile picture">
-                <div class="caption">
-                        <b>İrem Karaca</b>
-                </div>
-        </th>
-        </tr>
-        <tr>       
-        <th>
-                <img src="../assets/images/people/demet.jpg" alt="profile picture">
-                <div class="caption">
-                        <b>Demet Tümkaya</b>
-                </div>
-        </th>
-        <th>
-                <img src="../assets/images/people/basak.jpg" alt="profile picture">
-                <div class="caption">
-                        <b>Başak Çobantepesi</b>
-                </div>
-        </th>
-        <th>
-                <img src="../assets/images/people/ridvan.png" alt="profile picture">
-                <div class="caption">
-                        <b>Rıdvan Balamur</b>
-                </div>
-        </th>
-        <th>
-                <img src="../assets/images/people/idil.jpg" alt="profile picture">
-                <div class="caption">
-                        <b>İdil Defne Çekin</b>
-                </div>
-        </th>
-        </tr>
-        <tr>
-        <th>
-                <img src="../assets/images/people/oya.jpg" alt="profile picture">
-                <div class="caption">
-                        <b>Oya Suran</b>
-                </div>
-        </th>
-        <th>
-                <img src="../assets/images/people/ozan.jpg" alt="profile picture">
-                <div class="caption">
-                        <b>Özgün Ozan Nacitarhan</b>
-                </div>
-        </th>
-        <th>
-                <img src="../assets/images/people/yekta.jpg" alt="profile picture">
-                <div class="caption">
-                        <b>Yekta Kocaoğullar</b>
                 </div>
         </th>
         <th>
@@ -147,19 +97,18 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
                         <b>Arda Enfiyeci</b>
                 </div>
         </th>
-</tr>
-
-<tr>
+        </tr>
+        <tr>       
         <th>
-                <img src="../assets/images/people/ibrahim.jpg" alt="profile picture">
+                <img src="../assets/images/people/basak.jpg" alt="profile picture">
                 <div class="caption">
-                        <b>İbrahim Gezici</b>
+                        <b>Başak Çobantepesi</b>
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/mustafa.jpg" alt="profile picture">
+                <img src="../assets/images/people/demet.jpg" alt="profile picture" width="144" height="144">
                 <div class="caption">
-                        <b>Mustafa Ahmet Yücel</b>
+                        <b>Demet Tümkaya</b>
                 </div>
         </th>
         <th>
@@ -174,14 +123,61 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
                         <b>Eren Çetin</b>
                 </div>
         </th>
+        </tr>
+        <tr>
+        <th>
+                <img src="../assets/images/people/ibrahim.jpg" alt="profile picture">
+                <div class="caption">
+                        <b>İbrahim Gezici</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/idil.jpg" alt="profile picture" width="144" height="144">
+                <div class="caption">
+                        <b>İdil Defne Çekin</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/irem.jpg" alt="profile picture">
+                <div class="caption">
+                        <b>İrem Karaca</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/mustafa.jpg" alt="profile picture">
+                <div class="caption">
+                        <b>Mustafa Ahmet Yücel</b>
+                </div>
+        </th>
+</tr>
+
+<tr>
+        <th>
+                <img src="../assets/images/people/oya.jpg" alt="profile picture" width="144" height="144">
+                <div class="caption">
+                        <b>Oya Suran</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/ozan.jpg" alt="profile picture" width="144" height="144">
+                <div class="caption">
+                        <b>Özgün Ozan Nacitarhan</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/ridvan.png" alt="profile picture">
+                <div class="caption">
+                        <b>Rıdvan Balamur</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/yekta.jpg" alt="profile picture" width="144" height="144">
+                <div class="caption">
+                        <b>Yekta Kocaoğullar</b>
+                </div>
+        </th>
 </tr>
 </table>
-<!-- 
- Ahmet Uyar | Gül Sena Altıntaş  | Oya Suran   
- Ahmet Uysal | Hasan Can Aslan  | Yekta Kocaoğullar   
- Demet Tümkaya | İdil Defne Çekin  | Ö. Ozan Nacitarhan   
- Fırat Tamur | Necla Mutlu 
-{: style="color:gray; font-size: 120%; text-align: center; border:0px;"} -->
 
 
 <!-- todo: add işbirlikçilerimiz, okullar, danışmanlar -->
