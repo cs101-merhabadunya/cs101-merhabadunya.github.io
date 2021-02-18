@@ -62,19 +62,19 @@ Sonrasında aşağıdaki gibi bir görünüme sahip olmalısınız, henüz özel
 
 Sağ alttaki **OK** butonuna basarak kurulumu ve hazırlığı tamamlayın, artık **Python kodlarınızı yazmaya başlayabilirsiniz!**
 
-# Kurulumunuzu kontrol edin
+## Kurulumunuzu kontrol edin
 Python ve PyCharm'ı kurdunuz, kurulumda bir hata olmadığından emin olmak için son bir aşama tamamlayacağız.
 
 Program boyunca PyCharmda projelerinizi açarken çalıştıracağımız _.py_ uzantılı python dosyasını içeren klasörü açmak işimizi çok kolaylaştıracak. Bunun için size önerimiz bir _CS101_ klasörü oluşturmanız ve programla ilgili kodları hafta hafta bu klasörün içinde kullanmanız. Örneğin, benim bilgisayarımda cs101 isimli bir klasör var. Kurulumu denemek için:
-    - cs101hafta0.zip isimli klasörü bilgisayarıma indirdim. Klasöre [buradan](https://drive.google.com/file/d/1UqrusTPOkYt6LVF52UVgDkoUm1p_KiE1/view?usp=sharing) ulaşabilirsiniz.
-    - Klasördeki kodu kullanabilmek için arşivden çıkarmam (unzip) gerek. Benim Windows bilgisayarımda .zip uzantılı bir dosyanın üzerine tıkladığımda yukarıda _Ayıkla_ isimli sekmeye tıklayıp _Tümünü Ayıkla_'ya basıyorum. Aynı şeşkilde klasörün üzerine sağ tıklayınca da benzer bir seçenek çıkıyor.
-    - Ayıklama işlemi bittiğinde .zip uzantısı olmadan aynı isimde bir klasör oluştu. Bu klasörü PyCharm'da açacağım.
-    - PyCharm'da _File_ menüsünden _Open_'ı seçiyorum. Açılan pencerede bir önceki aşamada ayıkladığım klasörü seçeceğim. 
-    - Artık PyCharm'da klasörü açtığıma göre programı çalıştıracağım. Bunun için ekran görüntüsünde olduğu gibi PyCharm'da aşağıdaki bölümden _Terminal_'e tıklıyorum. ![Terminal](/assets/images/pycharm-python/pycharm-terminal.jpg)
-    - Terminale `python lec1.py` (Mac için `python3 lec1.py`) yazıp Enter'a basın. 
-    - Program size aşağıdaki gibi bir karşılık verdiyse kurulumunuzu başarıyla tamamladınız demektir! Dilerseniz yaşınızı da girip Enter'a basarak programımızdan doğum yılınızı teyit edebilirsiniz.
-    ```
-    Python kurulumun doğru, tebrikler!
-    Kaç yaşındasınız? 
-    ```
-    Eğer program başka bir sonuç verdiyse önce [Ed](https://edstem.org/us/courses/4754/discussion/)'e bakmanı öneriyoruz, belki yaşadığın sorun hakkında daha önceden bir çözüm sunulmuş olabilir. Eğer Ed'de daha önce cevaplanmadıysa lütfen aldığın mesajın ya da yaşadığın sorunun ekran görüntüsünü bizimle Ed üzerinden yeni bir soru oluşturarak paylaş.  
+- cs101hafta0.zip isimli klasörü bilgisayarıma indirdim. Klasöre [buradan](https://drive.google.com/file/d/1UqrusTPOkYt6LVF52UVgDkoUm1p_KiE1/view?usp=sharing) ulaşabilirsiniz.
+- Klasördeki kodu kullanabilmek için arşivden çıkarmam (unzip) gerek. Benim Windows bilgisayarımda .zip uzantılı bir dosyanın üzerine tıkladığımda yukarıda _Ayıkla_ isimli sekmeye tıklayıp _Tümünü Ayıkla_'ya basıyorum. Aynı şeşkilde klasörün üzerine sağ tıklayınca da benzer bir seçenek çıkıyor.
+- Ayıklama işlemi bittiğinde .zip uzantısı olmadan aynı isimde bir klasör oluştu. Bu klasörü PyCharm'da açacağım.
+- PyCharm'da _File_ menüsünden _Open_'ı seçiyorum. Açılan pencerede bir önceki aşamada ayıkladığım klasörü seçeceğim. 
+- Artık PyCharm'da klasörü açtığıma göre programı çalıştıracağım. Bunun için ekran görüntüsünde olduğu gibi PyCharm'da aşağıdaki bölümden _Terminal_'e tıklıyorum. ![Terminal](/assets/images/pycharm-python/pycharm-terminal.jpg)
+- Terminale `python lec1.py` (Mac için `python3 lec1.py`) yazıp Enter'a basın. 
+- Program size aşağıdaki gibi bir karşılık verdiyse kurulumunuzu başarıyla tamamladınız demektir! Dilerseniz yaşınızı da girip Enter'a basarak programımızdan doğum yılınızı teyit edebilirsiniz.
+```
+Python kurulumun doğru, tebrikler!
+Kaç yaşındasınız? 
+```
+Eğer program başka bir sonuç verdiyse önce [Ed](https://edstem.org/us/courses/4754/discussion/)'e bakmanı öneriyoruz, belki yaşadığın sorun hakkında daha önceden bir çözüm sunulmuş olabilir. Eğer Ed'de daha önce cevaplanmadıysa lütfen aldığın mesajın ya da yaşadığın sorunun ekran görüntüsünü bizimle Ed üzerinden yeni bir soru oluşturarak paylaş.  
