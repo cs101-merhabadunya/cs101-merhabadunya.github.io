@@ -22,7 +22,7 @@ Interpreter adı verilen yorumlayıcı programlar, `.py` uzantılı dosyaları o
 İndirilen dosyayı açtıktan sonra, Python kurulum aşamalarında karşınıza çıkacak "Add Python 3.8 in PATH" seçeneğini işaretlediğinizden emin olun lütfen. 
     
 ## PyCharm’ı indirmek
-PyCharm Community versiyonunu, *Windows* bilgisayarınıza indirmek için <a href="https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC" target="_blank">bu linki</a>, *Mac* bilgisayarınıza indirmek için <a href="https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=mac&code=PCC" target="_blank">bu linki</a> kullanabilirsiniz.
+PyCharm Community versiyonunu, *Windows* bilgisayarınıza indirmek için <a href="https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC" target="_blank">bu linki</a>, *Mac* bilgisayarınıza indirmek için <a href="https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=mac&code=PCC" target="_blank">bu linki</a> kullanabilirsiniz. Eğer bilgisayarınızda 64 bitlik PyCharm hata veriyorsa <a href="https://download.jetbrains.com/python/pycharm-community-2018.3.7.exe" target="_blank">bu linkteki</a> versiyonu indirmeyi deneyebilirsiniz.
 
 İndirme tamamlandıktan sonra *Windows* için *.exe* uzantılı, *Mac* için ise *.dmg* uzantılı dosyayı açarak varsayılan ayarlarla, yani herhangi bir değişiklik yapmadan ilerleyin ve kurulumu tamamlayın.
 
