@@ -69,7 +69,7 @@ Program boyunca PyCharmda projelerinizi açarken çalıştıracağımız _.py_ u
 - cs101hafta0.zip isimli klasörü bilgisayarıma indirdim. Klasöre [buradan](https://drive.google.com/file/d/1UqrusTPOkYt6LVF52UVgDkoUm1p_KiE1/view?usp=sharing) ulaşabilirsiniz.
 - Klasördeki kodu kullanabilmek için arşivden çıkarmam (unzip) gerek. Benim Windows bilgisayarımda .zip uzantılı bir dosyanın üzerine tıkladığımda yukarıda _Ayıkla_ isimli sekmeye tıklayıp _Tümünü Ayıkla_'ya basıyorum. Aynı şeşkilde klasörün üzerine sağ tıklayınca da benzer bir seçenek çıkıyor.
 - Ayıklama işlemi bittiğinde .zip uzantısı olmadan aynı isimde bir klasör oluştu. Bu klasörü PyCharm'da açacağım.
-- PyCharm'da _File_ menüsünden _Open_'ı seçiyorum. Açılan pencerede bir önceki aşamada ayıkladığım klasörü seçeceğim. 
+- PyCharm'da _File_ menüsünden _Open_'ı seçiyorum. Açılan pencerede bir önceki aşamada ayıkladığım klasörün içindeki `cs101hafta0` isimli klasörü seçeceğim. (PyCharm'da çalıştıracağımız python dosyaalrını direkt içeren klasörü seçmemiz gerekli.) 
 - Artık PyCharm'da klasörü açtığıma göre programı çalıştıracağım. Bunun için ekran görüntüsünde olduğu gibi PyCharm'da aşağıdaki bölümden _Terminal_'e tıklıyorum. ![Terminal](/assets/images/pycharm-python/pycharm-terminal.jpg)
 - Terminale `python lec1.py` (Mac için `python3 lec1.py`) yazıp Enter'a basın. 
 - Program size aşağıdaki gibi bir karşılık verdiyse kurulumunuzu başarıyla tamamladınız demektir! Dilerseniz yaşınızı da girip Enter'a basarak programımızdan doğum yılınızı teyit edebilirsiniz.
