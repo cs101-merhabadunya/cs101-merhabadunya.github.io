@@ -8,7 +8,6 @@ tags: [grup çalışması]
 slug: hafta1-grup
 ---
 
-Bu dokümanda hem bir
 ## Başlangıç Kodları
 [Buraya tıklayarak](https://drive.google.com/file/d/1uNTIOTexY_SmmVNwKUN2eC7axsRSNdRY/view?usp=sharing) problemlere ait başlangıç kodlarına ulaşabilirsiniz.
 
