@@ -5,7 +5,7 @@ subtitle:
 categories: final_projesi
 authors: [Gül Sena Altıntaş, Arda Enfiyeci, Ahmet Uysal]
 tags: [final_projesi]
-slug: final_projesi
+slug: final-projesi
 ---
 
 CS 101 Bahar 2021'in 5 haftasını geride bıraktık! Şimdiye kadar inanılmaz bir gelişme gösterdiğiniz ve 
@@ -86,7 +86,7 @@ Ufosu düşmüş olan uzaylılar Ahmet’in yaklaşmakta oldugunu gorur. Uzaylı
  isterler. Bu dans sırasında her uzaylı farklı yönlerde koşuşturarak 
  duvarlardan sekmektedir. Grafik kütüphanesini kullanarak Uzaylıların Ahmet 
  gelmeden danslarını prova etmelerine yardımcı olun:
- ### 1.A Haritanın Ayarlanması
+### 1.A Haritanın Ayarlanması
  1. Uzaylıların pratik yapabilmesi için bir `Canvas` oluşturun. 
     - Kanvasın boyutları  başlangıç kodunda `KANVAS_EN` ve `KANVAS_BOY` değişkenleriyle verilmiştir.
     - Kanvasın başlığını "Final Projesi" olarak ayarlayın.
@@ -107,11 +107,11 @@ Ufosu düşmüş olan uzaylılar Ahmet’in yaklaşmakta oldugunu gorur. Uzaylı
 ❤️
 ```
     
- <span>1.</span> ve 2. aşamaların sonunda kanvasınız aşağıdakine benzer gözükmelidir:
-![ss](screenshots/harita.jpg){ width=100px }
+ <span>1.</span> ve 2. aşamaların sonunda kanvasınız aşağıdakine benzer gözükmelidir:  
+![Orijinal Harita](/assets/images/2021bahar/final_project/harita.jpg){: width="250px" }
 
  
- ### 1.B Uzaylıların Oluşturulması
+### 1.B Uzaylıların Oluşturulması
  Haritanız hazır olduğuna göre uzaylıları kanvasa ekleyebilirsiniz. 
  1. Uzaylıları kanvasa resim olarak ekleyeceksiniz. Uzaylıların boyutu `UZAYLI_BOYUT` x `UZAYLI_BOYUT` olmalıdır.  
  2. Çok düzenli bir ailede yetişen uzaylılar danslarına başlamadan önce 
@@ -132,11 +132,11 @@ Ufosu düşmüş olan uzaylılar Ahmet’in yaklaşmakta oldugunu gorur. Uzaylı
   **İpucu 1:** Uzaylıların hızlarını atarken 5. haftada yaptığımız _Yağmur Damlaları_ örneğini hatırlayın.      
   **İpucu 2:** `random.randint()` fonksiyonu ile rastgele bir tamsayı elde edebilirsiniz.
   
- ### 1.C Ana Karakterin Oluşturulması
+### 1.C Ana Karakterin Oluşturulması
 Uzaylılar ekrandaki yerlerini aldığına göre ekrana ana karakteri ekleyebilirsin. Ana karakteriniz oyuna kanvasın tam ortasında başlamalıdır. Boyutları `ANA_KARAKTER_BOYUT` ile verilmiştir.
 
 Ana karakter ve uzaylılar da eklendiğinde kanvasınız aşağıdaki gibi gözükebilir:
-![](screenshots/uzaylilar_karakter.jpg){ width=100px }
+![Uzaylılar ve ana karakter](/assets/images/2021bahar/final_project/uzaylilar_karakter.jpg){: width="250px" }
 
 ### 1.D Uzaylıların Hareketi
 Görsel olarak kanvasınızı hazırladığınıza göre animasyonu kurmaya başlayabilirsiniz. 
@@ -151,7 +151,7 @@ uygulayacağınızı düşünmek faydalı olacaktır.
 çıkması aslında sadece bulunduğu koordinatların kanvasın dışında kalmasıdır.
 
 <span>1.</span> Aşamanın sonunda oyununuz şu şekilde gözükebilir:
-![](screenshots/uzaylilar_hareket_ediyor1_skor0.jpg){ width=100px }
+![Uzaylılar hareket ediyor](/assets/images/2021bahar/final_project/uzaylilar_hareket_ediyor1_skor0.jpg){: width="250px" }
 
 ## 2. Aşama
 ### 2.A Ana Karakterin Hareketi
