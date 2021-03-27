@@ -226,7 +226,7 @@ danslarına kaptırmışlardır. Adeta trans halinde olan uzaylılar Ahmet’i d
  A tuşuna basınca sola, D tuşunda basınca sağa, S tuşuna basınca aşağı ateş 
  edecek şekilde Ahmet’in su tabancasını oluşturmasına yardımcı olur musunuz?
  - Animasyonunuzun her aşamasında kullanıcımız yeni bir lazer üretiyor mu bakmalı
- ve buna bağlı olaraktan kanvasa bir lazer eklememiz gerekiyor.  Bunun için başlangıç kodlarında `def yeni_lazerleri_ekle(kanvas, ana_karakter, lazerler):`
+ ve buna bağlı olaraktan kanvasa bir lazer eklememiz gerekiyor.  Bunun için başlangıç kodlarında `yeni_lazerleri_ekle(kanvas, ana_karakter, lazerler):`
  olarak verilen fonksiyonu yazın. Her lazerin Ahmet'in elinden çıktıktan sonra gittiği spesifik bir yön olduğunu unutmayın.  
  **İpucu:** 6. derste nasıl klavye hareketlerini kontrol ettiğimizi hatırlayın. 
  - Bu lazerlerin, herhangi bir Uzaylı ile çarpışıp çarpışmadığını 
