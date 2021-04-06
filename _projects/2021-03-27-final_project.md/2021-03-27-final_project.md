@@ -7,6 +7,7 @@ authors: [Gül Sena Altıntaş, Arda Enfiyeci, Ahmet Uysal]
 tags: [final_projesi]
 slug: final-projesi
 ---
+Son güncelleme: 6 Nisan 2021
 
 CS 101 Bahar 2021'in 5 haftasını geride bıraktık! Şimdiye kadar inanılmaz bir gelişme gösterdiğiniz ve 
 programı takip ettiğiniz için hepinizi tebrik ederiz. Programın son 3 haftasında Final Projesi yaparak 
@@ -14,6 +15,11 @@ programı takip ettiğiniz için hepinizi tebrik ederiz. Programın son 3 haftas
 
 Aşağıda Final Projesi ile ilgili verilen uzuun açıklamayı dikkatlice okuyun, başarılar.
 
+## Güncellemeler:
+- 6 Nisan 2021 - Ed'de sık sorulan bazı konularla ilgili ek bilgiler eklendi:
+     - Uzaylıların hız listesinin oluşturulması
+     - Uzaylıların hareketi
+     
 ## Başlangıç Kodları
 Final Projesine ait başlangıç kodlarına [buradan](https://drive.google.com/u/0/uc?id=1SZz0dsrVpGlmB4zrQ2RI8rrgTe6lLhjz&export=download) ulaşabilirsiniz.
 
@@ -125,12 +131,13 @@ Ufosu düşmüş olan uzaylılar Ahmet’in yaklaşmakta oldugunu gorur. Uzaylı
  **Not:** Final projesinde kullacağınız bütün resimleri  başlangıç kodlarında `resimler` klasöründe bulabilirsiniz. Dilerseniz, bu resimleri kendi projeniz için 
  başka resimlerle değiştirebilirsiniz. Ancak resimleri değiştirmeye karar verirseniz bu resimleri
  `resimler` klasörüne ekleyip Ed üzerinden teslim ettiğiniz ödevde de yer almasına dikkat edin.
- 3. Her uzaylı için hız belirleyin. Uzaylıların hızlarını oluşturmak için `uzaylilar_hiz_listesi_olustur(n)`
+ 3. Her uzaylı için sürat belirleyin. Uzaylıların hızlarını oluşturmak için `uzaylilar_hiz_listesi_olustur(n)`
  fonksiyonunu yazın, burada `n` toplam uzaylı sayısını temsil eder.
-    - Her uzaylı ekrana eklendiğinde veya sonrasında `UZAYLI_MIN_HIZ` ila `UZAYLI_MAX_HIZ` arasında rastgele bir
+    - Her uzaylı ekrana eklendiğinde veya sonrasında hem x hem de y yönündeki hız için `UZAYLI_MIN_HIZ` ila `UZAYLI_MAX_HIZ` arasında rastgele birer
     hız değeri oluşturun. Unutmayın, uzaylılar hem x hem de y ekseninde hareket edebilir.  
   **İpucu 1:** Uzaylıların hızlarını atarken 5. haftada yaptığımız _Yağmur Damlaları_ örneğini hatırlayın.      
-  **İpucu 2:** `random.randint()` fonksiyonu ile rastgele bir tamsayı elde edebilirsiniz.
+  **İpucu 2:** `random.randint()` fonksiyonu ile rastgele bir tamsayı elde edebilirsiniz.  
+  **İpucu 3:** Burada hız listemiz `[[hiz0_x, hiz0_y], [hiz1_x, hiz1_y], ..., [hizn_x, hizn_y]]` benzer bir yapıda olmalı. Bu sayede `uzayli_listesi`'nde `i`'ninci indekse bulunan uzaylının hızı `hiz_listesi`'nin `i`'ninci indeksindeki *liste*de tutulur. Örneğin `uzayli_listesi[i]`'deki uzaylının x yönündeki hızını `hiz_listesi[i][0]` ile bulabiliriz.
   
 ### 1.C Ana Karakterin Oluşturulması
 Uzaylılar ekrandaki yerlerini aldığına göre ekrana ana karakteri ekleyebilirsin. Ana karakteriniz oyuna kanvasın tam ortasında başlamalıdır. Boyutları `ANA_KARAKTER_BOYUT` ile verilmiştir.
@@ -140,8 +147,9 @@ Ana karakter ve uzaylılar da eklendiğinde kanvasınız aşağıdaki gibi göz�
 
 ### 1.D Uzaylıların Hareketi
 Görsel olarak kanvasınızı hazırladığınıza göre animasyonu kurmaya başlayabilirsiniz. 
-1. Öncelikle, her uzaylı [1.B](#1b-uzaylıların-oluşturulması)'de belirlediğiniz hızda hareket etmelidir.
-2. Uzaylıların duvarlardan sekmesini sağlayın. 
+1. Öncelikle, her uzaylı [1.B](#1b-uzaylıların-oluşturulması)'de belirlediğiniz hızda hareket etmelidir.  
+**Dikkat**: `kanvas.move()` fonksiyonu 3 argüman alır: hareket ettireceğimiz obje, x yönündeki hız değeri, y yönündeki hız değeri
+3. Uzaylıların duvarlardan sekmesini sağlayın. 
     - Kanvasın dışına çıkan uzaylıların hızını güncelleyin. Örneğin, uzaylınız sağ 
     duvara çarptıysa hızının hangi eksenini değiştirmemiz gerekir?
     - Bunu yaparken 5. Derste çözdüğümüz _Zıplayan Top_ örneğini
