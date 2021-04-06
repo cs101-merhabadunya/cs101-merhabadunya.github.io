@@ -19,6 +19,7 @@ Aşağıda Final Projesi ile ilgili verilen uzuun açıklamayı dikkatlice okuyu
 - 6 Nisan 2021 - Ed'de sık sorulan bazı konularla ilgili ek bilgiler eklendi:
      - Uzaylıların hız listesinin oluşturulması
      - Uzaylıların hareketi
+     - Lojistik Hatırlatmalar
      
 ## Başlangıç Kodları
 Final Projesine ait başlangıç kodlarına [buradan](https://drive.google.com/u/0/uc?id=1SZz0dsrVpGlmB4zrQ2RI8rrgTe6lLhjz&export=download) ulaşabilirsiniz.
@@ -33,6 +34,20 @@ Final Projesi 2 ana aşamaya ayrılmıştır, bu aşamaların açıklamalarını
 <span>2.</span> Aşamanın teslim tarihi: **18 Nisan Pazar** olarak belirlenmiştir.  
 Bonus ile belirtilen görevler zorunlu değildir, sadece oyununuzu geliştirebilecek önerilerdir. Yaratıcılığınızı
 kullanıp ek özellikler ekleyebilirsiniz, hatta bunları Ed'den hepimizle paylaşın!
+
+### Grafik Kütüphanesi
+Final Projesinde grafik kütüphanesine ait fonksiyonları sıklıkla kullanacaksınız. Fonksiyonların parametrelerinden ve davranışlarından emin 
+olmadığınızda [bu adreste](https://cs101-merhabadunya.github.io/kaynaklar/grafik-referans/) yer alan Grafik Kütüphanesi Dokümantasyonu'nu kontrol etmelisiniz.
+
+**Not:** Grafik programlarını Ed'den çalıştıramazsınız bu sebeple final projesini bilgisayarınızda PyCharm'da yazmanız gerekiyor.
+
+PyCharm'da Final Projesini açarken açtığınız klasörün aşağıdaki klasör ve dosyaları içerdiğinden emin olun. 
+```
+├───grafik
+├───resimler
+├───sesler
+└───final_projesi.py
+```
 
 ### Aşamalar
 #### 1. Aşama
@@ -76,6 +91,7 @@ Mac için:
 python3 -m pip install Pillow==7.1.1
 ```
 
+**Not:** Bilgisayarınızda Python 3.9 veya daha üst bir sürüm varsa yukarıdaki komuttu `Pillow==8.0.0` şeklinde güncelleyerek çalıştırabilirsiniz.  
 Kurulum başarı ile tamamlandığında terminalinizde son olarak "Successfully installed Pillow-7.1.1" ibaresi görünür. Artık grafik kütüphanemizdeki resim içeren fonksiyonları kullanabiliriz!
 
 ## Hikaye
