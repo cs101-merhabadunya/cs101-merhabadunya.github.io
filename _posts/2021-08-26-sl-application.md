@@ -1,5 +1,10 @@
-Grup Liderliği Başvurusu
-------
+---
+layout: post
+title: Grup Lideri Başvurusu
+subtitle: Güz'21 Grup Lideri Başvurusu
+permalink: /guz21/basvuru/
+tags: [planlama, grup lideri]
+---
 
 ### Grup Liderliği Başvurusu
 
