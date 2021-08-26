@@ -2,7 +2,7 @@
 
 Ekibimizin bir parçası olmak ister misiniz?
 
-CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş, Koç Üniversitesi bünyesinde gerçekleşen ve tamamen öğrenciler tarafından organize edilen, 8 haftalık online bir programdır. CS 101 hakkında daha detaylı bilgi elde etmek isterseniz web sitemizi https://lnkd.in/diQUEtJC ziyaret edebilir ya da bize cs-101-merhaba-dunya-staff-group@ku.edu.tr e-mail adresinden ulaşabilirsiniz.
+CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş, Koç Üniversitesi bünyesinde gerçekleşen ve tamamen öğrenciler tarafından organize edilen, 8 haftalık online bir programdır. CS 101 hakkında daha detaylı bilgi elde etmek isterseniz [**websitemizi**](https://lnkd.in/diQUEtJC) ziyaret edebilir ya da bize cs-101-merhaba-dunya-staff-group@ku.edu.tr e-mail adresinden ulaşabilirsiniz.
 
 CS 101'in 8 haftalık Python ile Programlamaya Giriş programı kapsamında katılımcı öğrenciler her hafta 1.5 saat derse ve 1 saat grup çalışmasına katılırlar. CS 101'in işleyiş ve materyallerinden genellikle üniversite öğrencisi olan eğitmen ekibi sorumludur. CS 101 ekibindeki herkes programa gönüllü destek vermektedir. Başvurduğunuz pozisyonun ücretsiz ve gönüllülük esasına dayalı olduğunu tekrar hatırlatmak istiyoruz.
 
