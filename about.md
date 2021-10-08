@@ -126,9 +126,9 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
         </tr>
         <tr>
         <th>
-                <img src="../assets/images/people/ibrahim.jpg" alt="profile picture">
+                <img src="../assets/images/people/BurcuYildiz.jpg" alt="profile picture">
                 <div class="caption">
-                        <b>İbrahim Gezici</b>
+                        <b>Burcu Yıldız</b>
                 </div>
         </th>
         <th>
