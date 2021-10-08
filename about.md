@@ -92,17 +92,17 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/arda.jpg" alt="profile picture">
+                <img src="../assets/images/people/ceren.jpg" alt="profile picture" width="144" height="144">
                 <div class="caption">
-                        <b>Arda Enfiyeci</b>
+                        <b>Ceren Kocaoğullar</b>
                 </div>
         </th>
         </tr>
         <tr>       
         <th>
-                <img src="../assets/images/people/basak.jpg" alt="profile picture">
+                <img src="../assets/images/people/BurakAslantas.jpg" alt="profile picture" width="144" height="144">
                 <div class="caption">
-                        <b>Başak Çobantepesi</b>
+                        <b>Burak Aslantaş</b>
                 </div>
         </th>
         <th>
@@ -126,7 +126,7 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
         </tr>
         <tr>
         <th>
-                <img src="../assets/images/people/BurcuYildiz.jpg" alt="profile picture">
+                <img src="../assets/images/people/BurcuYildiz.jpg" alt="profile picture" width="144" height="144">
                 <div class="caption">
                         <b>Burcu Yıldız</b>
                 </div>
@@ -138,9 +138,9 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/irem.jpg" alt="profile picture">
+                <img src="../assets/images/people/AhmetUnal.jpg" alt="profile picture" width="144" height="144">
                 <div class="caption">
-                        <b>İrem Karaca</b>
+                        <b>Ahmet Ünal</b>
                 </div>
         </th>
         <th>
