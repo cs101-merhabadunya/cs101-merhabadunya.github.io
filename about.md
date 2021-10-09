@@ -86,9 +86,9 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/ahmet.jpg" alt="profile picture" width="144" height="144">
+                <img src="../assets/images/people/SedefCakmak.jpg" alt="profile picture" width="144" height="144">
                 <div class="caption">
-                        <b>Ahmet Uysal</b>
+                        <b>Sedef Çakmak</b>
                 </div>
         </th>
         <th>
@@ -140,7 +140,7 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
         <th>
                 <img src="../assets/images/people/AhmetUnal.jpg" alt="profile picture" width="144" height="144">
                 <div class="caption">
-                        <b>Ahmet Ünal</b>
+                        <b>Ahmet Hamdi Ünal</b>
                 </div>
         </th>
         <th>
@@ -159,15 +159,15 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/ozan.jpg" alt="profile picture" width="144" height="144">
+                <img src="../assets/images/people/BarkinKara.jpg" alt="profile picture" width="144" height="144">
                 <div class="caption">
-                        <b>Özgün Ozan Nacitarhan</b>
+                        <b>Barkın Kara</b>
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/ridvan.png" alt="profile picture">
+                <img src="../assets/images/people/YagmurAkarken.png" alt="profile picture">
                 <div class="caption">
-                        <b>Rıdvan Balamur</b>
+                        <b>Yağmur Akarken</b>
                 </div>
         </th>
         <th>
