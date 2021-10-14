@@ -165,7 +165,7 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/Yagmur.png" alt="profile picture"  width="144" height="144">
+                <img src="../assets/images/people/Yagmur.jpg" alt="profile picture"  width="144" height="144">
                 <div class="caption">
                         <b>Yağmur Akarken</b>
                 </div>
@@ -192,7 +192,7 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/gs.png" alt="profile picture"  width="144" height="144">
+                <img src="../assets/images/people/gs.jpg" alt="profile picture"  width="144" height="144">
                 <div class="caption">
                         <b>Gül Sena Altıntaş</b>
                 </div>
