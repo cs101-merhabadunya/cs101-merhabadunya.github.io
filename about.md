@@ -72,17 +72,17 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
 
 <!-- Course Staff -->
 <table>
-<tr>
-        <th>
-                <img src="../assets/images/people/gs.jpg" alt="profile picture" width="144" height="144">
+<tr>    
+          <th>
+                <img src="../assets/images/people/ceren.jpg" alt="profile picture" width="144" height="144">
                 <div class="caption">
-                        <b>Gül Sena Altıntaş</b>
+                        <b>Ceren Kocaoğullar</b>
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/necla.jpg" alt="profile picture" width="144" height="144">
+                <img src="../assets/images/people/EcePinar.jpg" alt="profile picture" width="144" height="144">
                 <div class="caption">
-                        <b>Necla Mutlu</b>
+                        <b>Ece Pınar Özer</b>
                 </div>
         </th>
         <th>
@@ -91,10 +91,10 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
                         <b>Sedef Çakmak</b>
                 </div>
         </th>
-        <th>
-                <img src="../assets/images/people/ceren.jpg" alt="profile picture" width="144" height="144">
+         <th>
+                <img src="../assets/images/people/CemalEfe.jpg" alt="profile picture" width="144" height="144">
                 <div class="caption">
-                        <b>Ceren Kocaoğullar</b>
+                        <b>Cemal Efe Gayır</b>
                 </div>
         </th>
         </tr>
@@ -112,13 +112,13 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/ege.jpg" alt="profile picture">
+                <img src="../assets/images/people/ege.jpg" alt="profile picture"  width="144" height="144">
                 <div class="caption">
                         <b>Doğa Ege İnhanlı</b>
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/eren.jpg" alt="profile picture">
+                <img src="../assets/images/people/eren.jpg" alt="profile picture"  width="144" height="144">
                 <div class="caption">
                         <b>Eren Çetin</b>
                 </div>
@@ -144,7 +144,7 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/mustafa.jpg" alt="profile picture">
+                <img src="../assets/images/people/mustafa.jpg" alt="profile picture"  width="144" height="144">
                 <div class="caption">
                         <b>Mustafa Ahmet Yücel</b>
                 </div>
@@ -165,7 +165,7 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
                 </div>
         </th>
         <th>
-                <img src="../assets/images/people/YagmurAkarken.png" alt="profile picture">
+                <img src="../assets/images/people/Yagmur.png" alt="profile picture"  width="144" height="144">
                 <div class="caption">
                         <b>Yağmur Akarken</b>
                 </div>
@@ -174,6 +174,33 @@ CS 101 ekibi, akranlar arası öğretme ve öğrenmenin değerine inanan 16 üni
                 <img src="../assets/images/people/yekta.jpg" alt="profile picture" width="144" height="144">
                 <div class="caption">
                         <b>Yekta Kocaoğullar</b>
+                </div>
+        </th>
+</tr>
+
+<tr>
+        <th>
+                <img src="../assets/images/people/BarisKaplan.jpg" alt="profile picture" width="144" height="144">
+                <div class="caption">
+                        <b>Barış Kaplan</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/Rutkay.jpg" alt="profile picture" width="144" height="144">
+                <div class="caption">
+                        <b>Arda Rutkay Var</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/gs.png" alt="profile picture"  width="144" height="144">
+                <div class="caption">
+                        <b>Gül Sena Altıntaş</b>
+                </div>
+        </th>
+        <th>
+                <img src="../assets/images/people/necla.jpg" alt="profile picture" width="144" height="144">
+                <div class="caption">
+                        <b>Necla Mutlu</b>
                 </div>
         </th>
 </tr>
