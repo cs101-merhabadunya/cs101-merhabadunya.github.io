@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jekyll-theme-yat (1.5.3)
+    jekyll-theme-yat (1.8.0)
       jekyll (> 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-paginate (~> 1.1)

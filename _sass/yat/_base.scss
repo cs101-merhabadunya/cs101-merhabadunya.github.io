@@ -17,6 +17,7 @@ body {
   font-family: $base-font-family;
   font-weight: $base-font-weight;
   font-size: #{$base-font-size};
+  font-display: swap;
   line-height: #{$base-line-height};
   color: $text-color;
   background-color: $background-color;
@@ -220,11 +221,13 @@ pre {
  * Tables
  */
 table {
+  display: block;
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
   color: lighten($text-color, 5%);
   border-collapse: collapse;
+  overflow: auto;
 
   tr {
     &:nth-child(even) {

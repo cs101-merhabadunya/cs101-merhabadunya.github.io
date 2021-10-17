@@ -1,7 +1,8 @@
 <a class="site-brand-inner" rel="author" href="{{ "/" | relative_url }}">
-  <picture class="site-favicon" title="{{ site.title | escape }}">
+  <!-- <picture class="site-favicon" title="{{ site.title | escape }}">
     <source srcset="{{ site.favicon-webp }}" type="image/webp">
     <img src="{{ site.favicon }}" style="max-height: 100%;" alt="{{ site.title }}">
-  </picture>
+  </picture> -->
+  <img class="site-favicon" title="{{ site.title | escape }}" src="{{ site.favicon }}" onerror="this.style.display='none'">
   {{ site.title | escape }}
 </a>

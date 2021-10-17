@@ -23,7 +23,7 @@ html {
 
         @include media-query($on-laptop) {
           .page-link {
-            color: unset;
+            color: $header-text-color;
           }
 
           .menu-icon {
@@ -36,6 +36,7 @@ html {
     }
 
     footer.site-footer {
+      color: unset;
       background-color: transparent;
 
       .site-footer-inner {
@@ -212,6 +213,11 @@ html {
   }
 }
 
+.copyleft {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+
 /**
  * Post header
  */
@@ -241,6 +247,7 @@ html {
   
   .post-authors {
     padding-right: 150px;
+    display: inline-block;
 
     .post-author {
       margin: 0 12px 0 0;
@@ -255,6 +262,7 @@ html {
   @extend %flex-1; /* <-- Keep footer on the bottom */
   -ms-flex: none; /* <-- Fix IE footer issue */
   padding: $spacing-unit * 2 0;
+  padding-top: 72px;
 }
 
 .page-heading {
@@ -323,9 +331,12 @@ html {
 
   .post-excerpt {
     color: #777;
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
 
   .post-tags .post-tag {
+    display: inline-block;
     text-decoration: none;
     border: 1px solid;
     padding: 2px 4px;
@@ -334,6 +345,10 @@ html {
 
     &:not(:first-child) {
       margin-left: 8px;
+    }
+    
+    &:not(:last-child) {
+      margin-right: 8px;
     }
 
     &:hover {
@@ -406,7 +421,11 @@ html {
     border-bottom: 1px solid #ebebeb;
 
     .post-title {
-      margin-bottom: 2px;
+      margin-bottom: 6px;
+    }
+
+    .post-subtitle {
+      font-weight: lighter;
     }
 
     .post-meta {
@@ -524,6 +543,7 @@ html {
     @include relative-font-size(1.125);
     line-height: 15px;
     color: #666;
+    max-width: 50%;
   }
 
   .previous:before {
@@ -591,6 +611,20 @@ html {
     width: 100%;
     height: 100%;
     overflow: hidden;
+
+    & > *:first-child {
+      @include center-image;
+      transition: 0.1s all ease-in-out;
+    }
+
+    & > video {
+      width: 100vw;
+      object-fit: cover;
+    }
+
+    & > img.img-placeholder {
+      display: none;
+    }
   }
 
   .wrapper {
@@ -620,8 +654,13 @@ html {
       }
 
       > :nth-child(2) {
-        font-weight: normal;
-        margin-bottom: 0;
+        font-weight: lighter;
+        margin-bottom: 0.8em;
+        transition: 0.2s all;
+
+        @include media-query($on-palm) {
+          @include relative-font-size(1.175);
+        }
       }
 
       > :last-child {

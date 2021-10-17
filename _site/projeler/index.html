@@ -14,13 +14,13 @@
 <meta property="og:locale" content="tr">
 <meta name="description" content="CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.">
 <meta property="og:description" content="CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.">
-<link rel="canonical" href="https://cs101-merhabadunya.github.io//projeler/">
-<meta property="og:url" content="https://cs101-merhabadunya.github.io//projeler/">
+<link rel="canonical" href="http://localhost:4001/projeler/">
+<meta property="og:url" content="http://localhost:4001/projeler/">
 <meta property="og:site_name" content="CS 101: Merhaba, Dünya!">
 <meta name="twitter:card" content="summary">
 <meta property="twitter:title" content="Projeler">
 <script type="application/ld+json">
-{"headline":"Projeler","@type":"WebPage","url":"https://cs101-merhabadunya.github.io//projeler/","author":{"@type":"Person","name":"CS 101: Merhaba, Dünya!"},"description":"CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"http://localhost:4001/projeler/","headline":"Projeler","author":{"@type":"Person","name":"CS 101: Merhaba, Dünya!"},"description":"CS 101: Merhaba, dünya! Türkiye’deki lise öğrencileri arasında programlama eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır. CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini artırmayı hedefler.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="shortcut icon" href="/assets/images/logo.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,10 +30,205 @@
   <!-- and it's easy to individually load additional languages -->
   <script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
   <link rel="stylesheet" href="/assets/css/main.css">
-  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://cs101-merhabadunya.github.io//feed.xml" title="CS 101: Merhaba, Dünya!">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4001/feed.xml" title="CS 101: Merhaba, Dünya!">
 <meta name="google-site-verification" content="NXQVGvtnQel8sRG_OUcGdD8QOiXY9NFYAFuJoTUkWps">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
 </head>
 <body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -58,10 +253,11 @@
   <div class="wrapper">
     <div class="site-header-inner">
 <span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
-  <picture class="site-favicon" title="CS 101: Merhaba, Dünya!">
+  <!-- <picture class="site-favicon" title="CS 101: Merhaba, Dünya!">
     <source srcset="/assets/images/logo.webp" type="image/webp">
     <img src="/assets/images/logo.png" style="max-height: 100%;" alt="CS 101: Merhaba, Dünya!">
-  </source></picture>
+  </picture> -->
+  <img class="site-favicon" title="CS 101: Merhaba, Dünya!" src="/assets/images/logo.png" onerror="this.style.display='none'">
   CS 101: Merhaba, Dünya!
 </a>
 </span><nav class="site-nav">
@@ -75,7 +271,159 @@
           </label>
 
           <div class="trigger">
-<a class="page-link" href="/hakkimizda/">HAKKIMIZDA</a><a class="page-link" href="/kaynaklar/">KAYNAKLAR</a><a class="page-link" href="/dersler/">DERSLER</a><a class="page-link" href="/projeler/">PROJELER</a><a class="page-link" href="/arsiv/">ARŞIV</a><a class="page-link" href="/bagimsiz-basvuru/">BAŞVURU</a>
+<a class="page-link" href="/hakkimizda/">HAKKIMIZDA</a><a class="page-link" href="/kaynaklar/">KAYNAKLAR</a><a class="page-link" href="/dersler/">DERSLER</a><a class="page-link" href="/projeler/">PROJELER</a><a class="page-link" href="/arsiv/">ARŞIV</a>
+
+
+
+
+
+
+
+
+
+<span class="page-link">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<span class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://www.countryflags.io/us/flat/64.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://www.countryflags.io/fr/flat/64.png" title="Franch">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://www.countryflags.io/cn/flat/64.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://www.countryflags.io/jp/flat/64.png" title="Japan">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://www.countryflags.io/kr/flat/64.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://www.countryflags.io/ru/flat/64.png" title="Russia">
+          
+        </a>
+      </li>
+    
+  </ul>
+</span>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'tr',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</span>
 </div>
         </nav>
 </div>
@@ -83,7 +431,8 @@
 </header>
 
 <script>
-  (function() {
+  // (function() {
+  function initHeader() {
     var lastScrollY = getScrollPos().y;
     var documentElement = document.documentElement;
 
@@ -114,8 +463,124 @@
     });
 
     storeScrollData();
-  })();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -170,6 +635,7 @@
 <script>
   function hashLocate(hashValue) {
     hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
     var element = document.getElementById(hashValue);
 
     if (!element) {
@@ -205,10 +671,117 @@
 
   // The first event occurred
   window.addEventListener('click', function(event) {
-    if (event.target.matches('a')) {
+    if (event.target.tagName.toLowerCase() == 'a') {
       hashLocate(event.target.getAttribute('href'));
     }
   });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
 </script>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
@@ -220,7 +793,685 @@
 
   
 
-  
+  <div class="pagination">
+  <!-- Post list links -->
+  <ul class="post-list">
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/projeler/hafta1-grup">
+          Hafta 1 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 27 Aug 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 5 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak problemlere ait başlangıç kodlarına ulaşabilirsiniz. Grup Çalışması - Hafta 1 Egzersiz 1 Bir yapay zeka şirketi yeni çıkaracakları robotun insanları selamlamasını istemektedir. Robot kullanıcıdan ismini girdi olarak alıp kullanıcıyı ismiyle selamlamaktadır. Ayrıca onlara doğdukları yılı sorup aralarındaki yaş farkını söyleyecektir. Robot yeni geliştirildiği için doğum yılı...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/projeler/odev1">
+          Ödev 1
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 27 Aug 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 10 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Bu ödevin teslim tarihi 1 Mart Pazartesi 22.00‘dır. Ödevinizi bitirdiğinizde Ed üzerinden teslim etmeyi unutmayın. Bu konuda paylaştığımız bu gönderi faydalı olacaktır. Unutmayın, ödevler hem konuları pekiştirmenize yarar hem de programdan sertifika alabilmek için gereklidir. Başlangıç Kodları Buraya tıklayarak problemlere ait başlangıç kodlarına ulaşabilirsiniz. Egzersiz 1 Program boyunca çözeceğimiz birçok...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#odev">#odev</a></div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/projeler/odev2">
+          Ödev 2
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 23 Feb 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 7 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak problemlere ait başlangıç kodlarına ulaşabilirsiniz. Ödev 2 Egzersiz 1 Bozuk bir hesap makinesi ondalıklı sayılarla işlem yaparken yanlış sonuç vermektedir. İşleme dahil olan her ondalıklı sayıyı yuvarlayarak işlemi yapan hesap makinesinin kullanıcı tarafından verilen işlemin sonucunu kaç bulacağını hesaplayan bir program yazalım. Programda kullanıcıdan 3 tane...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#odev">#odev</a></div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/projeler/hafta2-grup">
+          Hafta 2 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 23 Feb 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 4 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak problemlere ait başlangıç kodlarına ulaşabilirsiniz. Grup Çalışması - Hafta 2 Egzersiz 1 Vücut Kitle İndeksi Hesaplama Formülu: Vücut Kitle İndeksi (VKİ) = Vücut Ağırlığı (kg.) / Boy uzunluğunun karesi (m2.) Dünya Sağlık Örgütü referans aralığına göre, 5-24.99 arası değerler “normal” sayılır. Vücut kitle endeksi değeri 25’in...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/projeler/odev3">
+          Ödev 3
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 09 Mar 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 10 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak problemlere ait başlangıç kodlarına ulaşabilirsiniz. Ödev - Hafta 3 Egzersiz 1 Eren ve İdil kendi seçtikleri 50’ye kadar olan 3 sayılardan oluşan 3 elemanlık 2 liste oluşturdu. Seçtikleri sayılardan ortak sayılar olup olmadığını ve varsa ortak olan sayıların hangileri olduklarını merak ediyorlar. Hangi sayıların ortak olduğunu...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#odev">#odev</a></div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/projeler/hafta3-grup">
+          Hafta 3 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 09 Mar 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 4 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak problemlere ait başlangıç kodlarına ulaşabilirsiniz. Grup Çalışması - Hafta 3 Egzersiz 1 Sayı dizileri ve matematik her zaman ilgi çekici konular olmuştur. Bu sayı dizilerinden eğlenceli bir tanesi de “bak ve söyle dizisi”dir (Look-and-Say Sequence). Bu diziye göre, soldan itibaren sayıların sırasına ve arka arkaya dizilimine...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/projeler/odev4">
+          Ödev 4
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 14 Mar 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 10 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak ödev problemlerine ait başlangıç kodlarına ulaşabilirsiniz. Ön Hazırlık Grafik kütüphanesinin tüm fonksiyonlarını kullanabilmek için Pillow paketini indirmeliyiz. Daha önce indirmediyseniz aşağıdaki komutu terminalde çalıştırarak Pillow’u bilgisayarınıza indirebilirsiniz. python -m pip install Pillow==7.1.1 Ödev - Hafta 4 Grafik kütüphanesinin fonsiyonlarının dokümantasyonuna buradan ulaşabilirsiniz. Egzersiz 1 En büyük...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#odev">#odev</a></div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/projeler/hafta4-grup">
+          Hafta 4 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 14 Mar 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 9 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak problemlere ait başlangıç kodlarına ulaşabilirsiniz. Ön Hazırlık Grafik kütüphanesinin tüm fonksiyonlarını kullanabilmek için Pillow paketini indirmeliyiz. Daha önce indirmediyseniz aşağıdaki komutu terminalde çalıştırarak Pillow’u bilgisayarınıza indirebilirsiniz. python -m pip install Pillow==7.1.1 Grup Çalışması - Hafta 4 Grafik kütüphanesinin fonsiyonlarının dokümantasyonuna buradan ulaşabilirsiniz. Egzersiz 1 Kendi oyun...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/projeler/hafta5-grup">
+          Hafta 5 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 23 Mar 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 8 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak problemlere ait başlangıç kodlarına ulaşabilirsiniz. Grup Çalışması - Hafta 5 Egzersiz 1 Kasiyer Selin Hanım müşterilerin aldıkları ürünlerin fiyatlarının toplamını bulmak istiyor. Ona yardımcı olmak için bir program hazırlayalım. Selin Hanım girdi olarak 0 girene kadar ürünlerin fiyatları toplanmaya devam etmelidir. # Örnek Çalışma Şekli Merhabalar,...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/projeler/final-projesi">
+          Final Projesi
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 27 Mar 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 47 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Son güncelleme: 6 Nisan 2021 CS 101 Bahar 2021’in 5 haftasını geride bıraktık! Şimdiye kadar inanılmaz bir gelişme gösterdiğiniz ve programı takip ettiğiniz için hepinizi tebrik ederiz. Programın son 3 haftasında Final Projesi yaparak öğrendiklerinizi bir oyunla ölümsüzleştireceksiniz. Aşağıda Final Projesi ile ilgili verilen uzuun açıklamayı dikkatlice okuyun, başarılar. Güncellemeler:...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#final_projesi">#final_projesi</a></div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/projeler/final-projesi-sss">
+          Final Projesi Sıkça Sorulan Sorular
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 27 Aug 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 10 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Uzaylıları oluştururken problem yaşıyorum ne yapmalıyım? Tek bir uzaylı görüyorum Eğer uzaylılarınızı bir for döngüsüyle oluşturuyorsanız büyük ihtimalle uzaylıları aynı x ve y koordinatlarına eklediğiniz için bu hatayla karşılaşıyorsunuz. Her uzaylı için neyin değiştiğini, x ve y koordinatlarını nasıl belirleyeceğinizi düşünmelisiniz. Uzaylıların sadece biri hareket ediyor Bu problemde uzaylı ve...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#final_projesi">#final_projesi</a></div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/projeler/hafta6-grup">
+          Hafta 6 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 30 Mar 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 13 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak problemlere ait başlangıç kodlarına ulaşabilirsiniz. Egzersiz 1 Eğitmenlerimizden İrem birkaç günlüğüne şehir dışında olacağı için yavru kedisini size bırakacaktır. İrem gitmeden önce, yavru kedinin en sevdiği oyunun çalıların arasında saklambaç oynamak olduğunu söyler. Bu projede sizden beklentimiz yavru kedinin saklanması için uygun ortamı hazırlamanız ve onunla...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/projeler/hafta7-grup">
+          Hafta 7 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 06 Apr 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 21 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak problemlere ait başlangıç kodlarına ulaşabilirsiniz. Egzersiz 1 Bu egzersiz bir bulaşma simulasyonudur. Kanvas üzerinde, rastgele hızlarla, rastgele yönlere doğru hareket eden ve herhangi bir kenara çarptığında sekerek ekranda kalmaya devam eden 100 yeşil (sağlıklı) topun aynı özelliklere sahip 1 kırmızı top tarafından temas durumunda hasta olmasını...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/projeler/hafta8-grup">
+          Hafta 8 - Grup Çalışması Egzersizleri
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> 13 Apr 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 30 mins</span>
+      </div>
+      <p class="post-excerpt">
+        Başlangıç Kodları Buraya tıklayarak bu haftaya ait çalışmaların başlangıç kodlarına ulaşabilirsiniz. Ön Bilgi Günlük hayatta olduğu gibi internetteki iletişimin de kuralları var. Web tarayıcımız ile web server’u arasında iletişim kurmamızı sağlayan kural ve metodları protokol olarak adlandırıyoruz. Bu haftaki egzersizimizde HTTP Protokolüne ait metodları kullanacağız. Meraklısı buradaki gibi bir kaynaktan...
+      </p>
+      <div class="post-tags"><a class="post-tag" href="/tags.html#grup%20%C3%A7al%C4%B1%C5%9Fmas%C4%B1">#grup çalışması</a></div>
+    </li>
+</ul>
+
+  <!-- Pagination links -->
+</div>
 </div>
 
 
@@ -239,6 +1490,12 @@
       <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
       generator." href="http://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
       another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+<div>Copyright © 2020</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="http://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a>
+</div>
     </div>
   </div>
 </footer>
