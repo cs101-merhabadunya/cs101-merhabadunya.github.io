@@ -6,7 +6,7 @@ categories: grup çalışması
 authors: [Oya Suran, Rıdvan Balamur]
 tags: [grup çalışması]
 # slug: hafta1-grup
-permalink: /2021guz/projeler/hafta1-grup
+permalink: /2021bahar/projeler/hafta1-grup
 ---
 
 ## Başlangıç Kodları

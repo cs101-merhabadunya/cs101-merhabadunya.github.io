@@ -6,7 +6,7 @@ categories: odev
 authors: [Oya Suran, Rıdvan Balamur]
 tags: [odev]
 # slug: odev1
-permalink: /2021guz/projeler/odev1
+permalink: /2021bahar/projeler/odev1
 ---
 
 Bu ödevin teslim tarihi *1 Mart Pazartesi 22.00*'dır. Ödevinizi bitirdiğinizde Ed üzerinden teslim etmeyi unutmayın. Bu konuda 

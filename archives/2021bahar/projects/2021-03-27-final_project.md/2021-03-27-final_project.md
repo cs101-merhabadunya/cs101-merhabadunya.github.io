@@ -6,7 +6,7 @@ categories: final_projesi
 authors: [Gül Sena Altıntaş, Arda Enfiyeci, Ahmet Uysal]
 tags: [final_projesi]
 # slug: final-projesi
-permalink: /2021guz/projeler/final-projesi
+permalink: /2021bahar/projeler/final-projesi
 ---
 Son güncelleme: 6 Nisan 2021
 

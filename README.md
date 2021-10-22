@@ -41,5 +41,8 @@ Please update the used tags below
 ## Archiving
 When moving up to a next semester, we don't want to delete the older content in the website but archive them. For this purpose we created the `archives` folder. 
 - Create the corresponding semester folder in `archives` eg. 2020guz
+- In the contents of `_lectures`, `_posts`, `_projects` remove slug and instead add  permalink like below:
+ ```permalink: 2021bahar/dersler/ders1```
+- Then, copy the contents of `_site/lectures/index.html` to the below of `2021bahar/lectures.html`, etc. for posts and projects as well.
 - Move the contents of `_lectures`, `_posts`, `_projects` and other `.html` files to this folder. Make sure that long term files like about.md, sss.md are still available in the main folder.
-- Soon to be completed by Gül Sena.
+- Also modify `archives.md` to reflect the changes.
