@@ -5,7 +5,8 @@ subtitle: Değişkenlere giriş, veri türleri, print ve input
 categories: grup çalışması
 authors: [Oya Suran, Rıdvan Balamur]
 tags: [grup çalışması]
-slug: hafta1-grup
+# slug: hafta1-grup
+permalink: /2021guz/projeler/hafta1-grup
 ---
 
 ## Başlangıç Kodları

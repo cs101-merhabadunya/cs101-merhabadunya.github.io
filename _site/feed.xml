@@ -1,5 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://cs101-merhabadunya.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://cs101-merhabadunya.github.io//" rel="alternate" type="text/html" hreflang="tr" /><updated>2021-02-16T00:09:24+03:00</updated><id>https://cs101-merhabadunya.github.io//feed.xml</id><title type="html">CS 101: Merhaba, Dünya!</title><subtitle>CS 101: Merhaba, dünya! Türkiye'deki lise öğrencileri arasında programlama  eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri  teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır.  CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın  olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme  becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini  artırmayı hedefler.
-</subtitle><author><name>CS 101: Merhaba, Dünya!</name></author><entry><title type="html">Müfredat</title><link href="https://cs101-merhabadunya.github.io//mufredat/" rel="alternate" type="text/html" title="Müfredat" /><published>2021-02-08T00:00:00+03:00</published><updated>2021-02-08T00:00:00+03:00</updated><id>https://cs101-merhabadunya.github.io//syllabus</id><content type="html" xml:base="https://cs101-merhabadunya.github.io//mufredat/">&lt;!--
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://cs101-merhabadunya.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://cs101-merhabadunya.github.io//" rel="alternate" type="text/html" hreflang="tr" /><updated>2021-10-22T19:33:12+02:00</updated><id>https://cs101-merhabadunya.github.io//feed.xml</id><title type="html">CS 101: Merhaba, Dünya!</title><subtitle>CS 101: Merhaba, dünya! Türkiye'deki lise öğrencileri arasında programlama  eğitimini ve takip eden profesyonel, teknik, sosyal ve kişisel becerileri  teşvik etmek için dizayn edilmiş 8 haftalık online bir programdır.  CS 101 genel kanının aksine programlama eğitiminin kişilerin yatkın  olduğu alanlardan bağımsız olarak problem çözme, yaratıcı ve analitik düşünme  becerilerine katkısı olduğuna inanır, öğrencilerinin bu alanlardaki özgüvenlerini  artırmayı hedefler.
+</subtitle><author><name>CS 101: Merhaba, Dünya!</name></author><entry><title type="html">PyCharm Kurulumu</title><link href="https://cs101-merhabadunya.github.io//kaynaklar/pycharm-python/" rel="alternate" type="text/html" title="PyCharm Kurulumu" /><published>2021-02-19T00:00:00+02:00</published><updated>2021-02-19T00:00:00+02:00</updated><id>https://cs101-merhabadunya.github.io//kaynaklar/pycharm-python-guide</id><content type="html" xml:base="https://cs101-merhabadunya.github.io//kaynaklar/pycharm-python/">&lt;p&gt;&lt;em&gt;CS 101: Merhaba, dünya!&lt;/em&gt;  programı boyunca, bilgisayarınızda kodu yazmak, çalıştırmak, incelemek ve hata ayıklamak için PyCharm adı verilen bir uygulama kullanıyor olacaksınız. PyCharm, &lt;em&gt;IDE&lt;/em&gt;  yani Bütünleşik Geliştirme Ortamı (Integrated Development Environment) türünde bir uygulamadır ve yaygın olarak kullanılmaktadır. Bu doküman sizlere kurulumun nasıl yapılacağını anlatmak için oluşturulmuştur.&lt;/p&gt;
+
+&lt;h2 id=&quot;pythonu-indirmek&quot;&gt;Python’u indirmek&lt;/h2&gt;
+&lt;p&gt;Bilgisayarınızda Python programlarını çalıştırmak için öncelikle bir Python Interpreter indirmelisiniz, bu PyCharm’ın varlığına bağlı bir durum değildir.&lt;/p&gt;
+
+&lt;p&gt;Interpreter adı verilen yorumlayıcı programlar, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.py&lt;/code&gt; uzantılı dosyaları okuyarak kodunuzu bilgisayarınızın işleyebileceği hale getirir. Python’un farklı versiyonları bulunmaktadır, bu program süresince &lt;strong&gt;Python 3.8&lt;/strong&gt; kullanacağız.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;İndirmek için aşağıdaki linkleri kullanabilirsiniz:&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Eğer &lt;em&gt;Windows&lt;/em&gt; kullanıyorsanız, &lt;a href=&quot;https://www.python.org/ftp/python/3.8.6/python-3.8.6-amd64.exe&quot; target=&quot;_blank&quot;&gt;bu link&lt;/a&gt; direkt olarak dosyayı bilgisayarınıza indirecektir. Bilgisayarınız 32bit ise &lt;a href=&quot;https://www.python.org/ftp/python/3.8.6/python-3.8.6.exe&quot; target=&quot;_blank&quot;&gt;bu linki&lt;/a&gt; kullanmalısınız.&lt;/li&gt;
+    &lt;li&gt;Eğer &lt;em&gt;Mac&lt;/em&gt; kullanıyorsanız, &lt;a href=&quot;https://www.python.org/ftp/python/3.8.6/python-3.8.6-macosx10.9.pkg&quot; target=&quot;_blank&quot;&gt;bu link&lt;/a&gt; ile  gerekli dosyalar indirilecektir.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;windows-için-uyarı&quot;&gt;Windows için Uyarı&lt;/h4&gt;
+&lt;p&gt;İndirilen dosyayı açtıktan sonra, Python kurulum aşamalarında karşınıza çıkacak “Add Python 3.8 in PATH” seçeneğini işaretlediğinizden emin olun lütfen.&lt;/p&gt;
+
+&lt;h2 id=&quot;pycharmı-indirmek&quot;&gt;PyCharm’ı indirmek&lt;/h2&gt;
+&lt;p&gt;PyCharm Community versiyonunu, &lt;em&gt;Windows&lt;/em&gt; bilgisayarınıza indirmek için &lt;a href=&quot;https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&amp;amp;code=PCC&quot; target=&quot;_blank&quot;&gt;bu linki&lt;/a&gt;, &lt;em&gt;Mac&lt;/em&gt; bilgisayarınıza indirmek için &lt;a href=&quot;https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=mac&amp;amp;code=PCC&quot; target=&quot;_blank&quot;&gt;bu linki&lt;/a&gt; kullanabilirsiniz. Eğer bilgisayarınızda 64 bitlik PyCharm hata veriyorsa &lt;a href=&quot;https://download.jetbrains.com/python/pycharm-community-2018.3.7.exe&quot; target=&quot;_blank&quot;&gt;bu linkteki&lt;/a&gt; versiyonu indirmeyi deneyebilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;İndirme tamamlandıktan sonra &lt;em&gt;Windows&lt;/em&gt; için &lt;em&gt;.exe&lt;/em&gt; uzantılı, &lt;em&gt;Mac&lt;/em&gt; için ise &lt;em&gt;.dmg&lt;/em&gt; uzantılı dosyayı açarak varsayılan ayarlarla, yani herhangi bir değişiklik yapmadan ilerleyin ve kurulumu tamamlayın.&lt;/p&gt;
+
+&lt;h2 id=&quot;pycharmı-kullanıma-hazırlamak&quot;&gt;PyCharm’ı kullanıma hazırlamak&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;NOT:&lt;/strong&gt;  Bu doküman Eylül 2020’de hazırlandığı için sizin indirdiğiniz PyCharm daha üst bir versiyon olabilir ve sizin bilgisayarınızda aşağıdaki ekran görüntülerinden farklılık olabilir. Görünümler aynı olmasa da hem Mac hem de Windows için aşağıdaki adımları takip edebilirsiniz.
+Kurulum tamamlandıktan sonra, programı çalıştırmakla başlayın.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Program açılır açılmaz karşınıza aşağıdaki gibi bir giriş ekranı çıkacaktır.&lt;/p&gt;
+
+&lt;!-- ![PyCharm Welcome](https://drive.google.com/uc?export=view&amp;id=1Evv8zeAVZREv97g0mVB7bJqbPoTijOkX) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p1.png&quot; alt=&quot;PyCharm Welcome&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sağ altta bulunan “Configure” listesinden “Settings”i seçerek PyCharm ayarlarını açın.&lt;/p&gt;
+
+&lt;!-- ![PyCharm Settings](https://drive.google.com/uc?export=view&amp;id=1YZdkCnmw9tdbgtPDNdzTdjsVWCYm1x1A) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p2.png&quot; alt=&quot;PyCharm Settings&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ayarlar penceresindeki listeden &lt;em&gt;Python Interpreter&lt;/em&gt; veya &lt;em&gt;Project Interpreter&lt;/em&gt;‘a tıklayın. Açılan pencerede &lt;strong&gt;“No Interpreter”&lt;/strong&gt; yazan açılır listeden &lt;strong&gt;“Show All&lt;/strong&gt;” seçeneğini seçin. &lt;em&gt;(Bilgisayarınızdaki Python versiyonlarına bağlı olarak görünüm resimdekinden farklı olabilir, bu bir sorun değil, “Show All” ile devam etmeniz yeterli.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;!-- ![Interpreter](https://drive.google.com/uc?export=view&amp;id=1YTYYa5jkuwloRArcV97OFAo4QXuijJHR) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p3.png&quot; alt=&quot;Interpreter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bir sonraki ekranda, &lt;strong&gt;+&lt;/strong&gt; işaretine basın.&lt;/p&gt;
+
+&lt;!-- ![Add New Interpreter](https://drive.google.com/uc?export=view&amp;id=1yLaOkXhZBtBR-uxIuZleLEkQ4V4FNLOU) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p4.png&quot; alt=&quot;Add New Interpreter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Yan taraftaki listeden &lt;strong&gt;“System Interpreter”&lt;/strong&gt; seçin ve Interpreter ifadesinin yanındaki açılır listeden indirdiğiniz Python versiyonunu (sizler için &lt;em&gt;Python 3.8&lt;/em&gt; ile başlayan) seçin.&lt;/p&gt;
+
+&lt;!-- ![System Interpreter](https://drive.google.com/uc?export=view&amp;id=1a8A0E-ZnUv0FnxBGYcg3GjXpIWS07G1r) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p5.png&quot; alt=&quot;System Interpreter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sonrasında aşağıdaki gibi bir görünüme sahip olmalısınız, henüz özel paketler indirmediğiniz için &lt;em&gt;Package&lt;/em&gt; listesi altında daha az veya farklı isimlerle karşılaşabilirsiniz.&lt;/p&gt;
+
+&lt;!-- ![OK](https://drive.google.com/uc?export=view&amp;id=1RLXyEJ6904Wq6e1y9sNQrtgb-UkQA59L) --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p6.png&quot; alt=&quot;OK&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sağ alttaki &lt;strong&gt;OK&lt;/strong&gt; butonuna basarak kurulumu ve hazırlığı tamamlayın, artık &lt;strong&gt;Python kodlarınızı yazmaya başlayabilirsiniz!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;kurulumunuzu-kontrol-edin&quot;&gt;Kurulumunuzu kontrol edin&lt;/h2&gt;
+&lt;p&gt;Python ve PyCharm’ı kurdunuz, kurulumda bir hata olmadığından emin olmak için son bir aşama tamamlayacağız.&lt;/p&gt;
+
+&lt;p&gt;Program boyunca PyCharmda projelerinizi açarken çalıştıracağımız &lt;em&gt;.py&lt;/em&gt; uzantılı python dosyasını içeren klasörü açmak işimizi çok kolaylaştıracak. Bunun için size önerimiz bir &lt;em&gt;CS101&lt;/em&gt; klasörü oluşturmanız ve programla ilgili kodları hafta hafta bu klasörün içinde kullanmanız. Örneğin, benim bilgisayarımda cs101 isimli bir klasör var. Kurulumu denemek için:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;cs101hafta0.zip isimli klasörü bilgisayarıma indirdim. Klasöre &lt;a href=&quot;https://drive.google.com/file/d/1UqrusTPOkYt6LVF52UVgDkoUm1p_KiE1/view?usp=sharing&quot;&gt;buradan&lt;/a&gt; ulaşabilirsiniz.&lt;/li&gt;
+  &lt;li&gt;Klasördeki kodu kullanabilmek için arşivden çıkarmam (unzip) gerek. Benim Windows bilgisayarımda .zip uzantılı bir dosyanın üzerine tıkladığımda yukarıda &lt;em&gt;Ayıkla&lt;/em&gt; isimli sekmeye tıklayıp &lt;em&gt;Tümünü Ayıkla&lt;/em&gt;‘ya basıyorum. Aynı şeşkilde klasörün üzerine sağ tıklayınca da benzer bir seçenek çıkıyor.&lt;/li&gt;
+  &lt;li&gt;Ayıklama işlemi bittiğinde .zip uzantısı olmadan aynı isimde bir klasör oluştu. Bu klasörü PyCharm’da açacağım.&lt;/li&gt;
+  &lt;li&gt;PyCharm’da &lt;em&gt;File&lt;/em&gt; menüsünden &lt;em&gt;Open&lt;/em&gt;‘ı seçiyorum. Açılan pencerede bir önceki aşamada ayıkladığım klasörün içindeki &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cs101hafta0&lt;/code&gt; isimli klasörü seçeceğim. (PyCharm’da çalıştıracağımız python dosyaalrını direkt içeren klasörü seçmemiz gerekli.)&lt;/li&gt;
+  &lt;li&gt;Artık PyCharm’da klasörü açtığıma göre programı çalıştıracağım. Bunun için ekran görüntüsünde olduğu gibi PyCharm’da aşağıdaki bölümden &lt;em&gt;Terminal&lt;/em&gt;‘e tıklıyorum. &lt;img src=&quot;/assets/images/pycharm-python/pycharm-terminal.jpg&quot; alt=&quot;Terminal&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Terminale &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python lec1.py&lt;/code&gt; (Mac için &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python3 lec1.py&lt;/code&gt;) yazıp Enter’a basın.&lt;/li&gt;
+  &lt;li&gt;Program size aşağıdaki gibi bir karşılık verdiyse kurulumunuzu başarıyla tamamladınız demektir! Dilerseniz yaşınızı da girip Enter’a basarak programımızdan doğum yılınızı teyit edebilirsiniz.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Python kurulumun doğru, tebrikler!
+Kaç yaşındasınız? 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;Eğer program başka bir sonuç verdiyse önce &lt;a href=&quot;https://edstem.org/us/courses/4754/discussion/&quot;&gt;Ed&lt;/a&gt;‘e bakmanı öneriyoruz, belki yaşadığın sorun hakkında daha önceden bir çözüm sunulmuş olabilir. Eğer Ed’de daha önce cevaplanmadıysa lütfen aldığın mesajın ya da yaşadığın sorunun ekran görüntüsünü bizimle Ed üzerinden yeni bir soru oluşturarak paylaş.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Demet Tümkaya</name></author><category term="planlama" /><category term="planlama" /><category term="kod" /><summary type="html">CS 101: Merhaba, dünya! programı boyunca, bilgisayarınızda kodu yazmak, çalıştırmak, incelemek ve hata ayıklamak için PyCharm adı verilen bir uygulama kullanıyor olacaksınız. PyCharm, IDE yani Bütünleşik Geliştirme Ortamı (Integrated Development Environment) türünde bir uygulamadır ve yaygın olarak kullanılmaktadır. Bu doküman sizlere kurulumun nasıl yapılacağını anlatmak için oluşturulmuştur.</summary></entry><entry><title type="html">Müfredat</title><link href="https://cs101-merhabadunya.github.io//mufredat/" rel="alternate" type="text/html" title="Müfredat" /><published>2021-02-08T00:00:00+02:00</published><updated>2021-02-08T00:00:00+02:00</updated><id>https://cs101-merhabadunya.github.io//syllabus</id><content type="html" xml:base="https://cs101-merhabadunya.github.io//mufredat/">&lt;!--
     syllabus
     sample syllabi:
         - Turkish wording example: http://dosya.marmara.edu.tr/eng/cse/documents/syllabus_tr/fall/CSE1141_S_v2018.pdf
@@ -126,7 +204,7 @@ Grup Çalışmaları için atamalar tamamlandıktan sonra öğrenciler kendi gru
     &lt;tr&gt;
       &lt;td&gt;5&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;20.03.2021&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;While Döngüleri, Grafik Porgramları ve Animasyonlar, Final Projesine Giriş&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;While Döngüleri, Grafik Programları ve Animasyonlar, Final Projesine Giriş&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;6&lt;/td&gt;
@@ -237,14 +315,14 @@ Grup Çalışmaları için atamalar tamamlandıktan sonra öğrenciler kendi gru
       &lt;td style=&quot;text-align: left&quot;&gt;%30&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>CS 101: Merhaba, Dünya!</name></author><category term="planlama" /><category term="planlama" /><summary type="html"></summary></entry><entry><title type="html">Grafik Kütüphanesi Referansı</title><link href="https://cs101-merhabadunya.github.io//kaynaklar/grafik/" rel="alternate" type="text/html" title="Grafik Kütüphanesi Referansı" /><published>2020-11-25T00:00:00+03:00</published><updated>2020-11-25T00:00:00+03:00</updated><id>https://cs101-merhabadunya.github.io//kaynaklar/graphics</id><content type="html" xml:base="https://cs101-merhabadunya.github.io//kaynaklar/grafik/">&lt;h2 id=&quot;grafik-kütüphanesi&quot;&gt;Grafik Kütüphanesi&lt;/h2&gt;
+&lt;/table&gt;</content><author><name>CS 101: Merhaba, Dünya!</name></author><category term="planlama" /><category term="planlama" /><summary type="html"></summary></entry><entry><title type="html">Grafik Kütüphanesi Referansı</title><link href="https://cs101-merhabadunya.github.io//kaynaklar/grafik/" rel="alternate" type="text/html" title="Grafik Kütüphanesi Referansı" /><published>2020-11-25T00:00:00+02:00</published><updated>2020-11-25T00:00:00+02:00</updated><id>https://cs101-merhabadunya.github.io//kaynaklar/graphics</id><content type="html" xml:base="https://cs101-merhabadunya.github.io//kaynaklar/grafik/">&lt;h2 id=&quot;grafik-kütüphanesi&quot;&gt;Grafik Kütüphanesi&lt;/h2&gt;
 &lt;p&gt;Python’da grafik programlarımızı &lt;a href=&quot;https://www.csbridge.org/&quot;&gt;CS Bridge&lt;/a&gt; eğitmenleri Chris Piech, Lisa Yan ve Nick Troccoli tarafından yazılmış &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grafik.py&lt;/code&gt; dosyasının fonksiyonlarını kullanarak yazacağız. Bu dosyayı TkInter grafik kütüphanesini kullanmamızı kolaylaştıran bir arayüz olarak düşünebilirsiniz.&lt;/p&gt;
 
 &lt;h3 id=&quot;canvas-ve-referansı&quot;&gt;Canvas ve Referansı&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;/kaynaklar/grafik-referans/&quot;&gt;Bu sayfada&lt;/a&gt; Grafik kütüphanesi kapsamında nasıl &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Canvas&lt;/code&gt; yaratacağınızı ve &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Canvas&lt;/code&gt;‘a ait fonksiyon ve sabitlerin açıklamalarını bulabilirsiniz.&lt;/p&gt;
 
 &lt;h3 id=&quot;renkler&quot;&gt;Renkler&lt;/h3&gt;
-&lt;p&gt;Grafik programlarınızda kullanabileceğiniz renklerin listesine de &lt;a href=&quot;/kaynaklar/grafik-renk-referans/&quot;&gt;bu linkten&lt;/a&gt;  ulaşabilirsiniz.&lt;/p&gt;</content><author><name>Gül Sena Altıntaş</name></author><category term="kod" /><category term="kod" /><summary type="html">Grafik Kütüphanesi Python’da grafik programlarımızı CS Bridge eğitmenleri Chris Piech, Lisa Yan ve Nick Troccoli tarafından yazılmış grafik.py dosyasının fonksiyonlarını kullanarak yazacağız. Bu dosyayı TkInter grafik kütüphanesini kullanmamızı kolaylaştıran bir arayüz olarak düşünebilirsiniz.</summary></entry><entry><title type="html">Ed Platformu Kullanım Rehberi</title><link href="https://cs101-merhabadunya.github.io//kaynaklar/ed-rehberi/" rel="alternate" type="text/html" title="Ed Platformu Kullanım Rehberi" /><published>2020-10-22T00:00:00+03:00</published><updated>2020-10-22T00:00:00+03:00</updated><id>https://cs101-merhabadunya.github.io//kaynaklar/ed-guide</id><content type="html" xml:base="https://cs101-merhabadunya.github.io//kaynaklar/ed-rehberi/">&lt;!-- &lt;style&gt;
+&lt;p&gt;Grafik programlarınızda kullanabileceğiniz renklerin listesine de &lt;a href=&quot;/kaynaklar/grafik-renk-referans/&quot;&gt;bu linkten&lt;/a&gt;  ulaşabilirsiniz.&lt;/p&gt;</content><author><name>Gül Sena Altıntaş</name></author><category term="kod" /><category term="kod" /><summary type="html">Grafik Kütüphanesi Python’da grafik programlarımızı CS Bridge eğitmenleri Chris Piech, Lisa Yan ve Nick Troccoli tarafından yazılmış grafik.py dosyasının fonksiyonlarını kullanarak yazacağız. Bu dosyayı TkInter grafik kütüphanesini kullanmamızı kolaylaştıran bir arayüz olarak düşünebilirsiniz.</summary></entry><entry><title type="html">Ed Platformu Kullanım Rehberi</title><link href="https://cs101-merhabadunya.github.io//kaynaklar/ed-rehberi/" rel="alternate" type="text/html" title="Ed Platformu Kullanım Rehberi" /><published>2020-10-22T00:00:00+02:00</published><updated>2020-10-22T00:00:00+02:00</updated><id>https://cs101-merhabadunya.github.io//kaynaklar/ed-guide</id><content type="html" xml:base="https://cs101-merhabadunya.github.io//kaynaklar/ed-rehberi/">&lt;!-- &lt;style&gt;
     span {
         font-weight:bold;
     }
@@ -329,66 +407,7 @@ Grup Çalışmaları için atamalar tamamlandıktan sonra öğrenciler kendi gru
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;&amp;gt;&lt;/code&gt; ile yazı tipini “kod görünümlü” yapabilirsiniz.&lt;/li&gt;
   &lt;li&gt;Zincire benzeyen işaretle metne gömülü bir link ekleyebilirsiniz.&lt;/li&gt;
   &lt;li&gt;Devamındaki 2 metin görünümlü işaretin ilkiyle nokta ile maddeleme yaparken, ikincisiyle maddeleri numaralandırabilirsiniz.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Demet Tümkaya</name></author><category term="planlama" /><category term="planlama" /><summary type="html"></summary></entry><entry><title type="html">PyCharm Kurulumu</title><link href="https://cs101-merhabadunya.github.io//kaynaklar/pycharm-python/" rel="alternate" type="text/html" title="PyCharm Kurulumu" /><published>2020-10-22T00:00:00+03:00</published><updated>2020-10-22T00:00:00+03:00</updated><id>https://cs101-merhabadunya.github.io//kaynaklar/pycharm-python-guide</id><content type="html" xml:base="https://cs101-merhabadunya.github.io//kaynaklar/pycharm-python/">&lt;p&gt;&lt;em&gt;CS 101: Merhaba, dünya!&lt;/em&gt;  programı boyunca, bilgisayarınızda kodu yazmak, çalıştırmak, incelemek ve hata ayıklamak için PyCharm adı verilen bir uygulama kullanıyor olacaksınız. PyCharm, &lt;em&gt;IDE&lt;/em&gt;  yani Bütünleşik Geliştirme Ortamı (Integrated Development Environment) türünde bir uygulamadır ve yaygın olarak kullanılmaktadır. Bu doküman sizlere kurulumun nasıl yapılacağını anlatmak için oluşturulmuştur.&lt;/p&gt;
-
-&lt;h2 id=&quot;pythonu-indirmek&quot;&gt;Python’u indirmek&lt;/h2&gt;
-&lt;p&gt;Bilgisayarınızda Python programlarını çalıştırmak için öncelikle bir Python Interpreter indirmelisiniz, bu PyCharm’ın varlığına bağlı bir durum değildir.&lt;/p&gt;
-
-&lt;p&gt;Interpreter adı verilen yorumlayıcı programlar, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.py&lt;/code&gt; uzantılı dosyaları okuyarak kodunuzu bilgisayarınızın işleyebileceği hale getirir. Python’un farklı versiyonları bulunmaktadır, bu program süresince &lt;strong&gt;Python 3.8&lt;/strong&gt; kullanacağız.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;İndirmek için aşağıdaki linkleri kullanabilirsiniz:&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Eğer &lt;em&gt;Windows&lt;/em&gt; kullanıyorsanız, &lt;a href=&quot;https://www.python.org/ftp/python/3.8.6/python-3.8.6-amd64.exe&quot; target=&quot;_blank&quot;&gt;bu link&lt;/a&gt; direkt olarak dosyayı bilgisayarınıza indirecektir.&lt;/li&gt;
-    &lt;li&gt;Eğer &lt;em&gt;Mac&lt;/em&gt; kullanıyorsanız, &lt;a href=&quot;https://www.python.org/ftp/python/3.8.6/python-3.8.6-macosx10.9.pkg&quot; target=&quot;_blank&quot;&gt;bu link&lt;/a&gt; ile  gerekli dosyalar indirilecektir.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;windows-için-uyarı&quot;&gt;Windows için Uyarı&lt;/h4&gt;
-&lt;p&gt;İndirilen dosyayı açtıktan sonra, Python kurulum aşamalarında karşınıza çıkacak “Add Python 3.8 in PATH” seçeneğini işaretlediğinizden emin olun lütfen.&lt;/p&gt;
-
-&lt;h2 id=&quot;pycharmı-indirmek&quot;&gt;PyCharm’ı indirmek&lt;/h2&gt;
-&lt;p&gt;PyCharm Community versiyonunu, &lt;em&gt;Windows&lt;/em&gt; bilgisayarınıza indirmek için &lt;a href=&quot;https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&amp;amp;code=PCC&quot; target=&quot;_blank&quot;&gt;bu linki&lt;/a&gt;, &lt;em&gt;Mac&lt;/em&gt; bilgisayarınıza indirmek için &lt;a href=&quot;https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=mac&amp;amp;code=PCC&quot; target=&quot;_blank&quot;&gt;bu linki&lt;/a&gt; kullanabilirsiniz.&lt;/p&gt;
-
-&lt;p&gt;İndirme tamamlandıktan sonra &lt;em&gt;Windows&lt;/em&gt; için &lt;em&gt;.exe&lt;/em&gt; uzantılı, &lt;em&gt;Mac&lt;/em&gt; için ise &lt;em&gt;.dmg&lt;/em&gt; uzantılı dosyayı açarak varsayılan ayarlarla, yani herhangi bir değişiklik yapmadan ilerleyin ve kurulumu tamamlayın.&lt;/p&gt;
-
-&lt;h2 id=&quot;pycharmı-kullanıma-hazırlamak&quot;&gt;PyCharm’ı kullanıma hazırlamak&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;NOT:&lt;/strong&gt; Görünümler aynı olmasa da hem Mac hem de Windows için aşağıdaki adımları takip edebilirsiniz.
-Kurulum tamamlandıktan sonra, programı çalıştırmakla başlayın.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Program açılır açılmaz karşınıza aşağıdaki gibi bir giriş ekranı çıkacaktır.&lt;/p&gt;
-
-&lt;!-- ![PyCharm Welcome](https://drive.google.com/uc?export=view&amp;id=1Evv8zeAVZREv97g0mVB7bJqbPoTijOkX) --&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p1.png&quot; alt=&quot;PyCharm Welcome&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sağ altta bulunan “Configure” listesinden “Settings”i seçerek PyCharm ayarlarını açın.&lt;/p&gt;
-
-&lt;!-- ![PyCharm Settings](https://drive.google.com/uc?export=view&amp;id=1YZdkCnmw9tdbgtPDNdzTdjsVWCYm1x1A) --&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p2.png&quot; alt=&quot;PyCharm Settings&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ayarlar penceresindeki listeden &lt;em&gt;Python Interpreter&lt;/em&gt; veya &lt;em&gt;Project Interpreter&lt;/em&gt;‘a tıklayın. Açılan pencerede &lt;strong&gt;“No Interpreter”&lt;/strong&gt; yazan açılır listeden &lt;strong&gt;“Show All&lt;/strong&gt;” seçeneğini seçin. &lt;em&gt;(Bilgisayarınızdaki Python versiyonlarına bağlı olarak görünüm resimdekinden farklı olabilir, bu bir sorun değil, “Show All” ile devam etmeniz yeterli.)&lt;/em&gt;&lt;/p&gt;
-
-&lt;!-- ![Interpreter](https://drive.google.com/uc?export=view&amp;id=1YTYYa5jkuwloRArcV97OFAo4QXuijJHR) --&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p3.png&quot; alt=&quot;Interpreter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Bir sonraki ekranda, &lt;strong&gt;+&lt;/strong&gt; işaretine basın.&lt;/p&gt;
-
-&lt;!-- ![Add New Interpreter](https://drive.google.com/uc?export=view&amp;id=1yLaOkXhZBtBR-uxIuZleLEkQ4V4FNLOU) --&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p4.png&quot; alt=&quot;Add New Interpreter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Yan taraftaki listeden &lt;strong&gt;“System Interpreter”&lt;/strong&gt; seçin ve Interpreter ifadesinin yanındaki açılır listeden indirdiğiniz Python versiyonunu (sizler için &lt;em&gt;Python 3.8&lt;/em&gt; ile başlayan) seçin.&lt;/p&gt;
-
-&lt;!-- ![System Interpreter](https://drive.google.com/uc?export=view&amp;id=1a8A0E-ZnUv0FnxBGYcg3GjXpIWS07G1r) --&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p5.png&quot; alt=&quot;System Interpreter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sonrasında aşağıdaki gibi bir görünüme sahip olmalısınız, henüz özel paketler indirmediğiniz için &lt;em&gt;Package&lt;/em&gt; listesi altında daha az veya farklı isimlerle karşılaşabilirsiniz.&lt;/p&gt;
-
-&lt;!-- ![OK](https://drive.google.com/uc?export=view&amp;id=1RLXyEJ6904Wq6e1y9sNQrtgb-UkQA59L) --&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/pycharm-python/p6.png&quot; alt=&quot;OK&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sağ alttaki &lt;strong&gt;OK&lt;/strong&gt; butonuna basarak kurulumu ve hazırlığı tamamlayın, artık &lt;strong&gt;Python kodlarınızı yazmaya başlayabilirsiniz!&lt;/strong&gt;&lt;/p&gt;</content><author><name>Demet Tümkaya</name></author><category term="planlama" /><category term="planlama" /><category term="kod" /><summary type="html">CS 101: Merhaba, dünya! programı boyunca, bilgisayarınızda kodu yazmak, çalıştırmak, incelemek ve hata ayıklamak için PyCharm adı verilen bir uygulama kullanıyor olacaksınız. PyCharm, IDE yani Bütünleşik Geliştirme Ortamı (Integrated Development Environment) türünde bir uygulamadır ve yaygın olarak kullanılmaktadır. Bu doküman sizlere kurulumun nasıl yapılacağını anlatmak için oluşturulmuştur.</summary></entry><entry><title type="html">Program Fragmanı</title><link href="https://cs101-merhabadunya.github.io//ornekler/" rel="alternate" type="text/html" title="Program Fragmanı" /><published>2020-09-27T00:00:00+03:00</published><updated>2020-09-27T00:00:00+03:00</updated><id>https://cs101-merhabadunya.github.io//examples</id><content type="html" xml:base="https://cs101-merhabadunya.github.io//ornekler/">&lt;p&gt;Normal şartlarda &lt;em&gt;spoiler&lt;/em&gt; yani gelecekte olacakları belli edip heyecanı bozan bilgiler pek makbul değildir. Ancak biz programın başlangıcında ileride başarabileceğiniz birbirinden ilginç projelerden kesitler göstermenin ve hatta belki küçük bir &lt;em&gt;fragman&lt;/em&gt; yayınlamanın heyecanınızı artırabileceğini düşünüyoruz.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Demet Tümkaya</name></author><category term="planlama" /><category term="planlama" /><summary type="html"></summary></entry><entry><title type="html">Program Fragmanı</title><link href="https://cs101-merhabadunya.github.io//ornekler/" rel="alternate" type="text/html" title="Program Fragmanı" /><published>2020-09-27T00:00:00+02:00</published><updated>2020-09-27T00:00:00+02:00</updated><id>https://cs101-merhabadunya.github.io//examples</id><content type="html" xml:base="https://cs101-merhabadunya.github.io//ornekler/">&lt;p&gt;Normal şartlarda &lt;em&gt;spoiler&lt;/em&gt; yani gelecekte olacakları belli edip heyecanı bozan bilgiler pek makbul değildir. Ancak biz programın başlangıcında ileride başarabileceğiniz birbirinden ilginç projelerden kesitler göstermenin ve hatta belki küçük bir &lt;em&gt;fragman&lt;/em&gt; yayınlamanın heyecanınızı artırabileceğini düşünüyoruz.&lt;/p&gt;
 
 &lt;p&gt;Aşağıda KOLT Python döneminde hazırlanmış iki ödevin ekran görüntüsünü bulabilirsiniz. Merak edenler için &lt;em&gt;&lt;a href=&quot;https://koltpython.com/&quot;&gt;KOLT Python&lt;/a&gt;&lt;/em&gt; bir nevi CS 101’in velisi sayılır. Grup Liderlerimizden Ahmet’in başlatıp şu anki CS 101 ekibinin birçoğunun dahil olduğu, en büyük ilham kaynaklarımızdan birine ve ilk göz ağrımıza dönüşen, birçoğumuzun yakın arkadaş olmasına vesile olan bir organizasyon!&lt;/p&gt;
 
@@ -402,7 +421,7 @@ Kurulum tamamlandıktan sonra, programı çalıştırmakla başlayın.&lt;/p&gt;
 &lt;h2 id=&quot;adam-asmaca&quot;&gt;Adam asmaca&lt;/h2&gt;
 &lt;p&gt;Sizin sormayı en sevdiğiniz kelime hangisiydi?&lt;/p&gt;
 
-&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://drive.google.com/file/d/1ExKBHQbzv5QCsrquVi43Rodjsy_zrf9f/preview&quot; alt=&quot;Adam Asmaca oyunu videosu&quot;&gt; &lt;/iframe&gt;</content><author><name>İdil Defne Çekin</name></author><category term="kod" /><category term="kod" /><category term="planlama" /><summary type="html">Normal şartlarda spoiler yani gelecekte olacakları belli edip heyecanı bozan bilgiler pek makbul değildir. Ancak biz programın başlangıcında ileride başarabileceğiniz birbirinden ilginç projelerden kesitler göstermenin ve hatta belki küçük bir fragman yayınlamanın heyecanınızı artırabileceğini düşünüyoruz.</summary></entry><entry><title type="html">Sıkça Sorulan Sorular</title><link href="https://cs101-merhabadunya.github.io//sss/" rel="alternate" type="text/html" title="Sıkça Sorulan Sorular" /><published>2020-09-26T00:00:00+03:00</published><updated>2020-09-26T00:00:00+03:00</updated><id>https://cs101-merhabadunya.github.io//sss</id><content type="html" xml:base="https://cs101-merhabadunya.github.io//sss/">&lt;!-- todo add table of contents, sort the questions in order of importance, maybe add some categories --&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://drive.google.com/file/d/1ExKBHQbzv5QCsrquVi43Rodjsy_zrf9f/preview&quot; alt=&quot;Adam Asmaca oyunu videosu&quot;&gt; &lt;/iframe&gt;</content><author><name>İdil Defne Çekin</name></author><category term="kod" /><category term="kod" /><category term="planlama" /><summary type="html">Normal şartlarda spoiler yani gelecekte olacakları belli edip heyecanı bozan bilgiler pek makbul değildir. Ancak biz programın başlangıcında ileride başarabileceğiniz birbirinden ilginç projelerden kesitler göstermenin ve hatta belki küçük bir fragman yayınlamanın heyecanınızı artırabileceğini düşünüyoruz.</summary></entry><entry><title type="html">Sıkça Sorulan Sorular</title><link href="https://cs101-merhabadunya.github.io//sss" rel="alternate" type="text/html" title="Sıkça Sorulan Sorular" /><published>2020-09-26T00:00:00+02:00</published><updated>2020-09-26T00:00:00+02:00</updated><id>https://cs101-merhabadunya.github.io//sss</id><content type="html" xml:base="https://cs101-merhabadunya.github.io//sss">&lt;!-- todo add table of contents, sort the questions in order of importance, maybe add some categories --&gt;
 
 &lt;h2 id=&quot;genel-bilgiler&quot;&gt;Genel Bilgiler&lt;/h2&gt;
 

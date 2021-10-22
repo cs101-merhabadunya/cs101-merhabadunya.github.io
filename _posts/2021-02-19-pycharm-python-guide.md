@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PyCharm Kurulumu
-permalink: /2021bahar/kaynaklar/pycharm-python/
+permalink: /kaynaklar/pycharm-python/
 authors: [Demet Tümkaya, Gül Sena Altıntaş]
 categories: planlama
 tags: [planlama, kod]

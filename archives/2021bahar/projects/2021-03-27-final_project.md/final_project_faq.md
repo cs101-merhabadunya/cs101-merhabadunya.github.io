@@ -5,7 +5,8 @@ subtitle:
 categories: final_projesi
 authors: [Arda Enfiyeci, Gül Sena Altıntaş]
 tags: [final_projesi]
-slug: final-projesi-sss
+# slug: final-projesi-sss
+permalink: /2021guz/projeler/final-projesi-sss
 ---
 ## Uzaylıları oluştururken problem yaşıyorum ne yapmalıyım?
 ### Tek bir uzaylı görüyorum
