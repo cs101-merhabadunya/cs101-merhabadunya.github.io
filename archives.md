@@ -47,4 +47,4 @@ table {
 
 ## 2021 Bahar Dönemi
 
-2021 Bahar Dönemi materyallerimize [bu linkten]({{ site.baseurl }} {%link archives/2020bahar/index.html%}) ulaşabilirsiniz.
+2021 Bahar Dönemi materyallerimize [bu linkten]({{ site.baseurl }} {%link archives/2021bahar/index.html%}) ulaşabilirsiniz.
