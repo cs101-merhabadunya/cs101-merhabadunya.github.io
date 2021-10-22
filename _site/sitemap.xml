@@ -38,11 +38,11 @@
 </url>
 <url>
 <loc>http://localhost:4001/2021bahar/projeler/hafta1-grup</loc>
-<lastmod>2021-10-23T00:43:23+02:00</lastmod>
+<lastmod>2021-10-23T00:45:01+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4001/2021bahar/projeler/odev1</loc>
-<lastmod>2021-10-23T00:43:23+02:00</lastmod>
+<lastmod>2021-10-23T00:45:01+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4001/2021bahar/projeler/odev2</loc>
@@ -78,7 +78,7 @@
 </url>
 <url>
 <loc>http://localhost:4001/2021bahar/projeler/final-projesi-sss</loc>
-<lastmod>2021-10-23T00:43:23+02:00</lastmod>
+<lastmod>2021-10-23T00:45:01+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4001/2021bahar/projeler/hafta6-grup</loc>
@@ -91,6 +91,10 @@
 <url>
 <loc>http://localhost:4001/2021bahar/projeler/hafta8-grup</loc>
 <lastmod>2021-04-13T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4001/projeler/hafta1-grup</loc>
+<lastmod>2021-10-25T00:00:00+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4001/2020guz/mufredat</loc>
