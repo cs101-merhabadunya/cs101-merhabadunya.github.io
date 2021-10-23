@@ -1,0 +1,5 @@
+---
+layout: projects
+title: Projeler
+permalink: /projeler/
+---
