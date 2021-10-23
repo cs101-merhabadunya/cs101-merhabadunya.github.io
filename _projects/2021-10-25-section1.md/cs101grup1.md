@@ -6,6 +6,7 @@ categories: grup çalışması
 authors: [Oya Suran]
 tags: [grup çalışması]
 slug: hafta1-grup
+
 ---
 
 Bu dokümanda hem bir
