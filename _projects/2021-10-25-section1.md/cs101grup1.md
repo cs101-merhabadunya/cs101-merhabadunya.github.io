@@ -9,7 +9,6 @@ slug: hafta1-grup
 
 ---
 
-Bu dokümanda hem bir
 ## Başlangıç Kodları
 [Buraya tıklayarak](https://drive.google.com/file/d/1DPuPqu3t3S9STTyBMe8pSxoxeXdI0vYR/view?usp=sharing) problemlere ait başlangıç kodlarına ulaşabilirsiniz.
 
