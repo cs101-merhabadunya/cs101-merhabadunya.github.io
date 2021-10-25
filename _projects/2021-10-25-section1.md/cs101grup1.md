@@ -10,14 +10,14 @@ slug: hafta1-grup
 ---
 
 ## Başlangıç Kodları
-[Buraya tıklayarak](https://drive.google.com/file/d/1DPuPqu3t3S9STTyBMe8pSxoxeXdI0vYR/view?usp=sharing) problemlere ait başlangıç kodlarına ulaşabilirsiniz.
+[Buraya tıklayarak](https://drive.google.com/file/d/1LVHpeDkz-6_l5DV2LES12QhKTR08Cf9I/view?usp=sharing) problemlere ait başlangıç kodlarına ulaşabilirsiniz.
 
 ## Grup Çalışması - Hafta 1
 
 ### Egzersiz 1
 
 Bir yapay zeka şirketi yeni çıkaracakları robotun insanları selamlamasını istemektedir.
-Robot kullanıcıdan ismini ve iki sayıyı girdi olarak alıp kullanıcıyı ismine eklenmiş aldığğı sayılarının çarpımı ile selamlaması gerekmektedir.
+Robot kullanıcıdan ismini ve iki sayıyı girdi olarak alıp kullanıcıyı ismine eklenmiş aldığı sayılarının çarpımı ile selamlaması gerekmektedir.
 Bu işlevleri sağlayan, kullanıcıdan ismini ve iki sayıyı girdi olarak alıp onu ismi ve çarpımla selamlayan, 
 bir program  yazınız.
 
