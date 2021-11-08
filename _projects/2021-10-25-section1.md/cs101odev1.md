@@ -70,8 +70,8 @@ Programı yazmayı bitirdiğinizde aşağıdaki gibi bir çalışma şekli gözl
 
 ## Egzersiz 3
 
-Pelin, Selin ve Jeff Bezos'un maceralari devam ediyor.
-Plüton'a başarılı bir şekilde ulaşan üçlü şimdi Plüton'da klişe yapılması gereken ağırlık ölçümü yapacaklardır, Pelin ve Selin'in kütlelerini biz size verdik ama Jeff'in kütlesini kullanacıya sorup
+Pelin, Selin ve Jeff Bezos'un maceraları devam ediyor.
+Plüton'a başarılı bir şekilde ulaşan üçlü şimdi Plüton'da klişe yapılması gereken ağırlık ölçümü yapacaklardır, Pelin ve Selin'in kütlelerini biz size verdik ama Jeff'in kütlesini kullanıcıya sorup
 ağırlık hesaplamanız lazım,
 Sonra Dünya'ya dönmeli ve orada tekrar ağırlık ölçümleri yapmalısınız. 
 
@@ -83,7 +83,7 @@ Sonra Dünya'ya dönmeli ve orada tekrar ağırlık ölçümleri yapmalısınız
 İlk olarak `yolculuk` fonksiyonunu tekrar doldurmalısınız (Hafta 1 Egzersiz 2'den kopyalayabilirsiniz).
 Bunun yanı sıra herhangi bir gezegen için ağırlık hesaplaması yapan bir fonksiyon yazmalısınız. Bunun için 
 başlangıç kodunda verile `agirlik_hesaplama` fonksiyonunu kullanabilirsiniz. Bu fonksiyonu 
-hem Plüton'daki hem de Dünya'daki ağırlık için ortak kullanacaksınız. Bu fonksiyon iki parametre alıyor (yerçekim ivmesi ve kütle) ve aşağıdaki formulü kullanarak ağırlık hesaplamayıp 
+hem Plüton'daki hem de Dünya'daki ağırlık için ortak kullanacaksınız. Bu fonksiyon iki parametre alıyor (yerçekim ivmesi ve kütle) ve aşağıdaki formülü kullanarak ağırlık hesaplayıp 
 kullanıcıyı bilgilendirmelidir.
 
 ```ağırlık = kütle * gök cisminin çekim ivmesi ```
