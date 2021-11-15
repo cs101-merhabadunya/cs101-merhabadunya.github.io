@@ -9,7 +9,7 @@ slug: hafta4-grup
 ---
 
 ## Başlangıç Kodları
-[Buraya tıklayarak](https://drive.google.com/drive/folders/1btmQnuyv9GZZIAhT2GAZHxO2LcaXz15H?usp=sharing) problemlere ait başlangıç kodlarına ulaşabilirsiniz.
+[Buraya tıklayarak](https://drive.google.com/file/d/1vI7dmcRr7HG_2_YEHExRt7qMdINldrql/view?usp=sharing) problemlere ait başlangıç kodlarına ulaşabilirsiniz.
 
 ## Grup Çalışması - Hafta 4
 
