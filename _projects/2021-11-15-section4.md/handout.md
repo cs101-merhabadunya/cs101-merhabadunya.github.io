@@ -9,32 +9,11 @@ slug: hafta4-grup
 ---
 
 ## Başlangıç Kodları
-[Buraya tıklayarak](https://drive.google.com/file/d/1vI7dmcRr7HG_2_YEHExRt7qMdINldrql/view?usp=sharing) problemlere ait başlangıç kodlarına ulaşabilirsiniz.
+[Buraya tıklayarak](https://drive.google.com/uc?id=1vI7dmcRr7HG_2_YEHExRt7qMdINldrql) problemlere ait başlangıç kodlarına ulaşabilirsiniz.
 
 ## Grup Çalışması - Hafta 4
 
 ### Egzersiz 1
-
-**Kendi Oyun Tahtanı Oluştur!**
-
-![](https://drive.google.com/uc?id=1NYz5VpDw3mIjYxcBZYeFCIK7YxQ4H9W6)
-
-Hamdi ve Mustafa Monopoly oynamayı çok sevmektedirler ve bunun için kendi Monopoly oyun kutularını gittikleri her yere götürürler. Yine bir gün dışarı Monopoly oynamay çıkmışlardır ve ... Hay aksi! Monopoly tahtalarını evde unuttuklarını fark ederler.
-
-Mustafa ve Hamdi'ye Monopoly oyun tahtalarını oluşturmalarına yardım eder misin? Unutma, Monopoly tahtası kare şeklinde bir karton parçasından oluşur. Köşelerinde küçük kareler bulunur ve kenarları boyunca da küçük dikdörtgenler vardır.
-
-Köşelerdeki karelerin kenar uzunluğunu, oyun tahtasının kenar uzunluğunun 5'te 1'i olacak şekilde seçebilirsin! Köşelerdeki kareleri siyah, diğer kareleri istediğin renkte boyayarak farklı dizaynlar yaratabilirsin.
-
-Tamamladıktan sonra tahtamız aşağıdaki gibi gözükmeli:
-
-![KareliTahta](https://drive.google.com/uc?id=1SD4geDG5D9wzTuY5D8mH3F-HmlkjHemp)
-
-**Ekstra:** 
-Extra: Zaman kalırsa köşelerdeki karelerin arasını bu sefer karelerle değil ama dikdörtgenlerle dolduracak boslukları_dikdortgenlerle_doldur fonksiyonunu yazabilirsin. Bunu yaptıktan sonra tahta şu şekilde gözükmeli:
-
-![DikdortgenliTahta](https://drive.google.com/uc?id=1KjTnjdifjCa488CA-hVDcANdv6ujRAU9)
-
-### Egzersiz 2
 
 **Aya gökyüzünü tarif edelim!**
 
@@ -66,3 +45,25 @@ Peki bu yıldızlar kaç tane?: 16
 -----------Örnek çalışma şekli sonu-----------
 
 ```
+
+### Egzersiz 2
+
+**Kendi Oyun Tahtanı Oluştur!**
+
+![](https://drive.google.com/uc?id=1NYz5VpDw3mIjYxcBZYeFCIK7YxQ4H9W6)
+
+Hamdi ve Mustafa Monopoly oynamayı çok sevmektedirler ve bunun için kendi Monopoly oyun kutularını gittikleri her yere götürürler. Yine bir gün dışarı Monopoly oynamay çıkmışlardır ve ... Hay aksi! Monopoly tahtalarını evde unuttuklarını fark ederler.
+
+Mustafa ve Hamdi'ye Monopoly oyun tahtalarını oluşturmalarına yardım eder misin? Unutma, Monopoly tahtası kare şeklinde bir karton parçasından oluşur. Köşelerinde küçük kareler bulunur ve kenarları boyunca da küçük dikdörtgenler vardır.
+
+Köşelerdeki karelerin kenar uzunluğunu, oyun tahtasının kenar uzunluğunun 5'te 1'i olacak şekilde seçebilirsin! Köşelerdeki kareleri siyah, diğer kareleri istediğin renkte boyayarak farklı dizaynlar yaratabilirsin.
+
+Tamamladıktan sonra tahtamız aşağıdaki gibi gözükmeli:
+
+![KareliTahta](https://drive.google.com/uc?id=1SD4geDG5D9wzTuY5D8mH3F-HmlkjHemp)
+
+**Ekstra:** 
+Extra: Zaman kalırsa köşelerdeki karelerin arasını bu sefer karelerle değil ama dikdörtgenlerle dolduracak boslukları_dikdortgenlerle_doldur fonksiyonunu yazabilirsin. Bunu yaptıktan sonra tahta şu şekilde gözükmeli:
+
+![DikdortgenliTahta](https://drive.google.com/uc?id=1KjTnjdifjCa488CA-hVDcANdv6ujRAU9)
+
