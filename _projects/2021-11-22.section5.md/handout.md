@@ -9,7 +9,7 @@ slug: hafta5-grup
 ---
 
 ## Başlangıç Kodları
-[Buraya tıklayarak] ***drive linki***** problemlere ait başlangıç kodlarına ulaşabilirsiniz.
+[Buraya tıklayarak] (https://drive.google.com/file/d/13jqb97B3xmuPJ8M8Umm8rVcvToLDzgRZ/view?usp=sharing) problemlere ait başlangıç kodlarına ulaşabilirsiniz.
 
 ## Grup Çalışması - Hafta 5
 
