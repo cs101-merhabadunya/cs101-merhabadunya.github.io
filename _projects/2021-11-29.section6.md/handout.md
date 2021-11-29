@@ -32,7 +32,7 @@ yeni değişiklikleri göstermesini sağlamak.
 
 Örnek bir sanat eseri aşagıdaki gibi olacaktır:
 
-<img align="center" src="https://github.com/cs101-merhabadunya/cs101-code/raw/master/guz2021/sections/hafta6/hafta6_egzersiz1_baslangic.jpeg" 
+<img align="center" src="https://github.com/cs101-merhabadunya/cs101-code/blob/master/guz2021/sections/hafta6/hafta6_egzersiz1_baslangic.jpeg" 
      width="600" 
      height="450" />
 
