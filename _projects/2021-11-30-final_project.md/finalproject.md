@@ -77,8 +77,7 @@ Bu oyunda kazandığınız puanları karşılaştırarak arkadaşınızdan daha 
 
 **Not:** Pythonda stringlerin içerisinde Türkçe karakterleri kullanabildiğimiz gibi tüm dünya dillerinin karakterlerini, hatta emojileri bile kullanabilirsiniz. Tüm emojilerin listesine [buradan](https://unicode.org/emoji/charts/emoji-list.html) ulaşabilirsin.
 
-```python
->>> print("\u2764\ufe0f")
-❤️
-```
+Bu adımlar tamamlandıktan sonra Aşama 1'in sonucu olarak aşağıdaki gibi bir görüntü elde edilmeli. Unutmayın yeşil noktalar haraket ediyor olacak.
+
+![Ana Ekran](/assets/images/2021fall/final_project/asama1.png){: width="250px" }
     
