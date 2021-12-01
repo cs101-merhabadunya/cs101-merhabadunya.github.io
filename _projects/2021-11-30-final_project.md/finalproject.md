@@ -79,5 +79,5 @@ Bu oyunda kazandığınız puanları karşılaştırarak arkadaşınızdan daha 
 
 Bu adımlar tamamlandıktan sonra Aşama 1'in sonucu olarak aşağıdaki gibi bir görüntü elde edilmeli. Unutmayın yeşil noktalar haraket ediyor olacak.
 
-![Ana Ekran](/assets/images/2021fall/final_project/asama1.png){: width="250px" }
+![Ana Ekran](/assets/images/2021fall/final_project/asama1.png){: width="450px" }
     
