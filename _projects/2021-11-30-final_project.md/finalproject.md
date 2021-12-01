@@ -15,7 +15,7 @@ programı takip ettiğiniz için hepinizi tebrik ederiz. Programın son 3 haftas
 Aşağıda Final Projesi ile ilgili verilen uzuun açıklamayı dikkatlice okuyun, başarılar.
 
 ## Başlangıç Kodları
-Final Projesine ait başlangıç kodlarına [buradan](https://drive.google.com/u/0/uc?id=1SZz0dsrVpGlmB4zrQ2RI8rrgTe6lLhjz&export=download) ulaşabilirsiniz.
+Final Projesine ait başlangıç kodlarına [buradan](https://drive.google.com/drive/folders/1ItGiKBwq1KCyfr45b6UVaruQ6OwVQCBU?usp=sharing) ulaşabilirsiniz.
 
 ## Lojistik Hatırlatmalar
 Final Projesi programı bitirme oranınızda önemli bir yere sahiptir.
@@ -36,8 +36,6 @@ kullanıp ek özellikler ekleyebilirsiniz, hatta bunları Ed'den hepimizle payla
     - Arabaların çizilmesi
 - Oyun Döngüsü
     - Ağaçlar ve arabaların hareketinin sağlanması
-#### 2. Aşama
-#### 3. Aşama
 
 Dokümantasyonun uzun olmasından korkmayın &#128519; bu sayfada final projesini yazarken
 ihtiyaç duyabileceğiniz bütün bilgileri kapsamaya ve görevlerinizi elimizden 
@@ -53,8 +51,6 @@ Başarılar &#128640;!
 Bir gün arkadaşınızla sokakta gezinirken arkadaşınız sizden çok daha iyi oyun oynadığını iddia etti.
 Siz de oyunlarda daha iyi olduğunuzu kanıtlayabilmek için oyuncuların sırayla oynadığı bir araba yarışı oyunu hazırlamaya karar verdiniz.
 Bu oyunda kazandığınız puanları karşılaştırarak arkadaşınızdan daha iyi olduğunuzu gösterebilirsiniz!
-
-## 1. Aşama
 
 ##  1. Aşama
 
