@@ -15,7 +15,7 @@ programı takip ettiğiniz için hepinizi tebrik ederiz. Programın son 2 haftas
 Aşağıda Final Projesi ile ilgili verilen uzuun açıklamayı dikkatlice okuyun, başarılar.
 
 ## Başlangıç Kodları
-Final Projesine ait başlangıç kodlarına [buradan](https://drive.google.com/drive/folders/1ItGiKBwq1KCyfr45b6UVaruQ6OwVQCBU?usp=sharing) ulaşabilirsiniz.
+Final Projesine ait başlangıç kodlarına [buradan](https://drive.google.com/file/d/1zkpNgoUz8kTdER5dA2YcrfJV9dT_R74I/view?usp=sharing) ulaşabilirsiniz.
 
 ## Lojistik Hatırlatmalar
 Final Projesi programı bitirme oranınızda önemli bir yere sahiptir.
