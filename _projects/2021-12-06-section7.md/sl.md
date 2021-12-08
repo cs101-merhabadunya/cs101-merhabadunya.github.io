@@ -10,7 +10,7 @@ slug: hafta7-grup
 
 ## Başlangıç Kodları
 
-[Buraya tıklayarak](https://drive.google.com/drive/folders/1P0nSHGlAeK6pS2pjgtNL6B_rEFz8itQU) problemlere ait başlangıç kodlarına ulaşabilirsiniz.
+[Buraya tıklayarak](https://drive.google.com/file/d/1WW6cEPPpr07xVRTJuun3GFndWPoB6ykR/view?usp=sharing) problemlere ait başlangıç kodlarına ulaşabilirsiniz.
 
 ## Egzersiz 1
 
