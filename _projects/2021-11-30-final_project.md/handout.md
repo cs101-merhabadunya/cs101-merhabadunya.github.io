@@ -1,8 +1,18 @@
-|    # Aşama    | Yazarlar |
-| :------: | :------: |
-| 1. Aşama | Yağmur Akarken, Ece Pınar Özer |
+---
+layout: post
+title: Final Projesi
+subtitle: 
+categories: final_projesi
+authors: [Yağmur Akarken, Ece Pınar Özer, İdil Defne Çekin, Burak Aslantaş, Ceren Kocaoğullar, Burcu Yıldız ]
+tags: [final_projesi]
+slug: final_projesi
+---
+
+| # Aşama  |             Yazarlar             |
+| :------: | :------------------------------: |
+| 1. Aşama |  Yağmur Akarken, Ece Pınar Özer  |
 | 2. Aşama | İdil Defne Çekin, Burak Aslantaş |
-| 3. Aşama | Ceren Kocaoğullar, Burcu Yıldız |
+| 3. Aşama | Ceren Kocaoğullar, Burcu Yıldız  |
 
 
 
@@ -15,7 +25,7 @@ Aşağıda Final Projesi ile ilgili verilen açıklamayı lütfen dikkatlice oku
 ## Başlangıç Kodları
 Final Projesine ait başlangıç kodlarına [buradan `(Gitmek için tıkla)`](https://drive.google.com/file/d/1zkpNgoUz8kTdER5dA2YcrfJV9dT_R74I) ulaşabilirsiniz.
 
-İkinci aşamanın başlangıç kodlarına [buradan `(Gitmek için tıkla)`](https://drive.google.com/drive/folders/1U_zEEDnxXVun43VTjaZJ5ti8ylVgObO-?usp=sharing) ulaşabilirsiniz. 
+İkinci aşamanın başlangıç kodlarına [buradan `(Gitmek için tıkla)`](https://drive.google.com/file/d/1yd4lv1xmlkjVkZl9xdTBLGq_80mbQB7v/view?usp=sharing) ulaşabilirsiniz. 
 
 Başlangıç kodları ilk aşamada yaptıgınız aşamaların çözümlerini de içeriyor, yani ilk aşamayı tamamlayamadıysanız veya eksikleriniz varsa da ikinci aşamadan projeye devam edebilirsiniz :)!!! Ayrıca bizim verdigimiz çözümler yerine dilerseniz kendi yazdıgınız fonksiyonları da kullanabilirsiniz. Yaratıcılıgınızı kullanmaktan çekinmeyin, oyununuzu kendinize göre modifiye edebilirsiniz :) 
 
