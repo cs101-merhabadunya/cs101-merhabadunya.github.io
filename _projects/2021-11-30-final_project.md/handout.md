@@ -137,6 +137,7 @@ kanvasın dışına da çıkabilir. Bunu engellemek için karakterin konumunu g�
 ilerleyebileceği maksimum ve minimum koordinatları kontrol edebilirsiniz.
 
  ### 2.B Rastgele engel oluşturulması
+ 
  Artık engelleri kanvasa ekleyebilirsiniz.
  1. Engelleri kanvasa dikdörtgen olarak ekleyeceksiniz. 
  2. Engelleri eklemek için `rastgele_engel_olustur(kanvas, engel_listesi)`
@@ -155,10 +156,10 @@ ilerleyebileceği maksimum ve minimum koordinatları kontrol edebilirsiniz.
  **İpucu 3:** Çarpışma gerçekleştiğinde, oyunu durdurmak için `kanvas.wait_for_click()` fonksiyonunu hatırlayın.
  
  ### 2.D Engelleri hareket ettir
+ 
  Artık engelleri hareket ettirebilirsiniz. Bunun için, 
  1. Engelleri hareket ettir. Animasyonun akan bir yol gibi gözükmesi için engellerin agaçlarla aynı hızda hareket etmesi gerekiyor. 
  2. Kanvasın dışına çıkan engelleri kanvastan sil,
  İpucu: Ağaçları hareket ettirip, kanvas dışına çıktığına silme işlemini yapan, benzer bir fonksiyonu, başlangıç kodunda bulabilirsiniz.
 
-
-<iframe width="560" height="315" src="https://drive.google.com/file/d/17p2HKexjNJWkiE4E1l2PchjQuvWhQJm5/view?usp=sharing" title="Final Projesi Kaydı" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://drive.google.com/file/d/17p2HKexjNJWkiE4E1l2PchjQuvWhQJm5/preview" title="Final Projesi Kaydı" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
