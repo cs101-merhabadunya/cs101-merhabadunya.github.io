@@ -1,8 +1,20 @@
-|    # Aşama    | Yazarlar |
-| :------: | :------: |
-| 1. Aşama | Yağmur Akarken, Ece Pınar Özer |
+---
+layout: post
+title: Final Projesi
+subtitle: 
+categories: final_projesi
+authors: [Yağmur Akarken, Ece Pınar Özer, İdil Defne Çekin, Burak Aslantaş,Ceren Kocaoğullar, Burcu Yıldız ]
+tags: [final_projesi]
+slug: final-projesi
+
+---
+
+
+| # Aşama  |             Yazarlar             |
+| :------: | :------------------------------: |
+| 1. Aşama |  Yağmur Akarken, Ece Pınar Özer  |
 | 2. Aşama | İdil Defne Çekin, Burak Aslantaş |
-| 3. Aşama | Ceren Kocaoğullar, Burcu Yıldız |
+| 3. Aşama | Ceren Kocaoğullar, Burcu Yıldız  |
 
 
 
