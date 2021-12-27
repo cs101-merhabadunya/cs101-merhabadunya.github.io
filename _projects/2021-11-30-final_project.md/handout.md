@@ -3,31 +3,19 @@ layout: post
 title: Final Projesi
 subtitle: 
 categories: final_projesi
-authors: [Yağmur Akarken, Ece Pınar Özer, İdil Defne Çekin, Burak Aslantaş, Ceren Kocaoğullar, Burcu Yıldız ]
+authors: [Gül Sena Altıntaş, Arda Enfiyeci, Ahmet Uysal]
 tags: [final_projesi]
 slug: final_projesi
 ---
 
-| # Aşama  |             Yazarlar             |
-| :------: | :------------------------------: |
-| 1. Aşama |  Yağmur Akarken, Ece Pınar Özer  |
-| 2. Aşama | İdil Defne Çekin, Burak Aslantaş |
-| 3. Aşama | Ceren Kocaoğullar, Burcu Yıldız  |
-
-
-
-CS 101 Güz 2021'in 6 haftasını geride bıraktık! Şimdiye kadar inanılmaz bir gelişme gösterdiğiniz ve 
-programı takip ettiğiniz için hepinizi tebrik ederiz. Programın son 2 haftasında Final Projesi yaparak 
+CS 101 Bahar 2021'in 5 haftasını geride bıraktık! Şimdiye kadar inanılmaz bir gelişme gösterdiğiniz ve 
+programı takip ettiğiniz için hepinizi tebrik ederiz. Programın son 3 haftasında Final Projesi yaparak 
 öğrendiklerinizi bir oyunla ölümsüzleştireceksiniz. 
 
-Aşağıda Final Projesi ile ilgili verilen açıklamayı lütfen dikkatlice okuyun, başarılar.
+Aşağıda Final Projesi ile ilgili verilen uzuun açıklamayı dikkatlice okuyun, başarılar.
 
 ## Başlangıç Kodları
-Final Projesine ait başlangıç kodlarına [buradan `(Gitmek için tıkla)`](https://drive.google.com/file/d/1zkpNgoUz8kTdER5dA2YcrfJV9dT_R74I) ulaşabilirsiniz.
-
-İkinci aşamanın başlangıç kodlarına [buradan `(Gitmek için tıkla)`](https://drive.google.com/file/d/1yd4lv1xmlkjVkZl9xdTBLGq_80mbQB7v/view?usp=sharing) ulaşabilirsiniz. 
-
-Başlangıç kodları ilk aşamada yaptıgınız aşamaların çözümlerini de içeriyor, yani ilk aşamayı tamamlayamadıysanız veya eksikleriniz varsa da ikinci aşamadan projeye devam edebilirsiniz :)!!! Ayrıca bizim verdigimiz çözümler yerine dilerseniz kendi yazdıgınız fonksiyonları da kullanabilirsiniz. Yaratıcılıgınızı kullanmaktan çekinmeyin, oyununuzu kendinize göre modifiye edebilirsiniz :) 
+Final Projesine ait başlangıç kodlarına [buradan](https://drive.google.com/u/0/uc?id=1SZz0dsrVpGlmB4zrQ2RI8rrgTe6lLhjz&export=download) ulaşabilirsiniz.
 
 ## Lojistik Hatırlatmalar
 Final Projesi programı bitirme oranınızda önemli bir yere sahiptir.
@@ -35,41 +23,36 @@ Projede size verilen başlangıç kodlarında belli değişkenler ve fonksiyon �
 gibi kendi fonksiyonlarınızı da yazabilirsiniz.
 
 Final Projesi 2 ana aşamaya ayrılmıştır, bu aşamaların açıklamalarını aşağıda bulabilirsiniz.   
-<span>1.</span> Aşamanın teslim tarihi **8 Aralık Çarşamba**,   
-<span>2.</span> Aşamanın teslim tarihi **22 Aralık Çarşamba**,   
-<span>3.</span> Aşamanın teslim tarihi: **2 Ocak Pazar** olarak belirlenmiştir.  
-Her aşamanın sonunda, ilgili aşamanın çözümlerini sizinle paylaşacağız. Bu çözümleri sonraki aşamaları kodlarken kullanabilirsiniz. Böylece bir aşamada takıldığınızda, diğer aşamayı çözebileceksiniz.
+<span>1.</span> Aşamanın teslim tarihi **7 Nisan Çarşamba**,   
+<span>2.</span> Aşamanın teslim tarihi: **18 Nisan Pazar** olarak belirlenmiştir.  
 Bonus ile belirtilen görevler zorunlu değildir, sadece oyununuzu geliştirebilecek önerilerdir. Yaratıcılığınızı
 kullanıp ek özellikler ekleyebilirsiniz, hatta bunları Ed'den hepimizle paylaşın!
 
 ### Aşamalar
 #### 1. Aşama
 - Oyun Arka Planı
-    - Arabayı oluştur
-    - Arabanın gideceği yolları oluştur
-    - Yol kenarlarında yeşil ağaçlar (yeşil daireler) oluştur
+    - Skor yazısı
+    - Can yazısı
+    - Uzaylıları oluştur
+    - Uzaylılar hız listesi oluştur
+    - Ana karakteri oluştur
 - Oyun Döngüsü
-    - Konsoldan arabanın rengini girdi (input) olarak al
-    - Yol kenarlarında oluşturulan yeşil ağaçları, yukarıdan aşağıya doğru hareket ettir. (İpucu: Haftalık verilen ödevlerdeki "Yağmur yağdırma" örneğinden esinlenebilirsin.)
+    - Uzaylıları rastgele hareket ettir
 #### 2. Aşama
-- Yön tuşlarıyla arabayı hareket ettir (Yön tuşları klavyenizde bulunan bu tuşlardır, "`←`, `↑`, `→`, `↓`")
-- Yol üzerinde rastgele engel oluştur
-- Çarpışmaları kontrol et (Kodunuzu **kütüphane kullanmadan** oluşturun)
-    - Eğer çarpışma gerçekleştiyse, oyunu durdur
-- Engelleri hareket ettir
-#### 3. Aşama
-- Çarpışmaları kontrol et (Kodunuzu **kütüphane kullanarak** oluşturun)
-    - Eğer çarpışma gerçekleştiyse, oyunu durdur
-- Skor tutun
-- Can kontrolü
-    - Eğer canlar bittiyse, oyunu baştan başlat
-    
+- Uzaylıların ekrandan çıkmasını kontrol et
+- Ana karakteri mouse ile hareket ettir
+- Çarpışmaları kontrol et
+    - Canları güncelle
+- Skoru güncelle
+- Bitiş ekranı
+    - Kaybettiniz veya Kazandınız şeklinde sonucu görüntüle
+
 Dokümantasyonun uzun olmasından korkmayın &#128519; bu sayfada final projesini yazarken
 ihtiyaç duyabileceğiniz bütün bilgileri kapsamaya ve görevlerinizi elimizden 
 geldiğince detaylı açıklamaya çalıştık.
 
 Her ödevimizde olduğu gibi Final Projesinde de arkadaşlarınızla sözlü olarak fikir alışverişinde
-bulunabilirsiniz. Ancak akademik dürüstlük ilkelerini doğrultusunda kod değiş tokuşu yasaktır ve ödevinizin geçersiz sayılmasına neden olabilir. Tüm sorularınızı [Ed `(Gitmek için tıkla)` ](https://edstem.org/us/courses/15472/discussion/904782)
+bulunabilirsiniz. Ancak akademik dürüstlük ilkelerini doğrultusunda kod değiş tokuşu yasaktır ve ödevinizin geçersiz sayılmasına neden olabilir. Tüm sorularınızı [Ed](https://edstem.org/us/courses/4754/lessons/)
 sayfamızdan eğitmenlerinize sorabilirsiniz.
 
 Başarılar &#128640;!
@@ -90,76 +73,195 @@ python3 -m pip install Pillow==7.1.1
 Kurulum başarı ile tamamlandığında terminalinizde son olarak "Successfully installed Pillow-7.1.1" ibaresi görünür. Artık grafik kütüphanemizdeki resim içeren fonksiyonları kullanabiliriz!
 
 ## Hikaye
-Bir gün arkadaşınızla sokakta gezinirken arkadaşınız sizden çok daha iyi oyun oynadığını iddia etti. Siz de oyunlarda daha iyi olduğunuzu kanıtlayabilmek için oyuncuların sırayla oynadığı bir araba yarışı oyunu hazırlamaya karar verdiniz. Bu oyunda kazandığınız puanları karşılaştırarak arkadaşınızdan daha iyi olduğunuzu gösterebilirsiniz!
+Ahmet küçüklüğünden beri uzaya hep ilgi duymuştur. Boş zamanlarında 
+gezegenler hakkında kitaplar okur ve yıldızları izlemekten çok zevk alır. 
+Galaksinin uçsuz bucaksız büyüklüğünü düşünürsek, insanlık bu koca evrende 
+nasıl yalnız olabilirdi ki? Bir gün teleskobundan uzayı incelerken, 
+Ahmet bir Ufo’nun yakınlarındaki tarlaya düştüğünü görür. Ahmet hızlıca montunu 
+giyerek tarlaya doğru koşmaya başlar...
 
 ## 1. Aşama
+Ufosu düşmüş olan uzaylılar Ahmet’in yaklaşmakta oldugunu gorur. Uzaylılar
+ Ahmet’i karşılamak için  geleneksel 'Selamlaşma Dansını' yapmak 
+ isterler. Bu dans sırasında her uzaylı farklı yönlerde koşuşturarak 
+ duvarlardan sekmektedir. Grafik kütüphanesini kullanarak Uzaylıların Ahmet 
+ gelmeden danslarını prova etmelerine yardımcı olun:
+ ### 1.A Haritanın Ayarlanması
+ 1. Uzaylıların pratik yapabilmesi için bir `Canvas` oluşturun. 
+    - Kanvasın boyutları  başlangıç kodunda `KANVAS_EN` ve `KANVAS_BOY` değişkenleriyle verilmiştir.
+    - Kanvasın başlığını "Final Projesi" olarak ayarlayın.
+ 2. Projenin 2. aşamasında oyunumuza Can ve Skor ekleyeceğimiz için kanvasta Ahmet'in
+ kalan canlarını ve skorunu gösterebileceğimiz iki yazı (text) oluşturun:   
+    - Ahmet'in oyuna başlarken sahip olduğu toplam can sayısı kodda `TOPLAM_CANLAR` değişkeniyle belirtilmiştir.
+    - Canları sayı ile gösterebileceğiniz gibi `"\u2764\ufe0f"` string'inin tekrarı ile de gösterebilirsiniz.      
+    - Koordinatları ayarlama:
+        - Skor ve Can gösteren yazıların y koordinatı kodda `YAZILAR_Y_KOORDINATI` değişkeniyle belirtilmiştir.
+        - Skor yazısının merkezi yatay hizada (x ekseninde) `YAZILAR_X_AYRIMI`'na denk gelmektedir.
+        - Can yazısının merkezi ise yatay hizada kanvasın sağından `YAZILAR_X_AYRIMI` kadar içeridedir.
+    - Skor ve Can gösteren yazıların fontunu `FONT` ve `FONT_BUYUKLUGU` ile belirtilen fonta ayarlayın.
 
-1. Arabayı sürebileceğiniz bir alan olarak bir `Canvas` oluşturun.
+**Not:** Pythonda stringlerin içerisinde Türkçe karakterleri kullanabildiğimiz gibi tüm dünya dillerinin karakterlerini, hatta emojileri bile kullanabilirsiniz. Tüm emojilerin listesine [buradan](https://unicode.org/emoji/charts/emoji-list.html) ulaşabilirsin.
 
-- Kanvasın boyutları başlangıç kodunda `KANVAS_EN` ve `KANVAS_BOY` değişkenleriyle verilmiştir.
-- Kanvasın başlığını "Final Projesi" olarak ayarlayın.
+```python
+>>> print("\u2764\ufe0f")
+❤️
+```
+    
+ <span>1.</span> ve 2. aşamaların sonunda kanvasınız aşağıdakine benzer gözükmelidir:
+![ss](screenshots/harita.jpg){ width=100px }
 
-2. Yol çizgilerini oluşturacak fonksyionu yazın.
+ 
+ ### 1.B Uzaylıların Oluşturulması
+ Haritanız hazır olduğuna göre uzaylıları kanvasa ekleyebilirsiniz. 
+ 1. Uzaylıları kanvasa resim olarak ekleyeceksiniz. Uzaylıların boyutu `UZAYLI_BOYUT` x `UZAYLI_BOYUT` olmalıdır.  
+ 2. Çok düzenli bir ailede yetişen uzaylılar danslarına başlamadan önce 
+ kanvasın sol üst köşesinde `YAZILAR_Y_ARIMI`, 2 x `YAZILAR_Y_AYRIMI` koordinatlarından
+ başlayarak dizilirler. Uzaylıları her satırda `UZAYLI_SUTUN_SAYISI` kadar uzaylı yerleşecek 
+ şekilde `UZAYLI_SATIR_SAYISI` kadar satıra yerleştirin. Uzaylıları eklemek için `uzaylilari_olustur(kanvas, sutun_sayisi, satir_sayisi, uzayli_resmi)`
+ fonksiyonunu yazın. Burada `uzayli_resmi` uzaylı resminin adresini içeren string'dir. Kolaylık olması açısından bu adresler
+ kodun başında sabit olarak tanımlanmıştır.  
+ **İpucu 1:** Uzaylıları yerleştirirken 4. haftada yaptığımız _Satranç Tahtası_ örneğini hatırlayın.  
+ **İpucu 2:** Uzaylıları bir listede tutun.      
+ **Not:** Final projesinde kullacağınız bütün resimleri  başlangıç kodlarında `resimler` klasöründe bulabilirsiniz. Dilerseniz, bu resimleri kendi projeniz için 
+ başka resimlerle değiştirebilirsiniz. Ancak resimleri değiştirmeye karar verirseniz bu resimleri
+ `resimler` klasörüne ekleyip Ed üzerinden teslim ettiğiniz ödevde de yer almasına dikkat edin.
+ 3. Her uzaylı için hız belirleyin. Uzaylıların hızlarını oluşturmak için `uzaylilar_hiz_listesi_olustur(n)`
+ fonksiyonunu yazın, burada `n` toplam uzaylı sayısını temsil eder.
+    - Her uzaylı ekrana eklendiğinde veya sonrasında `UZAYLI_MIN_HIZ` ila `UZAYLI_MAX_HIZ` arasında rastgele bir
+    hız değeri oluşturun. Unutmayın, uzaylılar hem x hem de y ekseninde hareket edebilir.  
+  **İpucu 1:** Uzaylıların hızlarını atarken 5. haftada yaptığımız _Yağmur Damlaları_ örneğini hatırlayın.      
+  **İpucu 2:** `random.randint()` fonksiyonu ile rastgele bir tamsayı elde edebilirsiniz.
+  
+ ### 1.C Ana Karakterin Oluşturulması
+Uzaylılar ekrandaki yerlerini aldığına göre ekrana ana karakteri ekleyebilirsin. Ana karakteriniz oyuna kanvasın tam ortasında başlamalıdır. Boyutları `ANA_KARAKTER_BOYUT` ile verilmiştir.
 
-- Bu fonksiyonu yazarken ortadaki çizginin kanvasın tam ortasından geçmesine ve yol genişliklerine dikkkat edin. Her şerit `KANVAS_EN`in çeyregi genişlikte olmalı.
-- Yolun genişligi olarak size verilen `YOL_EN` degişkenini kullanabilirsiniz, unutmayın ki bu iki şeritli yolun toplan genişligi olmalı.
+Ana karakter ve uzaylılar da eklendiğinde kanvasınız aşağıdaki gibi gözükebilir:
+![](screenshots/uzaylilar_karakter.jpg){ width=100px }
 
-3. Arabaları oluşturacak kodları yazın
+### 1.D Uzaylıların Hareketi
+Görsel olarak kanvasınızı hazırladığınıza göre animasyonu kurmaya başlayabilirsiniz. 
+1. Öncelikle, her uzaylı [1.B](#1b-uzaylıların-oluşturulması)'de belirlediğiniz hızda hareket etmelidir.
+2. Uzaylıların duvarlardan sekmesini sağlayın. 
+    - Kanvasın dışına çıkan uzaylıların hızını güncelleyin. Örneğin, uzaylınız sağ 
+    duvara çarptıysa hızının hangi eksenini değiştirmemiz gerekir?
+    - Bunu yaparken 5. Derste çözdüğümüz _Zıplayan Top_ örneğini
+tekrar etmek ve aşağıdan sekme durumunu sol, üst ve sağ duvarlara nasıl 
+uygulayacağınızı düşünmek faydalı olacaktır. 
+    - Unutmayın, bir objenin kanvasın dışına
+çıkması aslında sadece bulunduğu koordinatların kanvasın dışında kalmasıdır.
 
-- Arabaları çizdirirken başlangıç kodunda size verilmiş olan pozisyon ve boy değişkenlerini kullanabilirsiniz.
-- Projenin bu aşamasında arabaların hareket etmesi gerekmiyor, çalışmalarınızı ona göre yapabilirsiniz.
-
-4. Ağaçları oluşturacak kodu yazın
-
-- Bunun için `soldaki_agacları_olustur` ve `sagdaki_agacları_olustur` olmak üzere iki fonksiyon doldurmalısınız. Bu fonksiyonlar neredeyse aynı görevi yapacak, ancak bir tanesi ekranın sag tarafindaki digeri ise sol tarafindaki agacların çizilmesi için. 
-- Bu fonksiyonlar her çagırıldıgında ekranın ilgili kısmında ve en üstte birer tane agaç yaratmalı. Agaçların yaratılacagı x koordinatları rastgele bir şekilde seçilmeli. Degerleri belirlerken `SOL_AGAC_MIN` `SOL_AGAC_MAX` `SAG_AGAC_MIN` ve `SAG_AGAC_MAX` degişkenlerinden faydalanabilirsiniz.
-- İki sayı arasında rastgele bir sayı seçmek için `random.randint(MIN, MAX)` fonksiyonunu kullanabilirsiniz. (MIN sayının alabilecegi en küçük degeri, MAX ise en büyük degeri içermeli)
-- Ağaçları çizdirirken başlangıç kodunda size verilmiş olan pozisyon ve boy değişkenlerini kullanabilirsiniz.
-
-5. Her adımda ağaçları hareket ettiricek ve ekran dışına çıkacak olan ağaçları silecek kodu yazın
-
-- Agaçlar oluşturulduktan sonra ilk aşamada `MIN_BASLANGIC_HIZ` hızıyla aşagı dogru hareket etmeli, böylece animasyonumuzda arabalar ilerliyor gibi gözükecek ve oyunumuzun arka planını tamamlamış olacagız.
-- Bu aşamada ekranın dışına çıkan agaçları silmeyi unutmamalıyız!!! Yoksa oyunumuz bir süre sonra bütün agaçları hareket ettirmeye çalışmaktan yorulup yavaşlayacaktır ve kimse böyle bir oyun oynamak istemez :)
-- Agaçların hareket ettirilmesi ve ekran dışına çıkan araçların silinmesi konusunda daha önce grup çalışmalarında yaptığımız yağmur damlası simülasyonlarından yardım alablirsiniz.
+<span>1.</span> Aşamanın sonunda oyununuz şu şekilde gözükebilir:
+![](screenshots/uzaylilar_hareket_ediyor1_skor0.jpg){ width=100px }
 
 ## 2. Aşama
-### 2.A Arabayı hareket ettir
-Arabayı yön tuşlarıyla hareket ettirelim. (Yön tuşları klavyenizde bulunan bu tuşlardır, "`←`, `↑`, `→`, `↓`")
+### 2.A Ana Karakterin Hareketi
+Ufo alanına ulaşan Ahmet uzaylıları dans ederken görünce, heyecanından donakalır.
+ Ahmet’in mouse ile hareket edebilmesi için ona yardımcı olun. 
 
-- Başlangıç kodlarında verilen `arabayi_hareket_ettir` fonksiyonunu yazın. Bu fonksiyon
-parametre olarak oyun `kanvas`ını ve `araba` objesini alır.  
-**İpucu:** Yön tuşlarını kullanarak bir objeyi hareket ettirmek için Hafta 6 Grup Çalışması egzersizlerinde yaptıgımız yemleri yiyen topçuk
-örnegini inceleyebilirsiniz. Hatırlarsanız burada hangi tuşa basıldıgını kontrol etmek için `kanvas.get_new_key_presses()` fonksiyonunu ve tuşu ayırt etmek için ise tuşların sym kodlarını kullanmıştık. Ok tuşlarının kodları sırasıyla (`Left`, `Up`, `Right`, `Down`)
-**İpucu:** Kanvasta bir objenin mutlak konumunu değiştirmek için `kanvas.move(obje, dx, dy)`
+- Başlangıç kodlarında verilen `ana_karakteri_guncelle` fonksiyonunu yazın. Bu fonksiyon
+parametre olarak oyun `kanvas`ını ve `ana_karakter` objesini alır.  
+**İpucu:** `kanvas` üzerinden mouse'a nasıl ulaşabileceğinizi ve Ders 6'yı tekrar etmeyi unutmayın.
+- Ana karakter merkezi farenizin (mouse) x ve y koordinatlarına denk gelecek şekilde 
+tekrar yerleştirilmelidir.  
+**İpucu:** Kanvasta bir objenin mutlak konumunu değiştirmek için `kanvas.move_to(obje, yeni_x, yeni_y)`
 fonksiyonunu kullanabilirsiniz.
-- Oyunu çalıştırırken fark edeceksiniz ki bu haliyle araba 
+- **Bonus 1:** Oyunu çalıştırırken fark edeceksiniz ki bu haliyle ana karakteriniz 
 kanvasın dışına da çıkabilir. Bunu engellemek için karakterin konumunu güncellerken 
 ilerleyebileceği maksimum ve minimum koordinatları kontrol edebilirsiniz.
+- **Bonus 2:** Oyunu zorlaştırmak için karakterin ilerleyebileceği bir maksimum hız ekleyin.
+        Örneğin her animasyon karesinde mouse'un koordinatlarına doğru maksimum x birim ilerle.
 
- ### 2.B Rastgele engel oluşturulması
- 
- Artık engelleri kanvasa ekleyebilirsiniz.
- 1. Engelleri kanvasa dikdörtgen olarak ekleyeceksiniz. 
- 2. Engelleri eklemek için `rastgele_engel_olustur(kanvas, engel_listesi)`
- fonksiyonunu yazın. Bu fonksiyon her çalıştığında %20 ihtimalle engel oluşturur ve engel listesine ekler. Bir işlemin %20 ihtimalle yapılmasını saglayan kodu fonksiyonun içerisinde hazır olarak size verdik, başlangıç kodlarını incelemeyi unutmayın! Burada dikdörtgenler oluşturalım. Dikdörtgenlerin boyutu, `ENGEL_EN` x `ENGEL_BOY` olmalı. Son olarak dikdörtgenlerin rengi kahverengi olmalı, canvas kütüphanesini kullanarak `kanvas.COLORS.Brown4` ile kahverengini elde edebilirsiniz. Kolaylık olması açısından `ENGEL_EN` ve `ENGEL_BOY` kodun başında sabit olarak tanımlanmıştır.  
-
-### 2.C Çarpışmalar &#x2607;
-
- - Animasyonunuzun her aşamasında arabanın yoldaki engellerle çarpışıp çarpışmadığını 
- kontrol etmelisiniz. Bunun için başlangıç kodlarında `carpismalari_kontrol_et(kanvas, araba, engel_listesi)`
+### 2.B Çarpışmalar &#x2607;
+Kendini dansa kaptıran Uzaylılar Ahmet’i fark etmezler. Uzaylıların 
+vücudundaki kimyasallar insanların uykusunu getirmektedir ve uzaylılardan biri 
+Ahmet’e her çarptığında Ahmet’in uykusu artmaktadır. Görünüşe göre Ahmet 
+5 çarpışmadan sonra uyuyakalacaktır. Ahmet’in kaç çarpışmadan sonra uyuyakalacağını
+ takip edebilmesi için her çarpışma sonrası Ahmet’in kaç canının kaldığının 
+ güncellendiği bir sayaç yazabilir misiniz?
+ - Animasyonunuzun her aşamasında ana karakterin uzaylılarla çarpışıp çarpışmadığını 
+ kontrol etmelisiniz. Bunun için başlangıç kodlarında `carpismalari_kontrol_et(kanvas, ana_karakter, uzayli_listesi)`
  olarak verilen fonksiyonu yazın. Bu fonksiyonda `kanvas.find_overlapping` fonksiyonunu
  kullanarak kanvas üzerinde ana karakterle çakışan konumdaki objeleri bulabilirsiniz.   
  **İpucu 1:** `kanvas.find_overlapping` x1, y1, x2, y2 olmak üzere 4 argüman alır ve 
- kanvasta arabanın bulunduğu karenin koordinatlarını kullanabilirsiniz.  
- **İpucu 2:** `kanvas.find_overlapping` bir liste döndürür. Bu listedeki her elemanın "engel"
- olup olmadığını nasıl anlayabilirsiniz? `engel_listesi`'nden faydalanabilirsiniz! 
- **İpucu 3:** Çarpışma gerçekleştiğinde, oyunu durdurmak için `kanvas.wait_for_click()` fonksiyonunu hatırlayın.
+ kanvasta ana karakterin bulunduğu karenin koordinatlarını kullanabilirsiniz.  
+ **İpucu 2:** `kanvas.find_overlapping` bir liste döndürür. Bu listedeki her elemanın uzaylı
+ olup olmadığını nasıl anlayabilirsiniz? `uzayli_listesi`'nden faydalanabilirsiniz! 
+ - [1.A](#1a-haritanın-ayarlanması)'da kanvasa can sayısını gösteren bir yazı eklemiştiniz.
+ Eğer `carpismalari_kontrol_et` fonksiyonunuz `True` döndürüyorsa, yani uzaylı-ana karakter
+ çarpışması gerçekleştiyse- oyuncunun canlarını 1 azaltın ve kanvastaki Can yazısını güncelleyin.  
+ **İpucu:** `kanvas.set_text` fonksiyonunu hatırlayın.
+ - Çarpışma olursa uzaylılar kanvasta rastgele yerlere dağılmakta  ve Ahmet kendine gelene kadar oyun durmaktadır. Bunun için `uzaylilari_rastgele_dagit(kanvas, ana_karakter, uzayli_listesi)`
+ fonksiyonunu yazın. Burada her uzaylı için yeni bir konum (x, y koordinatları) seçerken ana karakterden en az
+ 25 piksel uzakta olduğunu kontrol edin. Oyun tekrar başladığında Ahmet'in hemen bayılmasını istemeyiz!  
+ **İpucu:** Oyunu durdurmak için `kanvas.wait_for_click()` fonksiyonunu hatırlayın.
  
- ### 2.D Engelleri hareket ettir
- 
- Artık engelleri hareket ettirebilirsiniz. Bunun için, 
- 1. Engelleri hareket ettir. Animasyonun akan bir yol gibi gözükmesi için engellerin agaçlarla aynı hızda hareket etmesi gerekiyor. 
- 2. Kanvasın dışına çıkan engelleri kanvastan sil,
- İpucu: Ağaçları hareket ettirip, kanvas dışına çıktığına silme işlemini yapan, benzer bir fonksiyonu, başlangıç kodunda bulabilirsiniz.
+### 2.C Skor
+Ahmet her `YENILEME_SURESI`'nde 1 puan alır. Buna bağlı olaraktan her döngüde Ahmet'in 
+kanvastaki skorunu yenilemeyi unutmayın.
 
-<iframe width="560" height="315" src="https://drive.google.com/file/d/17p2HKexjNJWkiE4E1l2PchjQuvWhQJm5/preview" title="Final Projesi Kaydı" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### 2.D Oyunun Sonucu
+
+Oyun Ahmet `KAZANMA_SKOR`'u ile kodda belirtilen skora ulaştığında ya da Bonus A'da belirtilen lazerle
+ uzaylıların tamamı kaldırıldığında bitmektedir. Eğer Ahmet `KAZANMA_SKOR`'una
+ulaşamadan bütün canlarını kaybederse, kullanıcıya göstermek için bir `KAYBETTINIZ`
+ekranı, eğer Ahmet `KAZANMA_SKOR`'una ulaştı ise kullanıcıya göstermek adına bir `KAZANDINIZ`
+ekranı hazırlayın:
+- `while True` ibaresindeki `True`'yu başka bir koşulla kontrol edebilir ya da `while` döngüsü içinde bitirme koşulunu
+ayrıca kontrol edip `break` yaparak oyun döngünü bitirebilirsiniz.
+- Oyun bitiminde kanvastaki tüm objeleri `kanvas.delete_all()` fonksiyonu ile silebilirsiniz.
+- Oyuncu kazanırsa tebrik mesajı, kaybederse kaybettiğini yansıtan bir mesaj görüntüleyin. Biz kendi ekranlarımızda
+`"\uD83D\uDE80"` ve `"\uD83D\uDE3F"` emojilerini kullandık. Siz de [1.A](#1a-haritaın-ayarlanması)'da belirtildiği şekilde emojiler
+kullanabilirsiniz. İsterseniz `kanvas.create_image` fonksiyonunu kullanarak daha yaratıcı bir ekran
+hazırlayabilirsiniz.
+- Oyun bitiminde kullanıcı kanvasa tıkladıktan sonra kanvas kapanmalı ve program sonlanmalıdır.
+
+
+## Bonus
+### Bonus. A Lazer Ekleme
+Ahmet bağırsa da çağırsa da, durmaları için yalvarsa da Uzaylılar kendilerini 
+danslarına kaptırmışlardır. Adeta trans halinde olan uzaylılar Ahmet’i duymazlar.
+ Uzaylılardan sonsuza kadar kaçamayacağını farkeden Ahmet yanında getirdiği su 
+ tabancasını uzaylılar üzerinde denemeye karar verir. Su ile temasa geçen 
+ uzaylılar uzay gemilerine geri ışınlanmaktadır. W tuşuna basınca yukarı, 
+ A tuşuna basınca sola, D tuşunda basınca sağa, S tuşuna basınca aşağı ateş 
+ edecek şekilde Ahmet’in su tabancasını oluşturmasına yardımcı olur musunuz?
+ - Animasyonunuzun her aşamasında kullanıcımız yeni bir lazer üretiyor mu bakmalı
+ ve buna bağlı olaraktan kanvasa bir lazer eklememiz gerekiyor.  Bunun için başlangıç kodlarında `def yeni_lazerleri_ekle(kanvas, ana_karakter, lazerler):`
+ olarak verilen fonksiyonu yazın. Her lazerin Ahmet'in elinden çıktıktan sonra gittiği spesifik bir yön olduğunu unutmayın.  
+ **İpucu:** 6. derste nasıl klavye hareketlerini kontrol ettiğimizi hatırlayın. 
+ - Bu lazerlerin, herhangi bir Uzaylı ile çarpışıp çarpışmadığını 
+ kontrol etmeli ve çarpışan uzaylıları kanvastan kaldırmalısınız. 
+ Bu problemi çözmek için [2.B](#2b-çarpışmalar-)'de kullandığımız  `kanvas.find_overlapping` fonskiyonundan yararlanabilirsiniz.
+ - Kodumuzu yavaşlatmaması için ekranın dışına çıkan lazerleri silmeyi unutmayalım.
+
+### Bonus. B Ses Ekleme
+Grafik programlarımızda ses oynatabiliriz bunun için bilgisayarımıza özel bir kütüphane indirmeliyiz.
+- Windows için
+```bash
+python -m pip install winsound
+```
+- Mac için
+```bash
+python3 -m pip install playsound
+```
+- Kullanmak istediğiniz ses dosyalarını sesler isimli klasöre ekleyebilirsiniz. Burada dosyaları aynı
+resim eklerken yaptığımız gibi kullanabilirsiniz. Biz sizin için
+uzaylının yok olması efekti sesi ekledik. Windows'ta `.au` uzantılı dosyaları oynatmamız gerekirken Mac'te `.wav` uzantılı
+sesleri oynatabiliriz. Kendiniz ses eklemek isterseniz bulduğunuz sesin uzantısının işletim sisteminizle
+uyumlu olduğunu kontrol edin.
+- İşletim sisteminize göre kodunuzda yukarıda yoruma alınmış import ifadelerini yorumdan çıkarın. 
+- Kodumuzda ses oynatmak istediğimiz yere şunu ekleyebiliriz. Windows ve Mac için çarpışma seslerinin
+adresi kodda `CARPISMA_SESI_WINDOWS` ve `CARPISMA_SESI_MAC` ile verilmiştir:
+    - Windows için:
+    ```python
+     PlaySound(CARPISMA_SESI_WINDOWS, SND_FILENAME | SND_ASYNC)
+    ```
+  - Mac için:
+  ```python
+    playsound(CARPISMA_SESI_MAC)
+    ```
+
+
+Bonusu da yaparsanız oyununuzu tamamladığınızda aşağıdakine benzer gözükecektir:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BvDahefaETQ" title="Final Projesi Kaydı" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
