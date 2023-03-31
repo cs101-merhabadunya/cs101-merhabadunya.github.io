@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Final Projesi | CS 101: Merhaba, Dünya!</title>
+<meta name="generator" content="Jekyll v4.2.0">
+<meta property="og:title" content="Final Projesi">
+<meta name="author" content="Yağmur Akarken">
+<meta property="og:locale" content="tr">
+<meta name="description" content="# Aşama Yazarlar 1. Aşama Yağmur Akarken, Ece Pınar Özer 2. Aşama İdil Defne Çekin, Burak Aslantaş 3. Aşama Ceren Kocaoğullar, Burcu Yıldız">
+<meta property="og:description" content="# Aşama Yazarlar 1. Aşama Yağmur Akarken, Ece Pınar Özer 2. Aşama İdil Defne Çekin, Burak Aslantaş 3. Aşama Ceren Kocaoğullar, Burcu Yıldız">
+<link rel="canonical" href="https://cs101-merhabadunya.github.io//projeler/final-projesi">
+<meta property="og:url" content="https://cs101-merhabadunya.github.io//projeler/final-projesi">
+<meta property="og:site_name" content="CS 101: Merhaba, Dünya!">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-03-31T13:40:50+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Final Projesi">
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Yağmur Akarken"},"description":"# Aşama Yazarlar 1. Aşama Yağmur Akarken, Ece Pınar Özer 2. Aşama İdil Defne Çekin, Burak Aslantaş 3. Aşama Ceren Kocaoğullar, Burcu Yıldız","url":"https://cs101-merhabadunya.github.io//projeler/final-projesi","@type":"BlogPosting","headline":"Final Projesi","dateModified":"2023-03-31T13:40:50+00:00","datePublished":"2023-03-31T13:40:50+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://cs101-merhabadunya.github.io//projeler/final-projesi"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="/assets/images/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+  <!-- and it's easy to individually load additional languages -->
+  <script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://cs101-merhabadunya.github.io//feed.xml" title="CS 101: Merhaba, Dünya!">
+<script>
+  function initGoogleAnalytics() {
+    var doNotTrack = (window.doNotTrack === "1" || navigator.doNotTrack === "1" ||
+      navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1");
+    var enableDNT = "true" == "true";
+
+    if (!enableDNT || !doNotTrack) {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-179081985-1', 'auto');
+      ga('send', 'pageview');
+    }
+  }
+  initGoogleAnalytics();
+</script>
+
+<meta name="google-site-verification" content="NXQVGvtnQel8sRG_OUcGdD8QOiXY9NFYAFuJoTUkWps">
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <picture class="site-favicon" title="CS 101: Merhaba, Dünya!">
+    <source srcset="/assets/images/logo.webp" type="image/webp">
+    <img src="/assets/images/logo.png" style="max-height: 100%;" alt="CS 101: Merhaba, Dünya!">
+  </source></picture>
+  CS 101: Merhaba, Dünya!
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/hakkimizda/">HAKKIMIZDA</a><a class="page-link" href="/kaynaklar/">KAYNAKLAR</a><a class="page-link" href="/dersler/">DERSLER</a><a class="page-link" href="/projeler/">PROJELER</a><a class="page-link" href="/arsiv/">ARŞIV</a>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  (function() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;
+
+      //if (banner && header_transparent) {
+        documentElement.setAttribute("data-header-transparent", "");
+      }
+
+      var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  })();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.matches('a')) {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">Final Projesi</h1>
+  <h3 class="post-subtitle"></h3>
+
+  <p class="post-meta">
+    <time class="dt-published" datetime="2023-03-31T13:40:50+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> 31 Mar 2023
+    </time>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 9 mins</span>
+  </p>
+<div class="post-authors">
+    <h4 class="post-author">Hazırlayan: Yağmur Akarken, Ece Pınar Özer, İdil Defne Çekin, Burak Aslantaş, Ceren Kocaoğullar, Burcu Yıldız</h4>
+  </div>
+<div class="post-tags"><a class="post-tag" href="/tags.html#final_projesi">#final_projesi</a></div></header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <table>
+  <thead>
+    <tr>
+      <th style="text-align: center">
+<h1 id="aşama">Aşama</h1>
+</th>
+      <th style="text-align: center">Yazarlar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">
+<ol>
+  <li>Aşama</li>
+</ol>
+</td>
+      <td style="text-align: center">Yağmur Akarken, Ece Pınar Özer</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">
+<ol>
+  <li>Aşama</li>
+</ol>
+</td>
+      <td style="text-align: center">İdil Defne Çekin, Burak Aslantaş</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">
+<ol>
+  <li>Aşama</li>
+</ol>
+</td>
+      <td style="text-align: center">Ceren Kocaoğullar, Burcu Yıldız</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>CS 101 Güz 2021’in 6 haftasını geride bıraktık! Şimdiye kadar inanılmaz bir gelişme gösterdiğiniz ve 
+programı takip ettiğiniz için hepinizi tebrik ederiz. Programın son 2 haftasında Final Projesi yaparak 
+öğrendiklerinizi bir oyunla ölümsüzleştireceksiniz.</p>
+
+<p>Aşağıda Final Projesi ile ilgili verilen açıklamayı lütfen dikkatlice okuyun, başarılar.</p>
+
+<h2 id="başlangıç-kodları">Başlangıç Kodları</h2>
+<p>Final Projesine ait başlangıç kodlarına <a href="https://drive.google.com/file/d/1zkpNgoUz8kTdER5dA2YcrfJV9dT_R74I">buradan <code class="language-plaintext highlighter-rouge">(Gitmek için tıkla)</code></a> ulaşabilirsiniz.</p>
+
+<p>İkinci aşamanın başlangıç kodlarına <a href="https://drive.google.com/file/d/1yd4lv1xmlkjVkZl9xdTBLGq_80mbQB7v/view?usp=sharing">buradan <code class="language-plaintext highlighter-rouge">(Gitmek için tıkla)</code></a> ulaşabilirsiniz.</p>
+
+<p>Başlangıç kodları ilk aşamada yaptıgınız aşamaların çözümlerini de içeriyor, yani ilk aşamayı tamamlayamadıysanız veya eksikleriniz varsa da ikinci aşamadan projeye devam edebilirsiniz :)!!! Ayrıca bizim verdigimiz çözümler yerine dilerseniz kendi yazdıgınız fonksiyonları da kullanabilirsiniz. Yaratıcılıgınızı kullanmaktan çekinmeyin, oyununuzu kendinize göre modifiye edebilirsiniz :)</p>
+
+<h2 id="lojistik-hatırlatmalar">Lojistik Hatırlatmalar</h2>
+<p>Final Projesi programı bitirme oranınızda önemli bir yere sahiptir.
+Projede size verilen başlangıç kodlarında belli değişkenler ve fonksiyon önerileri tanımlanmıştır, bunları kullanabileceğiniz 
+gibi kendi fonksiyonlarınızı da yazabilirsiniz.</p>
+
+<p>Final Projesi 2 ana aşamaya ayrılmıştır, bu aşamaların açıklamalarını aşağıda bulabilirsiniz. <br>
+<span>1.</span> Aşamanın teslim tarihi <strong>8 Aralık Çarşamba</strong>, <br>
+<span>2.</span> Aşamanın teslim tarihi <strong>22 Aralık Çarşamba</strong>, <br>
+<span>3.</span> Aşamanın teslim tarihi: <strong>2 Ocak Pazar</strong> olarak belirlenmiştir.<br>
+Her aşamanın sonunda, ilgili aşamanın çözümlerini sizinle paylaşacağız. Bu çözümleri sonraki aşamaları kodlarken kullanabilirsiniz. Böylece bir aşamada takıldığınızda, diğer aşamayı çözebileceksiniz.
+Bonus ile belirtilen görevler zorunlu değildir, sadece oyununuzu geliştirebilecek önerilerdir. Yaratıcılığınızı
+kullanıp ek özellikler ekleyebilirsiniz, hatta bunları Ed’den hepimizle paylaşın!</p>
+
+<h3 id="aşamalar">Aşamalar</h3>
+<h4 id="1-aşama">1. Aşama</h4>
+<ul>
+  <li>Oyun Arka Planı
+    <ul>
+      <li>Arabayı oluştur</li>
+      <li>Arabanın gideceği yolları oluştur</li>
+      <li>Yol kenarlarında yeşil ağaçlar (yeşil daireler) oluştur</li>
+    </ul>
+  </li>
+  <li>Oyun Döngüsü
+    <ul>
+      <li>Konsoldan arabanın rengini girdi (input) olarak al</li>
+      <li>Yol kenarlarında oluşturulan yeşil ağaçları, yukarıdan aşağıya doğru hareket ettir. (İpucu: Haftalık verilen ödevlerdeki “Yağmur yağdırma” örneğinden esinlenebilirsin.)
+        <h4 id="2-aşama">2. Aşama</h4>
+      </li>
+    </ul>
+  </li>
+  <li>Yön tuşlarıyla arabayı hareket ettir (Yön tuşları klavyenizde bulunan bu tuşlardır, “<code class="language-plaintext highlighter-rouge">←</code>, <code class="language-plaintext highlighter-rouge">↑</code>, <code class="language-plaintext highlighter-rouge">→</code>, <code class="language-plaintext highlighter-rouge">↓</code>”)</li>
+  <li>Yol üzerinde rastgele engel oluştur</li>
+  <li>Çarpışmaları kontrol et (Kodunuzu <strong>kütüphane kullanmadan</strong> oluşturun)
+    <ul>
+      <li>Eğer çarpışma gerçekleştiyse, oyunu durdur</li>
+    </ul>
+  </li>
+  <li>Engelleri hareket ettir
+    <h4 id="3-aşama">3. Aşama</h4>
+  </li>
+  <li>Birden fazla oyuncuya sırayla oynatın</li>
+  <li>Skor tutun</li>
+  <li>Can kontrolü
+    <ul>
+      <li>Eğer canlar bittiyse, sonraki oyuncuya geçin</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Dokümantasyonun uzun olmasından korkmayın 😇 bu sayfada final projesini yazarken
+ihtiyaç duyabileceğiniz bütün bilgileri kapsamaya ve görevlerinizi elimizden 
+geldiğince detaylı açıklamaya çalıştık.</p>
+
+<p>Her ödevimizde olduğu gibi Final Projesinde de arkadaşlarınızla sözlü olarak fikir alışverişinde
+bulunabilirsiniz. Ancak akademik dürüstlük ilkelerini doğrultusunda kod değiş tokuşu yasaktır ve ödevinizin geçersiz sayılmasına neden olabilir. Tüm sorularınızı <a href="https://edstem.org/us/courses/15472/discussion/904782">Ed <code class="language-plaintext highlighter-rouge">(Gitmek için tıkla)</code> </a>
+sayfamızdan eğitmenlerinize sorabilirsiniz.</p>
+
+<p>Başarılar 🚀!</p>
+<h3 id="ön-hazırlık">Ön Hazırlık</h3>
+<p>Grafik kütüphanemizi kullanarak resim eklemek ya da resimler üzerinde değişiklik yapmak 
+için Pillow isimli ek bir paket indirmemiz gerek. Pillow’u indirmek için bir terminal 
+penceresi açın (PyCharm’ın içindeki Terminal sekmesini kullanabilirsiniz) ve aşağıdaki 
+komutu girin:<br>
+Windows için:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python <span class="nt">-m</span> pip <span class="nb">install </span><span class="nv">Pillow</span><span class="o">==</span>7.1.1
+</code></pre></div></div>
+<p>Mac için:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 <span class="nt">-m</span> pip <span class="nb">install </span><span class="nv">Pillow</span><span class="o">==</span>7.1.1
+</code></pre></div></div>
+
+<p>Kurulum başarı ile tamamlandığında terminalinizde son olarak “Successfully installed Pillow-7.1.1” ibaresi görünür. Artık grafik kütüphanemizdeki resim içeren fonksiyonları kullanabiliriz!</p>
+
+<h2 id="hikaye">Hikaye</h2>
+<p>Bir gün arkadaşınızla sokakta gezinirken arkadaşınız sizden çok daha iyi oyun oynadığını iddia etti. Siz de oyunlarda daha iyi olduğunuzu kanıtlayabilmek için oyuncuların sırayla oynadığı bir araba yarışı oyunu hazırlamaya karar verdiniz. Bu oyunda kazandığınız puanları karşılaştırarak arkadaşınızdan daha iyi olduğunuzu gösterebilirsiniz!</p>
+
+<h2 id="1-aşama-1">1. Aşama</h2>
+
+<ol>
+  <li>Arabayı sürebileceğiniz bir alan olarak bir <code class="language-plaintext highlighter-rouge">Canvas</code> oluşturun.</li>
+</ol>
+
+<ul>
+  <li>Kanvasın boyutları başlangıç kodunda <code class="language-plaintext highlighter-rouge">KANVAS_EN</code> ve <code class="language-plaintext highlighter-rouge">KANVAS_BOY</code> değişkenleriyle verilmiştir.</li>
+  <li>Kanvasın başlığını “Final Projesi” olarak ayarlayın.</li>
+</ul>
+
+<ol>
+  <li>Yol çizgilerini oluşturacak fonksyionu yazın.</li>
+</ol>
+
+<ul>
+  <li>Bu fonksiyonu yazarken ortadaki çizginin kanvasın tam ortasından geçmesine ve yol genişliklerine dikkkat edin. Her şerit <code class="language-plaintext highlighter-rouge">KANVAS_EN</code>in çeyregi genişlikte olmalı.</li>
+  <li>Yolun genişligi olarak size verilen <code class="language-plaintext highlighter-rouge">YOL_EN</code> degişkenini kullanabilirsiniz, unutmayın ki bu iki şeritli yolun toplan genişligi olmalı.</li>
+</ul>
+
+<ol>
+  <li>Arabaları oluşturacak kodları yazın</li>
+</ol>
+
+<ul>
+  <li>Arabaları çizdirirken başlangıç kodunda size verilmiş olan pozisyon ve boy değişkenlerini kullanabilirsiniz.</li>
+  <li>Projenin bu aşamasında arabaların hareket etmesi gerekmiyor, çalışmalarınızı ona göre yapabilirsiniz.</li>
+</ul>
+
+<ol>
+  <li>Ağaçları oluşturacak kodu yazın</li>
+</ol>
+
+<ul>
+  <li>Bunun için <code class="language-plaintext highlighter-rouge">soldaki_agacları_olustur</code> ve <code class="language-plaintext highlighter-rouge">sagdaki_agacları_olustur</code> olmak üzere iki fonksiyon doldurmalısınız. Bu fonksiyonlar neredeyse aynı görevi yapacak, ancak bir tanesi ekranın sag tarafindaki digeri ise sol tarafindaki agacların çizilmesi için.</li>
+  <li>Bu fonksiyonlar her çagırıldıgında ekranın ilgili kısmında ve en üstte birer tane agaç yaratmalı. Agaçların yaratılacagı x koordinatları rastgele bir şekilde seçilmeli. Degerleri belirlerken <code class="language-plaintext highlighter-rouge">SOL_AGAC_MIN</code> <code class="language-plaintext highlighter-rouge">SOL_AGAC_MAX</code> <code class="language-plaintext highlighter-rouge">SAG_AGAC_MIN</code> ve <code class="language-plaintext highlighter-rouge">SAG_AGAC_MAX</code> degişkenlerinden faydalanabilirsiniz.</li>
+  <li>İki sayı arasında rastgele bir sayı seçmek için <code class="language-plaintext highlighter-rouge">random.randint(MIN, MAX)</code> fonksiyonunu kullanabilirsiniz. (MIN sayının alabilecegi en küçük degeri, MAX ise en büyük degeri içermeli)</li>
+  <li>Ağaçları çizdirirken başlangıç kodunda size verilmiş olan pozisyon ve boy değişkenlerini kullanabilirsiniz.</li>
+</ul>
+
+<ol>
+  <li>Her adımda ağaçları hareket ettiricek ve ekran dışına çıkacak olan ağaçları silecek kodu yazın</li>
+</ol>
+
+<ul>
+  <li>Agaçlar oluşturulduktan sonra ilk aşamada <code class="language-plaintext highlighter-rouge">MIN_BASLANGIC_HIZ</code> hızıyla aşagı dogru hareket etmeli, böylece animasyonumuzda arabalar ilerliyor gibi gözükecek ve oyunumuzun arka planını tamamlamış olacagız.</li>
+  <li>Bu aşamada ekranın dışına çıkan agaçları silmeyi unutmamalıyız!!! Yoksa oyunumuz bir süre sonra bütün agaçları hareket ettirmeye çalışmaktan yorulup yavaşlayacaktır ve kimse böyle bir oyun oynamak istemez :)</li>
+  <li>Agaçların hareket ettirilmesi ve ekran dışına çıkan araçların silinmesi konusunda daha önce grup çalışmalarında yaptığımız yağmur damlası simülasyonlarından yardım alablirsiniz.</li>
+</ul>
+
+<h2 id="2-aşama-1">2. Aşama</h2>
+<h3 id="2a-arabayı-hareket-ettir">2.A Arabayı hareket ettir</h3>
+<p>Arabayı yön tuşlarıyla hareket ettirelim. (Yön tuşları klavyenizde bulunan bu tuşlardır, “<code class="language-plaintext highlighter-rouge">←</code>, <code class="language-plaintext highlighter-rouge">↑</code>, <code class="language-plaintext highlighter-rouge">→</code>, <code class="language-plaintext highlighter-rouge">↓</code>”)</p>
+
+<ul>
+  <li>Başlangıç kodlarında verilen <code class="language-plaintext highlighter-rouge">arabayi_hareket_ettir</code> fonksiyonunu yazın. Bu fonksiyon
+parametre olarak oyun <code class="language-plaintext highlighter-rouge">kanvas</code>ını ve <code class="language-plaintext highlighter-rouge">araba</code> objesini alır.<br>
+<strong>İpucu:</strong> Yön tuşlarını kullanarak bir objeyi hareket ettirmek için Hafta 6 Grup Çalışması egzersizlerinde yaptıgımız yemleri yiyen topçuk
+örnegini inceleyebilirsiniz. Hatırlarsanız burada hangi tuşa basıldıgını kontrol etmek için <code class="language-plaintext highlighter-rouge">kanvas.get_new_key_presses()</code> fonksiyonunu ve tuşu ayırt etmek için ise tuşların sym kodlarını kullanmıştık. Ok tuşlarının kodları sırasıyla (<code class="language-plaintext highlighter-rouge">Left</code>, <code class="language-plaintext highlighter-rouge">Up</code>, <code class="language-plaintext highlighter-rouge">Right</code>, <code class="language-plaintext highlighter-rouge">Down</code>)
+<strong>İpucu:</strong> Kanvasta bir objenin mutlak konumunu değiştirmek için <code class="language-plaintext highlighter-rouge">kanvas.move(obje, dx, dy)</code>
+fonksiyonunu kullanabilirsiniz.</li>
+  <li>Oyunu çalıştırırken fark edeceksiniz ki bu haliyle araba 
+kanvasın dışına da çıkabilir. Bunu engellemek için karakterin konumunu güncellerken 
+ilerleyebileceği maksimum ve minimum koordinatları kontrol edebilirsiniz.</li>
+</ul>
+
+<p>### 2.B Rastgele engel oluşturulması
+ Artık engelleri kanvasa ekleyebilirsiniz.</p>
+<ol>
+  <li>Engelleri kanvasa dikdörtgen olarak ekleyeceksiniz.</li>
+  <li>Engelleri eklemek için <code class="language-plaintext highlighter-rouge">rastgele_engel_olustur(kanvas, engel_listesi)</code>
+ fonksiyonunu yazın. Bu fonksiyon her çalıştığında %20 ihtimalle engel oluşturur ve engel listesine ekler. Bir işlemin %20 ihtimalle yapılmasını saglayan kodu fonksiyonun içerisinde hazır olarak size verdik, başlangıç kodlarını incelemeyi unutmayın! Burada dikdörtgenler oluşturalım. Dikdörtgenlerin boyutu, <code class="language-plaintext highlighter-rouge">ENGEL_EN</code> x <code class="language-plaintext highlighter-rouge">ENGEL_BOY</code> olmalı. Son olarak dikdörtgenlerin rengi kahverengi olmalı, canvas kütüphanesini kullanarak <code class="language-plaintext highlighter-rouge">kanvas.COLORS.Brown4</code> ile kahverengini elde edebilirsiniz. Kolaylık olması açısından <code class="language-plaintext highlighter-rouge">ENGEL_EN</code> ve <code class="language-plaintext highlighter-rouge">ENGEL_BOY</code> kodun başında sabit olarak tanımlanmıştır.</li>
+</ol>
+
+<h3 id="2c-çarpışmalar-">2.C Çarpışmalar ☇</h3>
+
+<ul>
+  <li>Animasyonunuzun her aşamasında arabanın yoldaki engellerle çarpışıp çarpışmadığını 
+ kontrol etmelisiniz. Bunun için başlangıç kodlarında <code class="language-plaintext highlighter-rouge">carpismalari_kontrol_et(kanvas, araba, engel_listesi)</code>
+ olarak verilen fonksiyonu yazın. Bu fonksiyonda <code class="language-plaintext highlighter-rouge">kanvas.find_overlapping</code> fonksiyonunu
+ kullanarak kanvas üzerinde ana karakterle çakışan konumdaki objeleri bulabilirsiniz. <br>
+ <strong>İpucu 1:</strong> <code class="language-plaintext highlighter-rouge">kanvas.find_overlapping</code> x1, y1, x2, y2 olmak üzere 4 argüman alır ve 
+ kanvasta arabanın bulunduğu karenin koordinatlarını kullanabilirsiniz.<br>
+ <strong>İpucu 2:</strong> <code class="language-plaintext highlighter-rouge">kanvas.find_overlapping</code> bir liste döndürür. Bu listedeki her elemanın “engel”
+ olup olmadığını nasıl anlayabilirsiniz? <code class="language-plaintext highlighter-rouge">engel_listesi</code>‘nden faydalanabilirsiniz! 
+ <strong>İpucu 3:</strong> Çarpışma gerçekleştiğinde, oyunu durdurmak için <code class="language-plaintext highlighter-rouge">kanvas.wait_for_click()</code> fonksiyonunu hatırlayın.</li>
+</ul>
+
+<p>### 2.D Engelleri hareket ettir
+ Artık engelleri hareket ettirebilirsiniz. Bunun için,</p>
+<ol>
+  <li>Engelleri hareket ettir. Animasyonun akan bir yol gibi gözükmesi için engellerin agaçlarla aynı hızda hareket etmesi gerekiyor.</li>
+  <li>Kanvasın dışına çıkan engelleri kanvastan sil,
+ İpucu: Ağaçları hareket ettirip, kanvas dışına çıktığına silme işlemini yapan, benzer bir fonksiyonu, başlangıç kodunda bulabilirsiniz.</li>
+</ol>
+
+<h2 id="3-aşama-1">3. Aşama</h2>
+<p>Bu aşamada birden fazla oyuncunun sırayla oynamasını sağlayacaksınız. Oyuncular canı bitene kadar devam edebilecek. Skor tutacaksınız. Tüm oyuncular oynamayı bitirdiğinde de skorları ve kazananı konsola yazdıracaksınız.
+Adım adım yapmanız gerekenler şu şekilde:</p>
+<ol>
+  <li>‘oyunculari_al()’ metodunu şu şekilde doldurun: Konsol aracılığıyla kaç oyuncu oynayacağını sorun. Her bir oyuncu için oyuncunun ismini konsoldan alın.</li>
+  <li>Tüm oyunun her bir oyuncu için tekrarlanması gerekiyor. 
+(İpucu 1: Elinizde ‘oyuncu_adlari’ listesinin olduğunu unutmayın.)
+(İpucu 2: Oyunun başladığı ve bittiği yerleri sizin için kodda gösterdik.)
+(İpucu 3: Birden fazla satırı aynı anda seçip klavyenizin TAB tuşuna basarsanız, satırların hepsi bir basamak içeri kayar.)</li>
+  <li>Oyuncular kaçmayı başardıkları (yani çarpışmadan ekrandan silinen) her engel için bir puan kazanmalı.</li>
+  <li>Oyuncu bir engelden kaçmayı başaramaz ve çarparsa canı azalmalı. (‘carpisma_kontrol_et’ metodunu sizin için düzenledik; çarpıştığı engeller yok olacak.)</li>
+  <li>Bilgi göstergesini yeni skor ve canla güncellemelisiniz.
+(İpucu 1: Son grup çalışmasında kullandığımız ‘set_text’ metodu işinize yarayabilir.)
+(İpucu 2: Ekrana yazdırmanız gereken format için ‘create_text’ metodunu nasıl çağırdığımızdan kopya çekebilirsiniz.)</li>
+  <li>Can bittiğinde o oyuncu için oyunu bitirmeyi unutmayın. 
+(İpucu: ‘break’ işinizi görebilir.)</li>
+  <li>Oyun bittiğinde konsola yazabilmek için skorları bir sözlükte tutun.</li>
+  <li>‘sonuclari_yazdir’ metodunu şu şekilde doldurup, herkes için oyun bittikten sonra çağırın: Her bir oyuncunun skorunu ve en çok skoru alan oyuncunun adını konsola yazdırın.</li>
+</ol>
+
+<iframe width="560" height="315" src="https://drive.google.com/file/d/17p2HKexjNJWkiE4E1l2PchjQuvWhQJm5/view?usp=sharing" title="Final Projesi Kaydı" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/projeler/hafta6-grup" title="Hafta 6 - Grup Çalışması Egzersizleri">Hafta 6 - Grup Çalışması Egzersizleri...</a><a class="next" href="/projeler/hafta3-grup" title="Hafta 3 - Grup Çalışması Egzersizleri">Hafta 3 - Grup Çalışması Egzersizleri...</a>
+</div>
+<div class="post-comments"></div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">İçindekiler</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items=20) {
+      var items = menuContent.firstChild.children;
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+      <div>Copyright © 2020 CS 101: Merhaba, Dünya!</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="http://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

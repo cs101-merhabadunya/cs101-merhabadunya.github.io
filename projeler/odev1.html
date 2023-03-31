@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Ödev 1 | CS 101: Merhaba, Dünya!</title>
+<meta name="generator" content="Jekyll v4.2.0">
+<meta property="og:title" content="Ödev 1">
+<meta name="author" content="Oya Suran">
+<meta property="og:locale" content="tr">
+<meta name="description" content="Bu ödevin teslim tarihi 1 Kasım Pazartesi 22.00‘dır. Ödevinizi bitirdiğinizde Ed üzerinden teslim etmeyi unutmayın.">
+<meta property="og:description" content="Bu ödevin teslim tarihi 1 Kasım Pazartesi 22.00‘dır. Ödevinizi bitirdiğinizde Ed üzerinden teslim etmeyi unutmayın.">
+<link rel="canonical" href="https://cs101-merhabadunya.github.io//projeler/odev1">
+<meta property="og:url" content="https://cs101-merhabadunya.github.io//projeler/odev1">
+<meta property="og:site_name" content="CS 101: Merhaba, Dünya!">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-03-31T13:40:50+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Ödev 1">
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Oya Suran"},"description":"Bu ödevin teslim tarihi 1 Kasım Pazartesi 22.00‘dır. Ödevinizi bitirdiğinizde Ed üzerinden teslim etmeyi unutmayın.","url":"https://cs101-merhabadunya.github.io//projeler/odev1","@type":"BlogPosting","headline":"Ödev 1","dateModified":"2023-03-31T13:40:50+00:00","datePublished":"2023-03-31T13:40:50+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://cs101-merhabadunya.github.io//projeler/odev1"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="/assets/images/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+  <!-- and it's easy to individually load additional languages -->
+  <script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://cs101-merhabadunya.github.io//feed.xml" title="CS 101: Merhaba, Dünya!">
+<script>
+  function initGoogleAnalytics() {
+    var doNotTrack = (window.doNotTrack === "1" || navigator.doNotTrack === "1" ||
+      navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1");
+    var enableDNT = "true" == "true";
+
+    if (!enableDNT || !doNotTrack) {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-179081985-1', 'auto');
+      ga('send', 'pageview');
+    }
+  }
+  initGoogleAnalytics();
+</script>
+
+<meta name="google-site-verification" content="NXQVGvtnQel8sRG_OUcGdD8QOiXY9NFYAFuJoTUkWps">
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <picture class="site-favicon" title="CS 101: Merhaba, Dünya!">
+    <source srcset="/assets/images/logo.webp" type="image/webp">
+    <img src="/assets/images/logo.png" style="max-height: 100%;" alt="CS 101: Merhaba, Dünya!">
+  </source></picture>
+  CS 101: Merhaba, Dünya!
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/hakkimizda/">HAKKIMIZDA</a><a class="page-link" href="/kaynaklar/">KAYNAKLAR</a><a class="page-link" href="/dersler/">DERSLER</a><a class="page-link" href="/projeler/">PROJELER</a><a class="page-link" href="/arsiv/">ARŞIV</a>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  (function() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;
+
+      //if (banner && header_transparent) {
+        documentElement.setAttribute("data-header-transparent", "");
+      }
+
+      var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  })();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.matches('a')) {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">Ödev 1</h1>
+  <h3 class="post-subtitle">Değişkenlere giriş, veri türleri, print ve input</h3>
+
+  <p class="post-meta">
+    <time class="dt-published" datetime="2023-03-31T13:40:50+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> 31 Mar 2023
+    </time>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+  </p>
+<div class="post-authors">
+    <h4 class="post-author">Hazırlayan: Oya Suran</h4>
+  </div>
+<div class="post-tags"><a class="post-tag" href="/tags.html#odev">#odev</a></div></header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p>Bu ödevin teslim tarihi <em>1 Kasım Pazartesi 22.00</em>‘dır. Ödevinizi bitirdiğinizde Ed üzerinden teslim etmeyi unutmayın.</p>
+
+<p>Unutmayın, ödevler hem konuları pekiştirmenize yarar hem de programdan sertifika alabilmek için gereklidir.</p>
+
+<h2 id="başlangıç-kodları">Başlangıç Kodları</h2>
+<!-- todo update -->
+<p><a href="https://drive.google.com/file/d/1Yxq1P1kK8RGchMMHp3OFKorlCflxxAz0/view?usp=sharing">Buraya tıklayarak</a> problemlere ait başlangıç kodlarına ulaşabilirsiniz.</p>
+
+<h2 id="egzersiz-1">Egzersiz 1</h2>
+
+<p>Program boyunca çözeceğimiz birçok egzersizin aksine bu sefer tüm kodu biz size veriyoruz. 
+Ama ne yazık ki kodu yazan arkadaşlarımızdan biri sınavlara 
+çalışmaktan bitap düşüp kodda bazı hatalar yapmış bu sebepten kodu çalışmıyor. 
+Bu arkadaşımızın yorulup umutsuzluğa kapılmasını engelleyip kodunu doğru çalıştırmasına 
+yardım etmeliyiz.</p>
+
+<p><img src="https://www.meme-arsenal.com/memes/5ddb6d31fed63b9f72f9544842b8cbbb.jpg" alt=""></p>
+
+<p>Kodu düzelttiğinizde aşağıdaki gibi bir çalışma şekli göreceksiniz.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Örnek Çalışma Şekli
+
+&gt; Yanlış çalışıyorum niye ki
+&gt; Bazı boşluk düzenlerine dikkat etmediğim için olabilir mi?
+&gt; Lütfen bir sayı giriniz:6
+&gt; Girdiğin sayının 5 fazlası  11 dır.
+&gt; Beni çağırmazsan ben gelmem ki
+&gt; Aynı zamanda hep boşluklara dikkat etmen lazım
+&gt; İşte şimdi başardın
+
+</code></pre></div></div>
+
+<h2 id="egzersiz-2">Egzersiz 2</h2>
+
+<p>Acaba çok mu dizi izliyorum sorusunu kendine sormaya başlayan Efe için bir program hazırlamalısınız.</p>
+
+<p><img src="https://i.pinimg.com/736x/f8/41/ce/f841ce59a11caffd7d0f0ceb3b030e4a.jpg" alt=""></p>
+
+<p>Bu programda kullanıcıdan aşağıdaki dört bilgiyi almalısınız:</p>
+<ol>
+  <li>Dizinin ismi</li>
+  <li>Sezon sayısı</li>
+  <li>Sezondaki bölüm sayısı</li>
+  <li>Bir bölümün oralama süresi</li>
+</ol>
+
+<p>Aldığımız bu bilgilerin sonucunda kullanıcının bu dizi için toplamda ne kadar süre harcadığını hesaplayıp konsola yazdırarak kullanıcıyı bilgilendirmelisiniz.
+Programı yazmayı bitirdiğinizde aşağıdaki gibi bir çalışma şekli gözlemlemelisiniz.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Örnek Çalışma şekli:
+
+&gt; En son izlediğiniz dizinin ismini giriniz:Leyla ile Mecnun
+&gt; Kaç sezon izlendi:10
+&gt; Bir sezon kaç bölüm:15
+&gt; Bir bölümün (ortalam) süresi (dk):60
+&gt; Leyla ile Mecnun dizisi toplam  150 saat izlendi.
+
+</code></pre></div></div>
+
+<h2 id="egzersiz-3">Egzersiz 3</h2>
+
+<p>Pelin, Selin ve Jeff Bezos’un maceraları devam ediyor.
+Plüton’a başarılı bir şekilde ulaşan üçlü şimdi Plüton’da klişe yapılması gereken ağırlık ölçümü yapacaklardır, Pelin ve Selin’in kütlelerini biz size verdik ama Jeff’in kütlesini kullanıcıya sorup
+ağırlık hesaplamanız lazım,
+Sonra Dünya’ya dönmeli ve orada tekrar ağırlık ölçümleri yapmalısınız.</p>
+
+<p><strong>Unutmayın biz zaten <code class="language-plaintext highlighter-rouge">yolculuk</code> fonksiyonunu Hafta 1 Grup Çalışmasında yazmıştık.</strong></p>
+
+<p><img src="https://www.kreatifbiri.com/wp-content/uploads/2018/09/992B0F2D-3C2D-469F-B828-D14EB1A28D26.jpeg" alt=""></p>
+
+<p>İlk olarak <code class="language-plaintext highlighter-rouge">yolculuk</code> fonksiyonunu tekrar doldurmalısınız (Hafta 1 Egzersiz 2’den kopyalayabilirsiniz).
+Bunun yanı sıra herhangi bir gezegen için ağırlık hesaplaması yapan bir fonksiyon yazmalısınız. Bunun için 
+başlangıç kodunda verile <code class="language-plaintext highlighter-rouge">agirlik_hesaplama</code> fonksiyonunu kullanabilirsiniz. Bu fonksiyonu 
+hem Plüton’daki hem de Dünya’daki ağırlık için ortak kullanacaksınız. Bu fonksiyon iki parametre alıyor (yerçekim ivmesi ve kütle) ve aşağıdaki formülü kullanarak ağırlık hesaplayıp 
+kullanıcıyı bilgilendirmelidir.</p>
+
+<p><code class="language-plaintext highlighter-rouge">ağırlık = kütle * gök cisminin çekim ivmesi</code></p>
+
+<p>İstediğiniz çekim ivmesini girebilirsiniz. Pelin’in kütlesi  <code class="language-plaintext highlighter-rouge">P_KG</code>, Selin’in kütlesi <code class="language-plaintext highlighter-rouge">S_KG</code> ve uzaklık size
+<code class="language-plaintext highlighter-rouge">UZAKLIK</code> sabitleri ile kodda verilmiştir.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Örnek Çalışma Şekli
+
+&gt; Roketinizin hızı (km/saat): 45455446888
+&gt; Plütondaki yercekim ivmesini giriniz: 0.62
+&gt; Jeff Amca kaç kg?:  75
+&gt; Şu andaki ağırlığı: 46.5
+&gt; Şu andaki ağırlığı: 33.852
+&gt; Şu andaki ağırlığı: 30.07
+&gt; Gidiş süreniz hesaplandı..
+&gt; Yolculuk süreniz yaklaşık 11315 saattir.
+&gt; Dünyadaki yercekim ivmesini giriniz: 10
+&gt; Şu andaki ağırlığı: 750
+&gt; Şu andaki ağırlığı: 546
+&gt; Şu andaki ağırlığı: 485
+&gt; Görev tamamlandı. Bir sonraki görevde görüşmek üzere.
+
+</code></pre></div></div>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/projeler/odev0" title="Ödev 0">Ödev 0</a><a class="next" href="/projeler/hafta2-grup" title="Hafta 2 - Grup Çalışması Egzersizleri">Hafta 2 - Grup Çalışması Egzersizleri...</a>
+</div>
+<div class="post-comments"></div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">İçindekiler</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items=20) {
+      var items = menuContent.firstChild.children;
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+      <div>Copyright © 2020 CS 101: Merhaba, Dünya!</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="http://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
