@@ -54,7 +54,7 @@ CS 101 materyalleri programa katılan öğrencilerin çok az ya da hiç programl
 Programın işleyişi, konular ve lojistik bilgiler için [Müfredat](/mufredat/)'ı inceleyebilirsiniz.
 <!--{% link _posts/2021-02-08-syllabus.md %}-->
 
-Ne yazık ki CS101'e Bahar 2022 döneminden itibaren belirsiz bir süre için ara vermiş durumdayız. Bu sitede açık kaynak olarak paylaştığımız materyallerin kendi kendine programlama yolculuğuna çıkan ya da benzer kitleler için programlamaya giriş materyali hazırlayan eğitimcilere ilham olmasını umarız. Materyalle ilgili sorularınız, yorumlarınız için bize <cs101merhabadunya at gmail dot com> adresinden ulaşabilirsiniz.
+Ne yazık ki CS101'e Bahar 2022 döneminden itibaren belirsiz bir süre için ara vermiş durumdayız. Bu sitede açık kaynak olarak paylaştığımız materyallerin kendi kendine programlama yolculuğuna çıkan ya da benzer kitleler için programlamaya giriş materyali hazırlayan eğitimcilere ilham olmasını umarız. Materyalle ilgili sorularınız, yorumlarınız için bize <a href = "mailto: cs101merhabadunya@gmail.com">email adresimizden</a>  ulaşabilirsiniz.
 
 ## Programın Amacı
 
